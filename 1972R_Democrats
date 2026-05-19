@@ -867,7 +867,7 @@ e.obrienScreen = () => {
 };
 e.mcgovernScreen = () => {
     showCandidateScreen({
-        img: "https://imgur.com/40iyEOh.png",
+        img: "https://imgur.com/jzNaqi8.png",
         name: "George McGovern",
         subtitle1: "South Dakota",
         subtitle2: "U.S. Senator",
@@ -993,7 +993,7 @@ e.lindsayScreen = () => {
 };
 e.kennedyScreen = () => {
     showCandidateScreen({
-        img: "https://imgur.com/zvriPe5.png",
+        img: "https://imgur.com/GEaKgYT.png",
         name: "Ted Kennedy",
         subtitle1: "Massachusetts",
         subtitle2: "U.S. Senator",
@@ -1054,7 +1054,7 @@ applyEffects({
 });
 
 campaignTrail_temp.running_mate_last_name = 'Wasserman';
-campaignTrail_temp.running_mate_image_url = 'https://imgur.com/pZvxC7V.jpg';
+campaignTrail_temp.running_mate_image_url = 'https://imgur.com/vG90pMd.jpg';
 window.setTimeout(e.vpSwitcher, 20);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1106}}]");
 
@@ -3569,7 +3569,7 @@ if (ans === 2101) {
         campaignTrail_temp.candidate_json[1]["fields"].last_name = "McGovern";
         campaignTrail_temp.candidate_last_name = "McGovern";
 
-        campaignTrail_temp.candidate_image_url = "https://imgur.com/40iyEOh.jpg";
+        campaignTrail_temp.candidate_image_url = "https://imgur.com/jzNaqi8.jpg";
         campaignTrail_temp.running_mate_last_name = "for President";
         campaignTrail_temp.running_mate_image_url = "https://imgur.com/96GkCbS.jpg";
 
@@ -3610,7 +3610,7 @@ if (ans === 2301) {
         campaignTrail_temp.candidate_json[1]["fields"].last_name = "McGovern";
         campaignTrail_temp.candidate_last_name = "McGovern";
 
-        campaignTrail_temp.candidate_image_url = "https://imgur.com/40iyEOh.jpg";
+        campaignTrail_temp.candidate_image_url = "https://imgur.com/jzNaqi8.jpg";
         campaignTrail_temp.running_mate_last_name = "for President";
         campaignTrail_temp.running_mate_image_url = "https://imgur.com/96GkCbS.jpg";
 
@@ -4301,7 +4301,7 @@ if (ans === 24101) {
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Kennedy";
     campaignTrail_temp.candidate_last_name = "Kennedy";
 
-    campaignTrail_temp.candidate_image_url = "https://imgur.com/zvriPe5.png";
+    campaignTrail_temp.candidate_image_url = "https://imgur.com/GEaKgYT.png";
     campaignTrail_temp.running_mate_last_name = "for President";
     campaignTrail_temp.running_mate_image_url = "https://imgur.com/96GkCbS.png";
 
