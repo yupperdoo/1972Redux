@@ -604,12 +604,12 @@ campaignTrail_temp.credits = 'u/yupperdoo97. Baseline code (1944) made by u/From
     
     setupMusicPlayer();
 
-HistHexcolour=["#DF9496","#A2ADBC","#c7d1c0"];
-        HistName=[" Dwight Eisenhower"," Adlai Stevenson"," Other Candidates"];
-        HistEV=[442,89,0];
-        HistPV=["34,075,529","27,375,090","301,323"];
-        HistPVP=["55.2%","44.3%","0.5%"];
-       styling = document.createElement("style");
+HistHexcolour=["#C1440E","##0D4F8B","##D8A22B","#3F9E4D"];
+        HistName=[" Richard M. Nixon"," George S. McGovern"," John G. Schmitz"," Benjamin Spock/John Hospers/Others"];
+        HistEV=[520,17,0, 0];
+        HistPV=["47,168,710","29,173,222","1,100,868","219,627"];
+        HistPVP=["60.67%","37.52%","1.42%","0.39%"];
+        styling = document.createElement("style");
         document.head.appendChild(styling);
         
         styling.innerHTML = `
