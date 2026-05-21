@@ -464,6 +464,7 @@ function buildVpTable() {
     else if (chosenVP === "askew") democraticVP = "Reubin Askew";
     else if (chosenVP === "kennedy") democraticVP = "Ted Kennedy";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "humphrey") {
     // Player is nominee
     candidateDisplayName = "Hubert Humphrey";
@@ -471,6 +472,7 @@ if (chosenP === "humphrey") {
     else if (chosenVP === "bayh") democraticVP = "Birch Bayh";
     else if (chosenVP === "sanford") democraticVP = "Terry Sanford";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "muskie") {
     // Player is nominee
     candidateDisplayName = "Edmund Muskie";
@@ -478,6 +480,7 @@ if (chosenP === "muskie") {
     else if (chosenVP === "church") democraticVP = "Frank Church";
     else if (chosenVP === "nelson") democraticVP = "Gaylord Nelson";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "wallace") {
     // Player is nominee
     candidateDisplayName = "George Wallace";
@@ -485,11 +488,13 @@ if (chosenP === "wallace") {
     else if (chosenVP === "procaccino") democraticVP = "Mario Procaccino";
     else if (chosenVP === "rizzo") democraticVP = "Frank Rizzo";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "chisholm") {
     // Player is nominee
     candidateDisplayName = "Shirley Chisholm";
     if (chosenVP === "harris") democraticVP = "Fred Harris";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "bayh") {
     // Player is nominee
     candidateDisplayName = "Birch Bayh";
@@ -497,6 +502,7 @@ if (chosenP === "bayh") {
     else if (chosenVP === "mondale") democraticVP = "Walter Mondale";
     else if (chosenVP === "church") democraticVP = "Frank Church";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "mondale") {
     // Player is nominee
     candidateDisplayName = "Walter Mondale";
@@ -504,6 +510,7 @@ if (chosenP === "mondale") {
     else if (chosenVP === "bayh") democraticVP = "Birch Bayh";
     else if (chosenVP === "sanford") democraticVP = "Terry Sanford";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "church") {
     // Player is nominee
     candidateDisplayName = "Frank Church";
@@ -511,6 +518,7 @@ if (chosenP === "church") {
     else if (chosenVP === "bayh") democraticVP = "Birch Bayh";
     else if (chosenVP === "nelson") democraticVP = "Gaylord Nelson";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "hughes") {
     // Player is nominee
     candidateDisplayName = "Harold Hughes";
@@ -518,6 +526,7 @@ if (chosenP === "hughes") {
     else if (chosenVP === "church") democraticVP = "Frank Church";
     else if (chosenVP === "mcgovern") democraticVP = "George McGovern";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "harris") {
     // Player is nominee
     candidateDisplayName = "Fred Harris";
@@ -525,6 +534,7 @@ if (chosenP === "harris") {
     else if (chosenVP === "nelson") democraticVP = "Gaylord Nelson";
     else if (chosenVP === "mcgovern") democraticVP = "George McGovern";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "sanford") {
     // Player is nominee
     candidateDisplayName = "Terry Sanford";
@@ -532,6 +542,7 @@ if (chosenP === "sanford") {
     else if (chosenVP === "mondale") democraticVP = "Walter Mondale";
     else if (chosenVP === "bayh") democraticVP = "Birch Bayh";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "jackson") {
     // Player is nominee
     candidateDisplayName = "Henry ‘Scoop’ Jackson";
@@ -539,6 +550,7 @@ if (chosenP === "jackson") {
     else if (chosenVP === "sanford") democraticVP = "Terry Sanford";
     else if (chosenVP === "askew") democraticVP = "Reubin Askew";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "mills") {
     // Player is nominee
     candidateDisplayName = "Wilbur Mills";
@@ -546,6 +558,7 @@ if (chosenP === "mills") {
     else if (chosenVP === "bayh") democraticVP = "Birch Bayh";
     else if (chosenVP === "muskie") democraticVP = "Ed Muskie";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "lindsay") {
     // Player is nominee
     candidateDisplayName = "John Lindsay";
@@ -553,6 +566,7 @@ if (chosenP === "lindsay") {
     else if (chosenVP === "harris") democraticVP = "Fred Harris";
     else if (chosenVP === "nelson") democraticVP = "Gaylord Nelson";
     else democraticVP = "Sargent Shriver"; // default
+  }
 if (chosenP === "kennedy") {
     // Player is nominee
     candidateDisplayName = "Ted Kennedy";
