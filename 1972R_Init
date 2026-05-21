@@ -604,7 +604,7 @@ campaignTrail_temp.credits = 'u/yupperdoo97. Baseline code (1944) made by u/From
     
     setupMusicPlayer();
 
-HistHexcolour=["#C1440E","##0D4F8B","##D8A22B","#3F9E4D"];
+HistHexcolour=["#C1440E","#0D4F8B","#D8A22B","#3F9E4D"];
         HistName=[" Richard M. Nixon"," George S. McGovern"," John G. Schmitz"," Benjamin Spock/John Hospers/Others"];
         HistEV=[520,17,0, 0];
         HistPV=["47,168,710","29,173,222","1,100,868","219,627"];
