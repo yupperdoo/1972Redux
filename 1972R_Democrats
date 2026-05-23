@@ -619,7 +619,7 @@ if (chosenP === "Muskie") {
       "Richard Nixon": "Spiro Agnew",
       "Edmund Muskie": "John Tunney",
       [minorCandidate]: minorRunningMate,
-      "Benjamin Spock/John Hospices/Others": "Various",
+      "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
     };
 
@@ -631,7 +631,7 @@ if (chosenP === "Muskie") {
       "Richard Nixon": "Spiro Agnew",
       "Edmund Muskie": "Frank Church",
       [minorCandidate]: minorRunningMate,
-      "Benjamin Spock/John Hospices/Others": "Various",
+      "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
     };
 
@@ -643,7 +643,7 @@ if (chosenP === "Muskie") {
       "Richard Nixon": "Spiro Agnew",
       "Edmund Muskie": "Gaylord Nelson",
       [minorCandidate]: minorRunningMate,
-      "Benjamin Spock/John Hospices/Others": "Various",
+      "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
     };
 
@@ -667,7 +667,7 @@ if (chosenP === "Muskie") {
       "Richard Nixon": "Spiro Agnew",
       "Edmund Muskie": "John Tunney",
       [minorCandidate]: minorRunningMate,
-      "Benjamin Spock/John Hospices/Others": "Various",
+      "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
     };
 
@@ -794,7 +794,7 @@ if (chosenP === "Bayh") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Birch Bayh": "Sargent Shriver",
+      "Birch Bayh": "Fred Harris",
       "John Schmitz": "Thomas Anderson",
       "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
@@ -845,7 +845,7 @@ if (chosenP === "Mondale") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Walter Mondale": "Sargent Shriver",
+      "Walter Mondale": "Fred Harris",
       "John Schmitz": "Thomas Anderson",
       "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
@@ -896,7 +896,7 @@ if (chosenP === "Church") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Frank Church": "Sargent Shriver",
+      "Frank Church": "Edmund Muskie",
       "John Schmitz": "Thomas Anderson",
       "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
@@ -947,7 +947,7 @@ if (chosenP === "Hughes") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Harold Hughes": "Sargent Shriver",
+      "Harold Hughes": "Gaylord Nelson",
       "John Schmitz": "Thomas Anderson",
       "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
@@ -998,7 +998,7 @@ if (chosenP === "Harris") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Fred Harris": "Sargent Shriver",
+      "Fred Harris": "Walter Mondale",
       "John Schmitz": "Thomas Anderson",
       "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
@@ -1049,7 +1049,7 @@ if (chosenP === "Sanford") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Terry Sanford": "Sargent Shriver",
+      "Terry Sanford": "Edmund Muskie",
       "John Schmitz": "Thomas Anderson",
       "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
@@ -1065,7 +1065,7 @@ if (chosenP === "Jackson") {
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
       "Henry 'Scoop' Jackson": "Jimmy Carter",
-      "Eugene McCarthy/Others": "Ralph Nader",
+      "Eugene McCarthy/Others": "Ralph Nader/Various",
       "John Schmitz": "Thomas Anderson",
       "Undecided": "N/A"
     };
@@ -1100,7 +1100,7 @@ if (chosenP === "Jackson") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Henry 'Scoop' Jackson": "Sargent Shriver",
+      "Henry 'Scoop' Jackson": "Jimmy Carter",
       "Eugene McCarthy/Others": "Ralph Nader/Various",
       "John Schmitz": "Thomas Anderson",
       "Undecided": "N/A"
@@ -1151,7 +1151,7 @@ if (chosenP === "Mills") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Wilbur Mills": "Sargent Shriver",
+      "Wilbur Mills": "Walter Mondale",
       "Eugene McCarthy/Others": "Ralph Nader/Various",
       "John Schmitz": "Thomas Anderson",
       "Undecided": "N/A"
@@ -1168,7 +1168,7 @@ if (chosenP === "Lindsay") {
       "Richard Nixon": "Spiro Agnew",
       "John Lindsay": "Eugene McCarthy",
       "John Schmitz": "Thomas Anderson",
-      "Benjamin Spock/John Hospers/Others": "Pete McCloskey",
+      "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
     };
 
@@ -1180,7 +1180,7 @@ if (chosenP === "Lindsay") {
       "Richard Nixon": "Spiro Agnew",
       "John Lindsay": "Fred Harris",
       "John Schmitz": "Thomas Anderson",
-      "Benjamin Spock/John Hospers/Others": "Pete McCloskey",
+      "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
     };
 
@@ -1192,7 +1192,7 @@ if (chosenP === "Lindsay") {
       "Richard Nixon": "Spiro Agnew",
       "John Lindsay": "Gaylord Nelson",
       "John Schmitz": "Thomas Anderson",
-      "Benjamin Spock/John Hospers/Others": "Pete McCloskey",
+      "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
     };
 
@@ -1202,9 +1202,9 @@ if (chosenP === "Lindsay") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "John Lindsay": "Sargent Shriver",
+      "John Lindsay": "Eugene McCarthy",
       "John Schmitz": "Thomas Anderson",
-      "Benjamin Spock/John Hospers/Others": "Pete McCloskey",
+      "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
     };
 
@@ -1253,7 +1253,7 @@ if (chosenP === "Kennedy") {
 
     vpTable = {
       "Richard Nixon": "Spiro Agnew",
-      "Ted Kennedy": "Sargent Shriver",
+      "Ted Kennedy": "Birch Bayh",
       "John Schmitz": "Thomas Anderson",
       "Benjamin Spock/John Hospers/Others": "Various",
       "Undecided": "N/A"
