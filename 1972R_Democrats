@@ -381,6 +381,1543 @@ notebookWrapper.appendChild(window.notebookText);
     }
 }
 
+// CUSTOM ENDINGS
+
+// Nixon Endings
+
+function goToNixonPart1() {
+  document.getElementById("nixonPart1").style.display = "block";
+  document.getElementById("nixonPart2").style.display = "none";
+  document.getElementById("nixonPart3").style.display = "none";
+}
+
+function goToNixonPart2() {
+  document.getElementById("nixonPart1").style.display = "none";
+  document.getElementById("nixonPart2").style.display = "block";
+  document.getElementById("nixonPart3").style.display = "none";
+}
+
+function goToNixonPart3() {
+  document.getElementById("nixonPart1").style.display = "none";
+  document.getElementById("nixonPart2").style.display = "none";
+  document.getElementById("nixonPart3").style.display = "block";
+}
+
+window.goToNixonPart1 = goToNixonPart1;
+window.goToNixonPart2 = goToNixonPart2;
+window.goToNixonPart3 = goToNixonPart3;
+
+const nixonWinsEnding = `
+<div id="nixonPart1" style="display:block;">
+<h2>UNITED STATES SENATE
+SELECT COMMITTEE ON PRESIDENTIAL CAMPAIGN ACTIVITIES
+June 29, 1973
+Washington, D.C.
+
+IN THE MATTER OF:
+Watergate Break-in and Related Matters
+
+TESTIMONY OF JOHN WESLEY DEAN III
+BEFORE THE COMMITTEE</h2>
+
+<p><b>Sen. Baker:</b></p>
+
+<p>Now, there's one other thing I'd like to say, and it may or may not be possible to do this. And again, I'm not being critical of you as a witness. As I said just a moment ago, I think you've been a very remarkable witness.</p>
+
+<p>But when I used to practice law, I would sometimes ask the judge to instruct the witness to first answer the question and then explain it. So I hope I can keep my questions brief, and I hope you might preface your answers with yes or no, if that's possible, and then whatever explanation you wish.</p>
+
+<p>That is not meant to be an entrapment. It is not one of those ‘do you still beat your wife’ type questions. It is meant simply to advance the cause of fact-finding.</p>
+
+<p>After all, the central question before this committee is really quite simple:</p>
+
+<p><b>What did the President know, and when did he know it?</b></p>
+
+<p>And that question breaks down into several subdivisions.</p>
+
+<p>The first one concerns the break-in at the Democratic National Committee headquarters at the Watergate complex on the morning of June 17, 1972.</p>
+
+<p><b>Sen. Baker:</b> Do you know what the President knew of that in advance?</p>
+
+<p><b>John Dean:</b> I do not.</p>
+
+<p><b>Sen. Baker:</b> Do you have any information that he did know of it?</p>
+
+<p><b>John Dean:</b> I only know that I learned, upon my return to the office, that events had occurred indicating that calls had come from Key Biscayne to Washington to Mr. Strong to destroy incriminating documents in the possession of Mr. Haldeman.</p>
+
+<p><b>Sen. Baker:</b> The question I hope is not impossibly narrow, but your testimony touches many people. It touches Mr. Ehrlichman, Mr. Haldeman, Mr. Colson, Mr. Mitchell, yourself, and others.</p>
+
+<p>But I am trying to focus on the President.</p>
+
+<p><b>Sen. Baker:</b> What did the President know, and when did he know it?</p>
+
+<p><b>John Dean:</b> Mr. Haldeman took notes. I know that Mr. Haldeman met daily with the President. I was quite aware of the fact that this was one of the most important issues developing at that time. Given the normal reporting channels that I worked through, it was my assumption, without specifically questioning, that this was going into the President. Now, at what point in time Mr. Haldeman discussed this with the President, I cannot say. But given the importance of the matter, and given the fact that Mr. Haldeman was seeing the President on a daily basis, I would find it difficult to believe that the President was not informed.</p>
+
+<p><b>Sen. Baker:</b> Let me pursue that just a little further, Mr. Dean. You indicated that you assumed that Mr. Haldeman would have conveyed this information to the President. That is an inference, is that correct?</p>
+
+<p><b>John Dean:</b> That is correct, Senator. I had no direct knowledge that Mr. Haldeman did in fact report to the President on that particular matter. However, given the importance of the situation, and the normal course of White House operations, it would have been highly unusual for such information not to be conveyed.</p>
+
+<p><b>Sen. Baker:</b> But you cannot testify from personal knowledge that it was conveyed?</p>
+
+<p><b>John Dean:</b> No, sir. I cannot.</p>
+
+<p><b>Sen. Baker:</b> Let me turn then to the period following the break-in. You have testified that you became involved in discussions concerning the handling of the defendants and the potential for their cooperation with investigators. When did you first become aware that there might be an effort to provide financial support to the defendants?</p>
+
+<p><b>John Dean:</b> That developed gradually. My first awareness that funds were being discussed came shortly after the indictments were returned. There was concern expressed that the defendants might begin cooperating with prosecutors if they were not assured that their legal fees and families would be taken care of.</p>
+
+<p><b>Sen. Baker:</b> Who expressed those concerns?</p>
+
+<p><b>John Dean:</b> Primarily Mr. Mitchell and Mr. Haldeman, although the conversations involved a number of individuals. There was a general understanding that maintaining silence among the defendants was considered essential.</p>
+
+<p><b>Sen. Baker:</b> Was the President aware of these discussions?</p>
+
+<p><b>John Dean:</b> I discussed the matter directly with the President on March 21, 1973. That was the meeting in which I described the situation as a growing problem, and I indicated that continued payments could amount to obstruction of justice.</p>
+
+<p><b>Sen. Baker:</b> That is the meeting you have previously described as the ‘cancer on the presidency’ discussion?</p>
+
+<p><b>John Dean:</b> Yes, sir. That is correct.</p>
+
+<p><b>Sen. Baker:</b> Would you briefly summarize what you told the President at that time?</p>
+
+<p><b>John Dean:</b> I told him that the cover-up was unraveling. I explained that payments were being made to defendants, that perjury had likely been committed, and that the situation could ultimately reach the White House. I told him that the matter posed a serious risk to his presidency.</p>
+
+<p><b>Sen. Baker:</b> What was the President's response?</p>
+
+<p><b>John Dean:</b> The President listened carefully. He asked a number of questions regarding the amount of money required to maintain the defendants' silence. He also asked about the likelihood that the investigation would expand further.</p>
+
+<p><b>Sen. Baker:</b> Did the President express concern about the legality of these payments?</p>
+
+<p><b>John Dean:</b> Not in terms of legal analysis. His questions were more practical. He asked how much money would be needed and whether it could be raised.</p>
+
+<p><b>Sen. Baker:</b> Do you recall any specific figures discussed?</p>
+
+<p><b>John Dean:</b> I indicated that it could require as much as one million dollars over time, depending on how long the matter continued.</p>
+
+<p><b>Sen. Baker:</b> And how did the President react to that?</p>
+
+<p><b>John Dean:</b> He commented that raising that amount of money would be difficult but not impossible. He indicated that it might be possible to obtain the funds.</p>
+
+<p><b>Sen. Baker:</b> Mr. Dean, in your judgment, based on that conversation, did the President understand that these payments were intended to influence testimony?</p>
+
+<p><b>John Dean:</b> Yes, Senator. That was the clear implication of the discussion. The payments were being considered to maintain silence and prevent cooperation with investigators.</p>
+
+<p><b>Sen. Baker:</b> Did you leave that meeting with the understanding that the payments would continue?</p>
+
+<p><b>John Dean:</b> Yes, sir. That was my understanding.</p>
+
+<p><b>Sen. Baker:</b> At any point did the President direct that the payments be stopped?</p>
+
+<p><b>John Dean:</b> Not at that meeting, no.</p>
+
+<p><b>Chairman Ervin:</b> Senator Baker, how much longer do you anticipate?</p>
+
+<p><b>Sen. Baker:</b> Mr. Chairman, just a few more minutes on this line of questioning.</p>
+
+<p><b>Chairman Ervin:</b> Very well. Proceed.</p>
+
+<p><b>Sen. Baker:</b> Mr. Dean, following the March 21 meeting, did you have any further discussions with the President regarding the cover-up?</p>
+
+<p><b>John Dean:</b> Yes, there were subsequent conversations. However, the March 21 meeting was the most comprehensive discussion I had directly with the President on the matter.</p>
+
+<p><b>Sen. Baker:</b> Did the President at any time instruct you to investigate the matter fully and report back?</p>
+
+<p><b>John Dean:</b> Not in a formal sense. There were general discussions about understanding the situation, but no directive to conduct a thorough internal investigation.</p>
+
+<p><b>Sen. Baker:</b> Did you interpret that as reluctance to fully uncover the facts?</p>
+
+<p><b>John Dean:</b> That was my impression, yes.</p>
+
+<p><b>Sen. Baker:</b> Mr. Dean, returning to the central question, then, based on your testimony, would it be fair to say that the President became aware, at least by March 21, 1973, of actions that could constitute obstruction of justice?</p>
+
+<p><b>John Dean:</b> Yes, Senator. That would be fair.</p>
+
+<p><b>Sen. Baker:</b> And that is based upon your interpretation of the facts as you have testified to them here today, is that correct?</p>
+
+<p><b>John Dean:</b> Yes, Senator. It is based on my interpretation of the conversations I had and the information available to me at the time.</p>
+
+<p><b>Sen. Baker:</b> But again, you do not have any direct knowledge that the President himself directed any payment to be made for the purpose of influencing testimony, do you?</p>
+
+<p><b>John Dean:</b> I do not have direct knowledge of a formal directive, no.</p>
+
+<p><b>Sen. Baker:</b> You are drawing inferences from the conversations you have described and from the general atmosphere that existed in the White House at that time?</p>
+
+<p><b>John Dean:</b> That is correct. I am drawing inferences based on my direct involvement in those discussions and the context in which they occurred.</p>
+
+<p><b>Sen. Baker:</b> Let me ask you this then, Mr. Dean. At any time did the President indicate to you that he wished the law to be broken in order to resolve this matter?</p>
+
+<p><b>John Dean:</b> No, Senator. He never stated it in those terms.</p>
+
+<p><b>Sen. Baker:</b> Did he ever indicate that he wished the investigation to be obstructed?</p>
+
+<p><b>John Dean:</b> Not in those words. The discussions were always indirect, but the practical effect of what was being discussed would, in my judgment, have that result.</p>
+
+<p><b>Sen. Baker:</b> I understand. Thank you, Mr. Dean.</p>
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToNixonPart2()">Continue →</button>
+  </div>
+</div>
+
+
+<div id="nixonPart2" style="display:none;">
+<h3><b>August 8, 1974</b></h3>
+<p><b>Address to the Nation from the Oval Office</b></p>
+
+<p>The television lights were unusually soft that evening. Washington had the strange stillness that comes after a long crisis, when everyone knows something has already ended but no one is sure what replaces it.</p>
+
+<p>President Richard Nixon sat at the Resolute Desk with a folded speech he had rewritten twice that afternoon. Outside the White House gates, reporters stood in tight clusters waiting for a moment that had been building for two years.</p>
+
+<p>Inside the East Room, staff members watched on a muted monitor. No one spoke.</p>
+
+<p><i>“Good evening,”</i> the President began.</p>
+
+<p><i>“This is the thirty-seventh time I have spoken to you from this office on matters of national importance.”</i></p>
+
+<p>He paused, glancing down at the page.</p>
+
+<p><i>“All of you know the circumstances that have brought us to this moment.”</i></p>
+
+<p>For a moment, he stopped again, as if deciding whether to continue in the same tone.</p>
+
+<p><i>“I have always believed it is the duty of the President to place the interests of the country above all personal considerations.”</i></p>
+
+<p>In the briefing room, aides avoided eye contact with one another.</p>
+
+<p><i>“Over the past year,”</i> Nixon continued, <i>“I have tried to do what I believed was necessary to protect the integrity of the Presidency and to preserve the confidence of the American people.”</i></p>
+
+<p>He swallowed, briefly tightening his grip on the lectern.</p>
+
+<p><i>“But I now recognize that in doing so, I may have placed an additional burden on the nation itself.”</i></p>
+
+<p>A reporter in the press pool leaned forward instinctively.</p>
+
+<p><i>“It is clear to me that I no longer have a strong enough political base in Congress to justify continuing this struggle.”</i></p>
+
+<p>Inside the White House, someone quietly exhaled.</p>
+
+<p><i>“Therefore, effective at noon tomorrow, I will resign the office of the Presidency of the United States.”</i></p>
+
+<p>There was no dramatic pause after the sentence. Only silence.</p>
+
+<p>He continued reading.</p>
+
+<p><i>“In leaving this office, I do so with a profound sense of regret that I was not able to complete the term to which I was elected in 1972.”</i></p>
+
+<p>His voice steadied slightly.</p>
+
+<p><i>“But I also leave with gratitude for the opportunity to serve this nation, which I have loved deeply throughout my life.”</i></p>
+
+<p>Outside, cameras flashed in uneven bursts as the words were relayed across the wire services.</p>
+
+<p><i>“I ask all Americans,”</i> he said, <i>“to support the new President as he assumes office at a difficult moment in our history.”</i></p>
+
+<p>He looked up from the page for the first time in several minutes.</p>
+
+<p><i>“May God bless America, and may God bless each and every one of you.”</i></p>
+
+<p>He stepped away from the podium.</p>
+
+<p>For several seconds, no one in the room moved.</p>
+
+<p>In the East Room, a young staffer quietly asked no one in particular:</p>
+
+<p><i>“What happens now?”</i></p>
+
+<p>No one answered immediately.</p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToNixonPart1()">← Back</button>
+    <button onclick="goToNixonPart3()">Continue →</button>
+  </div>
+</div>
+
+
+<div id="nixonPart3" style="display:none;">
+<h3><b>MEMO FROM THE NATIONAL AFFAIRS DESK</b><br>
+<b>DATE: MAY 1, 1994</b><br>
+<b>FROM: DR. HUNTER S. THOMPSON</b><br><br>
+<b>SUBJECT: THE DEATH OF RICHARD NIXON: NOTES ON THE PASSING OF AN AMERICAN MONSTER.... HE WAS A LIAR AND A QUITTER, AND HE SHOULD HAVE BEEN BURIED AT SEA.... BUT HE WAS, AFTER ALL, THE PRESIDENT.</b></h3>
+
+<p><i>"And he cried mightily with a strong voice, saying, Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit and a cage of every unclean and hateful bird."</i><br>
+---Revelation 18:2</p>
+
+<p>Richard Nixon is gone now, and I am poorer for it. He was the real thing -- a political monster straight out of Grendel and a very dangerous enemy. He could shake your hand and stab you in the back at the same time. He lied to his friends and betrayed the trust of his family. Not even Gerald Ford, the unhappy ex-president who pardoned Nixon and kept him out of prison, was immune to the evil fallout. Ford, who believes strongly in Heaven and Hell, has told more than one of his celebrity golf partners that ‘I know I will go to hell, because I pardoned Richard Nixon.’</p>
+
+<p>I have had my own bloody relationship with Nixon for many years, but I am not worried about it landing me in hell with him. I have already been there with that bastard, and I am a better person for it. Nixon had the unique ability to make his enemies seem honorable, and we developed a keen sense of fraternity. Some of my best friends have hated Nixon all their lives. My mother hates Nixon, my son hates Nixon, I hate Nixon, and this hatred has brought us together.</p>
+
+<p>Nixon laughed when I told him this. ‘Don't worry,’ he said, ‘I, too, am a family man, and we feel the same way about you.’</p>
+
+<p>It was Richard Nixon who got me into politics, and now that he's gone, I feel lonely. He was a giant in his way. As long as Nixon was politically alive -- and he was, all the way to the end -- we could always be sure of finding the enemy on the Low Road. There was no need to look anywhere else for the evil bastard. He had the fighting instincts of a badger trapped by hounds. The badger will roll over on its back and emit a smell of death, which confuses the dogs and lures them in for the traditional ripping and tearing action. But it is usually the badger who does the ripping and tearing. It is a beast that fights best on its back: rolling under the throat of the enemy and seizing it by the head with all four claws.</p>
+
+<p>That was Nixon's style -- and if you forgot, he would kill you as a lesson to the others. Badgers don't fight fair, bubba. That's why God made dachshunds.</p>
+
+<p>Nixon was a navy man, and he should have been buried at sea. Many of his friends were seagoing people: Bebe Rebozo, Robert Vesco, William F. Buckley Jr., and some of them wanted a full naval burial.</p>
+
+<p>These come in at least two styles, however, and Nixon's immediate family strongly opposed both of them. In the traditionalist style, the dead president's body would be wrapped and sewn loosely in canvas sailcloth and dumped off the stern of a frigate at least 100 miles off the coast and at least 1,000 miles south of San Diego, so the corpse could never wash up on American soil in any recognizable form.</p>
+
+<p>The family opted for cremation until they were advised of the potentially onerous implications of a strictly private, unwitnessed burning of the body of the man who was, after all, the President of the United States. Awkward questions might be raised, dark allusions to Hitler and Rasputin. People would be filing lawsuits to get their hands on the dental charts. Long court battles would be inevitable -- some with liberal cranks bitching about <i>corpus delicti</i> and <i>habeas corpus</i> and others with giant insurance companies trying not to pay off on his death benefits. Either way, an orgy of greed and duplicity was sure to follow any public hint that Nixon might have somehow faked his own death or been cryogenically transferred to fascist Chinese interests on the Central Asian Mainland.</p>
+
+<p>It would also play into the hands of those millions of self-stigmatized patriots like me who believe these things already.</p>
+
+<p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
+
+<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+
+<p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
+
+<p>It is fitting that Richard Nixon's final gesture to the American people was a clearly illegal series of 21 105-mm howitzer blasts that shattered the peace of a residential neighborhood and permanently disturbed many children. Neighbors also complained about another unsanctioned burial in the yard at the old Nixon place, which was brazenly illegal. ‘It makes the whole neighborhood like a graveyard,’ said one. ‘And it fucks up my children's sense of values.’</p>
+
+<p>Many were incensed about the howitzers -- but they knew there was nothing they could do about it -- not with the current president sitting about 50 yards away and laughing at the roar of the cannons. It was Nixon's last war, and he won.</p>
+
+<p>The funeral was a dreary affair, finely staged for TV and shrewdly dominated by ambitious politicians and revisionist historians. The Rev. Billy Graham, still agile and eloquent at the age of 136, was billed as the main speaker, but he was quickly upstaged by two 1996 GOP presidential candidates: Sen. Bob Dole of Kansas and Gov. Pete Wilson of California, who formally hosted the event and saw his poll numbers crippled when he got blown off the stage by Dole, who somehow seized the No. 3 slot on the roster and uttered such a shameless, self-serving eulogy that even he burst into tears at the end of it.</p>
+
+<p>Dole's stock went up like a rocket and cast him as the early GOP front-runner for '96. Wilson, speaking next, sounded like an Engelbert Humperdinck impersonator and probably won't even be re-elected as governor of California in November.</p>
+
+<p>The historians were strongly represented by the No. 2 speaker, Henry Kissinger, Nixon's secretary of state and himself a zealous revisionist with many axes to grind. He set the tone for the day with a maudlin and spectacularly self-serving portrait of Nixon as even more saintly than his mother and as a president of many godlike accomplishments -- most of them put together in secret by Kissinger, who came to California as part of a huge publicity tour for his new book on diplomacy, genius, Stalin, H. P. Lovecraft and other great minds of our time, including himself and Richard Nixon.</p>
+
+<p>Kissinger was only one of the many historians who suddenly came to see Nixon as more than the sum of his many squalid parts. He seemed to be saying that History will not have to absolve Nixon, because he has already done it himself in a massive act of will and crazed arrogance that already ranks him supreme, along with other Nietzschean supermen like Hitler, Jesus, Bismarck and the Emperor Hirohito. These revisionists have catapulted Nixon to the status of an American Caesar, claiming that when the definitive history of the 20th century is written, no other president will come close to Nixon in stature. ‘He will dwarf FDR and Truman,’ according to one scholar from Duke University.</p>
+
+<p>It was all gibberish, of course. Nixon was no more a Saint than he was a Great President. He was more like Sammy Glick than Winston Churchill. He was a cheap crook and a merciless war criminal who bombed more people to death in Laos and Cambodia than the U.S. Army lost in all of World War II, and he denied it to the day of his death. When students at Kent State University, in Ohio, protested the bombing, he connived to have them attacked and slain by troops from the National Guard.</p>
+
+<p>Some people will say that words like <i>scum</i> and <i>rotten</i> are wrong for Objective Journalism -- which is true, but they miss the point. It was the built-in blind spots of the Objective rules and dogma that allowed Nixon to slither into the White House in the first place. He looked so good on paper that you could almost vote for him sight unseen. He seemed so all-American, so much like Horatio Alger, that he was able to slip through the cracks of Objective Journalism. You had to get Subjective to see Nixon clearly, and the shock of recognition was often painful.</p>
+
+<p>Nixon's meteoric rise from the unemployment line to the vice presidency in six quick years would never have happened if TV had come along 10 years earlier. He got away with his sleazy ‘my dog Checkers’ speech in 1952 because most voters heard it on the radio or read about it in the headlines of their local, Republican newspapers. When Nixon finally had to face the TV cameras for real in the 1960 presidential campaign debates, he got whipped like a red-headed mule. Even die-hard Republican voters were shocked by his cruel and incompetent persona. Interestingly, most people who heard those debates on the radio thought Nixon had won. But the mushrooming TV audience saw him as a truthless used-car salesman, and they voted accordingly. It was the first time in 14 years that Nixon lost an election.</p>
+
+<p>When he arrived in the White House as VP at the age of 40, he was a smart young man on the rise -- a hubris-crazed monster from the bowels of the American dream with a heart full of hate and an overweening lust to be President. He had won every office he'd run for and stomped like a Nazi on all of his enemies and even some of his friends.</p>
+
+<p>Nixon had no friends except George Will and J. Edgar Hoover (and they both deserted him). It was Hoover's shameless death in 1972 that led directly to Nixon's downfall. He felt helpless and alone with Hoover gone. He no longer had access to either the Director or the Director's ghastly bank of Personal Files on almost everybody in Washington.</p>
+
+<p>Hoover was Nixon's right flank, and when he croaked, Nixon knew how Lee felt when Stonewall Jackson got killed at Chancellorsville. It permanently exposed Lee's flank and led to the disaster at Gettysburg.</p>
+
+<p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
+
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+
+<p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
+
+<p>Shit. Not even Spiro Agnew was that dumb. He was a flat-out, knee-crawling thug with the morals of a weasel on speed. But he was Nixon's vice president for five years, and he only resigned when he was caught red-handed taking cash bribes across his desk in the White House.</p>
+
+<p>Unlike Nixon, Agnew didn't argue. He quit his job and fled in the night to Baltimore, where he appeared the next morning in U.S. District Court, which allowed him to stay out of prison for bribery and extortion in exchange for a guilty (no contest) plea on income-tax evasion. After that he became a major celebrity and played golf and tried to get a Coors distributorship. He never spoke to Nixon again and was an unwelcome guest at the funeral. They called him Rude, but he went anyway. It was one of those Biological Imperatives, like salmon swimming up waterfalls to spawn before they die. He knew he was scum, but it didn't bother him.</p>
+
+<p>Agnew was the Joey Buttafuoco of the Nixon administration, and Hoover was its Caligula. They were brutal, brain-damaged degenerates worse than any hit man out of <i>The Godfather</i>, yet they were the men Richard Nixon trusted most. Together they defined his Presidency.</p>
+
+<p>It would be easy to forget and forgive Henry Kissinger of his crimes, just as he forgave Nixon. Yes, we could do that -- but it would be wrong. Kissinger is a slippery little devil, a world-class hustler with a thick German accent and a very keen eye for weak spots at the top of the power structure. Nixon was one of those, and Super K exploited him mercilessly, all the way to the end.</p>
+
+<p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
+
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+
+<p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToNixonPart2()">← Back</button>
+  </div>
+</div>
+`;
+
+// Dem Endings
+
+function goToDemPart1() {
+  document.getElementById("demPart1").style.display = "block";
+  document.getElementById("demPart2").style.display = "none";
+}
+
+function goToDemPart2() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "block";
+}
+
+window.goToDemPart1 = goToDemPart1;
+window.goToDemPart2 = goToDemPart2;
+
+// McGovern
+function goToMcGovernPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("mcgovernPart3").style.display = "block";
+}
+window.goToMcGovernPart3 = goToMcGovernPart3;
+
+// Humphrey
+function goToHumphreyPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("humphreyPart3").style.display = "block";
+}
+window.goToHumphreyPart3 = goToHumphreyPart3;
+
+// Muskie
+function goToMuskiePart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("muskiePart3").style.display = "block";
+}
+window.goToMuskiePart3 = goToMuskiePart3;
+
+// Wallace
+function goToWallacePart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("wallacePart3").style.display = "block";
+}
+window.goToWallacePart3 = goToWallacePart3;
+
+// Chisholm
+function goToChisholmPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("chisholmPart3").style.display = "block";
+}
+window.goToChisholmPart3 = goToChisholmPart3;
+
+// Bayh
+function goToBayhPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("bayhPart3").style.display = "block";
+}
+window.goToBayhPart3 = goToBayhPart3;
+
+// Mondale
+function goToMondalePart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("mondalePart3").style.display = "block";
+}
+window.goToMondalePart3 = goToMondalePart3;
+
+// Church
+function goToChurchPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("churchPart3").style.display = "block";
+}
+window.goToChurchPart3 = goToChurchPart3;
+
+// Hughes
+function goToHughesPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("hughesPart3").style.display = "block";
+}
+window.goToHughesPart3 = goToHughesPart3;
+
+// Harris
+function goToHarrisPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("harrisPart3").style.display = "block";
+}
+window.goToHarrisPart3 = goToHarrisPart3;
+
+// Sanford
+function goToSanfordPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("sanfordPart3").style.display = "block";
+}
+window.goToSanfordPart3 = goToSanfordPart3;
+
+// Jackson
+function goToJacksonPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("jacksonPart3").style.display = "block";
+}
+window.goToJacksonPart3 = goToJacksonPart3;
+
+// Mills
+function goToMillsPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("millsPart3").style.display = "block";
+}
+window.goToMillsPart3 = goToMillsPart3;
+
+// Lindsay
+function goToLindsayPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("lindsayPart3").style.display = "block";
+}
+window.goToLindsayPart3 = goToLindsayPart3;
+
+// Kennedy
+function goToKennedyPart3() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("kennedyPart3").style.display = "block";
+}
+window.goToKennedyPart3 = goToKennedyPart3;
+
+// Dem Endings
+
+
+
+const mcgovernWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>2008 High School Textbook Excerpt</b></h3>
+<p><b>American Politics Since 1960 (6th Edition, 2008)</b><br><b>Chapter 11: The McGovern Presidency and Campaign Finance Reform</b></p>
+
+<p>The election of 1972 is often remembered not simply as a Democratic victory, but as the moment when the structure of American political life began to change in ways that would only become fully visible decades later. Senator George McGovern’s defeat of President Richard Nixon surprised many observers at the time, yet in retrospect, the result reflected deeper transformations already underway within American society and within the Democratic Party itself.</p>
+
+<p>McGovern’s candidacy emerged from the institutional reforms of the late 1960s, particularly those associated with the restructuring of the Democratic nominating process. The McGovern-Fraser reforms broadened participation, reduced the influence of party leaders, and shifted power toward primary voters. Many party officials initially worried that these changes would produce fractured conventions and unelectable nominees. McGovern’s success demonstrated that the new system could produce a viable national candidate, even one initially viewed as outside the party’s traditional leadership.</p>
+
+<p>The coalition that elected McGovern was unusually diverse, but in many ways, it foreshadowed the future of American politics. Younger voters, newly enfranchised by the Twenty-Sixth Amendment, played a significant role. Antiwar activists and college-educated suburban voters also contributed to McGovern’s strength, particularly in the Northeast and on the West Coast. At the same time, the campaign retained support among traditional Democratic constituencies, including labor unions and minority voters, though often by narrower margins than earlier Democratic nominees.</p>
+
+<p>Election night itself reflected the uncertain nature of this new coalition. Early returns from the Midwest and Northeast suggested a close race, while Western states began to shift toward McGovern as the evening progressed. By midnight, it became clear that the Democratic nominee had assembled an unconventional but effective electoral map, combining traditional Democratic strongholds with emerging suburban and Western support.</p>
+
+<p>McGovern entered office determined to follow through on the commitments that had defined his campaign. His administration moved quickly to accelerate negotiations to end American involvement in Vietnam. Although the process remained complex and contentious, the McGovern administration completed the withdrawal of American combat forces earlier than anticipated. The reduction in troop levels, followed by broader diplomatic efforts, helped ease political tensions that had shaped American life for nearly a decade.</p>
+
+<p>However, the defining domestic achievement of McGovern’s presidency emerged from his long-standing concern about the influence of money in politics. McGovern had argued during the campaign that the existing system of campaign financing created barriers to participation and reinforced the power of established political networks. His own campaign, built on grassroots organizing and small contributions, reflected an alternative approach.</p>
+
+<p>In 1973, the administration worked closely with congressional leaders to draft sweeping reforms aimed at restructuring campaign finance. The process proved difficult. Party leaders worried about unintended consequences, while some lawmakers feared the reforms would weaken traditional party organizations. Despite these concerns, negotiations continued for months, reflecting growing public demand for transparency and accountability.</p>
+
+<p>The resulting legislation established contribution limits, strengthened disclosure requirements, and created a system of public financing for presidential campaigns. At the time, the reforms were controversial, particularly among those who feared that public financing would disadvantage established party organizations. Yet the legislation ultimately passed after prolonged debate, representing one of the most significant changes to the political system since the Progressive Era.</p>
+
+<p>Over time, these reforms had far-reaching consequences. The availability of public financing lowered barriers for candidates without strong institutional backing, encouraging a wider range of individuals to seek national office. The emphasis on small-donor fundraising and grassroots organization, central to McGovern’s own campaign, became increasingly common in subsequent elections.</p>
+
+<p>McGovern’s presidency also coincided with broader shifts in the Democratic Party. The party’s leadership gradually expanded to include younger politicians and reform-oriented candidates, many of whom had been influenced by the 1972 campaign. While internal divisions persisted, the party’s identity increasingly centered on issue-driven activism, civil rights, and political reform.</p>
+
+<p>Economic challenges, including inflation and energy concerns, limited the scope of McGovern’s domestic ambitions. Nevertheless, historians frequently describe his presidency as the beginning of a new era in American politics. The Democratic Party that emerged in the years following McGovern’s victory differed substantially from the coalition that had dominated during the New Deal and Great Society periods.</p>
+
+<p>By the early twenty-first century, scholars increasingly viewed the election of 1972 as a structural turning point. McGovern’s victory did not simply alter the outcome of a single election. It reshaped the methods, priorities, and coalitions that would define American politics for decades to come.</p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const humphreyWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>2002 PBS Documentary Transcript</b></h3>
+<p><b>"The Happy Warrior: Hubert Humphrey and the Election of 1972"</b></p>
+
+<p>NARRATOR:</p>
+<p>By 1972, Hubert Humphrey had spent most of his adult life in public service. He had risen from mayor of Minneapolis to United States senator, then to vice president, and finally to Democratic nominee in 1968. After his narrow loss to Richard Nixon that year, many assumed Humphrey’s presidential ambitions were over.</p>
+
+<p>But Humphrey never framed his career around wins and losses. For him, politics was always about progress, even when it came slowly.</p>
+
+<p><i>"I’ve always believed that government can be a force for good. Not overnight. Not all at once. But step by step."</i></p>
+
+<p>NARRATOR:</p>
+<p>Humphrey’s 1972 campaign reflected that philosophy. Rather than offering sweeping ideological change, he emphasized experience, continuity, and legislative accomplishment. His speeches focused on expanding educational opportunity, strengthening labor protections, and addressing poverty through incremental reforms.</p>
+
+<p>Campaign stops often felt less like rallies and more like conversations. Humphrey spoke comfortably about congressional procedure, committee negotiations, and the practical challenges of passing legislation. While critics sometimes described this approach as old-fashioned, supporters found it reassuring during a period of political turbulence.</p>
+
+<p>Humphrey’s coalition reflected the Democratic Party’s traditional base. Labor unions played a central role, particularly in the Midwest and Northeast. Minority voters, who remembered Humphrey’s early advocacy for civil rights, remained an important part of his support. At the same time, Humphrey’s reputation for moderation helped him maintain credibility among older suburban voters uneasy with political upheaval.</p>
+
+<p>Election night unfolded slowly. Early returns showed a closely contested race across several industrial states. As results came in from Michigan, Pennsylvania, and Illinois, the outlines of Humphrey’s coalition became clear. By the early morning hours, Humphrey had secured enough electoral votes to claim victory.</p>
+
+<p>For many Democrats, the moment felt like a restoration. After years of internal conflict, Humphrey’s victory suggested that the party’s traditional coalition still had national appeal.</p>
+
+<p>NARRATOR:</p>
+<p>Humphrey entered office with a clear set of priorities. Chief among them was healthcare reform, an issue he had championed throughout his Senate career. While proposals for national health insurance had circulated for decades, previous efforts had stalled due to political opposition and institutional resistance.</p>
+
+<p>Humphrey approached the issue pragmatically. Rather than pushing for a sweeping overhaul, his administration worked with congressional leaders to craft a compromise proposal that expanded coverage while preserving existing private insurance structures.</p>
+
+<p>Negotiations stretched through much of 1973. Labor leaders pushed for broader coverage, while moderate lawmakers emphasized cost controls. Humphrey played a quiet but consistent role in shaping the final proposal, often drawing on his long relationships in Congress.</p>
+
+<p>The American Health Security Act passed in late 1973. The legislation guaranteed federal healthcare coverage for children, low-income families, and certain categories of workers. It also strengthened employer-based coverage requirements and increased federal support for community health centers.</p>
+
+<p>The bill did not create universal healthcare, but it represented the most significant expansion of federal health policy since the creation of Medicare and Medicaid. Humphrey described the legislation as unfinished work, but historians later viewed it as a crucial step in the gradual expansion of American healthcare coverage that would finally culminate in President Cuomo’s passage of universal healthcare twenty years later.</p>
+
+<p>Humphrey’s presidency reflected his legislative style: incremental, pragmatic, and grounded in coalition-building. Though critics sometimes described his approach as cautious, supporters argued that Humphrey’s strength lay in his ability to translate long-standing liberal goals into achievable policy.</p>
+
+<p>In retrospect, Humphrey’s 1972 victory is often seen as the final moment when the New Deal coalition fully asserted itself at the national level. His presidency bridged two eras: the politics of mid-century liberalism and the emerging realignments that would define the late twentieth century.</p>
+
+<p>For Humphrey, however, the election represented something simpler. After decades in public life, he finally had the opportunity to govern in the spirit he had long championed: optimistic, pragmatic, and rooted in the belief that politics could still improve people’s lives.</p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const muskieWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>2014 University Lecture Transcript</b></h3>
+<p><b>University of California, Berkeley - Department of Atmospheric Science</b><br><b>Lecture: “The Warming That Never Happened”</b><br><b>April 8, 2014</b></p>
+
+<p><b>PROFESSOR INEZ FUNG:</b></p>
+
+<p><i>Let me ask a quick question before we begin.</i></p>
+<p><i>Has anyone here ever heard the term climate change?</i></p>
+
+<p><i>(A quiet pause. A few students glance at one another. Only a couple hands are raised.)</i></p>
+
+<p><i>That's okay. Most people haven't. Outside of a handful of research departments, it's not something that comes up very often.</i></p>
+
+<p><i>But for a brief period in the late 1970s and early 1980s, a small number of scientists began wondering whether the Earth’s climate might be changing - slowly, almost imperceptibly - as a result of industrial emissions.</i></p>
+
+<p><i>It's one of the more unusual near-discoveries in modern science.</i></p>
+
+<p><i>And to understand why it never became more than that, you have to go back to the Muskie administration.</i></p>
+
+<p>When Edmund Muskie entered office in 1973, the country faced a cluster of overlapping problems: rising inflation, unstable energy prices, visible air and water pollution, and growing concerns about long-term fuel supply. Fossil fuels still dominated the economy, but policymakers were beginning to worry about their durability - both economically and physically.</p>
+
+<p>Muskie approached the issue less as an environmental crusade and more as a planning problem. His administration framed energy reform as a way to stabilize prices, reduce volatility, and preserve natural resources for the long term.</p>
+
+<p>The Clean Air, Water, and Energy Act of 1974 - often referred to simply as the Muskie Energy Package - was one of the most ambitious infrastructure programs of the twentieth century.</p>
+
+<p>It funded large-scale nuclear power expansion, accelerated hydroelectric development, invested in early solar and wind technologies, and tightened emissions standards across heavy industry.</p>
+
+<p>At the time, the language used was different from what you might expect today. White House memos frequently described fossil fuels as legacy energy - not because of environmental concerns, but because they were finite, price-volatile, and increasingly inefficient compared to emerging technologies.</p>
+
+<p>There was also a strong conservationist argument. Muskie spoke often about preserving forests, protecting waterways, and reducing industrial smoke and smog.</p>
+
+<p>What few people realized at the time was that this transition would also dramatically slow the growth of industrial emissions.</p>
+
+<p>By the late 1970s, early atmospheric research showed hints of possible warming trends, but the signal remained weak and inconclusive due to reduced emissions growth and natural variability.</p>
+
+<p>Without a strong, consistent trend, climate science never coalesced into a major field of study.</p>
+
+<p>By the mid-1980s, emissions had stabilized, air quality improved, and energy systems had largely shifted toward nuclear and renewable sources.</p>
+
+<p>The early hypothesis of human-driven warming remained unconfirmed and largely theoretical.</p>
+
+<p>The subject quietly faded from mainstream scientific funding priorities.</p>
+
+<p><i>It remains one of the rare cases where a potential global problem may have been reduced before it was fully understood.</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const wallaceWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>THE NEW YORK TIMES<br>JANUARY 15, 2021</b></h3>
+
+<h2><b>As Trump Faces Impeachment Again, Historians Revisit the Shadow of George Wallace</b></h2>
+
+<p><i>By Michael Shear and Maggie Haberman</i></p>
+
+<p>WASHINGTON — As President Trump faces an unprecedented second impeachment and mounting criminal investigations after the assault on the Capitol last week, historians and political analysts have increasingly turned to another deeply divisive presidency from modern American history: George Wallace.</p>
+
+<p>For decades, Wallace’s brief administration occupied an uneasy place in American political memory. His presidency, which lasted from 1973 until his resignation in 1974 following corruption charges and impeachment proceedings, was often treated as an aberration born out of the political chaos of the early 1970s.</p>
+
+<p>But in recent years, scholars have begun revisiting Wallace’s presidency less as a historical detour and more as an early expression of the populist realignment that would later reshape both political parties.</p>
+
+<p>Now, in the final days of the Trump presidency, those comparisons have moved from academic journals into mainstream political discussion.</p>
+
+<p>"There are obvious differences between the two men, both stylistically and ideologically," said Beverly Gage, a historian at Yale University who studies modern conservatism and political institutions. "But what connects Wallace and Trump is the way both men positioned themselves against established political systems while simultaneously using the machinery of government for intensely personal and political ends."</p>
+
+<p>Wallace entered office after the chaotic 1972 election, defeating President Nixon in one of the most turbulent campaigns in modern history. Though initially dismissed by many national Democrats as a regional populist candidate with limited appeal outside the South, Wallace managed to assemble an unstable coalition of white working-class voters, disaffected Democrats, and anti-establishment independents frustrated by inflation, unrest, and distrust of federal institutions.</p>
+
+<p>Once in office, Wallace governed through confrontation as much as negotiation. He attacked the press relentlessly, publicly feuded with members of his own party, and cultivated a political style that relied heavily on direct appeals to voters over the heads of traditional party leadership.</p>
+
+<p>His administration was also plagued by constant allegations of corruption and abuse of power. Congressional investigations into patronage systems, campaign finance violations, and political retaliation consumed much of Wallace’s presidency before ultimately contributing to his resignation in late 1974.</p>
+
+<p>"The Wallace administration normalized a level of political hostility that many Americans at the time found shocking," said Julian Zelizer, a Princeton historian. "What feels striking now is how familiar parts of it sound."</p>
+
+<p>Trump’s allies have rejected the comparisons outright, arguing that Democrats and the media are attempting to retroactively attach historical labels to a presidency they opposed from the beginning.</p>
+
+<p>"This is just another attempt to criminalize political disagreement," Representative Matt Gaetz of Florida said Thursday. "President Trump fought for voters who felt ignored by Washington elites, just like millions of Americans still are today."</p>
+
+<p>Still, the parallels have become increasingly difficult to ignore for many historians.</p>
+
+<p>Both Wallace and Trump built intensely loyal political movements rooted in distrust of national institutions and cultural resentment toward perceived elites. Both men struggled to maintain stable relationships with their own parties once in office. And both presidencies ultimately became consumed by investigations into abuses of power and efforts to obstruct scrutiny from Congress and federal investigators.</p>
+
+<p>There are major differences as well. Wallace governed as a Democrat during the collapse of the New Deal coalition, while Trump reshaped the Republican Party around his own brand of populist nationalism. Wallace’s political base was concentrated heavily in the South and among segregationist Democrats, whereas Trump’s coalition extended across much of the modern Republican electorate.</p>
+
+<p>But historians increasingly argue that Wallace’s presidency foreshadowed broader changes in American politics that neither party fully understood at the time.</p>
+
+<p>"Wallace represented an early form of populist politics centered around cultural grievance, distrust of institutions, and personal loyalty to a political figure over party structures," said Nicole Hemmer, a historian at Columbia University. "What we are seeing now is not identical, but it exists within the same historical tradition."</p>
+
+<p>Outside the Capitol on Thursday, National Guard troops continued patrolling fenced-off streets as Congress prepared for a Senate trial that could begin after President-elect Joseph R. Biden Jr. takes office next week.</p>
+
+<p>For some historians, the imagery itself carried echoes of another unsettled political moment nearly half a century earlier.</p>
+
+<p>"The Wallace years left Americans with a lasting fear that political institutions were becoming weaker than the forces pulling against them," Ms. Gage said. "A lot of people thought that period was unique. What the last few years have shown is that those tensions never really disappeared."</p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const chisholmWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>2016 Smithsonian Museum Exhibit Description</b></h3>
+<p><b>"Unbought and Unbossed: President Chisholm and the Election of 1972"</b></p>
+
+<p>When Shirley Chisholm entered the 1972 presidential race, her candidacy was widely viewed as symbolic rather than competitive. A congresswoman from Brooklyn, she faced skepticism from both parties and limited institutional support.</p>
+
+<p>However, her campaign gradually reshaped political expectations.</p>
+
+<p>Her message centered on political inclusion, representation, and economic opportunity. It resonated strongly with women, minority voters, and younger activists.</p>
+
+<p>Volunteer networks expanded rapidly across urban centers, and campus organizing played a major role in sustaining momentum.</p>
+
+<p>By the Democratic Convention, Chisholm had built a coalition strong enough to secure the nomination, making her the first Black woman nominated by a major party for president.</p>
+
+<p>The general election emphasized turnout among new voting blocs, including younger voters and women, who participated in record numbers.</p>
+
+<p>Her narrow victory over Nixon marked a historic shift in American electoral politics.</p>
+
+<p>Her administration focused on representation and institutional access.</p>
+
+<p>The Representation and Opportunity Act of 1974 expanded anti-discrimination enforcement, strengthened federal hiring guidelines, and encouraged diversity in public service pipelines.</p>
+
+<p>Over time, her presidency had a broader structural impact.</p>
+
+<p>The "Chisholm Generation" of political leaders emerged in the late 1970s and 1980s, many inspired by her campaign.</p>
+
+<p>Women and minority representation in government steadily increased at local, state, and federal levels.</p>
+
+<p>Political coalitions also shifted, with the Democratic Party increasingly reliant on urban, suburban, and minority voters.</p>
+
+<p>By the early 2000s, women held major roles across both parties, and by the 2020s, they became a majority in Congress.</p>
+
+<p>Historians view Chisholm’s election as a structural turning point in American political development.</p>
+
+<p>Her presidency redefined expectations about leadership, representation, and political participation.</p>
+
+<p>What began as an unlikely campaign ultimately reshaped the boundaries of American democracy.</p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const bayhWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>October 14, 1988</b></h3>
+<p><b>Supreme Court of the United States</b></p>
+<p><b><i>Morrison v. United States Election Commission</i></b></p>
+<p><b>Oral Arguments Excerpt</b></p>
+
+<p>Reporters line the back wall beneath the marble friezes. Former Bayh administration officials sit quietly beside election lawyers, Senate staffers, and constitutional scholars. Outside, television crews crowd the courthouse steps in steady autumn rain.</p>
+
+<p>Fifteen years earlier, President Birch Bayh signed the Government Integrity and Accountability Act of 1974, the defining legislation of an administration shaped by Watergate, Vietnam, and the collapse of public trust in government. The law imposed contribution limits, expanded disclosure requirements, restricted campaign coordination, and established the modern public financing system.</p>
+
+<p>Now the Court is considering whether major parts of it violate the First Amendment.</p>
+
+<p><i>“Mr. Olson,” Justice William Brennan says, leaning slightly forward, “your argument assumes financial expenditures are themselves protected political expression.”</i></p>
+
+<p><i>“Yes, Justice Brennan. The government cannot limit political participation simply because that participation involves spending money.”</i></p>
+
+<p><i>“But Congress regulates elections constantly,” Brennan replies. “Disclosure rules. Ballot procedures. Contribution limits. Elections have never operated as a completely unrestricted marketplace.”</i></p>
+
+<p>Justice Thurgood Marshall speaks before Olson can continue.</p>
+
+<p><i>“You’re describing a political system where some citizens possess vastly more influence than others.”</i></p>
+
+<p><i>“The Constitution does not guarantee equal influence, Justice Marshall.”</i></p>
+
+<p>Marshall leans back slowly.</p>
+
+<p><i>“No. But Congress also isn’t required to pretend money and political power exist in separate worlds.”</i></p>
+
+<p>Several reporters begin scribbling rapidly.</p>
+
+<p>At the government table, Bayh sits silently behind administration attorneys. He is sixty years old now, silver-haired and noticeably thinner than during his presidency, though he still carries himself with the reserved stiffness of the Senate chamber.</p>
+
+<p>Justice Sandra Day O’Connor turns toward the government’s counsel.</p>
+
+<p><i>“President Bayh argued public financing would make it easier for candidates without wealthy backers to run credible campaigns.”</i></p>
+
+<p>She pauses.</p>
+
+<p><i>“Hasn’t that largely happened?”</i></p>
+
+<p>Olson hesitates briefly.</p>
+
+<p><i>“Perhaps politically, Your Honor. But constitutional rights are not measured by desirable outcomes.”</i></p>
+
+<p>Late in the afternoon, Brennan returns to the broader history surrounding the law itself.</p>
+
+<p><i>“One thing that strikes me in these briefs,” he says slowly, “is how easily everyone now speaks about the Bayh reforms as though they came out of ordinary legislative disagreement.”</i></p>
+
+<p>The room quiets.</p>
+
+<p><i>“Some of us remember the early seventies differently.”</i></p>
+
+<p><i>“The country had just gone through Vietnam. Watergate. Intelligence abuses. A genuine collapse in public confidence.”</i></p>
+
+<p>When arguments finally conclude, reporters rush toward the courthouse steps.</p>
+
+<p>Inside the chamber, Bayh remains seated for a moment after most spectators have already left.</p>
+
+<p>A former Senate aide approaches quietly near the aisle.</p>
+
+<p><i>“Do you think they’ll uphold it?”</i></p>
+
+<p>Bayh looks once more toward the empty bench.</p>
+
+<p>After a few seconds, he smiles faintly.</p>
+
+<p><i>“I think they understand why we passed it.”</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const mondaleWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>1998 PBS Roundtable Transcript</b></h3>
+<p><b><i>"The Managed Economy? Reconsidering the Mondale Years"</i></b></p>
+<p><b>PBS NewsHour Special Broadcast - October 1998</b></p>
+
+<p><i>JIM LEHRER:</i> Good evening. Tonight marks twenty-five years since the passage of the Fair Employment and Income Security Act, the centerpiece of President Walter Mondale’s domestic agenda. Historians still argue over a broader question: did the Mondale administration merely slow America’s economic transition away from industrial liberalism, or did it leave something more lasting behind?</p>
+
+<p><i>ALAN BRINKLEY:</i> Honestly? They remember stability. Which sounds less impressive now than it did in the early seventies.</p>
+
+<p>Vietnam was still hanging over public life. Inflation was worsening. Manufacturing jobs were disappearing. Public trust in institutions was collapsing.</p>
+
+<p>Mondale’s achievement was that the Democratic coalition held together longer than many people expected it would.</p>
+
+<p><i>LEHRER:</i> Even though the economy struggled for much of his presidency?</p>
+
+<p><i>BRINKLEY:</i> Yes, because Mondale never presented himself as someone who was going to reinvent the economy overnight. He campaigned as a negotiator. Somebody who understood how institutions worked and how to keep them functioning under pressure.</p>
+
+<p><i>ROBERT REICH:</i> The White House understood fairly early that deindustrialization wasn’t temporary. Factories were automating. Foreign competition was accelerating. Entire Midwestern cities were losing population and tax revenue.</p>
+
+<p>The administration’s basic view was that government had a responsibility to soften the landing.</p>
+
+<p><i>WILLIAM KRISTOL:</i> And conservatives at the time believed many of those policies were making the broader economic problems worse.</p>
+
+<p>There’s a tendency to look back at the seventies as this humane transitional period, but people also remember inflation, stagnation, and declining business confidence. There’s a reason conservatism gained so much ground by the end of the decade.</p>
+
+<p><i>JOHN SWEENEY:</i> Working people didn’t experience Mondale as ideological.</p>
+
+<p>My father was a transit worker in Queens. He wasn’t reading economic theory. What mattered to him was that somebody in government still seemed to care whether wages kept up with prices.</p>
+
+<p><i>BRINKLEY:</i> Probably among the more important transitional presidents.</p>
+
+<p>He wasn’t charismatic in the way Americans usually romanticize. He projected competence more than inspiration.</p>
+
+<p>But the modern Democratic Party’s governing style owes a great deal to the Mondale years.</p>
+
+<p>He kept an older form of liberalism functioning long enough for the party to adapt to what came after.</p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const churchWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>1987 Senate Intelligence Oversight Hearing Transcript (Declassified 2003)</b></h3>
+<p><b>Senate Select Committee on Intelligence</b></p>
+<p><b>Hearing on Executive Authority and Intelligence Reform</b></p>
+<p><b>Excerpt - April 14, 1987</b></p>
+
+<p><i>SENATOR DANIEL PATRICK MOYNIHAN:</i></p>
+<p><i>Mr. Colby, prior to the Church administration, did meaningful congressional oversight of intelligence operations really exist in practice?</i></p>
+
+<p><i>WILLIAM COLBY:</i></p>
+<p><i>Not in the modern sense, no.</i></p>
+<p><i>There were occasional briefings. Budget reviews. Informal relationships between agency officials and senior members of Congress. But systematic oversight structures? Independent reporting requirements? Nothing like what exists now.</i></p>
+
+<p><i>Most intelligence operations during the fifties and sixties operated under extremely broad assumptions about executive authority.</i></p>
+
+<p><i>MOYNIHAN:</i></p>
+<p><i>Broad enough that Congress itself often had no clear understanding of what was happening?</i></p>
+
+<p><i>COLBY:</i></p>
+<p><i>Yes.</i></p>
+
+<p><i>SENATOR GARY HART:</i></p>
+<p><i>President Church entered office deeply skeptical of intelligence secrecy, correct?</i></p>
+
+<p><i>COLBY:</i></p>
+<p><i>Very skeptical. Though I think people sometimes misunderstand why.</i></p>
+
+<p><i>Church was not opposed to intelligence agencies existing. What concerned him was the accumulation of power inside the executive branch after Vietnam and Watergate.</i></p>
+
+<p><i>That concern shaped almost everything his administration did.</i></p>
+
+<p>Several senators quietly shuffle papers as Colby continues.</p>
+
+<p><i>COLBY:</i></p>
+<p><i>When Church emerged from the 1972 convention, many people in Washington saw him as an accidental nominee. He wasn’t closely tied to party leadership, and he didn’t project the kind of political style people traditionally associated with presidents.</i></p>
+
+<p><i>But the atmosphere in the country had changed by then. Voters were exhausted by secrecy, by escalation, by the sense that major decisions were happening completely outside public accountability.</i></p>
+
+<p><i>Church understood that mood very well.</i></p>
+
+<p><i>MOYNIHAN:</i></p>
+<p><i>Would it be fair to say the Church administration permanently changed the relationship between Congress and the intelligence community?</i></p>
+
+<p><i>COLBY:</i></p>
+<p><i>Without question.</i></p>
+
+<p><i>The Intelligence Accountability and Democratic Oversight Act of 1975 was the largest structural reform the intelligence system had gone through in modern American history.</i></p>
+
+<p><i>Mandatory congressional notification requirements. Judicial review mechanisms. Restrictions on covert domestic surveillance.</i></p>
+
+<p><i>Before Church, many of those limits depended almost entirely on presidential restraint.</i></p>
+
+<p><i>HART:</i></p>
+<p><i>And the agencies resisted heavily.</i></p>
+
+<p><i>COLBY:</i></p>
+<p><i>Absolutely. Many career officials believed the reforms would weaken intelligence operations during the Cold War.</i></p>
+
+<p><i>Church believed the larger danger was allowing institutions with enormous power to operate indefinitely without meaningful oversight.</i></p>
+
+<p>Colby pauses for several seconds before answering.</p>
+
+<p><i>COLBY:</i></p>
+<p><i>No.</i></p>
+<p><i>They made intelligence work slower. More bureaucratic. Sometimes more frustrating.</i></p>
+
+<p><i>But the agencies adapted.</i></p>
+
+<p><i>Before Church’s presidency, there was a widespread assumption that government secrecy itself created legitimacy in the government’s operations. Afterward, legitimacy increasingly depended on accountability to the American people.</i></p>
+
+<p><i>That was the real change.</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const hughesWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>1991 Sunday Sermon Transcript</b></h3>
+<p><b>First Baptist Church of Des Moines, Iowa</b></p>
+<p><b>Guest Speaker: Former President Harold Hughes</b></p>
+<p><b>November 17, 1991</b></p>
+
+<p><i>“I’ve spent a long time being introduced as a former president. Truthfully, there are still mornings when I feel more like a recovering alcoholic who accidentally wandered into politics.”</i></p>
+
+<p>Laughter moves softly through the sanctuary.</p>
+
+<p>By the time Harold Hughes returned permanently to Iowa in the 1980s, historians still struggled to describe his presidency cleanly.</p>
+
+<p>To some Americans, Hughes remained the Midwestern populist who brought addiction recovery and mental healthcare into the center of public policy. Others remembered him as one of the last national politicians able to speak openly about religion and social welfare without sounding partisan or performative.</p>
+
+<p>Hughes himself usually spoke about politics in far more personal terms.</p>
+
+<p><i>“People ask me what surprised me most about being president.”</i></p>
+<p><i>“It wasn’t the ceremonies. It wasn’t the motorcades.”</i></p>
+
+<p>He pauses briefly.</p>
+
+<p><i>“It was how many lonely people you meet.”</i></p>
+
+<p>The room falls quiet.</p>
+
+<p><i>“You travel around the country and realize there are millions of people carrying things they’ve never told anybody.”</i></p>
+
+<p>When Hughes emerged from the deadlocked 1972 Democratic convention, many party leaders viewed him as a temporary compromise between factions that no longer trusted one another.</p>
+
+<p>What followed became one of the more unusual presidencies of the twentieth century.</p>
+
+<p>Hughes campaigned with a kind of emotional openness that made many journalists deeply uncomfortable at the time. He spoke publicly about alcoholism, depression, suicidal thoughts, and religious faith in ways national politicians almost never did in the early seventies.</p>
+
+<p>Many observers initially thought it would destroy his campaign.</p>
+
+<p>Instead, voters responded with unusual intensity.</p>
+
+<p><i>“I remember a stop in Ohio during the campaign.”</i></p>
+<p><i>“A man waited outside after the event ended for almost two hours.”</i></p>
+<p><i>“He didn’t want a picture. Didn’t want an autograph.”</i></p>
+
+<p>Hughes smiles faintly.</p>
+
+<p><i>“He just said, ‘I thought I was the only person who felt like that.’”</i></p>
+
+<p><i>“I never forgot that.”</i></p>
+
+<p>Once in office, Hughes pushed heavily for addiction treatment, community clinics, and expanded mental healthcare infrastructure.</p>
+
+<p>The National Recovery and Community Health Act of 1974 dramatically expanded federal rehabilitation funding and created the first nationwide network of federally supported mental health centers.</p>
+
+<p>Before Hughes, addiction policy remained overwhelmingly punitive, and mental illness carried enormous public stigma across much of the country.</p>
+
+<p>By the early 1980s, millions of Americans had received treatment through programs created during his administration.</p>
+
+<p><i>“There’s a habit in politics of talking about people like categories.”</i></p>
+<p><i>“The poor. The addicted. The mentally ill.”</i></p>
+<p><i>“But when you sit beside somebody who’s suffering, those labels stop feeling very important.”</i></p>
+
+<p>Economic instability and inflation complicated much of Hughes’ presidency, and critics often described the administration as emotionally compelling but inconsistent administratively.</p>
+
+<p>Still, Hughes maintained strong personal popularity through much of his time in office.</p>
+
+<p>Many historians later argued that voters responded less to Hughes as a manager than as somebody willing to speak publicly about pain and vulnerability in a political culture that usually avoided both.</p>
+
+<p>Near the end of the sermon, Hughes folds his hands together quietly.</p>
+
+<p><i>“The presidency teaches you something difficult.”</i></p>
+
+<p><i>“Most people are carrying burdens you can’t see.”</i></p>
+
+<p><i>“And politics gets dangerous when it forgets that.”</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+
+const harrisWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>2023 Senate Judiciary Subcommittee Hearing on Digital Market Concentration</b></h3>
+<p><b>Subcommittee on Antitrust, Competition Policy, and Consumer Rights</b></p>
+<p><b>October 17, 2023</b></p>
+
+<p>The hearing room was crowded before the session even started. Staffers lined the walls holding folders and coffee cups while reporters compared notes at the press table. Outside the Capitol, protestors carried signs aimed at Meta, Google, Amazon, and Apple from every possible angle. Some accused the companies of censorship. Others accused them of monopoly power. One sign simply read: BREAK THEM DOWN.</p>
+
+<p>FTC Commissioner Lina Khan sat at the witness table flipping through handwritten notes. Behind her hung a framed photograph of President Fred Harris signing the Regional Development and Democratic Investment Act of 1974.</p>
+
+<p>Senator Amy Klobuchar adjusted her microphone.</p>
+
+<p><i>“Today’s hearing concerns the Federal Trade Commission’s antitrust actions against Meta and Alphabet under authorities expanded during the Harris Administration.”</i></p>
+
+<p>She glanced toward the photograph.</p>
+
+<p><i>“Fifty years later, we are still arguing about the same thing Fred Harris argued about in the seventies: what happens when economic power becomes too concentrated for democratic institutions to keep up with it.”</i></p>
+
+<p>Senator Josh Hawley leaned forward.</p>
+
+<p><i>“And Harris was not anti-business the way people sometimes describe him now. He believed concentrated private power eventually spills over into politics.”</i></p>
+
+<p>Khan nodded.</p>
+
+<p><i>“Yes. That was central to how he thought about antitrust.”</i></p>
+
+<p>Hawley continued.</p>
+
+<p><i>“Most people today hear the word antitrust and think about prices. Harris talked about communities losing influence over their own economies.”</i></p>
+
+<p><i>“He did,”</i> Khan replied. <i>“He worried about local banks disappearing. Local newspapers disappearing. Independent agriculture disappearing. He thought people were slowly losing control over decisions affecting their daily lives.”</i></p>
+
+<p>Senator Cory Booker smiled slightly.</p>
+
+<p><i>“You sound like you have spent a lot of time reading him.”</i></p>
+
+<p>A few people laughed quietly.</p>
+
+<p><i>“I have,”</i> Khan said.</p>
+
+<p>Senator Ted Cruz leaned toward his microphone.</p>
+
+<p><i>“But Harris was talking about industrial monopolies. Steel. Energy. Telecommunications. You are applying these laws to speech platforms.”</i></p>
+
+<p>Khan answered calmly.</p>
+
+<p><i>“We are applying them to market concentration.”</i></p>
+
+<p>Cruz frowned.</p>
+
+<p><i>“These companies are not Standard Oil.”</i></p>
+
+<p>Khan folded her hands.</p>
+
+<p><i>“Standard Oil did not control how billions of people communicate with each other.”</i></p>
+
+<p>The room became noticeably quieter.</p>
+
+<p>Near the end of the hearing, Senator Jon Tester looked toward Khan.</p>
+
+<p><i>“Do you think Harris would recognize this economy?”</i></p>
+
+<p>Khan thought for a moment.</p>
+
+<p><i>“More than people would probably like.”</i></p>
+
+<p>Tester smiled.</p>
+
+<p><i>“And what do you think he would say about it?”</i></p>
+
+<p>Khan looked down briefly before answering.</p>
+
+<p><i>“Probably something uncomfortable.”</i></p>
+
+<p>The room laughed softly.</p>
+
+<p><i>“I think Harris believed people can live with inequality for a long time. What they struggle to live with is the feeling that nobody listens to them anymore. Once people stop believing they have any influence over the systems around them, trust in institutions starts disappearing very quickly.”</i></p>
+
+<p>Nobody interrupted her.</p>
+
+<p>Finally Klobuchar leaned back toward the microphone.</p>
+
+<p><i>“Commissioner, thank you for your testimony.”</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const sanfordWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>1998 Guest Lecture at Terry Sanford High School, Fayetteville, North Carolina</b></h3>
+<p><b>Civics Week Lecture Series</b></p>
+<p><b>Recorded April 14, 1998</b></p>
+
+<p>Sanford stood at the front of the auditorium with a yellow legal pad he barely used. He spoke casually, like he was talking to a small group rather than a full room of students.</p>
+
+<p><i>“I should probably start by saying presidents don’t really know what they’re doing as often as people think they do.”</i></p>
+
+<p>A few students laughed.</p>
+
+<p><i>“Most of the job is trying to make decisions without enough information and keeping everyone else calm while you do it.”</i></p>
+
+<p>He paused and leaned on the podium.</p>
+
+<p><i>“In the early seventies, the country felt worn down. Vietnam, inflation, all of it. People were tired of each other in a way that is just real hard to describe now.”</i></p>
+
+<p>A student raised her hand.</p>
+
+<p><i>“Did you think you were going to win?”</i></p>
+
+<p>Sanford smiled.</p>
+
+<p><i>“Course not.”</i></p>
+
+<p>Laughter in the room.</p>
+
+<p><i>“We thought we might shape the conversation a bit. The party was already split in a lot of directions after 1968.”</i></p>
+
+<p>Another student asked:</p>
+
+<p><i>“Why you?”</i></p>
+
+<p><i>“Because I didn’t scare off too many people.”</i></p>
+
+<p>More chuckles.</p>
+
+<p>A teacher asked from the side wall:</p>
+
+<p><i>“Was the New South real?”</i></p>
+
+<p>Sanford nodded.</p>
+
+<p><i>“Yes, but not the way people talk about it now.”</i></p>
+
+<p><i>“It was about whether the South could change - economically and socially - without falling apart politically.”</i></p>
+
+<p>He looked out at the students.</p>
+
+<p><i>“Nobody really knew if that would work.”</i></p>
+
+<p>A student asked quietly:</p>
+
+<p><i>“Did it?”</i></p>
+
+<p>Sanford hesitated.</p>
+
+<p><i>“Partly. For a while.”</i></p>
+
+<p>He straightened.</p>
+
+<p><i>“What I learned is that change doesn’t wait for politics to catch up. It keeps going until somebody uses it.”</i></p>
+
+<p>He tapped the podium once.</p>
+
+<p><i>“That is why I still think education mattered most. Community colleges. Regional universities. Training programs. The things nobody paid attention to at the time.”</i></p>
+
+<p>A student asked:</p>
+
+<p><i>“Do you regret being president?”</i></p>
+
+<p>Sanford shook his head.</p>
+
+<p><i>“No.”</i></p>
+
+<p>Then, after a pause:</p>
+
+<p><i>“We all play a role in the world, that’s why you can’t sell yourself short. And we all have to live with the decisions we make.”</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const jacksonWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>1996 Strategic Command Training Simulation</b></h3>
+<p><b>National Defense University - Advanced Cold War Decision Exercise</b></p>
+<p><b>Scenario Briefing Room C</b></p>
+
+<p>The projector hummed softly while officers settled into their seats carrying binders stamped CONFIDENTIAL SIMULATION MATERIAL. Across the whiteboard someone had written:
+<br><b>JACKSON DOCTRINE EXERCISE</b>
+<br><b>SPRING 1978</b></p>
+
+<p>Rear Admiral Stansfield Turner stood beside the map table.</p>
+
+<p><i>“All right, let’s begin. This exercise examines the decision-making process within the Jackson Administration after the Soviet Naval Crisis of 1978.”</i></p>
+
+<p>An Air Force major leaned back in his chair.</p>
+
+<p><i>“Every year they run this scenario.”</i></p>
+
+<p>Someone beside him shrugged.</p>
+
+<p><i>“Every year somebody thinks they can outsmart Jackson.”</i></p>
+
+<p>Turner looked up.</p>
+
+<p><i>“You aren’t here to debate whether Jackson was right politically. You’re here to understand how he thought.”</i></p>
+
+<p>He clicked the projector remote. A slide appeared showing oil imports and manufacturing decline during the early seventies.</p>
+
+<p><i>“Jackson believed that military strength and industrial capacity and energy policy and alliance management were inseparable. He thought the country entered the seventies exhausted, and he worried Americans were starting to confuse military restraint with weakness.”</i></p>
+
+<p>A younger analyst raised her hand.</p>
+
+<p><i>“So he really wasn’t Reagan before Reagan?”</i></p>
+
+<p>Turner shook his head.</p>
+
+<p><i>“No. Jackson was still a New Deal liberal at heart. He supported infrastructure spending, labor unions, industrial planning, scientific research, arms control. The New Left viewed American power through the lens of ‘Nam. Jackson never stopped viewing Soviet power through the lens of postwar Europe.”</i></p>
+
+<p>The screen changed again. Nuclear plants, shipyards, aerospace facilities.</p>
+
+<p><i>“The energy program is usually taught as a function of Keynesian economic policy,”</i> Turner said. <i>“Jackson saw it as a strategic military investment.”</i></p>
+
+<p>A civilian historian near the wall nodded.</p>
+
+<p><i>“A lot of the federal research partnerships from the eighties trace back to those programs.”</i></p>
+
+<p>Turner stepped back toward the table.</p>
+
+<p><i>“All right. Scenario setup. It is March 1978. Soviet naval activity in the North Atlantic has intensified after NATO missile deployments in West Germany. Intelligence suggests Moscow believes the administration is politically constrained by anti-defense sentiment inside Congress.”</i></p>
+
+<p>Someone near the back laughed quietly.</p>
+
+<p><i>“Jackson probably took that personally.”</i></p>
+
+<p><i>“Extremely personally,”</i> Turner replied dryly.</p>
+
+<p>An analyst raised his hand.</p>
+
+<p><i>“Did Jackson win the argument historically?”</i></p>
+
+<p>The room grew quieter.</p>
+
+<p>Turner thought for a moment.</p>
+
+<p><i>“I think he understood earlier than most people that industrial decline and geopolitical decline were interconnected.”</i></p>
+
+<p>The historian near the back added quietly:</p>
+
+<p><i>“Jackson belonged to a generation that still believed that the government could be powerful without becoming corrupt.”</i></p>
+
+<p>For a moment the room stayed silent.</p>
+
+<p>Then Turner looked around the room and sighed.</p>
+
+<p><i>“All right. Let’s see how many of you can keep NATO together without starting World War Three.”</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const millsWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>Excerpt from the 1988 Congressional Member Orientation Handbook</b></h3>
+<p><b>United States House of Representatives</b></p>
+<p><b>Office of Institutional Procedures and Legislative Administration</b></p>
+<p><b>Chapter 4</b></p>
+<p><b>Budget Coordination, Committee Authority, and the Modern Legislative State</b></p>
+
+<p>New members entering Congress after the 1970s often find it difficult to understand how much federal budgeting changed during the Mills Administration. Many procedures now treated as routine did not exist in stable form before his reforms.</p>
+
+<p>At the start of the 1970s, budgeting was fragmented across committees and agencies. Long-term forecasting was inconsistent. Tax and spending decisions were often built through overlapping jurisdictions with weak coordination, and agencies frequently submitted competing baseline numbers that did not align.</p>
+
+<p>The economic instability of the early 1970s exposed these problems.</p>
+
+<p>President Mills entered office in 1973 with deep familiarity with congressional procedure. As former chair of the House Ways and Means Committee, he treated Congress less as an obstacle and more as the center of governing.</p>
+
+<p>Former staff often called his White House “a committee government scaled upward.”</p>
+
+<p>Cabinet meetings were highly procedural. Cabinet Secretaries arrived with detailed budget impact reports, jurisdiction notes, and multi-year projections. Internal memos regularly included updated revenue estimates and inflation-adjusted scoring tables.</p>
+
+<p>Treasury Secretary Russell Long later said of the president:</p>
+
+<p><i>“Mills could remember tax provisions the way other men remembered baseball scores.”</i></p>
+
+<p>The Tax Simplification and Fiscal Coordination Act of 1974 took eighteen months of negotiation between committees and agencies. It required repeated reconciliation between House and Senate scoring models and constant updates to revenue assumptions.</p>
+
+<p>The law introduced changes that still shape budgeting today:</p>
+
+<p>• Five- and ten-year professional budget projections<br>
+• Coordinated payroll tax systems for Social Security and Medicare<br>
+• Standardized federal reporting rules across all agencies<br>
+• Indexed tax deduction formulas<br>
+• Permanent budget scoring offices<br>
+• Formal reconciliation between revenue and spending plans</p>
+
+<p>At the time, the reforms drew limited attention, but historians now view them as highly consequential to future budgeting policies.</p>
+
+<p>Mills governed through the weight of institutional stability rather than any sort of charismatic public messaging. He relied on committee structures, seniority, and negotiation rather than executive-style media politics.</p>
+
+<p>His administration formalized practices like early bipartisan consultation before markup and standardized scorekeeping across committees, especially after the 1973 oil crisis.</p>
+
+<p>The Mills presidency is often described as the final full expression of New Deal-era congressional government, where the laws passed depended on negotiated relationships between committees, agencies, and party leadership.</p>
+
+<p>Critics called it technocratic and detached from the people, especially in the wake of the emerging Watergate Scandal (of which the president himself oversaw the prosecution). But Mills rarely focused on public messaging, and aides often noted he preferred discussing fiscal projections over political rhetoric.</p>
+
+<p>One aide recalled:</p>
+
+<p><i>“He thought intellectual competence alone could carry the argument. Television politics just didn’t work that way anymore.”</i></p>
+
+<p>Still, Congress supported him because he respected the institutional process.</p>
+
+<p>In healthcare, Mills favored incremental reforms: Medicare reimbursement coordination, hospital billing standards, and federal-state regulatory alignment rather than large structural changes.</p>
+
+<p>Many modern healthcare budgeting systems still trace back to this period.</p>
+
+<p>As media politics grew stronger in the late 1970s and 1980s, Mills’ style became less electorally viable.</p>
+
+<p>Even so, many lawmakers later described him as one of the most effective procedural presidents in modern history.</p>
+
+<p>Speaker of the House Thomas P. O’Neill Jr. once said:</p>
+
+<p><i>“Wilbur Mills understood Congress better than any president of the twentieth century save for Lyndon Johnson. It didn’t always make him popular, but it made him effective.”</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const lindsayWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>July 29, 2004</b></h3>
+<p><b>The New York Times</b></p>
+<p><b>National Politics Desk</b></p>
+<p><b>After Obama Speech, Democrats Hear Echoes of an Earlier Urban Liberalism</b></p>
+<p><b>By Adam Nagourney</b></p>
+
+<p>BOSTON - By the time Illinois Senate candidate Barack Obama finished speaking Tuesday night, delegates on the convention floor were already making comparisons many Democrats have not heard seriously in years.</p>
+
+<p><b>John Lindsay.</b></p>
+
+<p>The resemblance was not ideological in any exact sense. Obama is more restrained than the former president ever was, less aristocratic in style, less openly identified with the technocratic reform politics that shaped much of the Lindsay administration during the 1970s. But for many older Democrats watching Obama deliver the keynote address at the Democratic National Convention, the similarities still felt unmistakable.</p>
+
+<p>A young, charismatic urban politician speaking about metropolitan America not as a national burden, but as the country’s political and economic center of gravity.</p>
+
+<p><i>“It reminded me of the way liberals used to talk about cities before everybody got so defensive about them,”</i> said former Lindsay administration housing official Karen Phillips. <i>“There was optimism in the way we used to talk about urban America.”</i></p>
+
+<p>Obama, a state senator from Chicago heavily favored in this fall’s Illinois Senate race, has spent much of his political career navigating a Democratic Party that increasingly depends on metropolitan regions but still remains somewhat uneasy discussing them in explicitly political terms.</p>
+
+<p>His speech Tuesday touched repeatedly on themes that have steadily become more central to Democratic electoral strategy since the decline of the old New Deal coalition: suburban diversification, public infrastructure, immigration, education investment, regional economic planning, and the growing interdependence between cities and suburbs.</p>
+
+<p><i>“The old divisions between city and suburb don’t hold the way they used to,”</i> Obama said during the address. <i>“Our economies are connected now. Our futures are connected. We are one country, bound together by the threads of our shared history and the promise of a shared future.”</i></p>
+
+<p>Several delegates afterward described the line as sounding “very Lindsay.”</p>
+
+<p>President John Lindsay remains a complicated figure inside Democratic politics more than twenty years after leaving office. Admired by many liberals for his transit, environmental, and urban redevelopment policies, Lindsay also became an early symbol of the metropolitan liberalism conservatives spent decades attacking afterward as elitist, overplanned, and culturally detached from smaller-town America.</p>
+
+<p>Still, much of the Democratic coalition today increasingly resembles the one Lindsay attempted to build in the 1970s: minority voters, professionals, public-sector workers, younger suburbanites, university communities, and college-educated metropolitan counties.</p>
+
+<p><i>“Back then people thought Lindsay was describing a future that didn’t really exist yet,”</i> said Democratic strategist Paul Begala. <i>“Now most national elections are fought on terrain he recognized earlier than almost anybody.”</i></p>
+
+<p>Obama himself has rarely referenced Lindsay publicly, though several advisers say he has studied parts of the administration’s urban policy closely, particularly transit investment and regional development planning. One former Lindsay aide watching Tuesday night said Obama appeared noticeably more comfortable speaking about urban growth than most national Democrats of the last two decades.</p>
+
+<p><i>“For a long time Democrats talked about cities almost apologetically,”</i> the aide said. <i>“They’d almost disparage the very idea of living in a city in every other breath they’d take. Obama doesn’t sound apologetic about the urban landscape at all. It’s exhilarating.”</i></p>
+
+<p>After the speech ended, television commentators immediately began speculating about Obama’s political future beyond the Senate race itself. Several delegates leaving the convention hall compared the atmosphere to earlier breakout convention speeches that launched national careers almost overnight.</p>
+
+<p>One New York delegate laughed when asked whether the keynote could eventually make Obama a presidential contender.</p>
+
+<p><i>“In this party?”</i> he said. <i>“That’s usually how it starts.”</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const kennedyWinsEndingPart2 = `
+<div id="endingPart2" style="display:none;">
+
+<h3><b>The New York Times</b></h3>
+<p><b>National Politics Desk</b></p>
+<p><b>After Years of Reluctance, the Next Kennedy Weighs a Presidential Run</b></p>
+<p><b>By Adam Nagourney and Gail Collins</b></p>
+
+<p>WASHINGTON - For most of his public life, New York Senator John F. Kennedy Jr. insisted he had little interest in becoming what one family friend once called “the latest caretaker of the family mythology.”</p>
+
+<p>He preferred committee work to rallies. Former aides say he visibly disliked being discussed as the continuation of a dynasty rather than as a politician in his own right.</p>
+
+<p>For years, many Democrats believed him.</p>
+
+<p>But after cruising to a second term this past November, advisers close to Mr. Kennedy now acknowledge he is moving steadily toward entering the 2008 Democratic presidential race, setting up what could become one of the most emotionally charged Democratic primary contests in decades. Governor Hillary Rodham of Illinois - fresh off her own landslide reelection - is also expected to announce her candidacy soon, likely with significant support from the party establishment. Former Vice President Al Gore continues weighing another campaign. Senators Russ Feingold and Joe Biden, along with Governor Bill Richardson, are also considering runs.</p>
+
+<p>Yet much of the conversation inside Democratic circles increasingly revolves around a different question entirely: whether the party is preparing to revisit the political legacy of the Kennedy presidency itself.</p>
+
+<p>Not John Kennedy’s presidency. Ted Kennedy’s.</p>
+
+<p>For Democrats over fifty, the possibility carries an almost surreal quality. The administration of President Ted Kennedy remains one of the central reference points of modern liberalism. Universal healthcare. Universal childcare. Housing investments. Labor protections. Much of the modern Democratic welfare state traces back to legislation negotiated during the Kennedy years.</p>
+
+<p>So does much of the modern conservative movement.</p>
+
+<p><i>“The country has basically been arguing about Ted Kennedy’s presidency for thirty years,”</i> said presidential historian Doris Kearns Goodwin. <i>“Government, federal authority, income inequality, healthcare - all of those debates hardened during the 1980s.”</i></p>
+
+<p>By the time Mr. Kennedy entered politics formally with his successful 2000 Senate campaign in New York, he had already spent years avoiding the rapid ascent many Democrats once assumed was inevitable. Inside the Senate, he developed a reputation as a detail-oriented institutionalist focused heavily on healthcare administration, voting access policy, and infrastructure funding.</p>
+
+<p><i>“He’s much closer temperamentally to Ted than to Jack,”</i> said former Senate Majority Leader Tom Daschle. <i>“Less romantic. More legislative. He’s always been a humble, down-to-earth guy.”</i></p>
+
+<p>That comparison surfaces constantly among Democrats who worked underneath President Ted Kennedy. Whereas John Kennedy projected glamour and generational optimism, Ted Kennedy’s presidency became associated more with coalition management and legislative construction.</p>
+
+<p><i>“He’s not mystical in person,”</i> one former Cuomo administration official remarked of the younger Kennedy. <i>“People expecting Camelot are going to misunderstand him completely. The man still takes public transit to the Senate floor.”</i></p>
+
+<p>Still, the symbolism matters.</p>
+
+<p>No Democratic family remains more closely tied to the emotional identity of postwar liberalism than the Kennedys. Labor unions remain deeply loyal to the family. So do many older Black political organizations and women’s advocacy groups whose national influence expanded significantly during the administration.</p>
+
+<p><i>“There’s still an entire generation of Democrats who talk about Ted Kennedy the way Republicans talk about Reagan,”</i> said former White House adviser Elaine Kamarck.</p>
+
+<p>Republicans, meanwhile, appear almost eager for the possibility of a Kennedy candidacy. Several conservative strategists privately acknowledged this week that a Kennedy campaign would reopen ideological fights over the size and role of government that have shaped national politics since the late 1970s.</p>
+
+<p>Yet Democrats argue the country looks very different than it did during the Reagan years. Healthcare costs continue rising sharply. Wage stagnation has intensified across much of the Midwest. Public frustration with the Iraq stabilization mission has weakened confidence in Republican governance.</p>
+
+<p>Last week, Senator Kennedy briefly stopped outside his Capitol Hill office after a meeting with veterans’ healthcare advocates. Asked whether he intended to run for president, he smiled awkwardly.</p>
+
+<p><i>“I’ve spent most of my career trying not to answer that question,”</i> he replied.</p>
+
+<p>When another reporter asked whether the decision had become harder recently, Kennedy paused.</p>
+
+<p><i>“The country’s in a very different place than it was ten years ago,”</i> he said quietly. <i>“People are finally asking the bigger questions again.”</i></p>
+
+<div style="margin-top:20px;text-align:center;">
+<button onclick="
+document.getElementById('endingPart2').style.display='none';
+document.getElementById('endingPart1').style.display='block';
+">
+Back
+</button>
+</div>
+
+</div>
+`;
+
+const endingsMap = {
+  mcgovern: (demWinsEndingPart1 || "") + (mcgovernWinsEndingPart2 || ""),
+  bayh: (demWinsEndingPart1 || "") + (bayhWinsEndingPart2 || ""),
+  humphrey: (demWinsEndingPart1 || "") + (humphreyWinsEndingPart2 || ""),
+  muskie: (demWinsEndingPart1 || "") + (muskieWinsEndingPart2 || ""),
+  wallace: (demWinsEndingPart1 || "") + (wallaceWinsEndingPart2 || ""),
+  chisholm: (demWinsEndingPart1 || "") + (chisholmWinsEndingPart2 || ""),
+  harris: (demWinsEndingPart1 || "") + (harrisWinsEndingPart2 || ""),
+  sanford: (demWinsEndingPart1 || "") + (sanfordWinsEndingPart2 || ""),
+  jackson: (demWinsEndingPart1 || "") + (jacksonWinsEndingPart2 || ""),
+  mills: (demWinsEndingPart1 || "") + (millsWinsEndingPart2 || ""),
+  lindsay: (demWinsEndingPart1 || "") + (lindsayWinsEndingPart2 || ""),
+  kennedy: (demWinsEndingPart1 || "") + (kennedyWinsEndingPart2 || ""),
+  nixon: nixonWinsEnding
+};
+
+function getEnding(winner) {
+  return endingsMap[winner] ?? "";
+}
+
 endingPicker = (out, totv, aa, quickstats) => {
 campaignTrail_temp.multiple_endings=true
 //out = "win", "loss", or "tie" for your candidate
@@ -390,10 +1927,11 @@ campaignTrail_temp.multiple_endings=true
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
 if (quickstats[0] == 269 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {
 return "<h3>Wow! No candidate has won a majority.</h3><p>Neither you, President Carter, nor Congressman Anderson has reached 270 electoral votes. The last time the country faced this kind of deadlock was in 1824. Democrats control more state delegations in the House, but Carter’s economic record and foreign policy failures have left many members uneasy about giving him another term. Your own position is complicated by Anderson’s independent campaign, which drew moderates and liberals away from both parties, leaving questions about whether his supporters in Congress would throw their votes to you.</p><p>If you prevail in the House, the challenges will be immediate. Stagflation continues to squeeze families and businesses, and the Iran Hostage Crisis has shaken faith in Washington’s competence. On top of governing a nation hungry for stability, you will need to unite a fractured Republican Party and reach out to skeptical Democrats alike if you want to build a working majority. Good luck, Mr. Reagan.</p>"
-} else if (quickstats[0] >= 269 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {   
-return "<h3>Congratulations! You have won the 1980 election!</h3><p>Despite John Anderson’s independent bid drawing support from moderates and independents, you have won the presidency - and with a clear mandate at that. Your message of restoring enterprise at home and strength abroad carried the day, flipping long-Democratic states and securing a Republican majority in the Senate for the first time since Eisenhower’s first term. Many doubted a staunch conservative platform could prevail, but the voters have placed their confidence in you to turn the country around.</p><p>The challenges will be immense. Inflation, high interest rates, and unemployment remain unsolved, and the hostage crisis in Tehran continues to test America’s patience and resolve. Abroad, the Soviets are entrenched in Afghanistan, and allies question Washington’s leadership. At home, you must unify Republicans while reaching out to independents and wary Democrats to advance your program. The future of your presidency - and perhaps the political direction of the country - will be decided by how you meet these trials. Good luck, Mr. President.</p>"
-} else if (quickstats[0] >= 269 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {  
-return "<h3>Sorry! You have lost the 1980 election.</h3><p>Despite President Carter’s political troubles, you have fallen short. John Anderson’s independent campaign drew moderates and independents who might otherwise have supported you, costing you key states in the Midwest and Northeast. Many conservatives now argue that your campaign failed to energize the base, while moderates insist Anderson’s run made a Republican victory impossible. Either way, the recriminations have already begun, and the GOP enters a period of deep division and soul-searching.</p><p>At 69, your political future is uncertain. Some believe you may yet remain the standard-bearer of the conservative movement, while others whisper that your moment has passed and the party must look elsewhere for leadership. For now, President Carter faces the same daunting challenges that plagued him during the campaign - stagflation, high interest rates, and a turbulent foreign stage. The question for Republicans is whether they rally behind your vision of conservatism or seek a new path forward.</p>"
+} else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {   
+    return getEnding("mcgovern");
+} else if (quickstats[0] < 269 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {  
+    nixonPage = 0;
+    return getEnding("nixon");
 } else {
     return false;
 }
@@ -1630,6 +3168,9 @@ div#visit_content.overlay_window_content {
 #results_container h3 {
     color: #3e2c22;
 }
+div#final_results_description {
+    overflow-y: auto;
+    height: 24em;}
 #final_results_description p {
     color: #3e2c22;
 }
@@ -5469,7 +7010,8 @@ else if (
     (ans === 2117 || ans === 2118 || ans === 2119 || ans === 2120) &&
     (campaignTrail_temp.player_answers.includes(2305) ||
      campaignTrail_temp.player_answers.includes(2306) ||
-     campaignTrail_temp.player_answers.includes(2307))
+     campaignTrail_temp.player_answers.includes(2307) ||
+     campaignTrail_temp.player_answers.includes(2116))
 ) {
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
