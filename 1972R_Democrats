@@ -381,6 +381,10 @@ notebookWrapper.appendChild(window.notebookText);
     }
 }
 
+function get1972RecommendedReading() {
+  return "<div><h4>1972 Election Books and Histories</h4><p>Rick Perlstein - Nixonland</p><p>Hunter S. Thompson - Fear and Loathing on the Campaign Trail '72</p><p>Robert Dallek - Nixon and Kissinger: Partners in Power</p><p>Stephen Ambrose - Nixon: Ruin and Recovery</p><p>John A. Farrell - Richard Nixon: The Life</p><p>Joan Hoff - Nixon Reconsidered</p><p>Melvin Small - The Presidency of Richard Nixon</p><p>William Safire - Before the Fall</p><p>Herbert Parmet - Richard Nixon and His America</p><p>James T. Patterson - Grand Expectations: The United States 1945-1974</p><p>Gary Wills - Nixon Agonistes</p><p>Garrett Graff - Watergate: A New History</p><p>Theodore H. White - The Making of the President 1972</p><p>Primary Sources and Collections</p><p>The American Presidency Project</p><p>The Miller Center at UVA</p><p>Library of Congress</p><p>Nixon Presidential Library and Museum</p><p>National Archives</p><p>White House Tapes Collection</p></div>";
+}
+
 // CUSTOM ENDINGS
 
 // Nixon Endings
@@ -12153,10 +12157,13 @@ campaignTrail_temp.multiple_endings=true
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
 if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {   
     return getEnding("mcgovern");
+    return get1972RecommendedReading();
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {  
     return getEnding("nixon");
+    return get1972RecommendedReading();
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {
     return getEnding("mcgovernTie");
+    return get1972RecommendedReading();
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(21357) || campaignTrail_temp.player_answers.includes(21358) || campaignTrail_temp.player_answers.includes(21359) || campaignTrail_temp.player_answers.includes(21360))) {   
     return getEnding("humphrey");
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(21357) || campaignTrail_temp.player_answers.includes(21358) || campaignTrail_temp.player_answers.includes(21359) || campaignTrail_temp.player_answers.includes(21360))) {  
