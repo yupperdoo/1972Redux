@@ -12157,97 +12157,139 @@ campaignTrail_temp.multiple_endings=true
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
 if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {   
     return getEnding("mcgovern");
-    return get1972RecommendedReading();
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jzNaqi8.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {  
     return getEnding("nixon");
-    return get1972RecommendedReading();
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jzNaqi8.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {
     return getEnding("mcgovernTie");
-    return get1972RecommendedReading();
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jzNaqi8.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(21357) || campaignTrail_temp.player_answers.includes(21358) || campaignTrail_temp.player_answers.includes(21359) || campaignTrail_temp.player_answers.includes(21360))) {   
     return getEnding("humphrey");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GD2Nsse.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(21357) || campaignTrail_temp.player_answers.includes(21358) || campaignTrail_temp.player_answers.includes(21359) || campaignTrail_temp.player_answers.includes(21360))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GD2Nsse.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(21357) || campaignTrail_temp.player_answers.includes(21358) || campaignTrail_temp.player_answers.includes(21359) || campaignTrail_temp.player_answers.includes(21360))) {
     return getEnding("humphreyTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GD2Nsse.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(22157) || campaignTrail_temp.player_answers.includes(22158) || campaignTrail_temp.player_answers.includes(22159) || campaignTrail_temp.player_answers.includes(22160))) {   
     return getEnding("muskie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1EF1COs.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(22157) || campaignTrail_temp.player_answers.includes(22158) || campaignTrail_temp.player_answers.includes(22159) || campaignTrail_temp.player_answers.includes(22160))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1EF1COs.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(22157) || campaignTrail_temp.player_answers.includes(22158) || campaignTrail_temp.player_answers.includes(22159) || campaignTrail_temp.player_answers.includes(22160))) {
     return getEnding("muskieTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1EF1COs.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(22957) || campaignTrail_temp.player_answers.includes(22958) || campaignTrail_temp.player_answers.includes(22959) || campaignTrail_temp.player_answers.includes(22960))) {   
     return getEnding("wallace");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/DIusvA4.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(22957) || campaignTrail_temp.player_answers.includes(22958) || campaignTrail_temp.player_answers.includes(22959) || campaignTrail_temp.player_answers.includes(22960))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/DIusvA4.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(22957) || campaignTrail_temp.player_answers.includes(22958) || campaignTrail_temp.player_answers.includes(22959) || campaignTrail_temp.player_answers.includes(22960))) {
     return getEnding("wallaceTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/DIusvA4.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(23157) || campaignTrail_temp.player_answers.includes(23158) || campaignTrail_temp.player_answers.includes(23159) || campaignTrail_temp.player_answers.includes(23160))) {   
     return getEnding("chisholm");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/HVYY1Qs.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(23157) || campaignTrail_temp.player_answers.includes(23158) || campaignTrail_temp.player_answers.includes(23159) || campaignTrail_temp.player_answers.includes(23160))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/HVYY1Qs.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(23157) || campaignTrail_temp.player_answers.includes(23158) || campaignTrail_temp.player_answers.includes(23159) || campaignTrail_temp.player_answers.includes(23160))) {
     return getEnding("chisholmTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/HVYY1Qs.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(23357) || campaignTrail_temp.player_answers.includes(23358) || campaignTrail_temp.player_answers.includes(23359) || campaignTrail_temp.player_answers.includes(23360))) {   
     return getEnding("bayh");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/7d225JH.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(23357) || campaignTrail_temp.player_answers.includes(23358) || campaignTrail_temp.player_answers.includes(23359) || campaignTrail_temp.player_answers.includes(23360))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/7d225JH.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(23357) || campaignTrail_temp.player_answers.includes(23358) || campaignTrail_temp.player_answers.includes(23359) || campaignTrail_temp.player_answers.includes(23360))) {
     return getEnding("bayhTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/7d225JH.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(23957) || campaignTrail_temp.player_answers.includes(23958) || campaignTrail_temp.player_answers.includes(23959) || campaignTrail_temp.player_answers.includes(23960))) {   
     return getEnding("mondale");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/0kI1Kke.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(23957) || campaignTrail_temp.player_answers.includes(23958) || campaignTrail_temp.player_answers.includes(23959) || campaignTrail_temp.player_answers.includes(23960))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/0kI1Kke.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(23957) || campaignTrail_temp.player_answers.includes(23958) || campaignTrail_temp.player_answers.includes(23959) || campaignTrail_temp.player_answers.includes(23960))) {
     return getEnding("mondaleTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/0kI1Kke.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(24557) || campaignTrail_temp.player_answers.includes(24558) || campaignTrail_temp.player_answers.includes(24559) || campaignTrail_temp.player_answers.includes(24560))) {   
     return getEnding("church");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jaVwOkC.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(24557) || campaignTrail_temp.player_answers.includes(24558) || campaignTrail_temp.player_answers.includes(24559) || campaignTrail_temp.player_answers.includes(24560))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jaVwOkC.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(24557) || campaignTrail_temp.player_answers.includes(24558) || campaignTrail_temp.player_answers.includes(24559) || campaignTrail_temp.player_answers.includes(24560))) {
     return getEnding("churchTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jaVwOkC.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(25157) || campaignTrail_temp.player_answers.includes(25158) || campaignTrail_temp.player_answers.includes(25159) || campaignTrail_temp.player_answers.includes(25160))) {   
     return getEnding("hughes");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/40vC3kn.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(25157) || campaignTrail_temp.player_answers.includes(25158) || campaignTrail_temp.player_answers.includes(25159) || campaignTrail_temp.player_answers.includes(25160))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/40vC3kn.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(25157) || campaignTrail_temp.player_answers.includes(25158) || campaignTrail_temp.player_answers.includes(25159) || campaignTrail_temp.player_answers.includes(25160))) {
     return getEnding("hughesTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/40vC3kn.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(25757) || campaignTrail_temp.player_answers.includes(25758) || campaignTrail_temp.player_answers.includes(25759) || campaignTrail_temp.player_answers.includes(25760))) {   
     return getEnding("harris");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/vmxvpGP.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(25757) || campaignTrail_temp.player_answers.includes(25758) || campaignTrail_temp.player_answers.includes(25759) || campaignTrail_temp.player_answers.includes(25760))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/vmxvpGP.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(25757) || campaignTrail_temp.player_answers.includes(25758) || campaignTrail_temp.player_answers.includes(25759) || campaignTrail_temp.player_answers.includes(25760))) {
     return getEnding("harrisTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/vmxvpGP.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(26357) || campaignTrail_temp.player_answers.includes(26358) || campaignTrail_temp.player_answers.includes(26359) || campaignTrail_temp.player_answers.includes(26360))) {   
     return getEnding("sanford");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/nGtPflE.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(26357) || campaignTrail_temp.player_answers.includes(26358) || campaignTrail_temp.player_answers.includes(26359) || campaignTrail_temp.player_answers.includes(26360))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/nGtPflE.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(26357) || campaignTrail_temp.player_answers.includes(26358) || campaignTrail_temp.player_answers.includes(26359) || campaignTrail_temp.player_answers.includes(26360))) {
     return getEnding("sanfordTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/nGtPflE.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(26957) || campaignTrail_temp.player_answers.includes(26958) || campaignTrail_temp.player_answers.includes(26959) || campaignTrail_temp.player_answers.includes(26960))) {   
     return getEnding("jackson");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/3YjdSZD.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(26957) || campaignTrail_temp.player_answers.includes(26958) || campaignTrail_temp.player_answers.includes(26959) || campaignTrail_temp.player_answers.includes(26960))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/3YjdSZD.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(26957) || campaignTrail_temp.player_answers.includes(26958) || campaignTrail_temp.player_answers.includes(26959) || campaignTrail_temp.player_answers.includes(26960))) {
     return getEnding("jacksonTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/3YjdSZD.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(27557) || campaignTrail_temp.player_answers.includes(27558) || campaignTrail_temp.player_answers.includes(27559) || campaignTrail_temp.player_answers.includes(27560))) {   
     return getEnding("mills");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/UgIQypp.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(27557) || campaignTrail_temp.player_answers.includes(27558) || campaignTrail_temp.player_answers.includes(27559) || campaignTrail_temp.player_answers.includes(27560))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/UgIQypp.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(27557) || campaignTrail_temp.player_answers.includes(27558) || campaignTrail_temp.player_answers.includes(27559) || campaignTrail_temp.player_answers.includes(27560))) {
     return getEnding("millsTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/UgIQypp.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(28157) || campaignTrail_temp.player_answers.includes(28158) || campaignTrail_temp.player_answers.includes(28159) || campaignTrail_temp.player_answers.includes(28160))) {   
     return getEnding("lindsay");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/l4G9799.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(28157) || campaignTrail_temp.player_answers.includes(28158) || campaignTrail_temp.player_answers.includes(28159) || campaignTrail_temp.player_answers.includes(28160))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/l4G9799.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(28157) || campaignTrail_temp.player_answers.includes(28158) || campaignTrail_temp.player_answers.includes(28159) || campaignTrail_temp.player_answers.includes(28160))) {
     return getEnding("lindsayTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/l4G9799.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(28757) || campaignTrail_temp.player_answers.includes(28758) || campaignTrail_temp.player_answers.includes(28759) || campaignTrail_temp.player_answers.includes(28760))) {   
     return getEnding("kennedy");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GEaKgYT.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(28757) || campaignTrail_temp.player_answers.includes(28758) || campaignTrail_temp.player_answers.includes(28759) || campaignTrail_temp.player_answers.includes(28760))) {  
     return getEnding("nixon");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GEaKgYT.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(28757) || campaignTrail_temp.player_answers.includes(28758) || campaignTrail_temp.player_answers.includes(28759) || campaignTrail_temp.player_answers.includes(28760))) {
     return getEnding("kennedyTie");
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GEaKgYT.png";
 } else {
     return false;
 }
