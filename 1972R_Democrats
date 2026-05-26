@@ -381,11 +381,19 @@ notebookWrapper.appendChild(window.notebookText);
     }
 }
 
-function get1972RecommendedReading() {
-  return "<div><h4>1972 Election Books and Histories</h4><p>Rick Perlstein - Nixonland</p><p>Hunter S. Thompson - Fear and Loathing on the Campaign Trail '72</p><p>Robert Dallek - Nixon and Kissinger: Partners in Power</p><p>Stephen Ambrose - Nixon: Ruin and Recovery</p><p>John A. Farrell - Richard Nixon: The Life</p><p>Joan Hoff - Nixon Reconsidered</p><p>Melvin Small - The Presidency of Richard Nixon</p><p>William Safire - Before the Fall</p><p>Herbert Parmet - Richard Nixon and His America</p><p>James T. Patterson - Grand Expectations: The United States 1945-1974</p><p>Gary Wills - Nixon Agonistes</p><p>Garrett Graff - Watergate: A New History</p><p>Theodore H. White - The Making of the President 1972</p><p>Primary Sources and Collections</p><p>The American Presidency Project</p><p>The Miller Center at UVA</p><p>Library of Congress</p><p>Nixon Presidential Library and Museum</p><p>National Archives</p><p>White House Tapes Collection</p></div>";
-}
-
 // CUSTOM ENDINGS
+
+function updateEndingImage(url) {
+  campaignTrail_temp.candidate_json[0]["fields"].image_url = url;
+
+  const candidateImage = document.querySelector(
+    "#candidate_pic img, #candidateimage, .candidate_image img"
+  );
+
+  if (candidateImage) {
+    candidateImage.src = url;
+  }
+}
 
 // Nixon Endings
 
@@ -393,22 +401,29 @@ function goToNixonPart1() {
   document.getElementById("nixonPart1").style.display = "block";
   document.getElementById("nixonPart2").style.display = "none";
   document.getElementById("nixonPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/D2RAj90.png");
 }
+window.goToNixonPart1 = goToNixonPart1;
+
 
 function goToNixonPart2() {
   document.getElementById("nixonPart1").style.display = "none";
   document.getElementById("nixonPart2").style.display = "block";
   document.getElementById("nixonPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/TPhOGv1.png");
 }
+window.goToNixonPart2 = goToNixonPart2;
+
 
 function goToNixonPart3() {
   document.getElementById("nixonPart1").style.display = "none";
   document.getElementById("nixonPart2").style.display = "none";
   document.getElementById("nixonPart3").style.display = "block";
-}
 
-window.goToNixonPart1 = goToNixonPart1;
-window.goToNixonPart2 = goToNixonPart2;
+  updateEndingImage("https://imgur.com/02mZWD6.png");
+}
 window.goToNixonPart3 = goToNixonPart3;
 
 const nixonWinsEnding = `
@@ -724,133 +739,181 @@ BEFORE THE COMMITTEE</h2>
 function goToDemPart1() {
   document.getElementById("demPart1").style.display = "block";
   document.getElementById("demPart2").style.display = "none";
+
+  updateEndingImage("https://imgur.com/e1krWK0.png");
 }
+window.goToDemPart1 = goToDemPart1;
 
 function goToDemPart2() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "block";
-}
 
-window.goToDemPart1 = goToDemPart1;
+  updateEndingImage("https://imgur.com/TUBtami.png");
+}
 window.goToDemPart2 = goToDemPart2;
+
 
 // McGovern
 function goToMcGovernPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("mcgovernPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/X7ZX33r.png");
 }
 window.goToMcGovernPart3 = goToMcGovernPart3;
+
 
 // Humphrey
 function goToHumphreyPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("humphreyPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/vGbiJ3D.png");
 }
 window.goToHumphreyPart3 = goToHumphreyPart3;
+
 
 // Muskie
 function goToMuskiePart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("muskiePart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/SOEUQg9.png");
 }
 window.goToMuskiePart3 = goToMuskiePart3;
+
 
 // Wallace
 function goToWallacePart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("wallacePart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/9EUrd7g.png");
 }
 window.goToWallacePart3 = goToWallacePart3;
+
 
 // Chisholm
 function goToChisholmPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("chisholmPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/ZXM5mPQ.png");
 }
 window.goToChisholmPart3 = goToChisholmPart3;
+
 
 // Bayh
 function goToBayhPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("bayhPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/ZANGqi9.png");
 }
 window.goToBayhPart3 = goToBayhPart3;
+
 
 // Mondale
 function goToMondalePart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("mondalePart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/eYzgKS6.png");
 }
 window.goToMondalePart3 = goToMondalePart3;
+
 
 // Church
 function goToChurchPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("churchPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/t7zkYm6.png");
 }
 window.goToChurchPart3 = goToChurchPart3;
+
 
 // Hughes
 function goToHughesPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("hughesPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/LgkC5b0.png");
 }
 window.goToHughesPart3 = goToHughesPart3;
+
 
 // Harris
 function goToHarrisPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("harrisPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/KF4mCvp.png");
 }
 window.goToHarrisPart3 = goToHarrisPart3;
+
 
 // Sanford
 function goToSanfordPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("sanfordPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/GP1ra4m.png");
 }
 window.goToSanfordPart3 = goToSanfordPart3;
+
 
 // Jackson
 function goToJacksonPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("jacksonPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/fxPsAzi.png");
 }
 window.goToJacksonPart3 = goToJacksonPart3;
+
 
 // Mills
 function goToMillsPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("millsPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/BnRGFVi.png");
 }
 window.goToMillsPart3 = goToMillsPart3;
+
 
 // Lindsay
 function goToLindsayPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("lindsayPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/W9Swzz6.png");
 }
 window.goToLindsayPart3 = goToLindsayPart3;
+
 
 // Kennedy
 function goToKennedyPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("kennedyPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/qEb3xpv.png");
 }
 window.goToKennedyPart3 = goToKennedyPart3;
 
@@ -1289,33 +1352,32 @@ const mcgovernWinsEnding = `
 
 <div id="mcgovernPart3" style="display:none;">
 
-<h3><b>2008 High School Textbook Excerpt</b></h3>
-<p><b>American Politics Since 1960 (6th Edition, 2008)</b><br><b>Chapter 11: The McGovern Presidency and Campaign Finance Reform</b></p>
+<h3><b>A Future to Believe In</b></h3>
+<p><b>The New York Times</b><br><b>July 19, 2020</b><br><b>By Alexander Burns and Maggie Haberman</b></p>
 
-<p>The election of 1972 is often remembered not simply as a Democratic victory, but as the moment when the structure of American political life began to change in ways that would only become fully visible decades later. Senator George McGovern’s defeat of President Richard Nixon surprised many observers at the time, yet in retrospect, the result reflected deeper transformations already underway within American society and within the Democratic Party itself.</p>
+<p>Nearly half a century after George McGovern reshaped the Democratic Party and reoriented American liberalism around grassroots activism, antiwar politics, and small-dollar fundraising, another insurgent senator from the party’s left flank has captured its presidential nomination amid one of the most turbulent moments in modern American history.</p>
 
-<p>McGovern’s candidacy emerged from the institutional reforms of the late 1960s, particularly those associated with the restructuring of the Democratic nominating process. The McGovern-Fraser reforms broadened participation, reduced the influence of party leaders, and shifted power toward primary voters. Many party officials initially worried that these changes would produce fractured conventions and unelectable nominees. McGovern’s success demonstrated that the new system could produce a viable national candidate, even one initially viewed as outside the party’s traditional leadership.</p>
+<p>Senator Bernie Sanders of Vermont enters the general election campaign against President Donald Trump with a Democratic coalition that, to many political historians, bears striking similarities to the movement McGovern assembled in 1972. Younger voters have surged into the political process once again. College-educated suburban voters continue drifting toward the Democratic Party. Large numbers of independents and first-time participants have rallied behind a campaign built less around party machinery than ideological commitment and grassroots enthusiasm.</p>
 
-<p>The coalition that elected McGovern was unusually diverse, but in many ways, it foreshadowed the future of American politics. Younger voters, newly enfranchised by the Twenty-Sixth Amendment, played a significant role. Antiwar activists and college-educated suburban voters also contributed to McGovern’s strength, particularly in the Northeast and on the West Coast. At the same time, the campaign retained support among traditional Democratic constituencies, including labor unions and minority voters, though often by narrower margins than earlier Democratic nominees.</p>
+<p>Yet the parallels extend beyond coalition politics. Like McGovern before him, Mr. Sanders secured the nomination during a period of deep national unease. The coronavirus pandemic has disrupted daily life across the country, killing more than 130,000 Americans and pushing unemployment to levels not seen since the Great Depression. Abroad, long-standing American alliances have frayed, while tensions with China, Russia, and Iran continue to escalate. Weeks of nationwide protests following the killing of George Floyd have further intensified political divisions and renewed debates about policing, inequality, and the legitimacy of public institutions.</p>
 
-<p>Election night itself reflected the uncertain nature of this new coalition. Early returns from the Midwest and Northeast suggested a close race, while Western states began to shift toward McGovern as the evening progressed. By midnight, it became clear that the Democratic nominee had assembled an unconventional but effective electoral map, combining traditional Democratic strongholds with emerging suburban and Western support.</p>
+<p>Against that backdrop, Mr. Sanders has framed his candidacy not as a restoration of stability but as a call for structural political and economic change. His campaign slogan, “A Future to Believe In,” echoes themes that have defined reform-oriented Democratic politics since the McGovern era: skepticism toward concentrated power, distrust of political insiders, and the belief that ordinary citizens can fundamentally reshape public life.</p>
 
-<p>McGovern entered office determined to follow through on the commitments that had defined his campaign. His administration moved quickly to accelerate negotiations to end American involvement in Vietnam. Although the process remained complex and contentious, the McGovern administration completed the withdrawal of American combat forces earlier than anticipated. The reduction in troop levels, followed by broader diplomatic efforts, helped ease political tensions that had shaped American life for nearly a decade.</p>
+<p>“You cannot understand Sanders without understanding McGovern,” said Julian Zelizer, a presidential historian at Princeton University. “The idea that campaigns should rely on small donors, volunteer networks, younger voters, and issue-driven activism rather than party bosses really begins in 1972. Sanders is operating inside a Democratic Party that McGovern, in many ways, helped create.”</p>
 
-<p>However, the defining domestic achievement of McGovern’s presidency emerged from his long-standing concern about the influence of money in politics. McGovern had argued during the campaign that the existing system of campaign financing created barriers to participation and reinforced the power of established political networks. His own campaign, built on grassroots organizing and small contributions, reflected an alternative approach.</p>
+<p>The similarities have not gone unnoticed among Republicans. President Trump and his allies have repeatedly sought to portray Mr. Sanders as an ideological extremist disconnected from middle-class voters, reviving lines of attack once directed at McGovern during the height of the Cold War. Conservative commentators have openly compared the Vermont senator’s candidacy to the Democratic Party’s leftward shift in the early 1970s, warning that the country is once again drifting toward political radicalism during a moment of domestic unrest.</p>
 
-<p>In 1973, the administration worked closely with congressional leaders to draft sweeping reforms aimed at restructuring campaign finance. The process proved difficult. Party leaders worried about unintended consequences, while some lawmakers feared the reforms would weaken traditional party organizations. Despite these concerns, negotiations continued for months, reflecting growing public demand for transparency and accountability.</p>
+<p>But many Democrats argue that the comparison overlooks how dramatically the country has changed since McGovern’s time. Policies once considered politically marginal, including universal health care expansion, tuition-free public college, and aggressive climate legislation, now command broad support among Democratic voters. Within the party itself, younger activists increasingly view the cautious centrism that dominated Democratic politics in the 1990s and early 2000s as inadequate for the scale of the nation’s current crises.</p>
 
-<p>The resulting legislation established contribution limits, strengthened disclosure requirements, and created a system of public financing for presidential campaigns. At the time, the reforms were controversial, particularly among those who feared that public financing would disadvantage established party organizations. Yet the legislation ultimately passed after prolonged debate, representing one of the most significant changes to the political system since the Progressive Era.</p>
+<p>Mr. Sanders’s nomination also reflects the culmination of changes that have steadily transformed Democratic politics over decades. The small-donor fundraising systems pioneered during McGovern’s campaign have evolved into massive online networks capable of competing with traditional party structures. Activist organizations now exert greater influence over the party’s direction than many elected officials. And social movements, rather than political machines, increasingly drive the energy of Democratic presidential campaigns.</p>
 
-<p>Over time, these reforms had far-reaching consequences. The availability of public financing lowered barriers for candidates without strong institutional backing, encouraging a wider range of individuals to seek national office. The emphasis on small-donor fundraising and grassroots organization, central to McGovern’s own campaign, became increasingly common in subsequent elections.</p>
+<p>Even some Democrats who remain skeptical of Mr. Sanders privately acknowledge the historical resonance of his candidacy. The Democratic Party that once treated McGovern as an electoral cautionary tale has, over time, absorbed many of the reforms and assumptions his movement introduced. Today’s Democratic coalition is more secular, more suburban, younger, and more ideologically polarized than the party McGovern inherited in 1972.</p>
 
-<p>McGovern’s presidency also coincided with broader shifts in the Democratic Party. The party’s leadership gradually expanded to include younger politicians and reform-oriented candidates, many of whom had been influenced by the 1972 campaign. While internal divisions persisted, the party’s identity increasingly centered on issue-driven activism, civil rights, and political reform.</p>
+<p>Whether Mr. Sanders can succeed where McGovern struggled remains uncertain. National polls show a deeply divided electorate, and President Trump retains intense loyalty among Republican voters despite mounting crises. Yet as the country enters one of the most volatile general elections in generations, the echoes of 1972 have become increasingly difficult to ignore.</p>
 
-<p>Economic challenges, including inflation and energy concerns, limited the scope of McGovern’s domestic ambitions. Nevertheless, historians frequently describe his presidency as the beginning of a new era in American politics. The Democratic Party that emerged in the years following McGovern’s victory differed substantially from the coalition that had dominated during the New Deal and Great Society periods.</p>
+<p>“Every era of political upheaval revives old arguments about what the Democratic Party is supposed to be,” said Leah Wright Rigueur, a political historian at Harvard University. “In moments like this, the McGovern legacy tends to reappear, because it speaks to a recurring belief that American politics can be rebuilt from the ground up.”</p>
 
-<p>By the early twenty-first century, scholars increasingly viewed the election of 1972 as a structural turning point. McGovern’s victory did not simply alter the outcome of a single election. It reshaped the methods, priorities, and coalitions that would define American politics for decades to come.</p>
-
+<p>For many Democrats, that belief now stands at the center of the party once again.</p>
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">← Back</button>
@@ -1789,7 +1851,7 @@ const humphreyWinsEnding = `
 
 <p>The American Health Security Act passed in late 1973. The legislation guaranteed federal healthcare coverage for children, low-income families, and certain categories of workers. It also strengthened employer-based coverage requirements and increased federal support for community health centers.</p>
 
-<p>The bill did not create universal healthcare, but it represented the most significant expansion of federal health policy since the creation of Medicare and Medicaid. Humphrey described the legislation as unfinished work, but historians later viewed it as a crucial step in the gradual expansion of American healthcare coverage that would finally culminate in President Cuomo’s passage of universal healthcare twenty years later.</p>
+<p>The bill did not create universal healthcare, but it represented the most significant expansion of federal health policy since the creation of Medicare and Medicaid. Humphrey described the legislation as unfinished work, but historians later viewed it as a crucial step in the gradual expansion of American healthcare coverage that would finally culminate in President Clinton’s passage of universal healthcare twenty years later.</p>
 
 <p>Humphrey’s presidency reflected his legislative style: incremental, pragmatic, and grounded in coalition-building. Though critics sometimes described his approach as cautious, supporters argued that Humphrey’s strength lay in his ability to translate long-standing liberal goals into achievable policy.</p>
 
@@ -3214,43 +3276,50 @@ const chisholmWinsEnding = `
 
 <div id="chisholmPart3" style="display:none;">
 
-<h3><b>2016 Smithsonian Museum Exhibit Description</b></h3>
-<p><b>"Unbought and Unbossed: President Chisholm and the Election of 1972"</b></p>
+<h3><b>The Washington Post</b></h3>
+<p><b>Politics and Policy | October 18, 2013</b></p>
+<p><b>Obama to Nominate Kamala Harris to Supreme Court After Ginsburg Retirement</b></p>
+<p><b>By Dan Balz and Anne E. Kornblut</b></p>
 
-<p>When Shirley Chisholm entered the 1972 presidential race, her candidacy was widely viewed as symbolic rather than competitive. A congresswoman from Brooklyn, she faced skepticism from both parties and limited institutional support.</p>
+<p>WASHINGTON - President Obama is expected to nominate California Attorney General Kamala Harris to the Supreme Court following Justice Ruth Bader Ginsburg’s retirement announcement earlier this week, according to senior Democratic officials familiar with the decision.</p>
 
-<p>However, her campaign gradually reshaped political expectations.</p>
+<p>Harris, 48, would become the first Black woman appointed to the Court and one of the youngest justices confirmed in the modern era if approved by the Senate.</p>
 
-<p>Her message centered on political inclusion, representation, and economic opportunity. It resonated strongly with women, minority voters, and younger activists.</p>
+<p>The expected nomination immediately set off another round of reflection inside Democratic circles about the political trajectory of the party since the election of former President Shirley Chisholm more than forty years ago. Several senior Democrats privately described the moment less as a sudden breakthrough than as the continuation of institutional changes that had been developing gradually since the 1970s.</p>
 
-<p>Volunteer networks expanded rapidly across urban centers, and campus organizing played a major role in sustaining momentum.</p>
+<p>Obama is expected to formally announce the nomination this weekend.</p>
 
-<p>By the Democratic Convention, Chisholm had built a coalition strong enough to secure the nomination, making her the first Black woman nominated by a major party for president.</p>
+<p>Ginsburg informed the White House earlier this year that she intended to retire following Obama’s reelection, according to administration officials. Though Harris had circulated for years as a potential future nominee, aides said Obama became increasingly focused on her prosecutorial background and political profile during the administration’s second term.</p>
 
-<p>The general election emphasized turnout among new voting blocs, including younger voters and women, who participated in record numbers.</p>
+<p>Harris, a former San Francisco district attorney elected statewide in California in 2010, has developed a reputation among Democrats as a disciplined and politically careful prosecutor with strong ties to the party’s younger leadership wing. Within legal circles, she is viewed as pragmatic more than ideological, though Republicans are already signaling they intend to challenge her record aggressively during confirmation hearings.</p>
 
-<p>Her narrow victory over Nixon marked a historic shift in American electoral politics.</p>
+<p>The broader symbolism of the appointment, however, was difficult to separate from the announcement itself.</p>
 
-<p>Her administration focused on representation and institutional access.</p>
+<p>Chisholm’s election in 1972 fundamentally altered the composition of the Democratic coalition and accelerated the expansion of women and minority representation across government institutions. Historians still debate the extent to which her presidency directly transformed the electorate, but there is far less disagreement about its long-term effects on political recruitment inside the Democratic Party.</p>
 
-<p>The Representation and Opportunity Act of 1974 expanded anti-discrimination enforcement, strengthened federal hiring guidelines, and encouraged diversity in public service pipelines.</p>
+<p>By the late 1970s and early 1980s, women and minority candidates were running for state legislatures, mayoralties, and congressional seats in significantly larger numbers than they had before Chisholm’s presidency. Many of the party officials now occupying senior leadership positions entered politics during that period.</p>
 
-<p>Over time, her presidency had a broader structural impact.</p>
+<p><i>“The Chisholm years changed the assumptions people made about who was supposed to be in the room,”</i> said one former Democratic National Committee official who worked during Ann Richards' administration in the 1990s. <i>“That doesn’t mean everything changed overnight. Most of it happened slowly. But it changed the pipeline.”</i></p>
 
-<p>The "Chisholm Generation" of political leaders emerged in the late 1970s and 1980s, many inspired by her campaign.</p>
+<p>Obama’s own political rise is often discussed internally within the party through that framework. Senior Democrats close to the president have long argued that Obama’s coalition politics, particularly his emphasis on urban turnout, younger voters, and professional-class suburbs, reflects electoral shifts that began during the Chisholm era and matured over several decades.</p>
 
-<p>Women and minority representation in government steadily increased at local, state, and federal levels.</p>
+<p>Several Obama advisers privately pushed back Friday against attempts to overstate the historical parallels surrounding Harris’s nomination, arguing that the White House wanted to keep attention focused on her qualifications and legal experience rather than treating the process primarily as a symbolic milestone.</p>
 
-<p>Political coalitions also shifted, with the Democratic Party increasingly reliant on urban, suburban, and minority voters.</p>
+<p>Still, even some Republicans acknowledged the larger political context surrounding the selection.</p>
 
-<p>By the early 2000s, women held major roles across both parties, and by the 2020s, they became a majority in Congress.</p>
+<p><i>“There’s a reason Democrats are framing this historically,”</i> one Republican Senate aide said Friday. <i>“They see these appointments as part of a longer project.”</i></p>
 
-<p>Historians view Chisholm’s election as a structural turning point in American political development.</p>
+<p>Ginsburg’s retirement also carries institutional significance beyond the nomination itself. Appointed during the final years of the Chisholm administration, Ginsburg became one of the Court’s central liberal voices on gender discrimination, civil liberties, and voting rights. Her departure removes one of the last remaining judicial figures whose career was closely tied to the political realignment of the 1970s.</p>
 
-<p>Her presidency redefined expectations about leadership, representation, and political participation.</p>
+<p>That generational transition was evident around Washington on Friday as Democratic officials, civil rights organizations, and legal advocacy groups began preparing for what is expected to become one of the most closely watched confirmation fights in years.</p>
 
-<p>What began as an unlikely campaign ultimately reshaped the boundaries of American democracy.</p>
+<p>Outside the White House, the reaction was notably less dramatic than similar moments in earlier decades might have produced. Several Democratic strategists noted that the prospect of a Black woman nominated to the Supreme Court, while historically significant, no longer carried the same sense of political improbability it once would have.</p>
 
+<p>That normalization, many Democrats argued Friday, was itself part of the story.</p>
+
+<p>In 1972, Shirley Chisholm’s presidential campaign was still widely treated in Washington as an experiment unlikely to survive the primary calendar. Four decades later, a Black president selecting a Black woman for the Supreme Court was poised to become one of the defining personnel decisions of his second term.</p>
+
+<p>For many Democrats, the distance between those two moments no longer felt quite as large as it once did.</p>
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">← Back</button>
@@ -3694,72 +3763,43 @@ const bayhWinsEnding = `
 
 <div id="bayhPart3" style="display:none;">
 
-<h3><b>October 14, 1988</b></h3>
-<p><b>Supreme Court of the United States</b></p>
-<p><b><i>Morrison v. United States Election Commission</i></b></p>
-<p><b>Oral Arguments Excerpt</b></p>
+<h3><b>THE NEW YORK TIMES<br>OCTOBER 18, 2010</b></h3>
 
-<p>Reporters line the back wall beneath the marble friezes. Former Bayh administration officials sit quietly beside election lawyers, Senate staffers, and constitutional scholars. Outside, television crews crowd the courthouse steps in steady autumn rain.</p>
+<h2><b>Supreme Court Upholds Campaign Finance Framework in Narrow Ruling, Bolstering Obama Administration Heading Into Midterms</b></h2>
 
-<p>Fifteen years earlier, President Birch Bayh signed the Government Integrity and Accountability Act of 1974, the defining legislation of an administration shaped by Watergate, Vietnam, and the collapse of public trust in government. The law imposed contribution limits, expanded disclosure requirements, restricted campaign coordination, and established the modern public financing system.</p>
+<p><i>By Carl Hulse</i></p>
 
-<p>Now the Court is considering whether major parts of it violate the First Amendment.</p>
+<p>WASHINGTON — The Supreme Court on Monday upheld the central structure of federal campaign finance law in a 5–4 decision, preserving limits on independent political spending and leaving intact the system of publicly financed federal elections that has defined presidential campaigns since the 1970s.</p>
 
-<p><i>“Mr. Olson,” Justice William Brennan says, leaning slightly forward, “your argument assumes financial expenditures are themselves protected political expression.”</i></p>
+<p>The ruling in <i>Citizens United v. Federal Election Commission</i> maintained the legal framework that governs campaign spending by corporations and outside groups and reaffirmed the requirement that presidential candidates who accept public funds agree to spending limits and disclosure rules. The decision comes as Democrats prepare for midterm elections that are widely expected to test President Obama’s agenda in Congress.</p>
 
-<p><i>“Yes, Justice Brennan. The government cannot limit political participation simply because that participation involves spending money.”</i></p>
+<p>Vice President Evan Bayh, who has served as one of the administration’s principal Senate negotiators, said the ruling “keeps the basic structure of campaign finance law in place and avoids changing the rules in the middle of an election cycle.”</p>
 
-<p><i>“But Congress regulates elections constantly,” Brennan replies. “Disclosure rules. Ballot procedures. Contribution limits. Elections have never operated as a completely unrestricted marketplace.”</i></p>
+<p>For the Obama White House, the decision removes a potential disruption to the political environment heading into November and preserves the system under which the president himself was elected in 2008.</p>
 
-<p>Justice Thurgood Marshall speaks before Olson can continue.</p>
+<p>The ruling also carries particular weight for the Bayh family, whose political identity has been tied to the modern system of regulated elections for more than three decades.</p>
 
-<p><i>“You’re describing a political system where some citizens possess vastly more influence than others.”</i></p>
+<p>Vice President Bayh is the son of former President Birch Bayh, who signed the Election Integrity and Accountability Act of 1974 during his presidency. It was the first law to create a durable framework for publicly financed federal elections and imposed contribution limits that remain the foundation of modern campaign finance rules. It was expanded and reinforced over time, eventually becoming the structure that now governs presidential elections under the McCain-Feingold Act, which also made public financing mandatory for participating candidates.</p>
 
-<p><i>“The Constitution does not guarantee equal influence, Justice Marshall.”</i></p>
+<p>Birch Bayh, now in his eighties, has remained active for a former president, despite the failures of his second term. He has appeared frequently alongside his son during both the 2008 campaign and the current administration, often speaking at events where he is introduced simply as “President Bayh,” a reminder of the reform era that shaped his presidency in the aftermath of Watergate and Vietnam.</p>
 
-<p>Marshall leans back slowly.</p>
+<p>Evan Bayh’s own political development has reflected that legacy in a direct way. As governor of Indiana, he tacked close to the center, often cautious in his approach to federal involvement and focused on state fiscal discipline. But in the Senate, and later upon joining the Obama administration, he moved noticeably left, particularly on questions of financial regulation, campaign finance enforcement, and federal oversight.</p>
 
-<p><i>“No. But Congress also isn’t required to pretend money and political power exist in separate worlds.”</i></p>
+<p>Several Democratic senators involved in the passage of the Dodd-Frank financial reform legislation earlier this year credited Bayh with playing a central role in pushing the bill through the Senate. He was often described by colleagues as one of the administration’s most effective voices in negotiations, in part because he could draw on both his centrist background and the institutional authority that came with his family’s history in federal reform politics.</p>
 
-<p>Several reporters begin scribbling rapidly.</p>
+<p>That combination also made him especially influential during the final stages of the debate over the Affordable Care Act, where he helped secure support from wavering Blue Dog Democrats who were concerned about the scope of federal intervention in the healthcare industry.</p>
 
-<p>At the government table, Bayh sits silently behind administration attorneys. He is sixty years old now, silver-haired and noticeably thinner than during his presidency, though he still carries himself with the reserved stiffness of the Senate chamber.</p>
+<p>Republicans have claimed that Monday’s ruling reinforces a system that disadvantages challengers and strengthens incumbents. Some of the emerging Tea Party class of right wing congressional candidates have argued that the public financing system for elections removes the incentive for presidential candidates to have enough appeal for raising adequate sums of money. Party leaders are expected to make that argument central in the final weeks of the midterm campaign, particularly in competitive Senate races.</p>
 
-<p>Justice Sandra Day O’Connor turns toward the government’s counsel.</p>
+<p>For Democrats, however, the decision offers both practical and political stability. It ensures that campaign operations will proceed under familiar rules and avoids reopening debates about financing mechanisms that have become increasingly central to the Democrats' electoral strategy.</p>
 
-<p><i>“President Bayh argued public financing would make it easier for candidates without wealthy backers to run credible campaigns.”</i></p>
+<p>At the White House on Monday afternoon, President Obama offered brief remarks after speaking with senior advisers about the ruling’s implications for upcoming campaigns. He said only that the decision “maintains a system that has adequately guided recent elections and allows campaigns to operate with clear expectations under the law.”</p>
 
-<p>She pauses.</p>
+<p>Vice President Bayh stood beside him during the statement but did not add to it.</p>
 
-<p><i>“Hasn’t that largely happened?”</i></p>
+<p>After the press appearance, former President Birch Bayh remained outside the briefing room for several minutes, speaking quietly with aides before leaving the building. He did not offer a broader assessment of the ruling, but when asked whether he viewed the decision as a confirmation of the reforms he signed into law nearly forty years earlier, he paused before answering.</p>
 
-<p>Olson hesitates briefly.</p>
-
-<p><i>“Perhaps politically, Your Honor. But constitutional rights are not measured by desirable outcomes.”</i></p>
-
-<p>Late in the afternoon, Brennan returns to the broader history surrounding the law itself.</p>
-
-<p><i>“One thing that strikes me in these briefs,” he says slowly, “is how easily everyone now speaks about the Bayh reforms as though they came out of ordinary legislative disagreement.”</i></p>
-
-<p>The room quiets.</p>
-
-<p><i>“Some of us remember the early seventies differently.”</i></p>
-
-<p><i>“The country had just gone through Vietnam. Watergate. Intelligence abuses. A genuine collapse in public confidence.”</i></p>
-
-<p>When arguments finally conclude, reporters rush toward the courthouse steps.</p>
-
-<p>Inside the chamber, Bayh remains seated for a moment after most spectators have already left.</p>
-
-<p>A former Senate aide approaches quietly near the aisle.</p>
-
-<p><i>“Do you think they’ll uphold it?”</i></p>
-
-<p>Bayh looks once more toward the empty bench.</p>
-
-<p>After a few seconds, he smiles faintly.</p>
-
-<p><i>“I think they understand why we passed it.”</i></p>
+<p>“It means the structure is still there,” he said. “That’s what matters, ultimately.”</p>
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">← Back</button>
@@ -4682,77 +4722,52 @@ const churchWinsEnding = `
 
 <div id="churchPart3" style="display:none;">
 
-<h3><b>1987 Senate Intelligence Oversight Hearing Transcript (Declassified 2003)</b></h3>
-<p><b>Senate Select Committee on Intelligence</b></p>
-<p><b>Hearing on Executive Authority and Intelligence Reform</b></p>
-<p><b>Excerpt - April 14, 1987</b></p>
+<p><b>The New York Times</b><br>
+<b>May 25, 2026</b></p>
 
-<p><i>SENATOR DANIEL PATRICK MOYNIHAN:</i></p>
-<p><i>Mr. Colby, prior to the Church administration, did meaningful congressional oversight of intelligence operations really exist in practice?</i></p>
+<h2>Supreme Court Questions Government Use of Commercial Data Analysis in Case Testing Limits of Post-Watergate Surveillance Law</h2>
 
-<p><i>WILLIAM COLBY:</i></p>
-<p><i>Not in the modern sense, no.</i></p>
-<p><i>There were occasional briefings. Budget reviews. Informal relationships between agency officials and senior members of Congress. But systematic oversight structures? Independent reporting requirements? Nothing like what exists now.</i></p>
+<p><b>By Charlie Savage</b></p>
 
-<p><i>Most intelligence operations during the fifties and sixties operated under extremely broad assumptions about executive authority.</i></p>
+<p>WASHINGTON — The Supreme Court on Monday heard arguments in a case challenging a federal practice that relies on purchasing analytical reports derived from commercially collected consumer data, a system critics say allows the government to obtain detailed information about individuals without using warrants or meeting traditional Fourth Amendment standards.</p>
 
-<p><i>MOYNIHAN:</i></p>
-<p><i>Broad enough that Congress itself often had no clear understanding of what was happening?</i></p>
+<p>The case was brought by the Electronic Privacy Information Center (EPIC), which argues that federal agencies are effectively recreating the same surveillance capability the Court rejected in a 1980s decision involving the Reagan administration, only now through a more indirect structure. In 1983, the government had attempted to purchase raw consumer data directly from collection firms in order to build behavioral profiles of Americans without judicial authorization. The Court struck that effort down under the Church-era surveillance framework established after Watergate.</p>
 
-<p><i>COLBY:</i></p>
-<p><i>Yes.</i></p>
+<p>The current dispute turns on a further step removed from that arrangement. Federal agencies are not buying raw data. Instead, they purchase finished analytical products from private firms that aggregate and interpret commercial data into predictive behavioral profiles.</p>
 
-<p><i>SENATOR GARY HART:</i></p>
-<p><i>President Church entered office deeply skeptical of intelligence secrecy, correct?</i></p>
+<p>EPIC argues that this distinction is formal. The group maintains that the government is still obtaining individualized information without a warrant, regardless of intermediaries.</p>
 
-<p><i>COLBY:</i></p>
-<p><i>Very skeptical. Though I think people sometimes misunderstand why.</i></p>
+<p><i>EPIC counsel:</i> “What the government receives is still a reconstruction of private life based on data it could not lawfully compel directly.”</p>
 
-<p><i>Church was not opposed to intelligence agencies existing. What concerned him was the accumulation of power inside the executive branch after Vietnam and Watergate.</i></p>
+<p><i>EPIC counsel:</i> “The fact that it is packaged as analysis does not change the constitutional issue.”</p>
 
-<p><i>That concern shaped almost everything his administration did.</i></p>
+<p>The court’s liberal justices expressed skepticism about the government’s distinction.</p>
 
-<p>Several senators quietly shuffle papers as Colby continues.</p>
+<p><i>Justice Sonia Sotomayor:</i> “Earlier precedent rejected third-party workarounds to warrant requirements. The same principle applies here.”</p>
 
-<p><i>COLBY:</i></p>
-<p><i>When Church emerged from the 1972 convention, many people in Washington saw him as an accidental nominee. He wasn’t closely tied to party leadership, and he didn’t project the kind of political style people traditionally associated with presidents.</i></p>
+<p><i>Justice Elena Kagan:</i> “If the government can obtain detailed portraits of individuals through purchased reports, the warrant requirement risks becoming meaningless in practice.”</p>
 
-<p><i>But the atmosphere in the country had changed by then. Voters were exhausted by secrecy, by escalation, by the sense that major decisions were happening completely outside public accountability.</i></p>
+<p><i>Justice Ketanji Brown Jackson:</i> “These systems can reconstruct movement, finances, and relationships with precision even without direct access to raw data.”</p>
 
-<p><i>Church understood that mood very well.</i></p>
+<p>The federal government argued that the Church framework regulates surveillance, not commercial procurement of analytical products. The Solicitor General said the government is not collecting data but purchasing independent private-sector analysis.</p>
 
-<p><i>MOYNIHAN:</i></p>
-<p><i>Would it be fair to say the Church administration permanently changed the relationship between Congress and the intelligence community?</i></p>
+<p><i>Justice Neil Gorsuch:</i> “Why should the Constitution depend on whether the government receives raw data or an interpretation of it?” He added that “both can reveal the same facts about a person.”</p>
 
-<p><i>COLBY:</i></p>
-<p><i>Without question.</i></p>
+<p><i>Justice Samuel Alito:</i> “If EPIC is right, it is difficult to see any workable boundary between lawful purchases and surveillance by other means.”</p>
 
-<p><i>The Intelligence Accountability and Democratic Oversight Act of 1975 was the largest structural reform the intelligence system had gone through in modern American history.</i></p>
+<p>Justice Clarence Thomas did not speak during argument.</p>
 
-<p><i>Mandatory congressional notification requirements. Judicial review mechanisms. Restrictions on covert domestic surveillance.</i></p>
+<p>The case revisits the Church framework adopted after Watergate-era abuses, which imposed warrant requirements and barred government efforts to obtain information it could not directly collect.</p>
 
-<p><i>Before Church, many of those limits depended almost entirely on presidential restraint.</i></p>
+<p>EPIC argues the current system is a functional continuation of those practices through commercial intermediaries. The government argues it is simply engaging in a lawful market for analytical services.</p>
 
-<p><i>HART:</i></p>
-<p><i>And the agencies resisted heavily.</i></p>
+<p>The case comes as Congress considers the Wyden-Massie Act, which would extend Church-era warrant rules to government acquisition of derived data products. The bill is unlikely to overcome a veto threat from President Trump, even if Democrats are expected to gain seats in the 2026 midterms.</p>
 
-<p><i>COLBY:</i></p>
-<p><i>Absolutely. Many career officials believed the reforms would weaken intelligence operations during the Cold War.</i></p>
+<p><i>Chief Justice John Roberts:</i> “The concern is continuous access to behavioral datasets through pre-analyzed reports.” He asked whether the government’s theory would permit ongoing access to population-level profiling without probable cause.</p>
 
-<p><i>Church believed the larger danger was allowing institutions with enormous power to operate indefinitely without meaningful oversight.</i></p>
+<p>Several observers noted that even some conservative justices appeared reluctant to fully endorse the government’s position, particularly in light of the Court’s earlier Reagan-era precedent.</p>
 
-<p>Colby pauses for several seconds before answering.</p>
-
-<p><i>COLBY:</i></p>
-<p><i>No.</i></p>
-<p><i>They made intelligence work slower. More bureaucratic. Sometimes more frustrating.</i></p>
-
-<p><i>But the agencies adapted.</i></p>
-
-<p><i>Before Church’s presidency, there was a widespread assumption that government secrecy itself created legitimacy in the government’s operations. Afterward, legitimacy increasingly depended on accountability to the American people.</i></p>
-
-<p><i>That was the real change.</i></p>
-
+<p>A decision is expected later this term.</p>
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">← Back</button>
@@ -8325,342 +8340,149 @@ function goToMcGovernTiebreakerPart1() {
   document.getElementById("mcgovernTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/e1krWK0.png");
 }
 
 function goToMcGovernTiebreakerPart2() {
   document.getElementById("mcgovernTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/4v1ms82.png");
 }
 
 function goToMcGovernTiebreakerPart3() {
   document.getElementById("mcgovernTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/tgqtA7K.png");
 }
 
 window.goToMcGovernTiebreakerPart1 = goToMcGovernTiebreakerPart1;
 window.goToMcGovernTiebreakerPart2 = goToMcGovernTiebreakerPart2;
 window.goToMcGovernTiebreakerPart3 = goToMcGovernTiebreakerPart3;
 
+
 // Humphrey
 function goToHumphreyTiebreakerPart1() {
   document.getElementById("humphreyTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/e1krWK0.png");
 }
 
 function goToHumphreyTiebreakerPart2() {
   document.getElementById("humphreyTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/4v1ms82.png");
 }
 
 function goToHumphreyTiebreakerPart3() {
   document.getElementById("humphreyTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/tgqtA7K.png");
 }
 
 window.goToHumphreyTiebreakerPart1 = goToHumphreyTiebreakerPart1;
 window.goToHumphreyTiebreakerPart2 = goToHumphreyTiebreakerPart2;
 window.goToHumphreyTiebreakerPart3 = goToHumphreyTiebreakerPart3;
 
+
 // Muskie
 function goToMuskieTiebreakerPart1() {
   document.getElementById("muskieTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/e1krWK0.png");
 }
 
 function goToMuskieTiebreakerPart2() {
   document.getElementById("muskieTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/4v1ms82.png");
 }
 
 function goToMuskieTiebreakerPart3() {
   document.getElementById("muskieTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/tgqtA7K.png");
 }
 
 window.goToMuskieTiebreakerPart1 = goToMuskieTiebreakerPart1;
 window.goToMuskieTiebreakerPart2 = goToMuskieTiebreakerPart2;
 window.goToMuskieTiebreakerPart3 = goToMuskieTiebreakerPart3;
 
+
 // Wallace
 function goToWallaceTiebreakerPart1() {
   document.getElementById("wallaceTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/e1krWK0.png");
 }
 
 function goToWallaceTiebreakerPart2() {
   document.getElementById("wallaceTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/4v1ms82.png");
 }
 
 function goToWallaceTiebreakerPart3() {
   document.getElementById("wallaceTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/tgqtA7K.png");
 }
 
 window.goToWallaceTiebreakerPart1 = goToWallaceTiebreakerPart1;
 window.goToWallaceTiebreakerPart2 = goToWallaceTiebreakerPart2;
 window.goToWallaceTiebreakerPart3 = goToWallaceTiebreakerPart3;
 
+
 // Chisholm
 function goToChisholmTiebreakerPart1() {
   document.getElementById("chisholmTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/e1krWK0.png");
 }
 
 function goToChisholmTiebreakerPart2() {
   document.getElementById("chisholmTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+
+  updateEndingImage("https://imgur.com/4v1ms82.png");
 }
 
 function goToChisholmTiebreakerPart3() {
   document.getElementById("chisholmTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+
+  updateEndingImage("https://imgur.com/tgqtA7K.png");
 }
 
 window.goToChisholmTiebreakerPart1 = goToChisholmTiebreakerPart1;
 window.goToChisholmTiebreakerPart2 = goToChisholmTiebreakerPart2;
 window.goToChisholmTiebreakerPart3 = goToChisholmTiebreakerPart3;
-
-// Bayh
-function goToBayhTiebreakerPart1() {
-  document.getElementById("bayhTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToBayhTiebreakerPart2() {
-  document.getElementById("bayhTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToBayhTiebreakerPart3() {
-  document.getElementById("bayhTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToBayhTiebreakerPart1 = goToBayhTiebreakerPart1;
-window.goToBayhTiebreakerPart2 = goToBayhTiebreakerPart2;
-window.goToBayhTiebreakerPart3 = goToBayhTiebreakerPart3;
-
-// Mondale
-function goToMondaleTiebreakerPart1() {
-  document.getElementById("mondaleTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToMondaleTiebreakerPart2() {
-  document.getElementById("mondaleTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToMondaleTiebreakerPart3() {
-  document.getElementById("mondaleTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToMondaleTiebreakerPart1 = goToMondaleTiebreakerPart1;
-window.goToMondaleTiebreakerPart2 = goToMondaleTiebreakerPart2;
-window.goToMondaleTiebreakerPart3 = goToMondaleTiebreakerPart3;
-
-// Church
-function goToChurchTiebreakerPart1() {
-  document.getElementById("churchTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToChurchTiebreakerPart2() {
-  document.getElementById("churchTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToChurchTiebreakerPart3() {
-  document.getElementById("churchTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToChurchTiebreakerPart1 = goToChurchTiebreakerPart1;
-window.goToChurchTiebreakerPart2 = goToChurchTiebreakerPart2;
-window.goToChurchTiebreakerPart3 = goToChurchTiebreakerPart3;
-
-// Hughes
-function goToHughesTiebreakerPart1() {
-  document.getElementById("hughesTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToHughesTiebreakerPart2() {
-  document.getElementById("hughesTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToHughesTiebreakerPart3() {
-  document.getElementById("hughesTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToHughesTiebreakerPart1 = goToHughesTiebreakerPart1;
-window.goToHughesTiebreakerPart2 = goToHughesTiebreakerPart2;
-window.goToHughesTiebreakerPart3 = goToHughesTiebreakerPart3;
-
-function goToHarrisTiebreakerPart1() {
-  document.getElementById("harrisTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToHarrisTiebreakerPart2() {
-  document.getElementById("harrisTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToHarrisTiebreakerPart3() {
-  document.getElementById("harrisTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToHarrisTiebreakerPart1 = goToHarrisTiebreakerPart1;
-window.goToHarrisTiebreakerPart2 = goToHarrisTiebreakerPart2;
-window.goToHarrisTiebreakerPart3 = goToHarrisTiebreakerPart3;
-
-function goToSanfordTiebreakerPart1() {
-  document.getElementById("sanfordTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToSanfordTiebreakerPart2() {
-  document.getElementById("sanfordTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToSanfordTiebreakerPart3() {
-  document.getElementById("sanfordTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToSanfordTiebreakerPart1 = goToSanfordTiebreakerPart1;
-window.goToSanfordTiebreakerPart2 = goToSanfordTiebreakerPart2;
-window.goToSanfordTiebreakerPart3 = goToSanfordTiebreakerPart3;
-
-// Jackson
-function goToJacksonTiebreakerPart1() {
-  document.getElementById("jacksonTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToJacksonTiebreakerPart2() {
-  document.getElementById("jacksonTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToJacksonTiebreakerPart3() {
-  document.getElementById("jacksonTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToJacksonTiebreakerPart1 = goToJacksonTiebreakerPart1;
-window.goToJacksonTiebreakerPart2 = goToJacksonTiebreakerPart2;
-window.goToJacksonTiebreakerPart3 = goToJacksonTiebreakerPart3;
-
-// Mills
-function goToMillsTiebreakerPart1() {
-  document.getElementById("millsTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToMillsTiebreakerPart2() {
-  document.getElementById("millsTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToMillsTiebreakerPart3() {
-  document.getElementById("millsTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToMillsTiebreakerPart1 = goToMillsTiebreakerPart1;
-window.goToMillsTiebreakerPart2 = goToMillsTiebreakerPart2;
-window.goToMillsTiebreakerPart3 = goToMillsTiebreakerPart3;
-
-function goToLindsayTiebreakerPart1() {
-  document.getElementById("lindsayTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToLindsayTiebreakerPart2() {
-  document.getElementById("lindsayTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToLindsayTiebreakerPart3() {
-  document.getElementById("lindsayTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToLindsayTiebreakerPart1 = goToLindsayTiebreakerPart1;
-window.goToLindsayTiebreakerPart2 = goToLindsayTiebreakerPart2;
-window.goToLindsayTiebreakerPart3 = goToLindsayTiebreakerPart3;
-
-// Kennedy
-function goToKennedyTiebreakerPart1() {
-  document.getElementById("kennedyTiebreakerPart1").style.display = "block";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToKennedyTiebreakerPart2() {
-  document.getElementById("kennedyTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "block";
-  document.getElementById("tiebreakerPart3").style.display = "none";
-}
-
-function goToKennedyTiebreakerPart3() {
-  document.getElementById("kennedyTiebreakerPart1").style.display = "none";
-  document.getElementById("tiebreakerPart2").style.display = "none";
-  document.getElementById("tiebreakerPart3").style.display = "block";
-}
-
-window.goToKennedyTiebreakerPart1 = goToKennedyTiebreakerPart1;
-window.goToKennedyTiebreakerPart2 = goToKennedyTiebreakerPart2;
-window.goToKennedyTiebreakerPart3 = goToKennedyTiebreakerPart3;
 
 const mcgovernTiebreakerEnding = `
 
@@ -12160,64 +11982,64 @@ if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(2157) || 
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jzNaqi8.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jzNaqi8.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(2157) || campaignTrail_temp.player_answers.includes(2158) || campaignTrail_temp.player_answers.includes(2159) || campaignTrail_temp.player_answers.includes(2160))) {
     return getEnding("mcgovernTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jzNaqi8.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(21357) || campaignTrail_temp.player_answers.includes(21358) || campaignTrail_temp.player_answers.includes(21359) || campaignTrail_temp.player_answers.includes(21360))) {   
     return getEnding("humphrey");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GD2Nsse.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(21357) || campaignTrail_temp.player_answers.includes(21358) || campaignTrail_temp.player_answers.includes(21359) || campaignTrail_temp.player_answers.includes(21360))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GD2Nsse.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(21357) || campaignTrail_temp.player_answers.includes(21358) || campaignTrail_temp.player_answers.includes(21359) || campaignTrail_temp.player_answers.includes(21360))) {
     return getEnding("humphreyTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GD2Nsse.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(22157) || campaignTrail_temp.player_answers.includes(22158) || campaignTrail_temp.player_answers.includes(22159) || campaignTrail_temp.player_answers.includes(22160))) {   
     return getEnding("muskie");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1EF1COs.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(22157) || campaignTrail_temp.player_answers.includes(22158) || campaignTrail_temp.player_answers.includes(22159) || campaignTrail_temp.player_answers.includes(22160))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1EF1COs.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(22157) || campaignTrail_temp.player_answers.includes(22158) || campaignTrail_temp.player_answers.includes(22159) || campaignTrail_temp.player_answers.includes(22160))) {
     return getEnding("muskieTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1EF1COs.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(22957) || campaignTrail_temp.player_answers.includes(22958) || campaignTrail_temp.player_answers.includes(22959) || campaignTrail_temp.player_answers.includes(22960))) {   
     return getEnding("wallace");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/DIusvA4.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(22957) || campaignTrail_temp.player_answers.includes(22958) || campaignTrail_temp.player_answers.includes(22959) || campaignTrail_temp.player_answers.includes(22960))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/DIusvA4.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(22957) || campaignTrail_temp.player_answers.includes(22958) || campaignTrail_temp.player_answers.includes(22959) || campaignTrail_temp.player_answers.includes(22960))) {
     return getEnding("wallaceTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/DIusvA4.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(23157) || campaignTrail_temp.player_answers.includes(23158) || campaignTrail_temp.player_answers.includes(23159) || campaignTrail_temp.player_answers.includes(23160))) {   
     return getEnding("chisholm");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/HVYY1Qs.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(23157) || campaignTrail_temp.player_answers.includes(23158) || campaignTrail_temp.player_answers.includes(23159) || campaignTrail_temp.player_answers.includes(23160))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/HVYY1Qs.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(23157) || campaignTrail_temp.player_answers.includes(23158) || campaignTrail_temp.player_answers.includes(23159) || campaignTrail_temp.player_answers.includes(23160))) {
     return getEnding("chisholmTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/HVYY1Qs.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(23357) || campaignTrail_temp.player_answers.includes(23358) || campaignTrail_temp.player_answers.includes(23359) || campaignTrail_temp.player_answers.includes(23360))) {   
     return getEnding("bayh");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/7d225JH.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(23357) || campaignTrail_temp.player_answers.includes(23358) || campaignTrail_temp.player_answers.includes(23359) || campaignTrail_temp.player_answers.includes(23360))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/7d225JH.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(23357) || campaignTrail_temp.player_answers.includes(23358) || campaignTrail_temp.player_answers.includes(23359) || campaignTrail_temp.player_answers.includes(23360))) {
     return getEnding("bayhTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/7d225JH.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(23957) || campaignTrail_temp.player_answers.includes(23958) || campaignTrail_temp.player_answers.includes(23959) || campaignTrail_temp.player_answers.includes(23960))) {   
     return getEnding("mondale");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/0kI1Kke.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(23957) || campaignTrail_temp.player_answers.includes(23958) || campaignTrail_temp.player_answers.includes(23959) || campaignTrail_temp.player_answers.includes(23960))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/0kI1Kke.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(23957) || campaignTrail_temp.player_answers.includes(23958) || campaignTrail_temp.player_answers.includes(23959) || campaignTrail_temp.player_answers.includes(23960))) {
     return getEnding("mondaleTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/0kI1Kke.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(24557) || campaignTrail_temp.player_answers.includes(24558) || campaignTrail_temp.player_answers.includes(24559) || campaignTrail_temp.player_answers.includes(24560))) {   
     return getEnding("church");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jaVwOkC.png";
@@ -12226,70 +12048,70 @@ if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(2157) || 
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jaVwOkC.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(24557) || campaignTrail_temp.player_answers.includes(24558) || campaignTrail_temp.player_answers.includes(24559) || campaignTrail_temp.player_answers.includes(24560))) {
     return getEnding("churchTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/jaVwOkC.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(25157) || campaignTrail_temp.player_answers.includes(25158) || campaignTrail_temp.player_answers.includes(25159) || campaignTrail_temp.player_answers.includes(25160))) {   
     return getEnding("hughes");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/40vC3kn.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(25157) || campaignTrail_temp.player_answers.includes(25158) || campaignTrail_temp.player_answers.includes(25159) || campaignTrail_temp.player_answers.includes(25160))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/40vC3kn.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(25157) || campaignTrail_temp.player_answers.includes(25158) || campaignTrail_temp.player_answers.includes(25159) || campaignTrail_temp.player_answers.includes(25160))) {
     return getEnding("hughesTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/40vC3kn.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(25757) || campaignTrail_temp.player_answers.includes(25758) || campaignTrail_temp.player_answers.includes(25759) || campaignTrail_temp.player_answers.includes(25760))) {   
     return getEnding("harris");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/vmxvpGP.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(25757) || campaignTrail_temp.player_answers.includes(25758) || campaignTrail_temp.player_answers.includes(25759) || campaignTrail_temp.player_answers.includes(25760))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/vmxvpGP.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(25757) || campaignTrail_temp.player_answers.includes(25758) || campaignTrail_temp.player_answers.includes(25759) || campaignTrail_temp.player_answers.includes(25760))) {
     return getEnding("harrisTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/vmxvpGP.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(26357) || campaignTrail_temp.player_answers.includes(26358) || campaignTrail_temp.player_answers.includes(26359) || campaignTrail_temp.player_answers.includes(26360))) {   
     return getEnding("sanford");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/nGtPflE.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(26357) || campaignTrail_temp.player_answers.includes(26358) || campaignTrail_temp.player_answers.includes(26359) || campaignTrail_temp.player_answers.includes(26360))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/nGtPflE.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(26357) || campaignTrail_temp.player_answers.includes(26358) || campaignTrail_temp.player_answers.includes(26359) || campaignTrail_temp.player_answers.includes(26360))) {
     return getEnding("sanfordTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/nGtPflE.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(26957) || campaignTrail_temp.player_answers.includes(26958) || campaignTrail_temp.player_answers.includes(26959) || campaignTrail_temp.player_answers.includes(26960))) {   
     return getEnding("jackson");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/3YjdSZD.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(26957) || campaignTrail_temp.player_answers.includes(26958) || campaignTrail_temp.player_answers.includes(26959) || campaignTrail_temp.player_answers.includes(26960))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/3YjdSZD.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(26957) || campaignTrail_temp.player_answers.includes(26958) || campaignTrail_temp.player_answers.includes(26959) || campaignTrail_temp.player_answers.includes(26960))) {
     return getEnding("jacksonTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/3YjdSZD.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(27557) || campaignTrail_temp.player_answers.includes(27558) || campaignTrail_temp.player_answers.includes(27559) || campaignTrail_temp.player_answers.includes(27560))) {   
     return getEnding("mills");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/UgIQypp.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(27557) || campaignTrail_temp.player_answers.includes(27558) || campaignTrail_temp.player_answers.includes(27559) || campaignTrail_temp.player_answers.includes(27560))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/UgIQypp.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(27557) || campaignTrail_temp.player_answers.includes(27558) || campaignTrail_temp.player_answers.includes(27559) || campaignTrail_temp.player_answers.includes(27560))) {
     return getEnding("millsTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/UgIQypp.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(28157) || campaignTrail_temp.player_answers.includes(28158) || campaignTrail_temp.player_answers.includes(28159) || campaignTrail_temp.player_answers.includes(28160))) {   
     return getEnding("lindsay");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/l4G9799.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(28157) || campaignTrail_temp.player_answers.includes(28158) || campaignTrail_temp.player_answers.includes(28159) || campaignTrail_temp.player_answers.includes(28160))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/l4G9799.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(28157) || campaignTrail_temp.player_answers.includes(28158) || campaignTrail_temp.player_answers.includes(28159) || campaignTrail_temp.player_answers.includes(28160))) {
     return getEnding("lindsayTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/l4G9799.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else if (quickstats[0] > 269 && (campaignTrail_temp.player_answers.includes(28757) || campaignTrail_temp.player_answers.includes(28758) || campaignTrail_temp.player_answers.includes(28759) || campaignTrail_temp.player_answers.includes(28760))) {   
     return getEnding("kennedy");
     campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GEaKgYT.png";
 } else if (quickstats[0] < 270 && (campaignTrail_temp.player_answers.includes(28757) || campaignTrail_temp.player_answers.includes(28758) || campaignTrail_temp.player_answers.includes(28759) || campaignTrail_temp.player_answers.includes(28760))) {  
     return getEnding("nixon");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GEaKgYT.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/w6hkrhY.png";
 } else if ((quickstats[0] < 270 && quickstats[1] < 270) && (campaignTrail_temp.player_answers.includes(28757) || campaignTrail_temp.player_answers.includes(28758) || campaignTrail_temp.player_answers.includes(28759) || campaignTrail_temp.player_answers.includes(28760))) {
     return getEnding("kennedyTie");
-    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/GEaKgYT.png";
+    campaignTrail_temp.candidate_json[0]["fields"].image_url = "https://imgur.com/1LhBH3o.png";
 } else {
     return false;
 }
