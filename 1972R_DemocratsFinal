@@ -732,52 +732,58 @@ const nixonWinsEnding = `
 
 // Dem Winning Endings
 
-// Dem Part 1
+function hideIfExists(id) {
+    const el = document.getElementById(id);
+    if (el) el.style.display = "none";
+}
+
 function goToDemPart1() {
+
   document.getElementById("demPart1").style.display = "block";
   document.getElementById("demPart2").style.display = "none";
-  document.getElementById("mcgovernPart3").style.display = "none";
-  document.getElementById("humphreyPart3").style.display = "none";
-  document.getElementById("muskiePart3").style.display = "none";
-  document.getElementById("wallacePart3").style.display = "none";
-  document.getElementById("chisholmPart3").style.display = "none";
-  document.getElementById("bayhPart3").style.display = "none";
-  document.getElementById("mondalePart3").style.display = "none";
-  document.getElementById("churchPart3").style.display = "none";
-  document.getElementById("hughesPart3").style.display = "none";
-  document.getElementById("harrisPart3").style.display = "none";
-  document.getElementById("sanfordPart3").style.display = "none";
-  document.getElementById("jacksonPart3").style.display = "none";
-  document.getElementById("millsPart3").style.display = "none";
-  document.getElementById("lindsayPart3").style.display = "none";
-  document.getElementById("kennedyPart3").style.display = "none";
 
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
+
+  hideIfExists("mcgovernPart3");
+  hideIfExists("humphreyPart3");
+  hideIfExists("muskiePart3");
+  hideIfExists("wallacePart3");
+  hideIfExists("chisholmPart3");
+  hideIfExists("bayhPart3");
+  hideIfExists("mondalePart3");
+  hideIfExists("churchPart3");
+  hideIfExists("hughesPart3");
+  hideIfExists("harrisPart3");
+  hideIfExists("sanfordPart3");
+  hideIfExists("jacksonPart3");
+  hideIfExists("millsPart3");
+  hideIfExists("lindsayPart3");
+  hideIfExists("kennedyPart3");
 }
 window.goToDemPart1 = goToDemPart1;
 
-
-// Dem Part 2
 function goToDemPart2() {
+
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "block";
-  document.getElementById("mcgovernPart3").style.display = "none";
-  document.getElementById("humphreyPart3").style.display = "none";
-  document.getElementById("muskiePart3").style.display = "none";
-  document.getElementById("wallacePart3").style.display = "none";
-  document.getElementById("chisholmPart3").style.display = "none";
-  document.getElementById("bayhPart3").style.display = "none";
-  document.getElementById("mondalePart3").style.display = "none";
-  document.getElementById("churchPart3").style.display = "none";
-  document.getElementById("hughesPart3").style.display = "none";
-  document.getElementById("harrisPart3").style.display = "none";
-  document.getElementById("sanfordPart3").style.display = "none";
-  document.getElementById("jacksonPart3").style.display = "none";
-  document.getElementById("millsPart3").style.display = "none";
-  document.getElementById("lindsayPart3").style.display = "none";
-  document.getElementById("kennedyPart3").style.display = "none";
 
   setCandidatePortrait("https://imgur.com/rv5c8aG.png");
+
+  hideIfExists("mcgovernPart3");
+  hideIfExists("humphreyPart3");
+  hideIfExists("muskiePart3");
+  hideIfExists("wallacePart3");
+  hideIfExists("chisholmPart3");
+  hideIfExists("bayhPart3");
+  hideIfExists("mondalePart3");
+  hideIfExists("churchPart3");
+  hideIfExists("hughesPart3");
+  hideIfExists("harrisPart3");
+  hideIfExists("sanfordPart3");
+  hideIfExists("jacksonPart3");
+  hideIfExists("millsPart3");
+  hideIfExists("lindsayPart3");
+  hideIfExists("kennedyPart3");
 }
 window.goToDemPart2 = goToDemPart2;
 
