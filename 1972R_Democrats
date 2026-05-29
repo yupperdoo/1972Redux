@@ -12,7 +12,7 @@ window.visitTextDB = {
   
   1004: "is a large Western coastal state where the cities are strongly Democratic, but the suburbs remain more traditionally Republican and still keep federal elections closer than you might expect from the urban vote alone.",
   
-  1005: "is a Mountainous Western state where Republicans generally have the edge in federal contests, but there are still Democratic pockets in the cities and among some older working-class and labor communities.",
+  1005: "is a mountainous Western state where Republicans generally have the edge in federal contests, but there are still Democratic pockets in the cities and among some older working-class and labor communities.",
   
   1006: "is part of the Northeastern liberal corridor where the cities and industrial towns are solidly Democratic, but the suburban areas are more conservative and help keep things from being completely one-sided.",
   
@@ -20,11 +20,11 @@ window.visitTextDB = {
   
   1008: "is a major Southeastern state where federal voting has been trending Republican since the Eisenhower years, even though Democrats still rely on a fairly strong state-level organization.",
   
-  1009: "is a Deep Southern state where a lot of rural white voters are still sorting things out politically - some are holding onto old Democratic habits, while others are starting to drift toward Republicans in federal races.",
+  1009: "is a deep Southern state where a lot of rural white voters are still sorting things out politically - some are holding onto old Democratic habits, while others are starting to drift toward Republicans in federal races.",
   
   1010: "is an island state that has moved steadily toward the Democrats over the decade, especially in federal elections, driven by strong urban and labor support.",
   
-  1011: "is a Mountainous Western state where Republican strength is built on rural conservatism and low population density, with only limited Democratic presence in a few urban areas.",
+  1011: "is a Mmuntainous Western state where Republican strength is built on rural conservatism and low population density, with only limited Democratic presence in a few urban areas.",
   
   1012: "is an industrial Midwestern state where the cities and some southern rural areas lean Democratic, but the suburban counties remain more reliably Republican and competitive.",
   
@@ -32,11 +32,11 @@ window.visitTextDB = {
   
   1014: "is a largely rural Midwestern state where Republicans tend to do better federally, with Democratic strength mostly showing up in small cities and farming communities with labor ties.",
   
-  1015: "is a Plains state where Republican strength is strong and consistent at the federal level, with Democrats mostly limited to a few urban areas.",
+  1015: "is a plains state where Republican strength is strong and consistent at the federal level, with Democrats mostly limited to a few urban areas.",
   
-  1016: "is an Upper Southern state where conservative Democrats still matter at the state level, but Republicans are becoming more competitive in federal elections than they used to be.",
+  1016: "is a border south state where conservative Democrats still matter at the state level, but Republicans are becoming more competitive in federal elections than they used to be.",
   
-  1017: "is a Deep Southern state where older Democratic loyalties still exist in places, but federal elections are increasingly leaning Republican, especially in rural and suburban areas.",
+  1017: "is a deep southern state where older Democratic loyalties still exist in places, but federal elections are increasingly leaning Republican, especially in rural and suburban areas.",
   
   1018: "is a New England state that’s becoming more competitive, with a traditional Republican rural base and a growing Democratic organization that’s been building strength over time.",
   
@@ -48,7 +48,7 @@ window.visitTextDB = {
   
   1022: "is a Midwestern state that leans Democratic overall, but still stays competitive because of Republican strength in rural and suburban areas.",
   
-  1023: "is a Deep Southern state where federal politics are shifting quickly, with Republican support growing in many white rural areas while Democratic organizations remain important at the state level.",
+  1023: "is a deep southern state where federal politics are shifting quickly, with Republican support growing in many white rural areas while Democratic organizations remain important at the state level.",
   
   1024: "is a border state where politics are split between Democratic urban centers and more Republican-leaning rural and suburban regions.",
   
@@ -74,13 +74,13 @@ window.visitTextDB = {
   
   1035: "is a Plains state with strong and consistent Republican dominance, where Democratic strength is mostly limited to a few small urban centers.",
   
-  1036: "is a Pacific Northwestern state where urban Democratic strength is growing, but rural and suburban areas still lean more Republican overall.",
+  1036: "is a pacific Northwestern state where urban Democratic strength is growing, but rural and suburban areas still lean more Republican overall.",
   
   1037: "is an industrial Midwestern swing state where suburban voters are becoming increasingly important, sitting alongside strong Democratic urban bases and Republican-leaning outer areas.",
   
   1038: "is a small New England state where Democrats are strongest in the cities and towns, while Republicans still hold some influence in rural parts of the state.",
   
-  1039: "is a Deep Southern state where Republican gains in suburban areas are starting to challenge older Democratic patterns, especially in federal elections.",
+  1039: "is a deep southern state where Republican gains in suburban areas are starting to challenge older Democratic patterns, especially in federal elections.",
   
   1040: "is a rural Plains state where Republican dominance is overwhelming at the federal level, with very limited Democratic presence.",
   
@@ -88,17 +88,17 @@ window.visitTextDB = {
   
   1042: "is a large Southwestern Sun Belt state where suburban growth is steadily increasing Republican strength, even though Democrats remain strong in the major cities.",
   
-  1043: "is a strongly Republican Mountainous Western state with a consistent conservative political identity across most of the population.",
+  1043: "is a strongly Republican mountainous Western state with a consistent conservative political identity across most of the population.",
   
   1044: "is a small New England state with a traditional Yankee Republican background, though there are early signs of Democratic gains in some areas.",
   
   1045: "is a Southern state where expanding suburbs are making federal elections increasingly competitive between the parties.",
   
-  1046: "is a Pacific coastal state where Democratic strength in the major cities dominates most political outcomes.",
+  1046: "is a pacific coastal state where Democratic strength in the major cities dominates most political outcomes.",
   
   1047: "is a heavily Democratic federal district where urban liberal voting patterns are overwhelming and consistent.",
   
-  1048: "is an Appalachian state where Democratic labor traditions remain important, even as Republican strength grows in more culturally conservative areas.",
+  1048: "is an appalachian state where Democratic labor traditions remain important, even as Republican strength grows in more culturally conservative areas.",
   
   1049: "is a Midwestern swing state where Democratic urban areas and Republican suburbs are closely balanced against each other.",
   
