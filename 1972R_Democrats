@@ -5514,87 +5514,123 @@ const hughesWinsEnding = `
 const harrisWinsEnding = `
 <div id="demPart1" style="display:block;">
 
-<h3><b>2023 Senate Judiciary Subcommittee Hearing on Digital Market Concentration</b></h3>
-<p><b>Subcommittee on Antitrust, Competition Policy, and Consumer Rights</b></p>
-<p><b>October 17, 2023</b></p>
+<h3><b>WHITE HOUSE SITUATION ROOM<br>NOVEMBER 7, 1972<br>11:42 PM – 12:31 AM<br>WASHINGTON, D.C.</b></h3>
+<p><b>[11:42 PM]</b></p>
+<p><b>Haldeman:</b> The networks are calling it now. Even if we win California, the numbers just aren't there nationally. It's over, and there isn’t any realistic path left for a recount to change it.</p>
+<p><b>Ehrlichman:</b> So how much risk are we facing, legally speaking? Even after Cronkite's segment last week, we're not exactly the primary focus of the investigation.</p>
+<p><b>Haldeman:</b> It changes how they approach it, though. As long as it's a campaign dispute, it's just politics. Now it’s going to be treated as something involving the administration itself. Especially without the CIA giving us a hand.</p>
+<p><b>[A long pause. Papers are gathered and set down. A television in another room continues broadcasting election coverage at a low volume.]</b></p>
+<p><b>Nixon:</b> Are they all in agreement on the projection?</p>
+<p><b>Haldeman:</b> Yes, sir. All the major networks have called it within the last few minutes.</p>
+<p><b>Nixon:</b> Then we can assume this is final.</p>
+<p><b>[11:49 PM]</b></p>
+<p><b>Ehrlichman:</b> Once the results are certified, we should expect immediate pressure for hearings. The Senate will move quickly, and the Justice Department is in no position to stall them.</p>
+<p><b>Haldeman:</b> The press is already doing most of the work for them. They are pulling together the early pieces, even if they don’t fully understand how they fit yet.</p>
+<p><b>Nixon:</b> What exactly is out there right now, as far as we know?</p>
+<p><b>[Brief silence.]</b></p>
+<p><b>Ehrlichman:</b> They have parts of it. The break-in itself, some financial traces, a few people starting to connect names, but they don’t know for certain what ties it all together in a way that would stand up in a formal proceeding. The problem is Cronkite really got the wheels turning last week.</p>
+<p><b>[11:55 PM]</b></p>
+<p><b>Haldeman:</b> We need to start tightening control over what’s still floating around internally. There are documents, notes, and communications that could all be swept up once the subpoenas start moving..</p>
+<p><b>Nixon:</b> What are you suggesting we do with them?</p>
+<p><b>Haldeman:</b> We identify what’s sensitive, we bring it under control, and we make sure nothing leaves the building unless it absolutely has to. If something cannot be justified on official grounds, then it cannot be allowed to exist.</p>
+<p><b>Ehrlichman:</b> That only works if it’s done before formal discovery begins. After subpoenas are issued, all bets are off.</p>
+<p><b>[A chair shifts slightly as someone leans forward.]</b></p>
+<p><b>Nixon:</b> Those subpoenas are coming regardless of what we do tonight.</p>
+<p><b>[12:03 AM]</b></p>
+<p><b>Ehrlichman:</b> There’s also the question of personnel. If a single asset decides to cooperate fully, it’ll pull others with them very quickly.</p>
+<p><b>Haldeman:</b> That’s already a concern. We’re not dealing with a single weak point. We have several people who may decide their own legal position matters more than loyalty to the administration.</p>
+<p><b>Nixon:</b> People always think about themselves first when it gets difficult. Someone will talk eventually.</p>
+<p><b>[A long pause.]</b></p>
+<p><b>Nixon:</b> That’s usually how it works.</p>
+<p><b>[12:11 AM]</b></p>
+<p><b>Haldeman:</b> At this stage, the priority has to be slowing things down as much as possible. Dispute everything they throw at us. Appeal every court order. Whatever we can do.</p>
+<p><b>Ehrlichman:</b> If there’s any chance the media cycle moves on, that buys us time as well.</p>
+<p><b>Nixon:</b> It won’t move on. Not with the way they’ve picked it up already.</p>
+<p><b>[12:18 AM]</b></p>
 
-<p>The hearing room was crowded before the session even started. Staffers lined the walls holding folders and coffee cups while reporters compared notes at the press table. Outside the Capitol, protestors carried signs aimed at Meta, Google, Amazon, and Apple from every possible angle. Some accused the companies of censorship. Others accused them of monopoly power. One sign simply read: BREAK THEM DOWN.</p>
+<p><b>[An aide briefly enters, speaks quietly to Haldeman, and leaves. The door closes.]</b></p>
+<p><b>Haldeman:</b> There is another issue, sir. Most of the relevant documents are not centralized in one location. They’re spread out between offices, storage rooms, and a few off-site locations. Gathering them now could create additional attention we can’t afford.</p>
+<p><b>Ehrlichman:</b> Well look, the risk is already there either way. If they remain where they are now, they pop up in discovery later. If we move them, we have a chance to turn the Bureau on a wild goose chase.</p>
+<p><b>[A long pause.]</b></p>
+<p><b>Nixon:</b> Then there is no advantage in leaving things scattered where they can be pulled apart later.</p>
+<p><b>[Another pause.]</b></p>
+<p><b>Nixon:</b> I want everything accounted for. Every document that connects back to this needs to be secured and dealt with properly. We’re not leaving any loose ends.</p>
+<p><b>Haldeman:</b> Understood, Mr. President. I’ll take care of it.</p>
+<p><b>[12:31 AM]</b></p>
+<p><b>[A long pause follows. The room stays still except for the low sound of the television in the other room.]</b></p>
+<p><b>Haldeman:</b> Mr. President?</p>
+<p><b>[Nixon doesn’t answer right away. He leans back slightly, takes a slow breath, and stares down at the table for a moment.]</b></p>
+<p><b>[Another pause. Haldeman watches him for a moment, unsure whether to push further.]</b></p>
+<p><b>Haldeman:</b> Are you doing alright, Mr. President?</p>
+<p><b>[Nixon exhales through his nose, almost a quiet laugh, but there is no humor in it. He finally looks up.]</b></p>
+<p><b>Nixon:</b> Well... they won’t have Dick Nixon to kick around anymore.</p>
+<p><b>[A beat.]</b></p>
+<p><b>[Haldeman nods once.]</b></p>
+<p><b>Haldeman:</b> Yes, sir.</p>
 
-<p>FTC Commissioner Lina Khan sat at the witness table flipping through handwritten notes. Behind her hung a framed photograph of President Fred Harris signing the Regional Development and Democratic Investment Act of 1974.</p>
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToDemPart2()">Back</button>
+  </div>
 
-<p>Senator Amy Klobuchar adjusted her microphone.</p>
+</div>
+`;
 
-<p><i>“Today’s hearing concerns the Federal Trade Commission’s antitrust actions against Meta and Alphabet under authorities expanded during the Harris Administration.”</i></p>
+const sanfordWinsEnding = `
+<div id="demPart1" style="display:block;">
 
-<p>She glanced toward the photograph.</p>
+<h3><b>WHITE HOUSE SITUATION ROOM<br>NOVEMBER 7, 1972<br>11:42 PM – 12:31 AM<br>WASHINGTON, D.C.</b></h3>
+<p><b>[11:42 PM]</b></p>
+<p><b>Haldeman:</b> The networks are calling it now. Even if we win California, the numbers just aren't there nationally. It's over, and there isn’t any realistic path left for a recount to change it.</p>
+<p><b>Ehrlichman:</b> So how much risk are we facing, legally speaking? Even after Cronkite's segment last week, we're not exactly the primary focus of the investigation.</p>
+<p><b>Haldeman:</b> It changes how they approach it, though. As long as it's a campaign dispute, it's just politics. Now it’s going to be treated as something involving the administration itself. Especially without the CIA giving us a hand.</p>
+<p><b>[A long pause. Papers are gathered and set down. A television in another room continues broadcasting election coverage at a low volume.]</b></p>
+<p><b>Nixon:</b> Are they all in agreement on the projection?</p>
+<p><b>Haldeman:</b> Yes, sir. All the major networks have called it within the last few minutes.</p>
+<p><b>Nixon:</b> Then we can assume this is final.</p>
+<p><b>[11:49 PM]</b></p>
+<p><b>Ehrlichman:</b> Once the results are certified, we should expect immediate pressure for hearings. The Senate will move quickly, and the Justice Department is in no position to stall them.</p>
+<p><b>Haldeman:</b> The press is already doing most of the work for them. They are pulling together the early pieces, even if they don’t fully understand how they fit yet.</p>
+<p><b>Nixon:</b> What exactly is out there right now, as far as we know?</p>
+<p><b>[Brief silence.]</b></p>
+<p><b>Ehrlichman:</b> They have parts of it. The break-in itself, some financial traces, a few people starting to connect names, but they don’t know for certain what ties it all together in a way that would stand up in a formal proceeding. The problem is Cronkite really got the wheels turning last week.</p>
+<p><b>[11:55 PM]</b></p>
+<p><b>Haldeman:</b> We need to start tightening control over what’s still floating around internally. There are documents, notes, and communications that could all be swept up once the subpoenas start moving..</p>
+<p><b>Nixon:</b> What are you suggesting we do with them?</p>
+<p><b>Haldeman:</b> We identify what’s sensitive, we bring it under control, and we make sure nothing leaves the building unless it absolutely has to. If something cannot be justified on official grounds, then it cannot be allowed to exist.</p>
+<p><b>Ehrlichman:</b> That only works if it’s done before formal discovery begins. After subpoenas are issued, all bets are off.</p>
+<p><b>[A chair shifts slightly as someone leans forward.]</b></p>
+<p><b>Nixon:</b> Those subpoenas are coming regardless of what we do tonight.</p>
+<p><b>[12:03 AM]</b></p>
+<p><b>Ehrlichman:</b> There’s also the question of personnel. If a single asset decides to cooperate fully, it’ll pull others with them very quickly.</p>
+<p><b>Haldeman:</b> That’s already a concern. We’re not dealing with a single weak point. We have several people who may decide their own legal position matters more than loyalty to the administration.</p>
+<p><b>Nixon:</b> People always think about themselves first when it gets difficult. Someone will talk eventually.</p>
+<p><b>[A long pause.]</b></p>
+<p><b>Nixon:</b> That’s usually how it works.</p>
+<p><b>[12:11 AM]</b></p>
+<p><b>Haldeman:</b> At this stage, the priority has to be slowing things down as much as possible. Dispute everything they throw at us. Appeal every court order. Whatever we can do.</p>
+<p><b>Ehrlichman:</b> If there’s any chance the media cycle moves on, that buys us time as well.</p>
+<p><b>Nixon:</b> It won’t move on. Not with the way they’ve picked it up already.</p>
+<p><b>[12:18 AM]</b></p>
 
-<p><i>“Fifty years later, we are still arguing about the same thing Fred Harris argued about in the seventies: what happens when economic power becomes too concentrated for democratic institutions to keep up with it.”</i></p>
-
-<p>Senator Josh Hawley leaned forward.</p>
-
-<p><i>“And Harris was not anti-business the way people sometimes describe him now. He believed concentrated private power eventually spills over into politics.”</i></p>
-
-<p>Khan nodded.</p>
-
-<p><i>“Yes. That was central to how he thought about antitrust.”</i></p>
-
-<p>Hawley continued.</p>
-
-<p><i>“Most people today hear the word antitrust and think about prices. Harris talked about communities losing influence over their own economies.”</i></p>
-
-<p><i>“He did,”</i> Khan replied. <i>“He worried about local banks disappearing. Local newspapers disappearing. Independent agriculture disappearing. He thought people were slowly losing control over decisions affecting their daily lives.”</i></p>
-
-<p>Senator Cory Booker smiled slightly.</p>
-
-<p><i>“You sound like you have spent a lot of time reading him.”</i></p>
-
-<p>A few people laughed quietly.</p>
-
-<p><i>“I have,”</i> Khan said.</p>
-
-<p>Senator Ted Cruz leaned toward his microphone.</p>
-
-<p><i>“But Harris was talking about industrial monopolies. Steel. Energy. Telecommunications. You are applying these laws to speech platforms.”</i></p>
-
-<p>Khan answered calmly.</p>
-
-<p><i>“We are applying them to market concentration.”</i></p>
-
-<p>Cruz frowned.</p>
-
-<p><i>“These companies are not Standard Oil.”</i></p>
-
-<p>Khan folded her hands.</p>
-
-<p><i>“Standard Oil did not control how billions of people communicate with each other.”</i></p>
-
-<p>The room became noticeably quieter.</p>
-
-<p>Near the end of the hearing, Senator Jon Tester looked toward Khan.</p>
-
-<p><i>“Do you think Harris would recognize this economy?”</i></p>
-
-<p>Khan thought for a moment.</p>
-
-<p><i>“More than people would probably like.”</i></p>
-
-<p>Tester smiled.</p>
-
-<p><i>“And what do you think he would say about it?”</i></p>
-
-<p>Khan looked down briefly before answering.</p>
-
-<p><i>“Probably something uncomfortable.”</i></p>
-
-<p>The room laughed softly.</p>
-
-<p><i>“I think Harris believed people can live with inequality for a long time. What they struggle to live with is the feeling that nobody listens to them anymore. Once people stop believing they have any influence over the systems around them, trust in institutions starts disappearing very quickly.”</i></p>
-
-<p>Nobody interrupted her.</p>
-
-<p>Finally Klobuchar leaned back toward the microphone.</p>
-
-<p><i>“Commissioner, thank you for your testimony.”</i></p>
+<p><b>[An aide briefly enters, speaks quietly to Haldeman, and leaves. The door closes.]</b></p>
+<p><b>Haldeman:</b> There is another issue, sir. Most of the relevant documents are not centralized in one location. They’re spread out between offices, storage rooms, and a few off-site locations. Gathering them now could create additional attention we can’t afford.</p>
+<p><b>Ehrlichman:</b> Well look, the risk is already there either way. If they remain where they are now, they pop up in discovery later. If we move them, we have a chance to turn the Bureau on a wild goose chase.</p>
+<p><b>[A long pause.]</b></p>
+<p><b>Nixon:</b> Then there is no advantage in leaving things scattered where they can be pulled apart later.</p>
+<p><b>[Another pause.]</b></p>
+<p><b>Nixon:</b> I want everything accounted for. Every document that connects back to this needs to be secured and dealt with properly. We’re not leaving any loose ends.</p>
+<p><b>Haldeman:</b> Understood, Mr. President. I’ll take care of it.</p>
+<p><b>[12:31 AM]</b></p>
+<p><b>[A long pause follows. The room stays still except for the low sound of the television in the other room.]</b></p>
+<p><b>Haldeman:</b> Mr. President?</p>
+<p><b>[Nixon doesn’t answer right away. He leans back slightly, takes a slow breath, and stares down at the table for a moment.]</b></p>
+<p><b>[Another pause. Haldeman watches him for a moment, unsure whether to push further.]</b></p>
+<p><b>Haldeman:</b> Are you doing alright, Mr. President?</p>
+<p><b>[Nixon exhales through his nose, almost a quiet laugh, but there is no humor in it. He finally looks up.]</b></p>
+<p><b>Nixon:</b> Well... they won’t have Dick Nixon to kick around anymore.</p>
+<p><b>[A beat.]</b></p>
+<p><b>[Haldeman nods once.]</b></p>
+<p><b>Haldeman:</b> Yes, sir.</p>
 
 
   <div style="margin-top:20px;text-align:center;">
@@ -5975,123 +6011,87 @@ const harrisWinsEnding = `
 
 <div id="harrisPart3" style="display:none;">
 
-<h3><b>WHITE HOUSE SITUATION ROOM<br>NOVEMBER 7, 1972<br>11:42 PM – 12:31 AM<br>WASHINGTON, D.C.</b></h3>
-<p><b>[11:42 PM]</b></p>
-<p><b>Haldeman:</b> The networks are calling it now. Even if we win California, the numbers just aren't there nationally. It's over, and there isn’t any realistic path left for a recount to change it.</p>
-<p><b>Ehrlichman:</b> So how much risk are we facing, legally speaking? Even after Cronkite's segment last week, we're not exactly the primary focus of the investigation.</p>
-<p><b>Haldeman:</b> It changes how they approach it, though. As long as it's a campaign dispute, it's just politics. Now it’s going to be treated as something involving the administration itself. Especially without the CIA giving us a hand.</p>
-<p><b>[A long pause. Papers are gathered and set down. A television in another room continues broadcasting election coverage at a low volume.]</b></p>
-<p><b>Nixon:</b> Are they all in agreement on the projection?</p>
-<p><b>Haldeman:</b> Yes, sir. All the major networks have called it within the last few minutes.</p>
-<p><b>Nixon:</b> Then we can assume this is final.</p>
-<p><b>[11:49 PM]</b></p>
-<p><b>Ehrlichman:</b> Once the results are certified, we should expect immediate pressure for hearings. The Senate will move quickly, and the Justice Department is in no position to stall them.</p>
-<p><b>Haldeman:</b> The press is already doing most of the work for them. They are pulling together the early pieces, even if they don’t fully understand how they fit yet.</p>
-<p><b>Nixon:</b> What exactly is out there right now, as far as we know?</p>
-<p><b>[Brief silence.]</b></p>
-<p><b>Ehrlichman:</b> They have parts of it. The break-in itself, some financial traces, a few people starting to connect names, but they don’t know for certain what ties it all together in a way that would stand up in a formal proceeding. The problem is Cronkite really got the wheels turning last week.</p>
-<p><b>[11:55 PM]</b></p>
-<p><b>Haldeman:</b> We need to start tightening control over what’s still floating around internally. There are documents, notes, and communications that could all be swept up once the subpoenas start moving..</p>
-<p><b>Nixon:</b> What are you suggesting we do with them?</p>
-<p><b>Haldeman:</b> We identify what’s sensitive, we bring it under control, and we make sure nothing leaves the building unless it absolutely has to. If something cannot be justified on official grounds, then it cannot be allowed to exist.</p>
-<p><b>Ehrlichman:</b> That only works if it’s done before formal discovery begins. After subpoenas are issued, all bets are off.</p>
-<p><b>[A chair shifts slightly as someone leans forward.]</b></p>
-<p><b>Nixon:</b> Those subpoenas are coming regardless of what we do tonight.</p>
-<p><b>[12:03 AM]</b></p>
-<p><b>Ehrlichman:</b> There’s also the question of personnel. If a single asset decides to cooperate fully, it’ll pull others with them very quickly.</p>
-<p><b>Haldeman:</b> That’s already a concern. We’re not dealing with a single weak point. We have several people who may decide their own legal position matters more than loyalty to the administration.</p>
-<p><b>Nixon:</b> People always think about themselves first when it gets difficult. Someone will talk eventually.</p>
-<p><b>[A long pause.]</b></p>
-<p><b>Nixon:</b> That’s usually how it works.</p>
-<p><b>[12:11 AM]</b></p>
-<p><b>Haldeman:</b> At this stage, the priority has to be slowing things down as much as possible. Dispute everything they throw at us. Appeal every court order. Whatever we can do.</p>
-<p><b>Ehrlichman:</b> If there’s any chance the media cycle moves on, that buys us time as well.</p>
-<p><b>Nixon:</b> It won’t move on. Not with the way they’ve picked it up already.</p>
-<p><b>[12:18 AM]</b></p>
+<h3><b>2023 Senate Judiciary Subcommittee Hearing on Digital Market Concentration</b></h3>
+<p><b>Subcommittee on Antitrust, Competition Policy, and Consumer Rights</b></p>
+<p><b>October 17, 2023</b></p>
 
-<p><b>[An aide briefly enters, speaks quietly to Haldeman, and leaves. The door closes.]</b></p>
-<p><b>Haldeman:</b> There is another issue, sir. Most of the relevant documents are not centralized in one location. They’re spread out between offices, storage rooms, and a few off-site locations. Gathering them now could create additional attention we can’t afford.</p>
-<p><b>Ehrlichman:</b> Well look, the risk is already there either way. If they remain where they are now, they pop up in discovery later. If we move them, we have a chance to turn the Bureau on a wild goose chase.</p>
-<p><b>[A long pause.]</b></p>
-<p><b>Nixon:</b> Then there is no advantage in leaving things scattered where they can be pulled apart later.</p>
-<p><b>[Another pause.]</b></p>
-<p><b>Nixon:</b> I want everything accounted for. Every document that connects back to this needs to be secured and dealt with properly. We’re not leaving any loose ends.</p>
-<p><b>Haldeman:</b> Understood, Mr. President. I’ll take care of it.</p>
-<p><b>[12:31 AM]</b></p>
-<p><b>[A long pause follows. The room stays still except for the low sound of the television in the other room.]</b></p>
-<p><b>Haldeman:</b> Mr. President?</p>
-<p><b>[Nixon doesn’t answer right away. He leans back slightly, takes a slow breath, and stares down at the table for a moment.]</b></p>
-<p><b>[Another pause. Haldeman watches him for a moment, unsure whether to push further.]</b></p>
-<p><b>Haldeman:</b> Are you doing alright, Mr. President?</p>
-<p><b>[Nixon exhales through his nose, almost a quiet laugh, but there is no humor in it. He finally looks up.]</b></p>
-<p><b>Nixon:</b> Well... they won’t have Dick Nixon to kick around anymore.</p>
-<p><b>[A beat.]</b></p>
-<p><b>[Haldeman nods once.]</b></p>
-<p><b>Haldeman:</b> Yes, sir.</p>
+<p>The hearing room was crowded before the session even started. Staffers lined the walls holding folders and coffee cups while reporters compared notes at the press table. Outside the Capitol, protestors carried signs aimed at Meta, Google, Amazon, and Apple from every possible angle. Some accused the companies of censorship. Others accused them of monopoly power. One sign simply read: BREAK THEM DOWN.</p>
 
-  <div style="margin-top:20px;text-align:center;">
-    <button onclick="goToDemPart2()">Back</button>
-  </div>
+<p>FTC Commissioner Lina Khan sat at the witness table flipping through handwritten notes. Behind her hung a framed photograph of President Fred Harris signing the Regional Development and Democratic Investment Act of 1974.</p>
 
-</div>
-`;
+<p>Senator Amy Klobuchar adjusted her microphone.</p>
 
-const sanfordWinsEnding = `
-<div id="demPart1" style="display:block;">
+<p><i>“Today’s hearing concerns the Federal Trade Commission’s antitrust actions against Meta and Alphabet under authorities expanded during the Harris Administration.”</i></p>
 
-<h3><b>WHITE HOUSE SITUATION ROOM<br>NOVEMBER 7, 1972<br>11:42 PM – 12:31 AM<br>WASHINGTON, D.C.</b></h3>
-<p><b>[11:42 PM]</b></p>
-<p><b>Haldeman:</b> The networks are calling it now. Even if we win California, the numbers just aren't there nationally. It's over, and there isn’t any realistic path left for a recount to change it.</p>
-<p><b>Ehrlichman:</b> So how much risk are we facing, legally speaking? Even after Cronkite's segment last week, we're not exactly the primary focus of the investigation.</p>
-<p><b>Haldeman:</b> It changes how they approach it, though. As long as it's a campaign dispute, it's just politics. Now it’s going to be treated as something involving the administration itself. Especially without the CIA giving us a hand.</p>
-<p><b>[A long pause. Papers are gathered and set down. A television in another room continues broadcasting election coverage at a low volume.]</b></p>
-<p><b>Nixon:</b> Are they all in agreement on the projection?</p>
-<p><b>Haldeman:</b> Yes, sir. All the major networks have called it within the last few minutes.</p>
-<p><b>Nixon:</b> Then we can assume this is final.</p>
-<p><b>[11:49 PM]</b></p>
-<p><b>Ehrlichman:</b> Once the results are certified, we should expect immediate pressure for hearings. The Senate will move quickly, and the Justice Department is in no position to stall them.</p>
-<p><b>Haldeman:</b> The press is already doing most of the work for them. They are pulling together the early pieces, even if they don’t fully understand how they fit yet.</p>
-<p><b>Nixon:</b> What exactly is out there right now, as far as we know?</p>
-<p><b>[Brief silence.]</b></p>
-<p><b>Ehrlichman:</b> They have parts of it. The break-in itself, some financial traces, a few people starting to connect names, but they don’t know for certain what ties it all together in a way that would stand up in a formal proceeding. The problem is Cronkite really got the wheels turning last week.</p>
-<p><b>[11:55 PM]</b></p>
-<p><b>Haldeman:</b> We need to start tightening control over what’s still floating around internally. There are documents, notes, and communications that could all be swept up once the subpoenas start moving..</p>
-<p><b>Nixon:</b> What are you suggesting we do with them?</p>
-<p><b>Haldeman:</b> We identify what’s sensitive, we bring it under control, and we make sure nothing leaves the building unless it absolutely has to. If something cannot be justified on official grounds, then it cannot be allowed to exist.</p>
-<p><b>Ehrlichman:</b> That only works if it’s done before formal discovery begins. After subpoenas are issued, all bets are off.</p>
-<p><b>[A chair shifts slightly as someone leans forward.]</b></p>
-<p><b>Nixon:</b> Those subpoenas are coming regardless of what we do tonight.</p>
-<p><b>[12:03 AM]</b></p>
-<p><b>Ehrlichman:</b> There’s also the question of personnel. If a single asset decides to cooperate fully, it’ll pull others with them very quickly.</p>
-<p><b>Haldeman:</b> That’s already a concern. We’re not dealing with a single weak point. We have several people who may decide their own legal position matters more than loyalty to the administration.</p>
-<p><b>Nixon:</b> People always think about themselves first when it gets difficult. Someone will talk eventually.</p>
-<p><b>[A long pause.]</b></p>
-<p><b>Nixon:</b> That’s usually how it works.</p>
-<p><b>[12:11 AM]</b></p>
-<p><b>Haldeman:</b> At this stage, the priority has to be slowing things down as much as possible. Dispute everything they throw at us. Appeal every court order. Whatever we can do.</p>
-<p><b>Ehrlichman:</b> If there’s any chance the media cycle moves on, that buys us time as well.</p>
-<p><b>Nixon:</b> It won’t move on. Not with the way they’ve picked it up already.</p>
-<p><b>[12:18 AM]</b></p>
+<p>She glanced toward the photograph.</p>
 
-<p><b>[An aide briefly enters, speaks quietly to Haldeman, and leaves. The door closes.]</b></p>
-<p><b>Haldeman:</b> There is another issue, sir. Most of the relevant documents are not centralized in one location. They’re spread out between offices, storage rooms, and a few off-site locations. Gathering them now could create additional attention we can’t afford.</p>
-<p><b>Ehrlichman:</b> Well look, the risk is already there either way. If they remain where they are now, they pop up in discovery later. If we move them, we have a chance to turn the Bureau on a wild goose chase.</p>
-<p><b>[A long pause.]</b></p>
-<p><b>Nixon:</b> Then there is no advantage in leaving things scattered where they can be pulled apart later.</p>
-<p><b>[Another pause.]</b></p>
-<p><b>Nixon:</b> I want everything accounted for. Every document that connects back to this needs to be secured and dealt with properly. We’re not leaving any loose ends.</p>
-<p><b>Haldeman:</b> Understood, Mr. President. I’ll take care of it.</p>
-<p><b>[12:31 AM]</b></p>
-<p><b>[A long pause follows. The room stays still except for the low sound of the television in the other room.]</b></p>
-<p><b>Haldeman:</b> Mr. President?</p>
-<p><b>[Nixon doesn’t answer right away. He leans back slightly, takes a slow breath, and stares down at the table for a moment.]</b></p>
-<p><b>[Another pause. Haldeman watches him for a moment, unsure whether to push further.]</b></p>
-<p><b>Haldeman:</b> Are you doing alright, Mr. President?</p>
-<p><b>[Nixon exhales through his nose, almost a quiet laugh, but there is no humor in it. He finally looks up.]</b></p>
-<p><b>Nixon:</b> Well... they won’t have Dick Nixon to kick around anymore.</p>
-<p><b>[A beat.]</b></p>
-<p><b>[Haldeman nods once.]</b></p>
-<p><b>Haldeman:</b> Yes, sir.</p>
+<p><i>“Fifty years later, we are still arguing about the same thing Fred Harris argued about in the seventies: what happens when economic power becomes too concentrated for democratic institutions to keep up with it.”</i></p>
+
+<p>Senator Josh Hawley leaned forward.</p>
+
+<p><i>“And Harris was not anti-business the way people sometimes describe him now. He believed concentrated private power eventually spills over into politics.”</i></p>
+
+<p>Khan nodded.</p>
+
+<p><i>“Yes. That was central to how he thought about antitrust.”</i></p>
+
+<p>Hawley continued.</p>
+
+<p><i>“Most people today hear the word antitrust and think about prices. Harris talked about communities losing influence over their own economies.”</i></p>
+
+<p><i>“He did,”</i> Khan replied. <i>“He worried about local banks disappearing. Local newspapers disappearing. Independent agriculture disappearing. He thought people were slowly losing control over decisions affecting their daily lives.”</i></p>
+
+<p>Senator Cory Booker smiled slightly.</p>
+
+<p><i>“You sound like you have spent a lot of time reading him.”</i></p>
+
+<p>A few people laughed quietly.</p>
+
+<p><i>“I have,”</i> Khan said.</p>
+
+<p>Senator Ted Cruz leaned toward his microphone.</p>
+
+<p><i>“But Harris was talking about industrial monopolies. Steel. Energy. Telecommunications. You are applying these laws to speech platforms.”</i></p>
+
+<p>Khan answered calmly.</p>
+
+<p><i>“We are applying them to market concentration.”</i></p>
+
+<p>Cruz frowned.</p>
+
+<p><i>“These companies are not Standard Oil.”</i></p>
+
+<p>Khan folded her hands.</p>
+
+<p><i>“Standard Oil did not control how billions of people communicate with each other.”</i></p>
+
+<p>The room became noticeably quieter.</p>
+
+<p>Near the end of the hearing, Senator Jon Tester looked toward Khan.</p>
+
+<p><i>“Do you think Harris would recognize this economy?”</i></p>
+
+<p>Khan thought for a moment.</p>
+
+<p><i>“More than people would probably like.”</i></p>
+
+<p>Tester smiled.</p>
+
+<p><i>“And what do you think he would say about it?”</i></p>
+
+<p>Khan looked down briefly before answering.</p>
+
+<p><i>“Probably something uncomfortable.”</i></p>
+
+<p>The room laughed softly.</p>
+
+<p><i>“I think Harris believed people can live with inequality for a long time. What they struggle to live with is the feeling that nobody listens to them anymore. Once people stop believing they have any influence over the systems around them, trust in institutions starts disappearing very quickly.”</i></p>
+
+<p>Nobody interrupted her.</p>
+
+<p>Finally Klobuchar leaned back toward the microphone.</p>
+
+<p><i>“Commissioner, thank you for your testimony.”</i></p>
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Continue</button>
@@ -15059,7 +15059,7 @@ applyEffects({
 campaignTrail_temp.running_mate_last_name = 'Strauss';
 campaignTrail_temp.running_mate_image_url = 'https://imgur.com/QztnIq5.jpg';
 
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1101}}]");
 
 }
@@ -15076,7 +15076,7 @@ applyEffects({
 
 campaignTrail_temp.running_mate_last_name = 'Lowenstein';
 campaignTrail_temp.running_mate_image_url = 'https://imgur.com/b4n1bSJ.jpg';
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1102}}]");
 
 }
@@ -15094,7 +15094,7 @@ applyEffects({
 
 campaignTrail_temp.running_mate_last_name = 'Wasserman';
 campaignTrail_temp.running_mate_image_url = 'https://imgur.com/vG90pMd.jpg';
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1106}}]");
 
 }
@@ -15112,7 +15112,7 @@ applyEffects({
 
 campaignTrail_temp.running_mate_last_name = 'Meany';
 campaignTrail_temp.running_mate_image_url = 'https://imgur.com/vM7U7qF.jpg';
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1103}}]");
 
 }
@@ -15130,7 +15130,7 @@ applyEffects({
 
 campaignTrail_temp.running_mate_last_name = 'Wilkins';
 campaignTrail_temp.running_mate_image_url = 'https://imgur.com/Ahqvhn7.jpg';
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1104}}]");
 
 }
@@ -15148,7 +15148,7 @@ applyEffects({
 
 campaignTrail_temp.running_mate_last_name = 'Boggs';
 campaignTrail_temp.running_mate_image_url = 'https://imgur.com/S2cF6Ll.jpg';
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1105}}]");
 
 }
@@ -16819,7 +16819,7 @@ if (
     ] = tunnel(1008);
 setTimeout(() => {
 e.obrienScreen();
-}, 50);
+}, 1);
 campaignTrail_temp.candidate_json[1]["fields"].first_name = "Larry";
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "O’Brien";
 campaignTrail_temp.candidate_last_name = 'O’Brien';
@@ -17612,7 +17612,7 @@ if (ans === 2101) {
         campaignTrail_temp.running_mate_last_name = "for President";
         campaignTrail_temp.running_mate_image_url = "https://imgur.com/96GkCbS.jpg";
 
-    }, 50);
+    }, 1);
 
     return;
 }
@@ -17653,7 +17653,7 @@ if (ans === 2301) {
         campaignTrail_temp.running_mate_last_name = "for President";
         campaignTrail_temp.running_mate_image_url = "https://imgur.com/96GkCbS.jpg";
 
-    }, 50);
+    }, 1);
 
     return;
 }
@@ -17691,7 +17691,7 @@ if (ans === 2701 || ans === 2901) {
         } else {
             console.error("humphreyScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -17729,7 +17729,7 @@ if (ans === 21501) {
         } else {
             console.error("humphreyScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -17767,7 +17767,7 @@ if (ans === 22301) {
         } else {
             console.error("humphreyScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -17805,7 +17805,7 @@ if (ans === 21101 || ans === 21301) {
         } else {
             console.error("muskieScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -17843,7 +17843,7 @@ if (ans === 21502) {
         } else {
             console.error("muskieScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -17881,7 +17881,7 @@ if (ans === 22302) {
         } else {
             console.error("muskieScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -17919,7 +17919,7 @@ if (ans === 21701 || ans === 21901 || ans === 22101) {
         } else {
             console.error("wallaceScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -17957,7 +17957,7 @@ if (ans === 22501 || ans === 22701 || ans === 22901) {
         } else {
             console.error("chisholmScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -17996,7 +17996,7 @@ if (ans === 23301 || ans === 23501) {
         } else {
             console.error("mondaleScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18035,7 +18035,7 @@ if (ans === 23302 || ans === 23502) {
         } else {
             console.error("bayhScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18074,7 +18074,7 @@ if (ans === 2501 || ans === 23101) {
         } else {
             console.error("churchScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18113,7 +18113,7 @@ if (ans === 2502 || ans === 23102) {
         } else {
             console.error("hughesScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18152,7 +18152,7 @@ if (ans === 2503 || ans === 23103 || ans === 23701 || ans === 23901) {
         } else {
             console.error("harrisScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18191,7 +18191,7 @@ if (ans === 23702 || ans === 23902) {
         } else {
             console.error("sanfordScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18231,7 +18231,7 @@ if (ans === 23303 || ans === 23703) {
         } else {
             console.error("scoopScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18271,7 +18271,7 @@ if (ans === 23503 || ans === 23704) {
         } else {
             console.error("millsScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18310,7 +18310,7 @@ if (ans === 2504 || ans === 23104 || ans === 23903) {
         } else {
             console.error("lindsayScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18349,7 +18349,7 @@ if (ans === 24101) {
         } else {
             console.error("kennedyScreen missing");
         }
-    }, 20);
+    }, 1);
 
     return false;
 }
@@ -18376,7 +18376,7 @@ if (
 if (
     (ans === 2105 || ans === 2106 || ans === 2107 || ans === 2108)
 ) {
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1111}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1112}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1113}}]");
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -18447,7 +18447,7 @@ if (
      campaignTrail_temp.player_answers.includes(2107) ||
      campaignTrail_temp.player_answers.includes(2108))
 ) {
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1114}}]");
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -18459,7 +18459,7 @@ if (
      campaignTrail_temp.player_answers.includes(2306) ||
      campaignTrail_temp.player_answers.includes(2307))
 ) {
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1115}}]");
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -18471,7 +18471,7 @@ if (
      campaignTrail_temp.player_answers.includes(2306) ||
      campaignTrail_temp.player_answers.includes(2307))
 ) {
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1116}}]");
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -18483,7 +18483,7 @@ if (
      campaignTrail_temp.player_answers.includes(2306) ||
      campaignTrail_temp.player_answers.includes(2307))
 ) {
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1117}}]");
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -18495,7 +18495,7 @@ if (
      campaignTrail_temp.player_answers.includes(2306) ||
      campaignTrail_temp.player_answers.includes(2307))
 ) {
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1114}}]");
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -18507,7 +18507,7 @@ if (
      campaignTrail_temp.player_answers.includes(2306) ||
      campaignTrail_temp.player_answers.includes(2307))
 ) {
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1118}}]");
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -18562,7 +18562,7 @@ else if (
      campaignTrail_temp.player_answers.includes(2107) ||
      campaignTrail_temp.player_answers.includes(2108))
 ) {
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1114}}]");
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -18716,7 +18716,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(11229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1119}}]");
 }
 if (
@@ -18725,7 +18725,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(11229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1120}}]");
 }
 if (
@@ -18734,7 +18734,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(11229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1121}}]");
 }
 if (
@@ -18743,7 +18743,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(11229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1128}}]");
 }
 if (
@@ -18864,7 +18864,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(12029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1122}}]");
 }
 if (
@@ -18873,7 +18873,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(12029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1123}}]");
 }
 if (
@@ -18882,7 +18882,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(12029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1116}}]");
 }
 if (
@@ -18891,7 +18891,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(12029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1128}}]");
 }
 if (
@@ -19004,7 +19004,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(12829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1124}}]");
 }
 if (
@@ -19013,7 +19013,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(12829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1125}}]");
 }
 if (
@@ -19022,7 +19022,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(12829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1126}}]");
 }
 if (
@@ -19116,7 +19116,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(13029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1119}}]");
 }
 if (
@@ -19210,7 +19210,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(13229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1119}}]");
 }
 if (
@@ -19219,7 +19219,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(13229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1115}}]");
 }
 if (
@@ -19228,7 +19228,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(13229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1123}}]");
 }
 if (
@@ -19322,7 +19322,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(13829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1119}}]");
 }
 if (
@@ -19331,7 +19331,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(13829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1120}}]");
 }
 if (
@@ -19340,7 +19340,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(13829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1121}}]");
 }
 if (
@@ -19434,7 +19434,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(14429);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1127}}]");
 }
 if (
@@ -19443,7 +19443,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(14429);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1120}}]");
 }
 if (
@@ -19452,7 +19452,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(14429);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1116}}]");
 }
 if (
@@ -19546,7 +19546,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(15029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1116}}]");
 }
 if (
@@ -19555,7 +19555,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(15029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1123}}]");
 }
 if (
@@ -19564,7 +19564,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(15029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1128}}]");
 }
 if (
@@ -19658,7 +19658,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(15629);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1115}}]");
 }
 if (
@@ -19667,7 +19667,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(15629);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1116}}]");
 }
 if (
@@ -19676,7 +19676,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(15629);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1128}}]");
 }
 if (
@@ -19770,7 +19770,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(16229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1127}}]");
 }
 if (
@@ -19779,7 +19779,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(16229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1115}}]");
 }
 if (
@@ -19788,7 +19788,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(16229);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1120}}]");
 }
 if (
@@ -19882,7 +19882,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(16829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1130}}]");
 }
 if (
@@ -19891,7 +19891,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(16829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1121}}]");
 }
 if (
@@ -19900,7 +19900,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(16829);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1117}}]");
 }
 if (
@@ -19994,7 +19994,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(17429);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1115}}]");
 }
 if (
@@ -20003,7 +20003,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(17429);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1120}}]");
 }
 if (
@@ -20012,7 +20012,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(17429);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1127}}]");
 }
 if (
@@ -20106,7 +20106,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(18029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1131}}]");
 }
 if (
@@ -20115,7 +20115,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(18029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1119}}]");
 }
 if (
@@ -20124,7 +20124,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(18029);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1116}}]");
 }
 if (
@@ -20218,7 +20218,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(18629);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1120}}]");
 }
 if (
@@ -20227,7 +20227,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(18629);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1123}}]");
 }
 if (
@@ -20236,7 +20236,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(18629);
-window.setTimeout(e.vpSwitcher, 20);
+window.setTimeout(e.vpSwitcher, 1);
 campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 201, \"running_mate\": 1129}}]");
 }
 if (
