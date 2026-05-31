@@ -112,7 +112,7 @@ window.campaignVars = {
     establishment: 6,
     minorities: 3,
     south: -3,
-    partyUnity: -2,
+    partyUnity: -4,
 };
 window.applyEffects = function(effects) {
     for (let key in effects) {
@@ -245,6 +245,7 @@ campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_t
 
 e = campaignTrail_temp
 e.answer_count = 6;
+window.hqLocked = false;
 function addHeadquarterButton() {
     if (document.getElementById('headquarter_button')) return;
     const refButton = document.getElementById('view_electoral_map');
@@ -260,16 +261,29 @@ function addHeadquarterButton() {
 
 
 function openHeadquarter() {
+
     let questions = document.querySelector(".inner_window_question");
     if (!questions) return;
 
+    // lock game interaction
+    window.hqLocked = true;
+
     questions.style.display = 'none';
+    questions.style.pointerEvents = 'none';
+
+    // disable navigation arrows
+    document.querySelectorAll(
+        '#next_question_button, #previous_question_button, .next_question, .previous_question'
+    ).forEach(el => {
+        el.style.pointerEvents = 'none';
+    });
 
     const hqButton = document.getElementById('headquarter_button');
     if (hqButton) hqButton.remove();
 
     createHeadquarter();
 }
+
 function getStatuses() {
 
 let left = window.campaignVars.left;
@@ -407,9 +421,23 @@ function createHeadquarter() {
     backButton.innerText = 'Back';
     backButton.style.zIndex = '2';
 
-    backButton.onclick = function () {
+backButton.onclick = function () {
+
+    window.hqLocked = false;
+
     hqWrapper.remove();
+
     questions.style.display = '';
+    questions.style.pointerEvents = '';
+
+    document.querySelectorAll(
+        '#next_question_button, #previous_question_button, .next_question, .previous_question'
+    ).forEach(el => {
+        el.style.pointerEvents = '';
+    });
+
+    addHeadquarterButton();
+
 };
 
     let headerText = document.createElement('div');
@@ -490,6 +518,46 @@ notebookWrapper.appendChild(window.notebookText);
         document.body.appendChild(hqWrapper);
     }
 }
+
+document.addEventListener(
+    "keydown",
+    function (e) {
+
+        if (!window.hqLocked) return;
+
+        // LEFT ARROW = press Back
+        if (e.key === "ArrowLeft") {
+
+            e.preventDefault();
+            e.stopImmediatePropagation();
+
+            const back =
+                document.querySelector("#headquarter button");
+
+            if (back) {
+                back.click();
+            }
+
+            return;
+        }
+
+        // block all other navigation keys
+        const blocked = [
+            "ArrowRight",
+            "ArrowUp",
+            "ArrowDown",
+            "Enter",
+            " "
+        ];
+
+        if (blocked.includes(e.key)) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+        }
+
+    },
+    true
+);
 
 // CUSTOM ENDINGS
 
@@ -17228,100 +17296,234 @@ if (ans === 22898) {
     campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
 }
 // THREE CLUSTER
+
 if (ans === 23097) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23098) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23099) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
+// 13225
 if (ans === 23297) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23298) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23299) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
+// 13425
 if (ans === 23497) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23498) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23499) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
+// 13625
 if (ans === 23697) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23698) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23699) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
+// 13825
 if (ans === 23897) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23898) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 23899) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
 // 14025
 if (ans === 24097) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24098) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24099) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
 // 14225
 if (ans === 24297) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24298) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24299) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
 // 14425
 if (ans === 24497) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24498) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24499) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
 // 14625
 if (ans === 24697) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24698) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24699) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
+
 // 14825
 if (ans === 24897) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24898) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 if (ans === 24899) {
-    campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    if (window.campaignVars.partyUnity >= -5) {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
+    } else {
+        campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
+    }
 }
 // FOUR CLUSTER
 // 15025
