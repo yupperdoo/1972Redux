@@ -18182,7 +18182,7 @@ if (ans === 23303 || ans === 23703) {
         return false;
     }
 
-    campaignTrail_temp.candidate_json[1]["fields"].first_name = "Scoop";
+    campaignTrail_temp.candidate_json[1]["fields"].first_name = "Henry 'Scoop' Jackson";
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Jackson";
     campaignTrail_temp.candidate_last_name = "Jackson";
 
@@ -20385,29 +20385,27 @@ addHeadquarterButton();
 
 (function () {
 
-  // disable engine template fields
   campaignTrail_temp.VisitText = "";
   campaignTrail_temp.VisitText2 = "";
 
   function updateVisitWindow() {
-
-    // prevent overriding the O'Brien screen
-    if (
-      document.body.textContent.includes(
-        "For now, stepping aside answers that question."
-      )
-    ) return;
-
     const p = document.querySelector("#visit_window .overlay_window_content p");
     if (!p) return;
 
     const text = p.textContent || "";
 
+    // must be a state name match
     const state = campaignTrail_temp.states_json.find(s =>
       text.includes(s.fields.name)
     );
 
     if (!state) return;
+
+    // reject non-visit screens by structure (they usually don't have the prompt)
+    const isVisitPrompt = text.includes("Is this where you want to visit?");
+    const looksLikeNarrative = text.length > 220;
+
+    if (!isVisitPrompt && looksLikeNarrative) return;
 
     const custom = window.visitTextDB?.[state.pk] || "";
 
