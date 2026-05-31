@@ -20390,6 +20390,14 @@ addHeadquarterButton();
   campaignTrail_temp.VisitText2 = "";
 
   function updateVisitWindow() {
+
+    // prevent overriding the O'Brien screen
+    if (
+      document.body.textContent.includes(
+        "For now, stepping aside answers that question."
+      )
+    ) return;
+
     const p = document.querySelector("#visit_window .overlay_window_content p");
     if (!p) return;
 
@@ -20408,6 +20416,6 @@ addHeadquarterButton();
       `Is this where you want to visit?`;
   }
 
-  setInterval(updateVisitWindow, 1);
+  setInterval(updateVisitWindow, 50);
 
 })();
