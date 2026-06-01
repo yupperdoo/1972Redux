@@ -14733,6 +14733,25 @@ style.innerHTML = `
 #campaign_sign {
   background-color: #90b1aa;
   border-color: #d5e0df;
+  width: 90%;
+  height: 50%;
+  margin: 20px auto 0 auto;
+}
+div.inner_window_sign_display {
+  height: 175px;
+}
+img#candidate_pic {
+  height: 175px;
+}
+img#running_mate_pic {
+  height: 175px;
+}
+#campaign_sign p {
+  font-size: 3.0em;
+  line-height: 0.55;
+}
+div.container {
+    width: 87.5%;
 }
  .inner_window_question h3 {
     border-color: #cadeda;
@@ -14742,7 +14761,7 @@ style.innerHTML = `
     color: white;
     overflow-y: auto;
     height: auto;
-    }
+}
 .overlay_window h3 {
     border-color: #cadeda;
     border-width: 3px;
@@ -14751,7 +14770,7 @@ style.innerHTML = `
     color: white;
 }
 div#visit_window.overlay_window
-    height: auto
+    height: auto;
     overflow: auto;
 }
 div#game_window {
@@ -14761,6 +14780,11 @@ div#game_window {
 div#visit_content.overlay_window_content {
     height: auto;
     overflow-y: auto;
+}
+#map_container svg {
+  width: 800px;
+  height: 400px;
+  margin-left: 50px;
 }
 #overall_result h3 {
     background-color: #90b1aa;
@@ -20687,3 +20711,25 @@ addHeadquarterButton();
   setInterval(updateVisitWindow, 1);
 
 })();
+
+document.addEventListener("click", function (e) {
+  const okBtn = e.target.closest("#ok_button");
+  if (!okBtn) return;
+
+  console.log("OK clicked");
+
+  // Try to find ANY visible overlay-like container
+  const overlays = document.querySelectorAll(".overlay_window, #feedback_window, [class*='overlay']");
+
+  overlays.forEach((el) => {
+    const style = window.getComputedStyle(el);
+
+    // Only act on visible ones
+    if (style.display !== "none" && style.visibility !== "hidden" && style.opacity !== "0") {
+      console.log("Removing overlay:", el);
+
+      // HARD REMOVE (bypasses state bugs)
+      el.remove();
+    }
+  });
+});
