@@ -5636,70 +5636,6 @@ const harrisWinsEnding = `
 <p><b>[Haldeman nods once.]</b></p>
 <p><b>Haldeman:</b> Yes, sir.</p>
 
-  <div style="margin-top:20px;text-align:center;">
-    <button onclick="goToDemPart2()">Back</button>
-  </div>
-
-</div>
-`;
-
-const sanfordWinsEnding = `
-<div id="demPart1" style="display:block;">
-
-<h3><b>WHITE HOUSE SITUATION ROOM<br>NOVEMBER 7, 1972<br>11:42 PM – 12:31 AM<br>WASHINGTON, D.C.</b></h3>
-<p><b>[11:42 PM]</b></p>
-<p><b>Haldeman:</b> The networks are calling it now. Even if we win California, the numbers just aren't there nationally. It's over, and there isn’t any realistic path left for a recount to change it.</p>
-<p><b>Ehrlichman:</b> So how much risk are we facing, legally speaking? Even after Cronkite's segment last week, we're not exactly the primary focus of the investigation.</p>
-<p><b>Haldeman:</b> It changes how they approach it, though. As long as it's a campaign dispute, it's just politics. Now it’s going to be treated as something involving the administration itself. Especially without the CIA giving us a hand.</p>
-<p><b>[A long pause. Papers are gathered and set down. A television in another room continues broadcasting election coverage at a low volume.]</b></p>
-<p><b>Nixon:</b> Are they all in agreement on the projection?</p>
-<p><b>Haldeman:</b> Yes, sir. All the major networks have called it within the last few minutes.</p>
-<p><b>Nixon:</b> Then we can assume this is final.</p>
-<p><b>[11:49 PM]</b></p>
-<p><b>Ehrlichman:</b> Once the results are certified, we should expect immediate pressure for hearings. The Senate will move quickly, and the Justice Department is in no position to stall them.</p>
-<p><b>Haldeman:</b> The press is already doing most of the work for them. They are pulling together the early pieces, even if they don’t fully understand how they fit yet.</p>
-<p><b>Nixon:</b> What exactly is out there right now, as far as we know?</p>
-<p><b>[Brief silence.]</b></p>
-<p><b>Ehrlichman:</b> They have parts of it. The break-in itself, some financial traces, a few people starting to connect names, but they don’t know for certain what ties it all together in a way that would stand up in a formal proceeding. The problem is Cronkite really got the wheels turning last week.</p>
-<p><b>[11:55 PM]</b></p>
-<p><b>Haldeman:</b> We need to start tightening control over what’s still floating around internally. There are documents, notes, and communications that could all be swept up once the subpoenas start moving..</p>
-<p><b>Nixon:</b> What are you suggesting we do with them?</p>
-<p><b>Haldeman:</b> We identify what’s sensitive, we bring it under control, and we make sure nothing leaves the building unless it absolutely has to. If something cannot be justified on official grounds, then it cannot be allowed to exist.</p>
-<p><b>Ehrlichman:</b> That only works if it’s done before formal discovery begins. After subpoenas are issued, all bets are off.</p>
-<p><b>[A chair shifts slightly as someone leans forward.]</b></p>
-<p><b>Nixon:</b> Those subpoenas are coming regardless of what we do tonight.</p>
-<p><b>[12:03 AM]</b></p>
-<p><b>Ehrlichman:</b> There’s also the question of personnel. If a single asset decides to cooperate fully, it’ll pull others with them very quickly.</p>
-<p><b>Haldeman:</b> That’s already a concern. We’re not dealing with a single weak point. We have several people who may decide their own legal position matters more than loyalty to the administration.</p>
-<p><b>Nixon:</b> People always think about themselves first when it gets difficult. Someone will talk eventually.</p>
-<p><b>[A long pause.]</b></p>
-<p><b>Nixon:</b> That’s usually how it works.</p>
-<p><b>[12:11 AM]</b></p>
-<p><b>Haldeman:</b> At this stage, the priority has to be slowing things down as much as possible. Dispute everything they throw at us. Appeal every court order. Whatever we can do.</p>
-<p><b>Ehrlichman:</b> If there’s any chance the media cycle moves on, that buys us time as well.</p>
-<p><b>Nixon:</b> It won’t move on. Not with the way they’ve picked it up already.</p>
-<p><b>[12:18 AM]</b></p>
-
-<p><b>[An aide briefly enters, speaks quietly to Haldeman, and leaves. The door closes.]</b></p>
-<p><b>Haldeman:</b> There is another issue, sir. Most of the relevant documents are not centralized in one location. They’re spread out between offices, storage rooms, and a few off-site locations. Gathering them now could create additional attention we can’t afford.</p>
-<p><b>Ehrlichman:</b> Well look, the risk is already there either way. If they remain where they are now, they pop up in discovery later. If we move them, we have a chance to turn the Bureau on a wild goose chase.</p>
-<p><b>[A long pause.]</b></p>
-<p><b>Nixon:</b> Then there is no advantage in leaving things scattered where they can be pulled apart later.</p>
-<p><b>[Another pause.]</b></p>
-<p><b>Nixon:</b> I want everything accounted for. Every document that connects back to this needs to be secured and dealt with properly. We’re not leaving any loose ends.</p>
-<p><b>Haldeman:</b> Understood, Mr. President. I’ll take care of it.</p>
-<p><b>[12:31 AM]</b></p>
-<p><b>[A long pause follows. The room stays still except for the low sound of the television in the other room.]</b></p>
-<p><b>Haldeman:</b> Mr. President?</p>
-<p><b>[Nixon doesn’t answer right away. He leans back slightly, takes a slow breath, and stares down at the table for a moment.]</b></p>
-<p><b>[Another pause. Haldeman watches him for a moment, unsure whether to push further.]</b></p>
-<p><b>Haldeman:</b> Are you doing alright, Mr. President?</p>
-<p><b>[Nixon exhales through his nose, almost a quiet laugh, but there is no humor in it. He finally looks up.]</b></p>
-<p><b>Nixon:</b> Well... they won’t have Dick Nixon to kick around anymore.</p>
-<p><b>[A beat.]</b></p>
-<p><b>[Haldeman nods once.]</b></p>
-<p><b>Haldeman:</b> Yes, sir.</p>
-
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Continue</button>
@@ -6160,6 +6096,70 @@ const sanfordWinsEnding = `
 <p>Finally Klobuchar leaned back toward the microphone.</p>
 
 <p><i>“Commissioner, thank you for your testimony.”</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToDemPart2()">Back</button>
+  </div>
+
+</div>
+`;
+
+const sanfordWinsEnding = `
+<div id="demPart1" style="display:block;">
+
+<h3><b>WHITE HOUSE SITUATION ROOM<br>NOVEMBER 7, 1972<br>11:42 PM – 12:31 AM<br>WASHINGTON, D.C.</b></h3>
+<p><b>[11:42 PM]</b></p>
+<p><b>Haldeman:</b> The networks are calling it now. Even if we win California, the numbers just aren't there nationally. It's over, and there isn’t any realistic path left for a recount to change it.</p>
+<p><b>Ehrlichman:</b> So how much risk are we facing, legally speaking? Even after Cronkite's segment last week, we're not exactly the primary focus of the investigation.</p>
+<p><b>Haldeman:</b> It changes how they approach it, though. As long as it's a campaign dispute, it's just politics. Now it’s going to be treated as something involving the administration itself. Especially without the CIA giving us a hand.</p>
+<p><b>[A long pause. Papers are gathered and set down. A television in another room continues broadcasting election coverage at a low volume.]</b></p>
+<p><b>Nixon:</b> Are they all in agreement on the projection?</p>
+<p><b>Haldeman:</b> Yes, sir. All the major networks have called it within the last few minutes.</p>
+<p><b>Nixon:</b> Then we can assume this is final.</p>
+<p><b>[11:49 PM]</b></p>
+<p><b>Ehrlichman:</b> Once the results are certified, we should expect immediate pressure for hearings. The Senate will move quickly, and the Justice Department is in no position to stall them.</p>
+<p><b>Haldeman:</b> The press is already doing most of the work for them. They are pulling together the early pieces, even if they don’t fully understand how they fit yet.</p>
+<p><b>Nixon:</b> What exactly is out there right now, as far as we know?</p>
+<p><b>[Brief silence.]</b></p>
+<p><b>Ehrlichman:</b> They have parts of it. The break-in itself, some financial traces, a few people starting to connect names, but they don’t know for certain what ties it all together in a way that would stand up in a formal proceeding. The problem is Cronkite really got the wheels turning last week.</p>
+<p><b>[11:55 PM]</b></p>
+<p><b>Haldeman:</b> We need to start tightening control over what’s still floating around internally. There are documents, notes, and communications that could all be swept up once the subpoenas start moving..</p>
+<p><b>Nixon:</b> What are you suggesting we do with them?</p>
+<p><b>Haldeman:</b> We identify what’s sensitive, we bring it under control, and we make sure nothing leaves the building unless it absolutely has to. If something cannot be justified on official grounds, then it cannot be allowed to exist.</p>
+<p><b>Ehrlichman:</b> That only works if it’s done before formal discovery begins. After subpoenas are issued, all bets are off.</p>
+<p><b>[A chair shifts slightly as someone leans forward.]</b></p>
+<p><b>Nixon:</b> Those subpoenas are coming regardless of what we do tonight.</p>
+<p><b>[12:03 AM]</b></p>
+<p><b>Ehrlichman:</b> There’s also the question of personnel. If a single asset decides to cooperate fully, it’ll pull others with them very quickly.</p>
+<p><b>Haldeman:</b> That’s already a concern. We’re not dealing with a single weak point. We have several people who may decide their own legal position matters more than loyalty to the administration.</p>
+<p><b>Nixon:</b> People always think about themselves first when it gets difficult. Someone will talk eventually.</p>
+<p><b>[A long pause.]</b></p>
+<p><b>Nixon:</b> That’s usually how it works.</p>
+<p><b>[12:11 AM]</b></p>
+<p><b>Haldeman:</b> At this stage, the priority has to be slowing things down as much as possible. Dispute everything they throw at us. Appeal every court order. Whatever we can do.</p>
+<p><b>Ehrlichman:</b> If there’s any chance the media cycle moves on, that buys us time as well.</p>
+<p><b>Nixon:</b> It won’t move on. Not with the way they’ve picked it up already.</p>
+<p><b>[12:18 AM]</b></p>
+
+<p><b>[An aide briefly enters, speaks quietly to Haldeman, and leaves. The door closes.]</b></p>
+<p><b>Haldeman:</b> There is another issue, sir. Most of the relevant documents are not centralized in one location. They’re spread out between offices, storage rooms, and a few off-site locations. Gathering them now could create additional attention we can’t afford.</p>
+<p><b>Ehrlichman:</b> Well look, the risk is already there either way. If they remain where they are now, they pop up in discovery later. If we move them, we have a chance to turn the Bureau on a wild goose chase.</p>
+<p><b>[A long pause.]</b></p>
+<p><b>Nixon:</b> Then there is no advantage in leaving things scattered where they can be pulled apart later.</p>
+<p><b>[Another pause.]</b></p>
+<p><b>Nixon:</b> I want everything accounted for. Every document that connects back to this needs to be secured and dealt with properly. We’re not leaving any loose ends.</p>
+<p><b>Haldeman:</b> Understood, Mr. President. I’ll take care of it.</p>
+<p><b>[12:31 AM]</b></p>
+<p><b>[A long pause follows. The room stays still except for the low sound of the television in the other room.]</b></p>
+<p><b>Haldeman:</b> Mr. President?</p>
+<p><b>[Nixon doesn’t answer right away. He leans back slightly, takes a slow breath, and stares down at the table for a moment.]</b></p>
+<p><b>[Another pause. Haldeman watches him for a moment, unsure whether to push further.]</b></p>
+<p><b>Haldeman:</b> Are you doing alright, Mr. President?</p>
+<p><b>[Nixon exhales through his nose, almost a quiet laugh, but there is no humor in it. He finally looks up.]</b></p>
+<p><b>Nixon:</b> Well... they won’t have Dick Nixon to kick around anymore.</p>
+<p><b>[A beat.]</b></p>
+<p><b>[Haldeman nods once.]</b></p>
+<p><b>Haldeman:</b> Yes, sir.</p>
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Continue</button>
