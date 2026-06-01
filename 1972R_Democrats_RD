@@ -14741,7 +14741,7 @@ style.innerHTML = `
     background-color: #90b1aa;
     color: white;
     overflow-y: auto;
-    max-height: 75px;
+    height: auto;
     }
 .overlay_window h3 {
     border-color: #cadeda;
@@ -14823,7 +14823,7 @@ div#final_results_description {
 }
 div#question_form {
 overflow-y: auto;
-  height: 205px;
+  height: 250px;
 }
 .inner_window_w_desc {
     background-color: #f5debc;
@@ -14985,7 +14985,7 @@ e.muskieScreen = () => {
 };
 e.wallaceScreen = () => {
     showCandidateScreen({
-        img: "https://imgur.com/DIusvA4.png",
+        img: "https://imgur.com/Tr2LOTW.png",
         name: "George Wallace",
         subtitle1: "Alabama",
         subtitle2: "Governor",
@@ -18144,7 +18144,7 @@ if (ans === 21701 || ans === 21901 || ans === 22101) {
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Wallace";
     campaignTrail_temp.candidate_last_name = "Wallace";
 
-    campaignTrail_temp.candidate_image_url = "https://imgur.com/DIusvA4.jpg";
+    campaignTrail_temp.candidate_image_url = "https://imgur.com/Tr2LOTW.jpg";
     campaignTrail_temp.running_mate_last_name = "for President";
     campaignTrail_temp.running_mate_image_url = "https://imgur.com/96GkCbS.jpg";
 
