@@ -620,14 +620,17 @@ HistHexcolour=["#C1440E","#0D4F8B","#D8A22B","#3F9E4D"];
         }
 RecReading = true;
 #election_id_button {
-  margin-top: 16%;
+  margin-top: 28%;
   margin-right: 82.5%;
+  
 }
 #election_description_window {
-  min-height: 300px;
+  min-height: 375px;
 }
 #inner_window_2 {
   min-height: 38em;
+  border-style: none;
+  border-color: transparent;
 }
 #inner_window_2 #election_year_form form[name="election_year"] h3 {
     color: black;
@@ -667,14 +670,14 @@ RecReading = true;
   padding-right: 1em;
   text-align: left;
   overflow-y: auto;
-  max-height: 20em;
+  max-height: 28em;
 }
 .person_summary {
     padding-top: 1em;
     padding-right: 1em;
     text-align: left;
     overflow-y: auto;
-    max-height: 320px;
+    max-height: 425px;
 }
 #election_image {
   position: relative; /* container for layering */
@@ -708,9 +711,12 @@ RecReading = true;
 #election_image img {
   position: relative;
   z-index: 2;  /* above GIF */
-  width: 70%; /* fills container */
-  height: auto;
+  width: 350px;
+  height: 275px;
   display: block;
+}
+div#candidate_description_window.person_description_window {
+  min-height: 450px;
 }
 #recommended_reading_box {
     overflow-y: auto;
