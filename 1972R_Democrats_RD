@@ -107,7 +107,7 @@ window.visitTextDB = {
 
 // Ensure you have the "current variables" object in scope
 window.campaignVars = {
-    left: 2,
+    left: -2,
     labor: 5,
     establishment: 6,
     minorities: 3,
