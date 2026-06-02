@@ -18476,7 +18476,7 @@ if (ans === 23303 || ans === 23703) {
         return false;
     }
 
-    campaignTrail_temp.candidate_json[1]["fields"].first_name = "Henry 'Scoop' Jackson";
+    campaignTrail_temp.candidate_json[1]["fields"].first_name = "Henry 'Scoop'";
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Jackson";
     campaignTrail_temp.candidate_last_name = "Jackson";
 
