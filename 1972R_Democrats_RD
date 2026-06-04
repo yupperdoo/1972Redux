@@ -14734,12 +14734,14 @@ style.innerHTML = `
   background-color: #90b1aa;
   border-color: #d5e0df;
   width: 90%;
-  height: 50%;
+  height: 48%;
   margin: 20px auto 0 auto;
 }
 div.inner_window_sign_display {
   height: 175px;
 }
+
+/*
 img#candidate_pic {
   height: 175px;
 }
@@ -14748,11 +14750,17 @@ img#running_mate_pic {
 }
 #campaign_sign p {
   font-size: 3.0em;
-  line-height: 0.55;
+  line-height: 0.45;
 }
 div.container {
     width: 87.5%;
 }
+#map_container svg {
+  width: 800px;
+  height: 400px;
+  margin-left: 50px;
+}
+*/
  .inner_window_question h3 {
     border-color: #cadeda;
     border-width: 3px;
@@ -14775,16 +14783,10 @@ div#visit_window.overlay_window
 }
 div#game_window {
     height: auto;
-    min-height: 50em;
 }
 div#visit_content.overlay_window_content {
     height: auto;
     overflow-y: auto;
-}
-#map_container svg {
-  width: 800px;
-  height: 400px;
-  margin-left: 50px;
 }
 #overall_result h3 {
     background-color: #90b1aa;
@@ -14846,8 +14848,8 @@ div#final_results_description {
   height: 100%;
 }
 div#question_form {
-overflow-y: auto;
-  height: 250px;
+  overflow-y: auto;
+  height: 200px;
 }
 .inner_window_w_desc {
     background-color: #f5debc;
