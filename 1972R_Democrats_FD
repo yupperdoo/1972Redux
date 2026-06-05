@@ -14849,8 +14849,7 @@ div#final_results_description {
 }
 div#question_form {
   overflow-y: auto;
-  min-height: 200px;
-  max-height: 250px;
+  height: 250px;
 }
 .inner_window_w_desc {
     background-color: #f5debc;
