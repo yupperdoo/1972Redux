@@ -14731,8 +14731,8 @@ e.candidateSwitcher = () => {
 const style = document.createElement('style');
 style.innerHTML = `
 #campaign_sign {
-  background-color: #90b1aa;
-  border-color: #d5e0df;
+  background-color: #b75c2b;
+  border-color: #d3a07d;
   width: 90%;
   height: 45%;
   margin: 20px auto 0 auto;
@@ -14762,19 +14762,19 @@ div.container {
 }
 */
  .inner_window_question h3 {
-    border-color: #cadeda;
+    background-color: #7f9a77;
+    border-color: #b8c7b3;
     border-width: 3px;
     border-style: solid;
-    background-color: #90b1aa;
     color: white;
     overflow-y: auto;
     height: auto;
 }
 .overlay_window h3 {
-    border-color: #cadeda;
+    background-color: #7f9a77;
+    border-color: #b8c7b3;
     border-width: 3px;
     border-style: solid;
-    background-color: #90b1aa;
     color: white;
 }
 div#visit_window.overlay_window
@@ -14789,10 +14789,10 @@ div#visit_content.overlay_window_content {
     overflow-y: auto;
 }
 #overall_result h3 {
-    background-color: #90b1aa;
+    background-color: #7f9a77;
+    border-color: #b8c7b3;
     border-style: none none solid;
     border-width: 2px;
-    border-color: var(--border-color);
     margin-top: 0;
     margin-bottom: .5em;
     color: white;
@@ -14805,19 +14805,21 @@ div#visit_content.overlay_window_content {
   line-height: 1.5;
 }
 #state_info h3 {
-    background-color: #90b1aa;
+    background-color: #7f9a77;
+    border-color: #b8c7b3;
     color: white;
 }
 #state_result h3 {
-    background-color: #90b1aa;
+    background-color: #7f9a77;
+    border-color: #b8c7b3;
     color: white;
 }
 #state_result_container {
-    background-color: #f5debc;
+    background-color: #f2e6c6;
     height: auto
 }
 #overall_result_container {
-    background-color: #f5debc;
+    background-color: #f2e6c6;
 }
 #results_container h3 {
     color: #3e2c22;
@@ -14838,7 +14840,7 @@ div#final_results_description {
     color: #3e2c22;
 }
 #menu_container {
-    background-color: #f5debc;
+    background-color: #f2e6c6;
 }
 #state_info {
     height: auto; 
@@ -14853,7 +14855,7 @@ div#question_form {
   min-height: 200px;
 }
 .inner_window_w_desc {
-    background-color: #f5debc;
+    background-color: #f2e6c6;
 }
 `;
 document.head.appendChild(style);
