@@ -3,15 +3,15 @@ e = campaignTrail_temp;
 if (!e.done) {
 e.done = true;
 
-            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#d17628";
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#b75c2b";
 
-            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f5debc";
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f2e6c6";
 
             document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
             $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-            $(".container")[0].style.backgroundColor = "#90b1aa";
+            $(".container")[0].style.backgroundColor = "#7f9a77";
 
             document.getElementById("header").src = "https://imgur.com/oYQXprL.jpg";
 
