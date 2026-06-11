@@ -17015,7 +17015,7 @@ else if (
 // McGovern
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
-    (window.campaignVars.left - Math.max(window.campaignVars.establishment, window.campaignVars.labor, window.campaignVars.minorities, window.campaignVars.south)) >= 4
+    (window.campaignVars.left - Math.max(window.campaignVars.establishment, window.campaignVars.labor, window.campaignVars.minorities, window.campaignVars.south)) >= 5
 ) {
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -17024,7 +17024,7 @@ if (
 // Humphrey
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
-    (window.campaignVars.labor - Math.max(window.campaignVars.establishment, window.campaignVars.left, window.campaignVars.minorities, window.campaignVars.south)) >= 4
+    (window.campaignVars.labor - Math.max(window.campaignVars.establishment, window.campaignVars.left, window.campaignVars.minorities, window.campaignVars.south)) >= 5
 ) {
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -17033,7 +17033,7 @@ if (
 // Muskie
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
-    (window.campaignVars.establishment - Math.max(window.campaignVars.left, window.campaignVars.labor, window.campaignVars.minorities, window.campaignVars.south)) >= 4
+    (window.campaignVars.establishment - Math.max(window.campaignVars.left, window.campaignVars.labor, window.campaignVars.minorities, window.campaignVars.south)) >= 5
 ) {
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -17042,7 +17042,7 @@ if (
 // Wallace
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
-    (window.campaignVars.south - Math.max(window.campaignVars.establishment, window.campaignVars.labor, window.campaignVars.minorities, window.campaignVars.left)) >= 4
+    (window.campaignVars.south - Math.max(window.campaignVars.establishment, window.campaignVars.labor, window.campaignVars.minorities, window.campaignVars.left)) >= 5
 ) {
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -17051,7 +17051,7 @@ if (
 // Chisholm
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
-    (window.campaignVars.minorities - Math.max(window.campaignVars.establishment, window.campaignVars.labor, window.campaignVars.left, window.campaignVars.south)) >= 4
+    (window.campaignVars.minorities - Math.max(window.campaignVars.establishment, window.campaignVars.labor, window.campaignVars.left, window.campaignVars.south)) >= 5
 ) {
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
