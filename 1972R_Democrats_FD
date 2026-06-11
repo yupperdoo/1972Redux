@@ -15104,7 +15104,7 @@ e.millsScreen = () => {
 };
 e.lindsayScreen = () => {
     showCandidateScreen({
-        img: "https://imgur.com/l4G9799.png",
+        img: "https://imgur.com/xAYQrmV.png",
         name: "John Lindsay",
         subtitle1: "New York",
         subtitle2: "Mayor of New York City",
@@ -18527,7 +18527,7 @@ if (ans === 2504 || ans === 23104 || ans === 23903) {
     campaignTrail_temp.candidate_json[1]["fields"].last_name = "Lindsay";
     campaignTrail_temp.candidate_last_name = "Lindsay";
 
-    campaignTrail_temp.candidate_image_url = "https://imgur.com/l4G9799.png";
+    campaignTrail_temp.candidate_image_url = "https://imgur.com/xAYQrmV.png";
     campaignTrail_temp.running_mate_last_name = "for President";
     campaignTrail_temp.running_mate_image_url = "https://imgur.com/96GkCbS.png";
 
