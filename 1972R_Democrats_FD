@@ -92,7 +92,7 @@ window.visitTextDB = {
   
   1044: "is a small New England state with a traditional Yankee Republican background, though there are early signs of Democratic gains in some areas.",
   
-  1045: "is a Southern state where expanding suburbs are making federal elections increasingly competitive between the parties.",
+  1045: "is a conservative Southern state where the growing suburbs have driven Republican strength in federal elections, despite Democratic dominance at the state level.",
   
   1046: "is a pacific coastal state where Democratic strength in the major cities dominates most political outcomes.",
   
@@ -9037,7 +9037,7 @@ const mcgovernTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and McGovern’s people are already trying to lock down the liberal delegations before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and McGovern’s people are already trying to lock down the liberal delegations before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -9162,7 +9162,7 @@ const mcgovernTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -9192,7 +9192,7 @@ const mcgovernTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -9206,7 +9206,7 @@ const mcgovernTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -9266,9 +9266,9 @@ const mcgovernTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -9278,7 +9278,7 @@ const mcgovernTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -9308,7 +9308,7 @@ const humphreyTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Humphrey’s people are already working the phones through union contacts and state chairs across the Midwest, trying to lock those industrial delegations down before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Humphrey’s people are already working the phones through union contacts and state chairs across the Midwest, trying to lock those industrial delegations down before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -9431,7 +9431,7 @@ const humphreyTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -9461,7 +9461,7 @@ const humphreyTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -9475,7 +9475,7 @@ const humphreyTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -9535,9 +9535,9 @@ const humphreyTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -9547,7 +9547,7 @@ const humphreyTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -9577,7 +9577,7 @@ const muskieTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Muskie’s people are already coordinating with governors and reform-minded delegations in the Northeast and along the West Coast, trying to lock that coalition together before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Muskie’s people are already coordinating with governors and reform-minded delegations in the Northeast and along the West Coast, trying to lock that coalition together before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -9700,7 +9700,7 @@ const muskieTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -9730,7 +9730,7 @@ const muskieTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -9744,7 +9744,7 @@ const muskieTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -9804,9 +9804,9 @@ const muskieTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -9816,7 +9816,7 @@ const muskieTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -9989,7 +9989,7 @@ const wallaceTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -10019,7 +10019,7 @@ const wallaceTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -10033,7 +10033,7 @@ const wallaceTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -10093,9 +10093,9 @@ const wallaceTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -10105,7 +10105,7 @@ const wallaceTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -10135,7 +10135,7 @@ const chisholmTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Chisholm’s people are already trying to lock down the liberal delegations before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Chisholm’s people are already trying to lock down the liberal delegations before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -10260,7 +10260,7 @@ const chisholmTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -10290,7 +10290,7 @@ const chisholmTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -10304,7 +10304,7 @@ const chisholmTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -10364,9 +10364,9 @@ const chisholmTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -10376,7 +10376,7 @@ const chisholmTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -10406,7 +10406,7 @@ const bayhTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Bayh’s people are already on the phones with governors and Senate allies trying to keep the house moderates from drifting before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Bayh’s people are already on the phones with governors and Senate allies trying to keep the house moderates from drifting before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -10541,7 +10541,7 @@ const bayhTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -10571,7 +10571,7 @@ const bayhTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -10585,7 +10585,7 @@ const bayhTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -10645,9 +10645,9 @@ const bayhTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -10657,7 +10657,7 @@ const bayhTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -10687,7 +10687,7 @@ const mondaleTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Mondale’s people are already on the phones with governors and Senate allies trying to keep the blue collar representatives from drifting before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Mondale’s people are already on the phones with governors and Senate allies trying to keep the blue collar representatives from drifting before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -10822,7 +10822,7 @@ const mondaleTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -10852,7 +10852,7 @@ const mondaleTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -10866,7 +10866,7 @@ const mondaleTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -10926,9 +10926,9 @@ const mondaleTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -10938,7 +10938,7 @@ const mondaleTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -10968,7 +10968,7 @@ const churchTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Church’s people are already working through Senate leadership to lock down any skittish congressmen.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Church’s people are already working through Senate leadership to lock down any skittish congressmen.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -11107,7 +11107,7 @@ const churchTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -11137,7 +11137,7 @@ const churchTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -11151,7 +11151,7 @@ const churchTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -11211,9 +11211,9 @@ const churchTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -11223,7 +11223,7 @@ const churchTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -11253,7 +11253,7 @@ const hughesTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Hughes’s people are already working through Senate leadership to lock down any skittish congressmen before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Hughes’s people are already working through Senate leadership to lock down any skittish congressmen before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -11394,7 +11394,7 @@ const hughesTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -11424,7 +11424,7 @@ const hughesTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -11438,7 +11438,7 @@ const hughesTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -11498,9 +11498,9 @@ const hughesTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -11510,7 +11510,7 @@ const hughesTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -11540,7 +11540,7 @@ const harrisTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and the Harris camp is already working through leadership to keep the steel and farm belts from fragmenting before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and the Harris camp is already working through leadership to keep the steel and farm belts from fragmenting before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -11679,7 +11679,7 @@ const harrisTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -11709,7 +11709,7 @@ const harrisTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -11723,7 +11723,7 @@ const harrisTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -11783,9 +11783,9 @@ const harrisTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -11795,7 +11795,7 @@ const harrisTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -11825,7 +11825,7 @@ const sanfordTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Sanford’s people are already working the governors and party chairs. He’s got way stronger appeal than you’d think.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Sanford’s people are already working the governors and party chairs. He’s got way stronger appeal than you’d think.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -11964,7 +11964,7 @@ const sanfordTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -11994,7 +11994,7 @@ const sanfordTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -12008,7 +12008,7 @@ const sanfordTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -12068,9 +12068,9 @@ const sanfordTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -12080,7 +12080,7 @@ const sanfordTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -12110,7 +12110,7 @@ const jacksonTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Jackson’s people are already working through Senate leadership and labor contacts before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Jackson’s people are already working through Senate leadership and labor contacts before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -12251,7 +12251,7 @@ const jacksonTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -12281,7 +12281,7 @@ const jacksonTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -12295,7 +12295,7 @@ const jacksonTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -12355,9 +12355,9 @@ const jacksonTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -12367,7 +12367,7 @@ const jacksonTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -12397,7 +12397,7 @@ const millsTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Mills’s people are already working through committee chairs and House leadership before this goes to the floor.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Mills’s people are already working through committee chairs and House leadership before this goes to the floor.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -12542,7 +12542,7 @@ const millsTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -12572,7 +12572,7 @@ const millsTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -12586,7 +12586,7 @@ const millsTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -12646,9 +12646,9 @@ const millsTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -12658,7 +12658,7 @@ const millsTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -12688,7 +12688,7 @@ const lindsayTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Lindsay’s people are already working through his urban contacts to lock up the Northeast and the West Coast before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Lindsay’s people are already working through his urban contacts to lock up the Northeast and the West Coast before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -12827,7 +12827,7 @@ const lindsayTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -12857,7 +12857,7 @@ const lindsayTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -12871,7 +12871,7 @@ const lindsayTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -12931,9 +12931,9 @@ const lindsayTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -12943,7 +12943,7 @@ const lindsayTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
@@ -12973,7 +12973,7 @@ const kennedyTiebreakerEnding = `
 
 <p><b>[Television audio overlaps across the ballroom. Staffers move quickly between tables carrying updated state tallies and electoral projections. Several networks have stopped short of calling the election.]</b></p>
 
-<p><b>Haldeman:</b> NBC just moved Oregon back into the undecided column. If that holds, we’re looking at a split nobody expected, and Kennedy’s people are already working the governors and Senate leadership before this goes to the House.</p>
+<p><b>Haldeman:</b> NBC just moved Ohio back into the undecided column. If that holds, we’re looking at a split nobody expected, and Kennedy’s people are already working the governors and Senate leadership before this goes to the House.</p>
 
 <p><b>Ehrlichman:</b> What’s the latest count?</p>
 
@@ -13134,7 +13134,7 @@ const kennedyTiebreakerEnding = `
 
 <p>If the right people had been in charge of Nixon's funeral, his casket would have been launched into one of those open-sewage canals that empty into the ocean just south of Los Angeles. He was a swine of a man and a jabbering dupe of a president. Nixon was so crooked that he needed servants to help him screw his pants on every morning. Even his funeral was illegal. He was queer in the deepest way. His body should have been burned in a trash bin.</p>
 
-<p>These are harsh words for a man only recently canonized by President Clinton and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
+<p>These are harsh words for a man only recently canonized by President Bush and my old friend George McGovern -- but I have written worse things about Nixon, many times, and the record will show that I kicked him repeatedly long before he went down. I beat him like a mad dog with mange every time I got a chance, and I am proud of it. He was scum.</p>
 
 <p>Let there be no mistake in the history books about that. Richard Nixon was an evil man -- evil in a way that only those who believe in the physical reality of the Devil can understand it. He was utterly without ethics or morals or any bedrock sense of decency. Nobody trusted him -- except maybe the Stalinist Chinese, and honest historians will remember him mainly as a rat who kept scrambling to get back on the ship.</p>
 
@@ -13164,7 +13164,7 @@ const kennedyTiebreakerEnding = `
 
 <p>For Nixon, the loss of Hoover led inevitably to the disaster of Watergate. It meant hiring a New Director -- who turned out to be an unfortunate toady named L. Patrick Gray, who squealed like a pig in hot oil the first time Nixon leaned on him. Gray panicked and fingered White House Counsel John Dean, who refused to take the rap and rolled over, instead, on Nixon, who was trapped like a rat by Dean's relentless, vengeful testimony and went all to pieces right in front of our eyes on TV.</p>
 
-<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. Or at least that's what Bill Clinton says -- and he is, after all, the President of the United States.</p>
+<p>That is Watergate, in a nut, for people with seriously diminished attention spans. The real story is a lot longer and reads like a textbook on human treachery. They were all scum, but only Nixon walked free and lived to clear his name. He faced great controversy amid defeat as well as victory. Or at least that's what George Bush says -- and he is, after all, the President of the United States.</p>
 
 <p>Nixon liked to remind people of that. He believed it, and that was why he went down. He was not only a crook but a fool. Two years after he quit, he told a TV journalist that ‘if the president does it, it can't be illegal.’</p>
 
@@ -13178,7 +13178,7 @@ const kennedyTiebreakerEnding = `
 
 <p>Kissinger made the Gang of Four complete: Agnew, Hoover, Kissinger and Nixon. A group photo of these perverts would say all we need to know about the Age of Nixon.</p>
 
-<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or Bill Clinton or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
+<p>Nixon's spirit will be with us for the rest of our lives -- whether you're me or George Bush or you or Kurt Cobain or Bishop Tutu or Keith Richards or Amy Fisher or Boris Yeltsin's daughter or your fiancee's 16-year-old beer-drunk brother with his braided goatee and his whole life like a thundercloud out in front of him. This is not a generational thing. You don't even have to know who Richard Nixon was to be a victim of his ugly, Nazi spirit.</p>
 
 <p>He has poisoned our water forever. Nixon will be remembered as a classic case of a smart man shitting in his own nest. But he also shit in our nests, and that was the crime that history will burn on his memory like a brand. By disgracing and degrading the Presidency of the United States, by fleeing the White House like a diseased cur, Richard Nixon broke the heart of the American Dream.</p>
 
@@ -13238,9 +13238,9 @@ const kennedyTiebreakerEnding = `
 
 <p>Kemp initially ran for a second term, but his campaign collapsed under sustained criticism from the party’s right flank, which argued that his presidency had relied too heavily on Democratic votes in Congress and failed to advance a unified conservative agenda. He withdrew during the primary process, leaving the party fragmented and unable to consolidate around a single successor.</p>
 
-<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a decisive landslide to Wesley Clark.</p>
+<p>The result was a disorganized general election effort led by Carroll Campbell, who ultimately lost in a landslide to Wesley Clark.</p>
 
-<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
+<p>Clark’s presidency, beginning in 2001, was shaped immediately by the September 11 attacks on the World Trade Center. He authorized the invasion of Afghanistan later that year, building a broad international coalition that included NATO partners and regional allies. The war remained central to his first term, including a 2003 troop surge that expanded counterinsurgency operations and increased long-term American military presence in the region.</p>
 
 <p>Domestically, Clark signed the No Child Left Behind Act in 2002, which significantly increased federal education spending tied to standardized accountability measures, expanding funding for Title I schools and literacy programs. In 2003, he signed Medicare Part D, establishing a prescription drug benefit for seniors that reshaped federal healthcare spending over the following decade.</p>
 
@@ -13250,7 +13250,7 @@ const kennedyTiebreakerEnding = `
 
 <p>His second term was marked by continued stabilization efforts in Afghanistan and gradual drawdown planning, as well as expanded NATO coordination in counterterrorism operations following renewed threats in the mid-2000s.</p>
 
-<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than a decade of divided control and reshaping the legislative environment entering the 2008 cycle.</p>
+<p>Politically, Democrats held the Senate through the 2004 elections despite the unexpected defeat of Senator Tom Daschle, which removed the party’s whip and forced a leadership transition. Harry Reid, who had been third in line in the leadership structure before Daschle’s loss and second afterward, became minority leader in 2007 following Jim Sasser’s retirement. That transition came after Republicans captured both houses of Congress in the 2006 midterms, ending more than 50 years of Democratic control on Capitol Hill and putting Virginia Congressman Tom Davis in the Speakership.</p>
 
 <p>Now, in October 2008, the presidential race has tightened into a narrow national margin.</p>
 
