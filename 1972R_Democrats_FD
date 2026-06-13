@@ -182,58 +182,208 @@ window.candidatesText.style.color = "#222";
 
 window.candidatesText.innerHTML = `
 
-<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
-    <img src="https://imgur.com/GEaKgYT.png"
-         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
-    <div>
-        <b>Ted Kennedy</b><br>
-        Ted Kennedy remains one of the most talked about figures in the party, even as he continues to insist he is not running. Chappaquiddick is still very fresh in the minds of both voters and elected officials, and it has clearly slowed any momentum toward a draft effort. At the same time, he retains a strong reservoir of personal popularity, especially among younger voters and many rank-and-file Democrats who still see him as a possible bridge between the party’s factions if he ever chose to step forward.
+<h3 style="font-style:italic; font-size:20px; margin: 0 4% 2% 20%;">
+    <i>Frontrunners</i>
+</h3>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/GEaKgYT.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Ted Kennedy</b><br>
+            Ted Kennedy remains one of the most discussed figures in the party even as he continues to insist he is not a candidate. The circumstances surrounding Chappaquiddick still shape how many elected officials and activists approach him, limiting any formal movement toward a draft effort for the time being. At the same time, he continues to carry a level of personal support that few others can match, particularly among younger voters and segments of the party that are looking for a figure capable of bridging internal divisions if he were ever to enter the race.
+        </div>
     </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">A</div>
 </div>
 
-<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
-    <img src="https://imgur.com/1EF1COs.png"
-         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
-    <div>
-        <b>Edmund Muskie</b><br>
-        Ed Muskie has emerged as one of the most consistent figures in the early contest for 1972, drawing steady support from governors, party professionals, and many who are looking for a candidate with broad general election appeal. He is seen as disciplined, cautious, and capable of reassuring a party still unsettled by the last presidential cycle. While he has not yet generated intense enthusiasm in any one faction, his strength lies in the breadth of his acceptability.
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/1EF1COs.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Edmund Muskie</b><br>
+            Ed Muskie has developed into a steady reference point for party leaders looking for stability after a turbulent recent cycle. Governors, donors, and organizational figures tend to view him as a broadly acceptable option who could hold together a divided coalition. While he has not yet generated deep enthusiasm in any single wing of the party, his appeal rests on his perceived discipline and his ability to avoid alienating major blocs within the party structure.
+        </div>
     </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">B</div>
 </div>
 
-<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
-    <img src="https://imgur.com/GD2Nsse.png"
-         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
-    <div>
-        <b>Hubert Humphrey</b><br>
-        Hubert Humphrey remains one of the most experienced and deeply rooted figures in the party. Labor leaders, urban organizations, and long-time Democratic officials continue to view him as a natural point of unity if the field remains divided. At the same time, his association with the Johnson administration and the Vietnam debate continues to shape perceptions of his candidacy, particularly among younger delegates and reform-minded activists.
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/GD2Nsse.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Hubert Humphrey</b><br>
+            Hubert Humphrey remains one of the most experienced and deeply connected figures in the party, with long-standing ties to labor, urban organizations, and established Democratic institutions. Many party professionals continue to see him as a natural fallback if the nomination process becomes fragmented. At the same time, his association with earlier national leadership and the Vietnam era continues to shape how he is received among reform-minded activists and younger delegates who are less aligned with the traditional party structure.
+        </div>
     </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">C</div>
 </div>
 
-<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
-    <img src="https://imgur.com/yPldpEr.png"
-         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
-    <div>
-        <b>Eugene McCarthy</b><br>
-        Eugene McCarthy is still the most recognizable voice of the party’s antiwar wing, but his influence is no longer expanding the way it did in 1968. He remains respected for forcing Vietnam to the center of Democratic politics, yet there is a growing sense that his moment as a national contender may have passed. His decision not to seek another Senate term has only deepened the impression of a figure increasingly disillusioned with the direction of both the party and national politics.
+<h3 style="font-style:italic; font-size:20px; margin: 0 4% 2% 20%;">
+    <i>Rising Stars</i>
+</h3>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/jzNaqi8.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>George McGovern</b><br>
+            George McGovern has begun to attract attention as a developing figure within the party’s reform and antiwar networks, though his national profile remains limited outside those circles. His role in pushing procedural changes within the party has given him credibility among activists who are focused on reshaping the nominating process itself. He is still establishing himself as a national figure, but there is a growing sense that he represents a different direction from the established leadership.
+        </div>
     </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">C</div>
 </div>
 
-<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
-    <img src="https://imgur.com/jzNaqi8.png"
-         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
-    <div>
-        <b>George McGovern</b><br>
-        George McGovern has begun to surface as a new national figure within the reform and antiwar circles, though he remains relatively unknown outside those networks. His work on reforming the party's nominating process and his steady opposition to the Vietnam War have given him credibility with activists who are searching for an alternative to the established contenders. He is still building a political identity on the national stage, and few at this point would describe him as a frontrunner, but his trajectory is drawing increasing attention.
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/0kI1Kke.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Walter Mondale</b><br>
+            Walter Mondale is emerging as a Minnesota senator closely associated with labor-aligned reform politics and a measured institutional style. He is viewed by many within the party as dependable and broadly acceptable, with a political profile that is still developing on the national stage. His support tends to come from those who are looking for a pragmatic figure who can work across internal divisions without becoming a focal point of conflict.
+        </div>
     </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">C</div>
 </div>
 
-<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
-    <img src="https://imgur.com/Tr2LOTW.png"
-         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
-    <div>
-        <b>George Wallace</b><br>
-        George Wallace continues to dominate the party’s Southern flank and remains the most powerful figure speaking to white working-class and Southern Democrats who feel increasingly alienated from the national direction of the party. His influence on issues like busing and federal authority ensures he cannot be ignored in any national calculation. While he is unlikely to unify the broader Democratic coalition, he remains a defining presence that shapes both rhetoric and strategy heading into the convention.
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/7d225JH.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Birch Bayh</b><br>
+            Birch Bayh has built a reputation as a reform-oriented senator with a focus on institutional and constitutional issues that resonate with parts of the party seeking modernization. He is respected across multiple factions but has not yet consolidated a distinct national identity as a presidential figure. Much of his support rests on the perception that he could become a consensus-oriented candidate if the field remains unsettled.
+        </div>
     </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">B</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/jaVwOkC.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Frank Church</b><br>
+            Frank Church is developing a national profile grounded in foreign policy credibility and a growing appeal among antiwar Democrats. He is often viewed as a serious-minded Western liberal with the capacity to speak to concerns beyond the party’s activist base. While his organizational reach is still limited, his reputation within policy discussions continues to expand.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">B</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/40vC3kn.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Harold Hughes</b><br>
+            Harold Hughes brings a populist reform voice that resonates particularly in parts of the Midwest, where economic and moral language often overlap in Democratic politics. He maintains a distinctive profile that draws support from both religious voters and working-class constituencies. While his appeal is regionally strong, his national organization remains comparatively limited.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">A</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/vmxvpGP.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Fred Harris</b><br>
+            Fred Harris has developed a reputation as a reform-minded senator who is closely engaged with internal party change efforts. His political identity is shaped by a mix of populist instincts and procedural reform advocacy, which has earned him attention within activist and organizational reform circles. He remains a developing national figure with potential to grow as the nominating process continues to evolve.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">B</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/nGtPflE.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Terry Sanford</b><br>
+            Terry Sanford is regarded as a Southern liberal with strong emphasis on education and economic development, often appealing to reform-oriented Democrats seeking regional balance. His profile reflects a blend of modernizing policy interests and geographic constraints that limit his broader national traction. Within party discussions, he is often seen as a capable but regionally grounded figure.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">B</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/3YjdSZD.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Henry Jackson</b><br>
+            Henry 'Scoop' Jackson has established himself as a senator with strong national security credentials and a consistent appeal to labor-aligned moderates. His political identity is increasingly defined by a centrist posture that emphasizes stability and international engagement. He is viewed as a serious figure within internal party conversations, particularly among those seeking an alternative to both ideological wings.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">C</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/UgIQypp.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Wilbur Mills</b><br>
+            Wilbur Mills carries significant institutional influence through his position in the House, where his control over fiscal policy gives him a unique form of political leverage. He is not a traditional presidential candidate, but his role in shaping legislative priorities places him in broader discussions about party direction and authority. His strength lies more in institutional power than in electoral campaigning.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">C</div>
+</div>
+
+<h3 style="font-style:italic; font-size:20px; margin: 0 7% 2% 20%;">
+    <i>Wild Cards</i>
+</h3>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/yPldpEr.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Eugene McCarthy</b><br>
+            Eugene McCarthy remains closely identified with the party’s antiwar movement, though his broader political influence has begun to plateau compared to earlier momentum. He continues to be respected for elevating Vietnam as a defining issue within Democratic politics. Increasingly, however, he is viewed more as a symbolic figure of that movement than a central contender for future nomination fights.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">???</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/Tr2LOTW.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>George Wallace</b><br>
+            George Wallace remains the dominant figure within the party’s Southern wing, with sustained appeal among voters and delegates resistant to the national party’s evolving direction. His influence is most pronounced in shaping internal tensions and forcing strategic calculations around regional balance. While he operates outside the party’s consensus structures, his presence continues to shape the overall field.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">???</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/HVYY1Qs.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>Shirley Chisholm</b><br>
+            Shirley Chisholm is emerging as a national figure within the black community, representing a growing segment of the party seeking new leadership voices. She is still building organizational depth, but her visibility is increasing within progressive and urban Democratic circles. Her presence reflects a broader shift in the party’s internal conversation about representation and direction.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">???</div>
+</div>
+
+<div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
+    <div style="display:flex; align-items:flex-start;">
+        <img src="https://imgur.com/xAYQrmV.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <div>
+            <b>John Lindsay</b><br>
+            John Lindsay operates from outside traditional Democratic structures while maintaining strong liberal credibility in a major national media market. His political alignment is still fluid, and his relationship with the party establishment remains complicated. He is often discussed as a potential independent force within the broader progressive landscape rather than a conventional party figure.
+        </div>
+    </div>
+    <div style="font-weight:bold; font-size:24px; margin-left:10px; margin-right:5px; margin-top:-5px; font-style:italic;">???</div>
 </div>
 `;
 
@@ -345,14 +495,15 @@ function addHeadquarterButton() {
         const candidatesButton = document.createElement('button');
         candidatesButton.id = 'candidates_button';
         candidatesButton.style.marginLeft = '1.5em';
-        candidatesButton.innerHTML = 'Leading Candidates';
+        candidatesButton.innerHTML = 'The Bench';
+
+        candidatesButton.style.fontSize = "13px"; // <- here
 
         candidatesButton.addEventListener('click', openCandidates);
 
         hqButton.insertAdjacentElement('afterend', candidatesButton);
 
         syncHQUI();        
-
         updateCandidatesButtonState();
     }
 }
@@ -723,10 +874,10 @@ function createCandidates() {
     };
 
     let headerText = document.createElement('div');
-    headerText.textContent = 'Leading Candidates';
+    headerText.textContent = 'Prospective Candidates';
 
     headerText.style.position = 'absolute';
-    headerText.style.left = '40%';
+    headerText.style.left = '38%';
     headerText.style.top = '60%';
     headerText.style.transform = 'translate(-50%, -50%)';
     headerText.style.color = 'black';
