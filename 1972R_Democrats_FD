@@ -182,23 +182,59 @@ window.candidatesText.style.color = "#222";
 
 window.candidatesText.innerHTML = `
 
-<p><b>Ed Muskie</b><br>
-The Senator from Maine has moved into a strong early position and is widely seen as the most acceptable option to the party’s regular leadership. Muskie has a reputation for steadiness and discipline, and his 1968 vice presidential run left him with national visibility and a network of support across multiple factions. Still, some reformers worry he is too cautious for the moment, and there is uncertainty about whether his appeal can stretch far enough to hold together a coalition shaped by new rules and new activists.</p>
+<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
+    <img src="https://imgur.com/GEaKgYT.png"
+         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+    <div>
+        <b>Ted Kennedy</b><br>
+        Ted Kennedy remains one of the most talked about figures in the party, even as he continues to insist he is not running. Chappaquiddick is still very fresh in the minds of both voters and elected officials, and it has clearly slowed any momentum toward a draft effort. At the same time, he retains a strong reservoir of personal popularity, especially among younger voters and many rank-and-file Democrats who still see him as a possible bridge between the party’s factions if he ever chose to step forward.
+    </div>
+</div>
 
-<p><b>Hubert Humphrey</b><br>
-Hubert Humphrey remains one of the most influential figures in the party, with deep ties to labor, urban machines, and longtime Democratic officeholders. Many in the organization still see him as the most experienced figure available, especially if the race becomes fragmented. At the same time, Vietnam and 1968 continue to hang over him, and a number of younger delegates remain resistant to a return to the politics he represents.</p>
+<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
+    <img src="https://imgur.com/1EF1COs.png"
+         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+    <div>
+        <b>Edmund Muskie</b><br>
+        Ed Muskie has emerged as one of the most consistent figures in the early contest for 1972, drawing steady support from governors, party professionals, and many who are looking for a candidate with broad general election appeal. He is seen as disciplined, cautious, and capable of reassuring a party still unsettled by the last presidential cycle. While he has not yet generated intense enthusiasm in any one faction, his strength lies in the breadth of his acceptability.
+    </div>
+</div>
 
-<p><b>George McGovern</b><br>
-The South Dakota senator has quickly become a focal point for antiwar activists and the emerging reform network. His supporters are energized by the new delegate rules and are working aggressively at the state level to translate that into real convention strength. Critics see him as too dependent on campus politics and activist energy, but his campaign has shown a surprising ability to organize beyond his original base.</p>
+<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
+    <img src="https://imgur.com/GD2Nsse.png"
+         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+    <div>
+        <b>Hubert Humphrey</b><br>
+        Hubert Humphrey remains one of the most experienced and deeply rooted figures in the party. Labor leaders, urban organizations, and long-time Democratic officials continue to view him as a natural point of unity if the field remains divided. At the same time, his association with the Johnson administration and the Vietnam debate continues to shape perceptions of his candidacy, particularly among younger delegates and reform-minded activists.
+    </div>
+</div>
 
-<p><b>Ted Kennedy</b><br>
-Ted Kennedy continues to deny interest in running, but his name comes up in almost every private conversation about the nomination. Many Democrats see him as the only figure who could naturally bridge the party’s divisions, though no organized effort exists to draft him yet. His hesitation keeps him out of the race for now, but it also keeps him present in a way no other non-candidate can match.</p>
+<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
+    <img src="https://imgur.com/yPldpEr.png"
+         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+    <div>
+        <b>Eugene McCarthy</b><br>
+        Eugene McCarthy is still the most recognizable voice of the party’s antiwar wing, but his influence is no longer expanding the way it did in 1968. He remains respected for forcing Vietnam to the center of Democratic politics, yet there is a growing sense that his moment as a national contender may have passed. His decision not to seek another Senate term has only deepened the impression of a figure increasingly disillusioned with the direction of both the party and national politics.
+    </div>
+</div>
 
-<p><b>Eugene McCarthy</b><br>
-Eugene McCarthy still carries strong support among antiwar liberals and the activists who first rallied to him in 1968. He remains respected for forcing the Vietnam issue into the center of the party, but his relationship with the regular organization is still strained. Many delegates view him as an important moral voice, though not necessarily a unifying national nominee.</p>
+<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
+    <img src="https://imgur.com/jzNaqi8.png"
+         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+    <div>
+        <b>George McGovern</b><br>
+        George McGovern has begun to surface as a new national figure within the reform and antiwar circles, though he remains relatively unknown outside those networks. His work on reforming the party's nominating process and his steady opposition to the Vietnam War have given him credibility with activists who are searching for an alternative to the established contenders. He is still building a political identity on the national stage, and few at this point would describe him as a frontrunner, but his trajectory is drawing increasing attention.
+    </div>
+</div>
 
-<p><b>George Wallace</b><br>
-George Wallace holds a loyal base among Southern delegations and white working-class voters who feel increasingly distant from the national party. His message on busing and federal authority continues to resonate in a number of key states. At the same time, his presence deepens tensions inside the Democratic coalition, and most leaders see him less as a future nominee than as a force that will shape the convention’s outcome.</p>
+<div style="display:flex; align-items:flex-start; margin-bottom:12px;">
+    <img src="https://imgur.com/Tr2LOTW.png"
+         style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+    <div>
+        <b>George Wallace</b><br>
+        George Wallace continues to dominate the party’s Southern flank and remains the most powerful figure speaking to white working-class and Southern Democrats who feel increasingly alienated from the national direction of the party. His influence on issues like busing and federal authority ensures he cannot be ignored in any national calculation. While he is unlikely to unify the broader Democratic coalition, he remains a defining presence that shapes both rhetoric and strategy heading into the convention.
+    </div>
+</div>
 `;
 
 setTimeout(() => {
@@ -310,10 +346,42 @@ function addHeadquarterButton() {
         candidatesButton.id = 'candidates_button';
         candidatesButton.style.marginLeft = '1.5em';
         candidatesButton.innerHTML = 'Leading Candidates';
+
         candidatesButton.addEventListener('click', openCandidates);
 
         hqButton.insertAdjacentElement('afterend', candidatesButton);
+
+        syncHQUI();        
+
+        updateCandidatesButtonState();
     }
+}
+
+function updateCandidatesButtonState() {
+    const btn = document.getElementById("candidates_button");
+    if (!btn) return;
+
+    const unlocked = campaignTrail_temp.candidate_last_name === "O’Brien";
+
+    btn.disabled = !unlocked;
+    btn.style.opacity = unlocked ? "1" : "0.5";
+    btn.style.cursor = unlocked ? "pointer" : "not-allowed";
+    btn.style.pointerEvents = unlocked ? "auto" : "none";
+
+    setTimeout(() => {
+        const btn2 = document.getElementById("candidates_button");
+        if (!btn2) return;
+
+        const unlocked2 = campaignTrail_temp.candidate_last_name === "O’Brien";
+
+        btn2.disabled = !unlocked2;
+        btn2.style.opacity = unlocked2 ? "1" : "0.5";
+        btn2.style.cursor = unlocked2 ? "pointer" : "not-allowed";
+        btn2.style.pointerEvents = unlocked2 ? "auto" : "none";
+    }, 80);
+}
+function syncHQUI() {
+    updateCandidatesButtonState();
 }
 
 function openHeadquarter() {
@@ -596,6 +664,7 @@ notebookWrapper.appendChild(window.notebookText);
     } else {
         document.body.appendChild(hqWrapper);
     }
+setTimeout(syncHQUI, 50);
 }
 
 function createCandidates() {
@@ -657,7 +726,7 @@ function createCandidates() {
     headerText.textContent = 'Leading Candidates';
 
     headerText.style.position = 'absolute';
-    headerText.style.left = '33%';
+    headerText.style.left = '40%';
     headerText.style.top = '60%';
     headerText.style.transform = 'translate(-50%, -50%)';
     headerText.style.color = 'black';
@@ -15195,6 +15264,7 @@ e.obrienScreen = () => {
         subtitle2: "Former DNC Chair",
         bio: "<p>Larry O’Brien is a veteran Democratic strategist and former Democratic National Committee chairman with decades of experience managing campaigns and coordinating party leadership. A close advisor to Presidents Kennedy and Johnson, O’Brien maintains strong relationships with state party leaders, congressional figures, and longtime donors. His return following Fred Harris’s departure signals a shift toward steady, institutional leadership at a moment of uncertainty within the Democratic Party. Known for his calm, methodical approach, he focuses on party unity and avoiding damaging public disputes. While reform minded activists may view him as a representative of the party establishment, many leaders welcome his experience and discipline. O’Brien’s steady hand could help keep the party organized as it moves toward the 1972 convention.</p>"
     });
+-    setTimeout(syncHQUI, 50);
 };
 e.mcgovernScreen = () => {
     showCandidateScreen({
