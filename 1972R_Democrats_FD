@@ -474,6 +474,174 @@ campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_t
 e = campaignTrail_temp
 e.answer_count = 6;
 window.hqLocked = false;
+function openAchievementsScreen() {
+
+    const ach = campaignTrail_temp.unlockedAchievements || {};
+    const entries = Object.entries(ach).filter(([k, v]) => v === true);
+
+    // =========================
+    // HIDE GAME UI (ONLY FOR SCREEN)
+    // =========================
+    document.querySelectorAll(".person_summary").forEach(el => {
+        el.style.display = "none";
+        el.style.margin = "0";
+        el.style.padding = "0";
+    });
+
+    document.querySelectorAll(".person_image").forEach(el => {
+        el.style.display = "none";
+    });
+
+    let html = `
+    <div id="achievements_screen" style="
+        width:100%;
+        height:100%;
+        overflow-y:auto;
+        padding:20px;
+        background:#f4f1e8;
+        font-family:Georgia;
+    ">
+        <h2 style="text-align:center; margin-bottom:20px; font-size:22px;">
+            Achievements
+        </h2>
+    `;
+
+    if (entries.length === 0) {
+        html += `
+        <div style="text-align:center; opacity:0.6; margin-top:30px;">
+            No achievements unlocked yet.
+        </div>`;
+    }
+
+    // =========================
+    // RENDER ACHIEVEMENTS
+    // =========================
+    for (const [title] of entries) {
+
+        const data = campaignTrail_temp.achievements[title];
+        if (!data) continue;
+
+        html += `
+        <div style="
+            display:flex;
+            align-items:flex-start;
+            margin-bottom:15px;
+            padding-bottom:10px;
+            border-bottom:1px solid #ccc;
+        ">
+            <img src="${data.image}"
+                 style="width:60px; height:60px; margin-right:12px; object-fit:cover;">
+
+            <div>
+                <b>${title}</b><br>
+                <div style="font-size:13px; margin-top:3px;">
+                    ${data.description}
+                </div>
+            </div>
+        </div>
+        `;
+    }
+
+    // =========================
+    // BACK BUTTON
+    // =========================
+    html += `
+        <div style="text-align:center; margin-top:20px;">
+            <button id="achievements_back_btn"
+                style="
+                    padding:8px 14px;
+                    font-size:13px;
+                    cursor:pointer;
+                ">
+                Back
+            </button>
+        </div>
+    </div>
+    `;
+
+    showCandidateScreen({
+        img: "",
+        name: "",
+        subtitle1: "",
+        subtitle2: "",
+        bio: html
+    });
+
+    // restore UI on back
+    setTimeout(() => {
+        const backBtn = document.getElementById("achievements_back_btn");
+        if (backBtn) {
+            backBtn.addEventListener("click", () => {
+
+                // restore UI elements
+                document.querySelectorAll(".person_summary").forEach(el => {
+                    el.style.display = "";
+                });
+
+                document.querySelectorAll(".person_image").forEach(el => {
+                    el.style.display = "";
+                });
+
+                // close screen (depends on engine, reuse candidate screen close behavior)
+                if (typeof closeCandidateScreen === "function") {
+                    closeCandidateScreen();
+                } else {
+                    showCandidateScreen({
+                        img: "",
+                        name: "",
+                        subtitle1: "",
+                        subtitle2: "",
+                        bio: ""
+                    });
+                }
+            });
+        }
+    }, 0);
+}
+function addAchievementsButton() {
+    const footer = document.getElementById("map_footer");
+    if (!footer) return;
+
+    if (document.getElementById("achievements_button")) return;
+
+    const playAgain = document.getElementById("play_again");
+
+    const btn = document.createElement("button");
+    btn.id = "achievements_button";
+    btn.innerHTML = "Achievements";
+
+    btn.style.marginRight = "10px";
+    btn.style.fontSize = "13px";
+    btn.style.cursor = "pointer";
+
+    btn.addEventListener("click", openAchievementsScreen);
+
+    // insert LEFT of play again
+    if (playAgain) {
+        playAgain.parentNode.insertBefore(btn, playAgain);
+    } else {
+        footer.appendChild(btn);
+    }
+}
+function waitForFooterAndAddAchievements() {
+
+    const check = setInterval(() => {
+
+        const footer = document.getElementById("map_footer");
+
+        if (footer) {
+            addAchievementsButton();
+        }
+
+        // stop only when button successfully exists
+        if (document.getElementById("achievements_button")) {
+            clearInterval(check);
+        }
+
+    }, 150);
+}
+
+waitForFooterAndAddAchievements();
 function addHeadquarterButton() {
     if (!document.getElementById('headquarter_button')) {
         const refButton = document.getElementById('view_electoral_map');
@@ -1533,7 +1701,7 @@ function goToKennedyPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("kennedyPart3").style.display = "block";
-  setCandidatePortrait("https://imgur.com/qEb3xpv.png");
+  setCandidatePortrait("https://imgur.com/utXpuNR.png");
 
 }
 window.goToKennedyPart3 = goToKennedyPart3;
@@ -17615,21 +17783,21 @@ if (ans === 22898) {
 // THREE CLUSTER
 
 if (ans === 23097) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23098) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23099) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17638,21 +17806,21 @@ if (ans === 23099) {
 
 // 13225
 if (ans === 23297) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23298) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23299) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17661,21 +17829,21 @@ if (ans === 23299) {
 
 // 13425
 if (ans === 23497) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23498) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23499) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17684,21 +17852,21 @@ if (ans === 23499) {
 
 // 13625
 if (ans === 23697) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23698) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23699) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17707,21 +17875,21 @@ if (ans === 23699) {
 
 // 13825
 if (ans === 23897) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23898) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 23899) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17730,21 +17898,21 @@ if (ans === 23899) {
 
 // 14025
 if (ans === 24097) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24098) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24099) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17753,21 +17921,21 @@ if (ans === 24099) {
 
 // 14225
 if (ans === 24297) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24298) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24299) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17776,21 +17944,21 @@ if (ans === 24299) {
 
 // 14425
 if (ans === 24497) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24498) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24499) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17799,21 +17967,21 @@ if (ans === 24499) {
 
 // 14625
 if (ans === 24697) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24698) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24699) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17822,21 +17990,21 @@ if (ans === 24699) {
 
 // 14825
 if (ans === 24897) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24898) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 24899) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17845,28 +18013,28 @@ if (ans === 24899) {
 // FOUR CLUSTER
 // 15025
 if (ans === 25097) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25098) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25099) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25100) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17874,28 +18042,28 @@ if (ans === 25100) {
 }
 // 15225
 if (ans === 25297) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25298) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25299) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25300) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17903,28 +18071,28 @@ if (ans === 25300) {
 }
 // 15425
 if (ans === 25497) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25498) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25499) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25500) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17932,28 +18100,28 @@ if (ans === 25500) {
 }
 // 15625
 if (ans === 25697) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25698) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25699) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25700) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17961,28 +18129,28 @@ if (ans === 25700) {
 }
 // 15825
 if (ans === 25897) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25898) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25899) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 25900) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -17991,35 +18159,35 @@ if (ans === 25900) {
 // FIVE CLUSTER
 // 16025
 if (ans === 26097) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13026);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 26098) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13226);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 26099) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13426);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 26100) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13826);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
     }
 }
 if (ans === 26101) {
-    if (window.campaignVars.partyUnity >= -5) {
+    if (window.campaignVars.partyUnity >= -10) {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(13626);
     } else {
         campaignTrail_temp.questions_json[campaignTrail_temp.question_number + 1] = tunnel(14026);
@@ -21348,6 +21516,7 @@ document.head.appendChild(style);
 
 const hqObserver = new MutationObserver(() => {
     addHeadquarterButton();
+    addAchievementsButton();
 });
 
 hqObserver.observe(document.body, {
@@ -21357,6 +21526,7 @@ hqObserver.observe(document.body, {
 
 // run once only
 addHeadquarterButton();
+addAchievementsButton();
 
 (function () {
 
