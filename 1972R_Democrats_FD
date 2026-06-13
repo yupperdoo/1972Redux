@@ -161,6 +161,46 @@ notebookText.style.lineHeight = '1.0';
 notebookText.style.fontStyle = 'italic';
 notebookText.style.width = '240px';
 
+window.candidatesText = document.createElement("div");
+
+window.candidatesText.style.position = "absolute";
+window.candidatesText.style.top = "60px";
+window.candidatesText.style.left = "50%";
+window.candidatesText.style.transform = "translateX(-50%)";
+
+window.candidatesText.style.width = "62%";
+window.candidatesText.style.height = "235px";
+
+window.candidatesText.style.overflowY = "auto";
+window.candidatesText.style.padding = "0px";
+window.candidatesText.style.boxSizing = "border-box";
+
+window.candidatesText.style.fontFamily = "Georgia, serif";
+window.candidatesText.style.fontSize = "15px";
+window.candidatesText.style.lineHeight = "1.4";
+window.candidatesText.style.color = "#222";
+
+window.candidatesText.innerHTML = `
+
+<p><b>Ed Muskie</b><br>
+The Senator from Maine has moved into a strong early position and is widely seen as the most acceptable option to the party’s regular leadership. Muskie has a reputation for steadiness and discipline, and his 1968 vice presidential run left him with national visibility and a network of support across multiple factions. Still, some reformers worry he is too cautious for the moment, and there is uncertainty about whether his appeal can stretch far enough to hold together a coalition shaped by new rules and new activists.</p>
+
+<p><b>Hubert Humphrey</b><br>
+Hubert Humphrey remains one of the most influential figures in the party, with deep ties to labor, urban machines, and longtime Democratic officeholders. Many in the organization still see him as the most experienced figure available, especially if the race becomes fragmented. At the same time, Vietnam and 1968 continue to hang over him, and a number of younger delegates remain resistant to a return to the politics he represents.</p>
+
+<p><b>George McGovern</b><br>
+The South Dakota senator has quickly become a focal point for antiwar activists and the emerging reform network. His supporters are energized by the new delegate rules and are working aggressively at the state level to translate that into real convention strength. Critics see him as too dependent on campus politics and activist energy, but his campaign has shown a surprising ability to organize beyond his original base.</p>
+
+<p><b>Ted Kennedy</b><br>
+Ted Kennedy continues to deny interest in running, but his name comes up in almost every private conversation about the nomination. Many Democrats see him as the only figure who could naturally bridge the party’s divisions, though no organized effort exists to draft him yet. His hesitation keeps him out of the race for now, but it also keeps him present in a way no other non-candidate can match.</p>
+
+<p><b>Eugene McCarthy</b><br>
+Eugene McCarthy still carries strong support among antiwar liberals and the activists who first rallied to him in 1968. He remains respected for forcing the Vietnam issue into the center of the party, but his relationship with the regular organization is still strained. Many delegates view him as an important moral voice, though not necessarily a unifying national nominee.</p>
+
+<p><b>George Wallace</b><br>
+George Wallace holds a loyal base among Southern delegations and white working-class voters who feel increasingly distant from the national party. His message on busing and federal authority continues to resonate in a number of key states. At the same time, his presence deepens tensions inside the Democratic coalition, and most leaders see him less as a future nominee than as a force that will shape the convention’s outcome.</p>
+`;
+
 setTimeout(() => {
     window.renderStatus();
 }, 100);
@@ -249,31 +289,43 @@ e = campaignTrail_temp
 e.answer_count = 6;
 window.hqLocked = false;
 function addHeadquarterButton() {
-    if (document.getElementById('headquarter_button')) return;
-    const refButton = document.getElementById('view_electoral_map');
-    if (!refButton) return;
+    if (!document.getElementById('headquarter_button')) {
+        const refButton = document.getElementById('view_electoral_map');
+        if (!refButton) return;
 
-    const newButton = document.createElement('button');
-    newButton.id = 'headquarter_button';
-    newButton.style.marginLeft = '1.5em';
-    newButton.innerHTML = 'Headquarters';
-    newButton.addEventListener('click', openHeadquarter);
-    refButton.insertAdjacentElement('afterend', newButton);
+        const hqButton = document.createElement('button');
+        hqButton.id = 'headquarter_button';
+        hqButton.style.marginLeft = '1.5em';
+        hqButton.innerHTML = 'Headquarters';
+        hqButton.addEventListener('click', openHeadquarter);
+
+        refButton.insertAdjacentElement('afterend', hqButton);
+    }
+
+    if (!document.getElementById('candidates_button')) {
+        const hqButton = document.getElementById('headquarter_button');
+        if (!hqButton) return;
+
+        const candidatesButton = document.createElement('button');
+        candidatesButton.id = 'candidates_button';
+        candidatesButton.style.marginLeft = '1.5em';
+        candidatesButton.innerHTML = 'Leading Candidates';
+        candidatesButton.addEventListener('click', openCandidates);
+
+        hqButton.insertAdjacentElement('afterend', candidatesButton);
+    }
 }
-
 
 function openHeadquarter() {
 
     let questions = document.querySelector(".inner_window_question");
     if (!questions) return;
 
-    // lock game interaction
     window.hqLocked = true;
 
     questions.style.display = 'none';
     questions.style.pointerEvents = 'none';
 
-    // disable navigation arrows
     document.querySelectorAll(
         '#next_question_button, #previous_question_button, .next_question, .previous_question'
     ).forEach(el => {
@@ -283,7 +335,32 @@ function openHeadquarter() {
     const hqButton = document.getElementById('headquarter_button');
     if (hqButton) hqButton.remove();
 
+    const candidatesButton = document.getElementById('candidates_button');
+    if (candidatesButton) candidatesButton.remove();
+
     createHeadquarter();
+}
+
+function openCandidates() {
+
+    let questions = document.querySelector(".inner_window_question");
+    if (!questions) return;
+
+    window.hqLocked = true;
+
+    questions.style.display = 'none';
+    questions.style.pointerEvents = 'none';
+
+    document.querySelectorAll(
+        '#next_question_button, #previous_question_button, .next_question, .previous_question'
+    ).forEach(el => {
+        el.style.pointerEvents = 'none';
+    });
+
+    const hqButton = document.getElementById('headquarter_button');
+    if (hqButton) hqButton.remove();
+
+    createCandidates();
 }
 
 function getStatuses() {
@@ -521,6 +598,132 @@ notebookWrapper.appendChild(window.notebookText);
     }
 }
 
+function createCandidates() {
+
+    let existing = document.getElementById('candidates');
+    if (existing) existing.remove();
+
+    let candidatesDiv = document.createElement('div');
+    candidatesDiv.id = 'candidates';
+
+    candidatesDiv.style.width = '100%';
+    candidatesDiv.style.height = '60%';
+    candidatesDiv.style.margin = '20px auto';
+    candidatesDiv.style.position = 'relative';
+    candidatesDiv.style.backgroundImage = "url('https://imgur.com/pFmu7IA.png')";
+    candidatesDiv.style.backgroundSize = 'contain';
+    candidatesDiv.style.backgroundPosition = 'center';
+    candidatesDiv.style.backgroundRepeat = 'no-repeat';
+    candidatesDiv.style.display = 'flex';
+    candidatesDiv.style.flexDirection = 'column';
+    candidatesDiv.style.overflow = 'hidden';
+    candidatesDiv.style.zIndex = '1';
+    candidatesDiv.style.alignSelf = 'center';
+
+    let headerDiv = document.createElement('div');
+
+    headerDiv.style.display = 'flex';
+    headerDiv.style.alignItems = 'center';
+    headerDiv.style.justifyContent = 'space-between';
+    headerDiv.style.width = '100%';
+    headerDiv.style.padding = '8px';
+    headerDiv.style.position = 'relative';
+    headerDiv.style.marginLeft = '16%';
+    headerDiv.style.marginTop = '1.5%';
+
+    let backButton = document.createElement('button');
+    backButton.innerText = 'Back';
+    backButton.style.zIndex = '2';
+
+    backButton.onclick = function () {
+
+        window.hqLocked = false;
+
+        candidatesWrapper.remove();
+
+        questions.style.display = '';
+        questions.style.pointerEvents = '';
+
+        document.querySelectorAll(
+            '#next_question_button, #previous_question_button, .next_question, .previous_question'
+        ).forEach(el => {
+            el.style.pointerEvents = '';
+        });
+
+        addHeadquarterButton();
+    };
+
+    let headerText = document.createElement('div');
+    headerText.textContent = 'Leading Candidates';
+
+    headerText.style.position = 'absolute';
+    headerText.style.left = '33%';
+    headerText.style.top = '60%';
+    headerText.style.transform = 'translate(-50%, -50%)';
+    headerText.style.color = 'black';
+    headerText.style.fontSize = '24px';
+    headerText.style.fontWeight = 'bold';
+    headerText.style.zIndex = '1';
+
+    headerDiv.appendChild(backButton);
+    headerDiv.appendChild(headerText);
+
+    candidatesDiv.appendChild(headerDiv);
+
+    let notebookWrapper = document.createElement('div');
+
+    notebookWrapper.style.flexGrow = '1';
+    notebookWrapper.style.flexShrink = '1';
+    notebookWrapper.style.flexBasis = '0%';
+
+    notebookWrapper.style.width = '100%';
+    notebookWrapper.style.display = 'flex';
+    notebookWrapper.style.justifyContent = 'center';
+    notebookWrapper.style.alignItems = 'center';
+    notebookWrapper.style.position = 'relative';
+    notebookWrapper.style.marginTop = '-45px';
+
+    let notebookImg = document.createElement('img');
+    notebookImg.src = 'https://imgur.com/b5NZaly.png';
+    notebookImg.style.height = '325px';
+    notebookImg.style.width = '650px';
+    notebookImg.style.display = 'block';
+    notebookImg.style.margin = '12px auto 25px auto';
+    notebookImg.style.filter =
+        'drop-shadow(0px 6px 6px rgba(0,0,0,0.5)) drop-shadow(-8px 14px 18px rgba(0,0,0,0.5))';
+
+    notebookWrapper.appendChild(notebookImg);
+
+    if (window.candidatesText.parentNode) {
+        window.candidatesText.parentNode.removeChild(window.candidatesText);
+    }
+
+    window.candidatesText.style.display = 'block';
+    notebookWrapper.appendChild(window.candidatesText);
+
+    candidatesDiv.appendChild(notebookWrapper);
+
+    let candidatesWrapper = document.createElement('div');
+
+    candidatesWrapper.style.width = '100%';
+    candidatesWrapper.style.display = 'flex';
+    candidatesWrapper.style.justifyContent = 'center';
+    candidatesWrapper.style.margin = '20px 0';
+    candidatesWrapper.style.position = 'relative';
+
+    candidatesDiv.style.margin = '0';
+
+    candidatesWrapper.appendChild(candidatesDiv);
+
+    let questions = document.querySelector(".inner_window_question");
+
+    if (questions && questions.parentNode) {
+        questions.parentNode.insertBefore(candidatesWrapper, questions.nextSibling);
+    } else {
+        document.body.appendChild(candidatesWrapper);
+    }
+}
+
 document.addEventListener(
     "keydown",
     function (e) {
@@ -534,7 +737,8 @@ document.addEventListener(
             e.stopImmediatePropagation();
 
             const back =
-                document.querySelector("#headquarter button");
+                document.querySelector("#headquarter button") ||
+                document.querySelector("#candidates button");
 
             if (back) {
                 back.click();
