@@ -112,7 +112,7 @@ window.campaignVars = {
     establishment: 4,
     minorities: -1,
     south: -3,
-    partyUnity: -4,
+    partyUnity: -2,
 };
 window.applyEffects = function(effects) {
     for (let key in effects) {
@@ -542,23 +542,11 @@ function openAchievementsScreen() {
         `;
     }
 
-    // =========================
-    // BACK BUTTON
-    // =========================
-    html += `
-        <div style="text-align:center; margin-top:20px;">
-            <button id="achievements_back_btn"
-                style="
-                    padding:8px 14px;
-                    font-size:13px;
-                    cursor:pointer;
-                ">
-                Back
-            </button>
-        </div>
-    </div>
-    `;
+    html += `</div>`;
 
+    // =========================
+    // RENDER SCREEN FIRST
+    // =========================
     showCandidateScreen({
         img: "",
         name: "",
@@ -567,36 +555,39 @@ function openAchievementsScreen() {
         bio: html
     });
 
-    // restore UI on back
+    // =========================
+    // REPLACE CONTINUE BUTTON WITH "BACK"
+    // =========================
     setTimeout(() => {
-        const backBtn = document.getElementById("achievements_back_btn");
-        if (backBtn) {
-            backBtn.addEventListener("click", () => {
 
-                // restore UI elements
-                document.querySelectorAll(".person_summary").forEach(el => {
-                    el.style.display = "";
-                });
+        const confirmBtn = document.querySelector("button#confirm_screen");
 
-                document.querySelectorAll(".person_image").forEach(el => {
-                    el.style.display = "";
-                });
+        if (!confirmBtn) return;
 
-                // close screen (depends on engine, reuse candidate screen close behavior)
-                if (typeof closeCandidateScreen === "function") {
-                    closeCandidateScreen();
-                } else {
-                    showCandidateScreen({
-                        img: "",
-                        name: "",
-                        subtitle1: "",
-                        subtitle2: "",
-                        bio: ""
-                    });
-                }
+        const originalText = confirmBtn.innerHTML;
+        confirmBtn.dataset.originalText = originalText;
+        confirmBtn.innerHTML = "Back";
+
+        const restoreUI = () => {
+
+            // restore UI elements
+            document.querySelectorAll(".person_summary").forEach(el => {
+                el.style.display = "";
             });
-        }
-    }, 0);
+
+            document.querySelectorAll(".person_image").forEach(el => {
+                el.style.display = "";
+            });
+
+            // restore button text
+            confirmBtn.innerHTML = confirmBtn.dataset.originalText || "Continue";
+
+            confirmBtn.removeEventListener("click", restoreUI);
+        };
+
+        confirmBtn.addEventListener("click", restoreUI, { once: true });
+
+    }, 50);
 }
 function addAchievementsButton() {
     const footer = document.getElementById("map_footer");
@@ -17581,6 +17572,7 @@ else if (
 /* =========================
    FIRST CONVENTION QUESTION
 ========================= */
+
 // McGovern
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
@@ -17589,7 +17581,9 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(1025);
+    return;
 }
+
 // Humphrey
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
@@ -17598,7 +17592,9 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(1225);
+    return;
 }
+
 // Muskie
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
@@ -17607,7 +17603,9 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(1425);
+    return;
 }
+
 // Wallace
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
@@ -17616,7 +17614,9 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(1625);
+    return;
 }
+
 // Chisholm
 if (
     (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
@@ -17625,6 +17625,7 @@ if (
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
     ] = tunnel(1825);
+    return;
 }
 
 if (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) {
@@ -19148,22 +19149,6 @@ if (ans === 24101) {
     }, 1);
 
     return false;
-}
-
-
-/* =========================
-   SAFETY FALLBACK
-========================= */
-
-if (
-    (ans === 2093 || ans === 2094 || ans === 2095 || ans === 2096) &&
-    !campaignTrail_temp.questions_json[
-        campaignTrail_temp.question_number + 1
-    ]
-) {
-    campaignTrail_temp.questions_json[
-        campaignTrail_temp.question_number + 1
-    ] = tunnel(1025); 
 }
 
 /* =========================
