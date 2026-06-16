@@ -474,118 +474,6 @@ campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_t
 e = campaignTrail_temp
 e.answer_count = 6;
 window.hqLocked = false;
-console.log("LOADING ACHIEVEMENTS CODE");
-function openAchievementsScreen() {
-
-    const ach = campaignTrail_temp.unlocked || {};
-    const entries = Object.entries(ach).filter(([k, v]) => v === true);
-
-    const render = () => {
-
-        let html = `
-            <div id="achievements_screen"
-                style="width:100%;height:100%;overflow-y:auto;padding:20px;background:#f4f1e8;font-family:Georgia;">
-
-                <h2 style="text-align:center;margin-bottom:20px;">
-                    Achievements
-                </h2>
-        `;
-
-        if (entries.length === 0) {
-            html += `
-                <div style="text-align:center;opacity:0.6;margin-top:30px;">
-                    No achievements unlocked yet.
-                </div>
-            `;
-        }
-
-        for (const [title] of entries) {
-
-            const data = campaignTrail_temp.achievements[title];
-            if (!data) continue;
-
-            html += `
-                <div style="display:flex;align-items:flex-start;margin-bottom:15px;padding-bottom:10px;border-bottom:1px solid #ccc;">
-                    <img src="${data.image}" style="width:60px;height:60px;margin-right:12px;object-fit:cover;">
-                    <div>
-                        <b>${title}</b><br>
-                        <div style="font-size:13px;margin-top:3px;">
-                            ${data.description}
-                        </div>
-                    </div>
-                </div>
-            `;
-        }
-
-        html += `</div>`;
-
-        return html;
-    };
-
-    const container = document.getElementById("customContent");
-
-    if (!container) return;
-
-    container.innerHTML = render();
-
-    const observer = new MutationObserver(() => {
-        if (!container.querySelector("#achievements_screen")) {
-            container.innerHTML = render();
-        }
-    });
-
-    observer.observe(container, {
-        childList: true,
-        subtree: true
-    });
-}
-function addAchievementsButton() {
-
-    const footer = document.getElementById("map_footer");
-    if (!footer) return;
-
-    // Prevent duplicate buttons
-    if (document.getElementById("achievements_button")) return;
-
-    // Find the Play Again button
-    const playAgain = document.getElementById("play_again_button")
-                    || document.getElementById("play_again");
-
-    // Create the button
-    const btn = document.createElement("button");
-    btn.id = "achievements_button";
-    btn.className = "final_menu_button";   // use the game's built-in footer styling
-    btn.innerHTML = "Achievements";
-
-    // Open the achievements tab
-    btn.addEventListener("click", openAchievementsScreen);
-
-    // Insert immediately to the LEFT of Play Again
-    if (playAgain && playAgain.parentNode) {
-        playAgain.parentNode.insertBefore(btn, playAgain);
-    } else {
-        footer.appendChild(btn);
-    }
-}
-function waitForFooterAndAddAchievements() {
-
-    const check = setInterval(() => {
-
-        const footer = document.getElementById("map_footer");
-
-        if (footer) {
-            addAchievementsButton();
-
-            if (document.getElementById("achievements_button")) {
-                clearInterval(check);
-            }
-        }
-
-    }, 150);
-}
-
-waitForFooterAndAddAchievements();
-console.log("typeof openAchievementsScreen =", typeof openAchievementsScreen);
 function addHeadquarterButton() {
     if (!document.getElementById('headquarter_button')) {
         const refButton = document.getElementById('view_electoral_map');
@@ -18162,7 +18050,7 @@ if (ans === 26101) {
 // McGovern
 if (
     (ans === 2097 || ans === 2098 || ans === 2099) &&
-    window.campaignVars.partyUnity < 0
+    window.campaignVars.partyUnity < 5
 ) {
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
@@ -21461,7 +21349,6 @@ document.head.appendChild(style);
 
 const hqObserver = new MutationObserver(() => {
     addHeadquarterButton();
-    addAchievementsButton();
 });
 
 hqObserver.observe(document.body, {
@@ -21471,7 +21358,6 @@ hqObserver.observe(document.body, {
 
 // run once only
 addHeadquarterButton();
-addAchievementsButton();
 
 (function () {
 
