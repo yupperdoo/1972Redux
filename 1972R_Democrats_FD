@@ -21032,6 +21032,12 @@ if (
 }
 
 window.ctsAchievement = function(achievement, difficultyChecker = true) {
+
+    if (!campaignTrail_temp.achievements) return;
+
+    const ach = campaignTrail_temp.achievements[achievement];
+    if (!ach) return;
+
     if (
         (difficultyChecker && campaignTrail_temp.difficulty_level_multiplier <= 1) ||
         !difficultyChecker
@@ -21344,6 +21350,141 @@ if (
 }
 
 }
+
+setTimeout(() => {
+    if (typeof checkAllAchievements === "function") {
+        checkAllAchievements();
+    }
+}, 1);
+
+window.renderAchievements = function() {
+
+    const screen = document.getElementById("achievements-screen");
+    if (!screen) return;
+
+    screen.innerHTML = "<h2>Achievements</h2>";
+
+    const all = campaignTrail_temp.achievements || {};
+    const unlocked = campaignTrail_temp.unlockedAchievements || [];
+
+    for (let key in all) {
+
+        if (!unlocked.includes(key)) continue;
+
+        const ach = all[key];
+
+        const div = document.createElement("div");
+        div.style.marginBottom = "10px";
+        div.style.textAlign = "left";
+
+        div.innerHTML = `
+            <div style="font-weight:bold;">${key}</div>
+            <div style="font-size:12px; opacity:0.8;">
+                ${ach.description}
+            </div>
+        `;
+
+        screen.appendChild(div);
+    }
+
+    // If nothing unlocked
+    if (unlocked.length === 0) {
+        screen.innerHTML += `
+            <p style="opacity:0.7;">
+                No achievements unlocked yet.
+            </p>
+        `;
+    }
+};
+
+const addAchievementsButton = setInterval(() => {
+
+    const target = document.querySelector(
+        '#main_content_area #overall_details_container.done #overall_election_details p b'
+    );
+
+    if (target && !document.getElementById('achievements-button')) {
+
+        const button = document.createElement('button');
+        button.id = 'achievements-button';
+        button.textContent = 'Achievements';
+
+        button.style.position = 'absolute';
+        button.style.marginTop = '10px';
+        button.style.marginLeft = '70px';
+
+        target.appendChild(button);
+
+        const achievementsScreen = document.createElement('div');
+        achievementsScreen.id = 'achievements-screen';
+        achievementsScreen.style.display = 'none';
+
+        achievementsScreen.innerHTML = `
+            <h2>Achievements</h2>
+
+            <p>Achievement list goes here.</p>
+
+            <button id="achievements-back">Back</button>
+        `;
+
+        document
+            .querySelector('#overall_details_container')
+            .appendChild(achievementsScreen);
+
+        button.onclick = function() {
+
+            const container = document.querySelector(
+                '#overall_details_container'
+            );
+
+            Array.from(container.children).forEach(child => {
+                if (child.id !== 'achievements-screen') {
+                    child.dataset.originalDisplay =
+                        child.style.display || '';
+                    child.style.display = 'none';
+                }
+            });
+
+            button.style.display = 'none';
+            achievementsScreen.style.display = 'block';
+
+            if (window.renderAchievements) window.renderAchievements();
+        };
+
+        document
+            .getElementById('achievements-back')
+            .onclick = function() {
+
+                const container = document.querySelector(
+                    '#overall_details_container'
+                );
+
+                Array.from(container.children).forEach(child => {
+                    if (child.id !== 'achievements-screen') {
+                        child.style.display =
+                            child.dataset.originalDisplay || '';
+                    }
+                });
+
+                achievementsScreen.style.display = 'none';
+                button.style.display = '';
+            };
+    }
+
+}, 1);
+
+window.unlockAchievement = function(name) {
+
+    if (!campaignTrail_temp.unlockedAchievements) {
+        campaignTrail_temp.unlockedAchievements = [];
+    }
+
+    if (!campaignTrail_temp.unlockedAchievements.includes(name)) {
+        campaignTrail_temp.unlockedAchievements.push(name);
+    }
+
+    console.log("Unlocked:", campaignTrail_temp.unlockedAchievements);
+};
 
 document.head.appendChild(style);
 
