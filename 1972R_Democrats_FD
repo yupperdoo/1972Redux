@@ -21208,6 +21208,18 @@ if (
     ctsAchievement("The Majority Leader"); // Boggs
 }
 
+if (campaignTrail_temp.DemEV <= 35) {
+    ctsAchievement("Get McGovern'd");
+}
+
+if (campaignTrail_temp.DemEV >= 500) {
+    ctsAchievement("Am I Dreaming?");
+}
+
+if (campaignTrail_temp.DemEV <= 269 && NixonEV <= 269 && WallaceEV <= 269 && FourthPartyEV <= 269) {
+    ctsAchievement("Deadlocked Democracy");
+}
+
 let f = window.campaignVars;
 
 // Big Tent: all >= 0
@@ -21222,13 +21234,13 @@ if (
     ctsAchievement("Big Tent");
 }
 
-// Held by a Thread: all > -10
+// Held by a Thread: all < -10
 if (
-    f.left > -10 &&
-    f.labor > -10 &&
-    f.establishment > -10 &&
-    f.minorities > -10 &&
-    f.south > -10
+    f.left < -10 &&
+    f.labor < -10 &&
+    f.establishment < -10 &&
+    f.minorities < -10 &&
+    f.south < -10
 ) {
     ctsAchievement("Held by a Thread");
 }
@@ -21282,6 +21294,13 @@ if (
    f.south >= 10
 ) {
     ctsAchievement("New Deal Coalition");
+}
+
+// The Solid South: south >= 15
+if (
+   f.south >= 15
+) {
+    ctsAchievement("The Solid South");
 }
 
 if (
