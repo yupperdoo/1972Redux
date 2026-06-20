@@ -900,7 +900,7 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
 
-  "Held by a Thread" : {
+  "Democrats in Disarray" : {
       "image" : "placeholder.png",
       "description" : "Reach the convention with every faction score below -10.",
       "cannotBeCheated" : true
