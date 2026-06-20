@@ -840,47 +840,41 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
 
-  "The Boss" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency with Robert Strauss as your running mate.",
-      "cannotBeCheated" : true
-  },
+"The Boss" : {
+    "image" : "placeholder.png",
+    "description" : "Secure the backing of Robert Strauss and the Democratic establishment.",
+    "cannotBeCheated" : true
+},
 
-  "The Reformer" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency with Allard Lowenstein as your running mate.",
-      "cannotBeCheated" : true
-  },
+"The Reformer" : {
+    "image" : "placeholder.png",
+    "description" : "Throw your lot in with Allard Lowenstein and the reform movement.",
+    "cannotBeCheated" : true
+},
 
-  "Labor's Man" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency with George Meany as your running mate.",
-      "cannotBeCheated" : true
-  },
+"Labor's Man" : {
+    "image" : "placeholder.png",
+    "description" : "Earn the confidence of George Meany and organized labor.",
+    "cannotBeCheated" : true
+},
 
-  "Glitz and Glamour" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency with Lew Wasserman as your running mate.",
-      "cannotBeCheated" : true
-  },
+"Glitz and Glamour" : {
+    "image" : "placeholder.png",
+    "description" : "Cultivate the support of Lew Wasserman and the party's Hollywood network.",
+    "cannotBeCheated" : true
+},
 
-  "The Majority Leader" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency with Hale Boggs as your running mate.",
-      "cannotBeCheated" : true
-  },
+"The Majority Leader" : {
+    "image" : "placeholder.png",
+    "description" : "Build a congressional coalition under Hale Boggs's leadership.",
+    "cannotBeCheated" : true
+},
 
-  "The Civil Rights Coalition" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency with Roy Wilkins as your running mate.",
-      "cannotBeCheated" : true
-  },
-
-  "Silent Majority?" : {
-      "image" : "placeholder.png",
-      "description" : "Lose the popular vote but win the Electoral College.",
-      "cannotBeCheated" : true
-  },
+"The Civil Rights Coalition" : {
+    "image" : "placeholder.png",
+    "description" : "Win the trust of Roy Wilkins and the civil rights movement.",
+    "cannotBeCheated" : true
+},
 
   "Deadlocked Democracy" : {
       "image" : "placeholder.png",
@@ -888,15 +882,15 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
 
-  "Forty-Nine State Landslide" : {
+  "Am I Dreaming?" : {
       "image" : "placeholder.png",
-      "description" : "Win 49 states.",
+      "description" : "Win in a landslide.",
       "cannotBeCheated" : true
   },
 
-  "How Did This Happen?" : {
+  "Get McGovern’d" : {
       "image" : "placeholder.png",
-      "description" : "Lose 49 states.",
+      "description" : "Lose in a landslide.",
       "cannotBeCheated" : true
   },
 
@@ -906,15 +900,9 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
 
-  "Holding It Together" : {
+  "Held by a Thread" : {
       "image" : "placeholder.png",
-      "description" : "Reach the convention with every faction score above -10.",
-      "cannotBeCheated" : true
-  },
-
-  "A House Divided" : {
-      "image" : "placeholder.png",
-      "description" : "Win the election with Party Unity below 0.",
+      "description" : "Reach the convention with every faction score below -10.",
       "cannotBeCheated" : true
   },
 
@@ -939,6 +927,12 @@ campaignTrail_temp.achievements = {
   "New Deal Coalition" : {
       "image" : "placeholder.png",
       "description" : "Finish the game with Labor or Establishment and South at +10 or higher.",
+      "cannotBeCheated" : true
+  },
+
+  "The Solid South" : {
+      "image" : "placeholder.png",
+      "description" : "Finish the game with the South at +15 or higher.",
       "cannotBeCheated" : true
   },
 
