@@ -918,7 +918,7 @@ campaignTrail_temp.achievements = {
       "cannotBeCheated" : true
   },
 
-  "Eye to the Future" : {
+  "Glimpse of the Future" : {
       "image" : "placeholder.png",
       "description" : "Finish the game with Left or Minorities and South at +10 or higher.",
       "cannotBeCheated" : true
