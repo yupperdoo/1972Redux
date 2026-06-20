@@ -21278,13 +21278,13 @@ if (
     ctsAchievement("Smoke-Filled Rooms");
 }
 
-// Eye to the Future: left >= 10 OR minorities >=10, AND south >= 10
+// Glimpse of the Future: left >= 10 OR minorities >=10, AND south >= 10
 if (
   (f.left >= 10 ||
    f.minorities >= 10) &&
    f.south >= 10
 ) {
-    ctsAchievement("Eye to the Future");
+    ctsAchievement("Glimpse of the Future");
 }
 
 // New Deal Coalition: labor >= 10 OR establishment >= 10, AND south >= 10
