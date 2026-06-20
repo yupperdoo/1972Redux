@@ -21234,7 +21234,7 @@ if (
     ctsAchievement("Big Tent");
 }
 
-// Held by a Thread: all < -10
+// Democrats in Disarray: all < -10
 if (
     f.left < -10 &&
     f.labor < -10 &&
@@ -21242,7 +21242,7 @@ if (
     f.minorities < -10 &&
     f.south < -10
 ) {
-    ctsAchievement("Held by a Thread");
+    ctsAchievement("Democrats in Disarray");
 }
 
 // A House United: Win the nomination with unity >= 10
