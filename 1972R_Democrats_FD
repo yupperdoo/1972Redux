@@ -21076,136 +21076,67 @@ if (campaignTrail_temp.DemEV >= 270) {
 // VP 
 // =========================
 
+const endingAnswers = [
+    21357, 21358, 21359, 21360,
+    22157, 22158, 22159, 22160,
+    22957, 22958, 22959, 22960,
+    23157, 23158, 23159, 23160,
+    23357, 23358, 23359, 23360,
+    23957, 23958, 23959, 23960,
+    24557, 24558, 24559, 24560,
+    25157, 25158, 25159, 25160,
+    25757, 25758, 25759, 25760,
+    26357, 26358, 26359, 26360,
+    26957, 26958, 26959, 26960,
+    27557, 27558, 27559, 27560,
+    28157, 28158, 28159, 28160,
+    28757, 28758, 28759, 28760
+];
+
+const reachedEnding = endingAnswers.some(id =>
+    campaignTrail_temp.player_answers.includes(id)
+);
+
 if (
     campaignTrail_temp.player_answers.includes(2001) &&
-    (
-        campaignTrail_temp.player_answers.includes(21357) ||
-        campaignTrail_temp.player_answers.includes(22157) ||
-        campaignTrail_temp.player_answers.includes(22957) ||
-        campaignTrail_temp.player_answers.includes(23157) ||
-        campaignTrail_temp.player_answers.includes(23357) ||
-        campaignTrail_temp.player_answers.includes(23957) ||
-        campaignTrail_temp.player_answers.includes(24557) ||
-        campaignTrail_temp.player_answers.includes(25157) ||
-        campaignTrail_temp.player_answers.includes(25757) ||
-        campaignTrail_temp.player_answers.includes(26357) ||
-        campaignTrail_temp.player_answers.includes(26957) ||
-        campaignTrail_temp.player_answers.includes(27557) ||
-        campaignTrail_temp.player_answers.includes(28157) ||
-        campaignTrail_temp.player_answers.includes(28757)
-    )
+    reachedEnding
 ) {
-    ctsAchievement("The Boss"); // Strauss
+    ctsAchievement("The Boss");
 }
 
 if (
     campaignTrail_temp.player_answers.includes(2002) &&
-    (
-        campaignTrail_temp.player_answers.includes(21358) ||
-        campaignTrail_temp.player_answers.includes(22158) ||
-        campaignTrail_temp.player_answers.includes(22958) ||
-        campaignTrail_temp.player_answers.includes(23158) ||
-        campaignTrail_temp.player_answers.includes(23358) ||
-        campaignTrail_temp.player_answers.includes(23958) ||
-        campaignTrail_temp.player_answers.includes(24558) ||
-        campaignTrail_temp.player_answers.includes(25158) ||
-        campaignTrail_temp.player_answers.includes(25758) ||
-        campaignTrail_temp.player_answers.includes(26358) ||
-        campaignTrail_temp.player_answers.includes(26958) ||
-        campaignTrail_temp.player_answers.includes(27558) ||
-        campaignTrail_temp.player_answers.includes(28158) ||
-        campaignTrail_temp.player_answers.includes(28758)
-    )
+    reachedEnding
 ) {
-    ctsAchievement("The Reformer"); // Lowenstein
+    ctsAchievement("The Reformer");
 }
 
 if (
     campaignTrail_temp.player_answers.includes(2003) &&
-    (
-        campaignTrail_temp.player_answers.includes(21359) ||
-        campaignTrail_temp.player_answers.includes(22159) ||
-        campaignTrail_temp.player_answers.includes(22959) ||
-        campaignTrail_temp.player_answers.includes(23159) ||
-        campaignTrail_temp.player_answers.includes(23359) ||
-        campaignTrail_temp.player_answers.includes(23959) ||
-        campaignTrail_temp.player_answers.includes(24559) ||
-        campaignTrail_temp.player_answers.includes(25159) ||
-        campaignTrail_temp.player_answers.includes(25759) ||
-        campaignTrail_temp.player_answers.includes(26359) ||
-        campaignTrail_temp.player_answers.includes(26959) ||
-        campaignTrail_temp.player_answers.includes(27559) ||
-        campaignTrail_temp.player_answers.includes(28159) ||
-        campaignTrail_temp.player_answers.includes(28759)
-    )
+    reachedEnding
 ) {
-    ctsAchievement("Glitz and Glamour"); // Wasserman
+    ctsAchievement("Glitz and Glamour");
 }
 
 if (
     campaignTrail_temp.player_answers.includes(2004) &&
-    (
-        campaignTrail_temp.player_answers.includes(21360) ||
-        campaignTrail_temp.player_answers.includes(22160) ||
-        campaignTrail_temp.player_answers.includes(22960) ||
-        campaignTrail_temp.player_answers.includes(23160) ||
-        campaignTrail_temp.player_answers.includes(23360) ||
-        campaignTrail_temp.player_answers.includes(23960) ||
-        campaignTrail_temp.player_answers.includes(24560) ||
-        campaignTrail_temp.player_answers.includes(25160) ||
-        campaignTrail_temp.player_answers.includes(25760) ||
-        campaignTrail_temp.player_answers.includes(26360) ||
-        campaignTrail_temp.player_answers.includes(26960) ||
-        campaignTrail_temp.player_answers.includes(27560) ||
-        campaignTrail_temp.player_answers.includes(28160) ||
-        campaignTrail_temp.player_answers.includes(28760)
-    )
+    reachedEnding
 ) {
-    ctsAchievement("Labor's Man"); // Meany
+    ctsAchievement("Labor's Man");
 }
 
 if (
     campaignTrail_temp.player_answers.includes(2201) &&
-    (
-        campaignTrail_temp.player_answers.includes(21360) ||
-        campaignTrail_temp.player_answers.includes(22160) ||
-        campaignTrail_temp.player_answers.includes(22960) ||
-        campaignTrail_temp.player_answers.includes(23160) ||
-        campaignTrail_temp.player_answers.includes(23360) ||
-        campaignTrail_temp.player_answers.includes(23960) ||
-        campaignTrail_temp.player_answers.includes(24560) ||
-        campaignTrail_temp.player_answers.includes(25160) ||
-        campaignTrail_temp.player_answers.includes(25760) ||
-        campaignTrail_temp.player_answers.includes(26360) ||
-        campaignTrail_temp.player_answers.includes(26960) ||
-        campaignTrail_temp.player_answers.includes(27560) ||
-        campaignTrail_temp.player_answers.includes(28160) ||
-        campaignTrail_temp.player_answers.includes(28760)
-    )
+    reachedEnding
 ) {
-    ctsAchievement("Civil Rights"); // Wilkins
+    ctsAchievement("The Civil Rights Coalition");
 }
 
 if (
     campaignTrail_temp.player_answers.includes(2202) &&
-    (
-        campaignTrail_temp.player_answers.includes(21360) ||
-        campaignTrail_temp.player_answers.includes(22160) ||
-        campaignTrail_temp.player_answers.includes(22960) ||
-        campaignTrail_temp.player_answers.includes(23160) ||
-        campaignTrail_temp.player_answers.includes(23360) ||
-        campaignTrail_temp.player_answers.includes(23960) ||
-        campaignTrail_temp.player_answers.includes(24560) ||
-        campaignTrail_temp.player_answers.includes(25160) ||
-        campaignTrail_temp.player_answers.includes(25760) ||
-        campaignTrail_temp.player_answers.includes(26360) ||
-        campaignTrail_temp.player_answers.includes(26960) ||
-        campaignTrail_temp.player_answers.includes(27560) ||
-        campaignTrail_temp.player_answers.includes(28160) ||
-        campaignTrail_temp.player_answers.includes(28760)
-    )
+    reachedEnding
 ) {
-    ctsAchievement("The Majority Leader"); // Boggs
+    ctsAchievement("The Majority Leader");
 }
 
 if (campaignTrail_temp.DemEV <= 35) {
@@ -21347,7 +21278,7 @@ if (
     ctsAchievement("Brokered Convention");
 }
 
-// Coalition of the Future
+// Coalition of the Ascendant
 if (
     campaignTrail_temp.player_answers.includes(2128) ||
     campaignTrail_temp.player_answers.includes(21328) ||
@@ -21364,7 +21295,7 @@ if (
     campaignTrail_temp.player_answers.includes(28128) ||
     campaignTrail_temp.player_answers.includes(28728)
 ) {
-    ctsAchievement("Coalition of the Future");
+    ctsAchievement("Coalition of the Ascendant");
 }
 
 }
@@ -21381,7 +21312,7 @@ window.renderAchievements = function() {
     if (!screen) return;
 
     screen.innerHTML = `
-        <h2 style="font-size:1.75em;margin-bottom:50px;">Achievements</h2>
+        <h2 style="font-size:1.75em;margin-bottom:35px;">Achievements</h2>
     `;
 
     const all = campaignTrail_temp.achievements || {};
