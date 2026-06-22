@@ -21049,27 +21049,159 @@ window.ctsAchievement = function(name) {
 
 if (campaignTrail_temp.DemEV >= 270) {
 
-    let chosenP = campaignTrail_temp.candidate_last_name;
-
     // =========================
     // Presidential victory 
     // =========================
 
-    if (chosenP == "McGovern") ctsAchievement("Come Home, America");
-    if (chosenP == "Humphrey") ctsAchievement("The Happy Warrior");
-    if (chosenP == "Muskie") ctsAchievement("What Canuck Letter?");
-    if (chosenP == "Wallace") ctsAchievement("Stand Up for America");
-    if (chosenP == "Chisholm") ctsAchievement("Unbought and Unbossed");
-    if (chosenP == "Bayh") ctsAchievement("Constitutional Scholar");
-    if (chosenP == "Mondale") ctsAchievement("The Minnesota Miracle");
-    if (chosenP == "Church") ctsAchievement("The Conscience of a Generation");
-    if (chosenP == "Hughes") ctsAchievement("Faith and Redemption");
-    if (chosenP == "Harris") ctsAchievement("The New Populism");
-    if (chosenP == "Sanford") ctsAchievement("The Education Governor");
-    if (chosenP == "Jackson") ctsAchievement("The Senator from Boeing");
-    if (chosenP == "Mills") ctsAchievement("The Chairman of the Board");
-    if (chosenP == "Lindsay") ctsAchievement("The New Politics");
-    if (chosenP == "Kennedy") ctsAchievement("Things That Never Were");
+// McGovern
+if (
+    campaignTrail_temp.player_answers.includes(2157) ||
+    campaignTrail_temp.player_answers.includes(2158) ||
+    campaignTrail_temp.player_answers.includes(2159) ||
+    campaignTrail_temp.player_answers.includes(2160)
+) {
+    ctsAchievement("Come Home, America");
+}
+
+// Humphrey
+if (
+    campaignTrail_temp.player_answers.includes(21357) ||
+    campaignTrail_temp.player_answers.includes(21358) ||
+    campaignTrail_temp.player_answers.includes(21359) ||
+    campaignTrail_temp.player_answers.includes(21360)
+) {
+    ctsAchievement("The Happy Warrior");
+}
+
+// Muskie
+if (
+    campaignTrail_temp.player_answers.includes(22157) ||
+    campaignTrail_temp.player_answers.includes(22158) ||
+    campaignTrail_temp.player_answers.includes(22159) ||
+    campaignTrail_temp.player_answers.includes(22160)
+) {
+    ctsAchievement("What Canuck Letter?");
+}
+
+// Wallace
+if (
+    campaignTrail_temp.player_answers.includes(22957) ||
+    campaignTrail_temp.player_answers.includes(22958) ||
+    campaignTrail_temp.player_answers.includes(22959) ||
+    campaignTrail_temp.player_answers.includes(22960)
+) {
+    ctsAchievement("Stand Up for America");
+}
+
+// Chisholm
+if (
+    campaignTrail_temp.player_answers.includes(23157) ||
+    campaignTrail_temp.player_answers.includes(23158) ||
+    campaignTrail_temp.player_answers.includes(23159) ||
+    campaignTrail_temp.player_answers.includes(23160)
+) {
+    ctsAchievement("Unbought and Unbossed");
+}
+
+// Bayh
+if (
+    campaignTrail_temp.player_answers.includes(23357) ||
+    campaignTrail_temp.player_answers.includes(23358) ||
+    campaignTrail_temp.player_answers.includes(23359) ||
+    campaignTrail_temp.player_answers.includes(23360)
+) {
+    ctsAchievement("Constitutional Scholar");
+}
+
+// Mondale
+if (
+    campaignTrail_temp.player_answers.includes(23957) ||
+    campaignTrail_temp.player_answers.includes(23958) ||
+    campaignTrail_temp.player_answers.includes(23959) ||
+    campaignTrail_temp.player_answers.includes(23960)
+) {
+    ctsAchievement("The Minnesota Miracle");
+}
+
+// Church
+if (
+    campaignTrail_temp.player_answers.includes(24557) ||
+    campaignTrail_temp.player_answers.includes(24558) ||
+    campaignTrail_temp.player_answers.includes(24559) ||
+    campaignTrail_temp.player_answers.includes(24560)
+) {
+    ctsAchievement("The Conscience of a Generation");
+}
+
+// Hughes
+if (
+    campaignTrail_temp.player_answers.includes(25157) ||
+    campaignTrail_temp.player_answers.includes(25158) ||
+    campaignTrail_temp.player_answers.includes(25159) ||
+    campaignTrail_temp.player_answers.includes(25160)
+) {
+    ctsAchievement("Faith and Redemption");
+}
+
+// Harris
+if (
+    campaignTrail_temp.player_answers.includes(25757) ||
+    campaignTrail_temp.player_answers.includes(25758) ||
+    campaignTrail_temp.player_answers.includes(25759) ||
+    campaignTrail_temp.player_answers.includes(25760)
+) {
+    ctsAchievement("The New Populism");
+}
+
+// Sanford
+if (
+    campaignTrail_temp.player_answers.includes(26357) ||
+    campaignTrail_temp.player_answers.includes(26358) ||
+    campaignTrail_temp.player_answers.includes(26359) ||
+    campaignTrail_temp.player_answers.includes(26360)
+) {
+    ctsAchievement("The Education Governor");
+}
+
+// Jackson
+if (
+    campaignTrail_temp.player_answers.includes(26957) ||
+    campaignTrail_temp.player_answers.includes(26958) ||
+    campaignTrail_temp.player_answers.includes(26959) ||
+    campaignTrail_temp.player_answers.includes(26960)
+) {
+    ctsAchievement("The Senator from Boeing");
+}
+
+// Mills
+if (
+    campaignTrail_temp.player_answers.includes(27557) ||
+    campaignTrail_temp.player_answers.includes(27558) ||
+    campaignTrail_temp.player_answers.includes(27559) ||
+    campaignTrail_temp.player_answers.includes(27560)
+) {
+    ctsAchievement("The Chairman of the Board");
+}
+
+// Lindsay
+if (
+    campaignTrail_temp.player_answers.includes(28157) ||
+    campaignTrail_temp.player_answers.includes(28158) ||
+    campaignTrail_temp.player_answers.includes(28159) ||
+    campaignTrail_temp.player_answers.includes(28160)
+) {
+    ctsAchievement("The New Politics");
+}
+
+// Kennedy
+if (
+    campaignTrail_temp.player_answers.includes(28757) ||
+    campaignTrail_temp.player_answers.includes(28758) ||
+    campaignTrail_temp.player_answers.includes(28759) ||
+    campaignTrail_temp.player_answers.includes(28760)
+) {
+    ctsAchievement("Things That Never Were");
+}
 }
 
 // =========================
@@ -21247,6 +21379,14 @@ if (
     campaignTrail_temp.player_answers.includes(22701)
 ) {
     ctsAchievement("For the History Books");
+}
+
+if (campaignTrail_temp.player_answers.includes(2021)) {
+    ctsAchievement("Open the Doors");
+}
+
+if (campaignTrail_temp.player_answers.includes(2022)) {
+    ctsAchievement("Hold the Line");
 }
 
 // Brokered Convention
