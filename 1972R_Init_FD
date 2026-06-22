@@ -748,235 +748,254 @@ $(document).on("click", "#candidate_id_button", function () {
         });
         z.observe(document, { subtree: true, childList: true });
     }
+
 campaignTrail_temp.achievements = {
 
-  "Come Home, America" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as George McGovern.",
-      "cannotBeCheated" : true
-  },
+    "Come Home, America" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as George McGovern.",
+        "cannotBeCheated" : true
+    },
 
-  "The Happy Warrior" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Hubert Humphrey.",
-      "cannotBeCheated" : true
-  },
+    "The Happy Warrior" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Hubert Humphrey.",
+        "cannotBeCheated" : true
+    },
 
-  "What Canuck Letter?" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Edmund Muskie.",
-      "cannotBeCheated" : true
-  },
+    "What Canuck Letter?" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Edmund Muskie.",
+        "cannotBeCheated" : true
+    },
 
-  "Stand Up for America" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as George Wallace.",
-      "cannotBeCheated" : true
-  },
+    "Stand Up for America" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as George Wallace.",
+        "cannotBeCheated" : true
+    },
 
-  "Unbought and Unbossed" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Shirley Chisholm.",
-      "cannotBeCheated" : true
-  },
+    "Unbought and Unbossed" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Shirley Chisholm.",
+        "cannotBeCheated" : true
+    },
 
-  "Constitutional Scholar" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Birch Bayh.",
-      "cannotBeCheated" : true
-  },
+    "Constitutional Scholar" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Birch Bayh.",
+        "cannotBeCheated" : true
+    },
 
-  "The Minnesota Miracle" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Walter Mondale.",
-      "cannotBeCheated" : true
-  },
+    "The Minnesota Miracle" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Walter Mondale.",
+        "cannotBeCheated" : true
+    },
 
-  "The Conscience of a Generation" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Frank Church.",
-      "cannotBeCheated" : true
-  },
+    "The Conscience of a Generation" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Frank Church.",
+        "cannotBeCheated" : true
+    },
 
-  "Faith and Redemption" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Harold Hughes.",
-      "cannotBeCheated" : true
-  },
+    "Faith and Redemption" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Harold Hughes.",
+        "cannotBeCheated" : true
+    },
 
-  "The New Populism" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Fred Harris.",
-      "cannotBeCheated" : true
-  },
+    "The New Populism" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Fred Harris.",
+        "cannotBeCheated" : true
+    },
 
-  "The Education Governor" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Terry Sanford.",
-      "cannotBeCheated" : true
-  },
+    "The Education Governor" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Terry Sanford.",
+        "cannotBeCheated" : true
+    },
 
-  "The Senator from Boeing" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Henry Jackson.",
-      "cannotBeCheated" : true
-  },
+    "The Senator from Boeing" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Henry Jackson.",
+        "cannotBeCheated" : true
+    },
 
-  "The Chairman of the Board" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Wilbur Mills.",
-      "cannotBeCheated" : true
-  },
+    "The Chairman of the Board" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Wilbur Mills.",
+        "cannotBeCheated" : true
+    },
 
-  "The New Politics" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as John Lindsay.",
-      "cannotBeCheated" : true
-  },
+    "The New Politics" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as John Lindsay.",
+        "cannotBeCheated" : true
+    },
 
-  "Things That Never Were" : {
-      "image" : "placeholder.png",
-      "description" : "Win the presidency as Ted Kennedy.",
-      "cannotBeCheated" : true
-  },
+    "Things That Never Were" : {
+        "image" : "placeholder.png",
+        "description" : "Win the presidency as Ted Kennedy.",
+        "cannotBeCheated" : true
+    },
 
-"The Boss" : {
-    "image" : "placeholder.png",
-    "description" : "Secure the backing of Robert Strauss and the Democratic establishment.",
-    "cannotBeCheated" : true
-},
+    "The Boss" : {
+        "image" : "placeholder.png",
+        "description" : "Secure the backing of Robert Strauss and the Democratic establishment.",
+        "cannotBeCheated" : true
+    },
 
-"The Reformer" : {
-    "image" : "placeholder.png",
-    "description" : "Throw your lot in with Allard Lowenstein and the reform movement.",
-    "cannotBeCheated" : true
-},
+    "The Reformer" : {
+        "image" : "placeholder.png",
+        "description" : "Throw your lot in with Allard Lowenstein and the reform movement.",
+        "cannotBeCheated" : true
+    },
 
-"Labor's Man" : {
-    "image" : "placeholder.png",
-    "description" : "Earn the confidence of George Meany and organized labor.",
-    "cannotBeCheated" : true
-},
+    "Labor's Man" : {
+        "image" : "placeholder.png",
+        "description" : "Earn the confidence of George Meany and organized labor.",
+        "cannotBeCheated" : true
+    },
 
-"Glitz and Glamour" : {
-    "image" : "placeholder.png",
-    "description" : "Cultivate the support of Lew Wasserman and the party's Hollywood network.",
-    "cannotBeCheated" : true
-},
+    "Glitz and Glamour" : {
+        "image" : "placeholder.png",
+        "description" : "Cultivate the support of Lew Wasserman and the party's Hollywood network.",
+        "cannotBeCheated" : true
+    },
 
-"The Majority Leader" : {
-    "image" : "placeholder.png",
-    "description" : "Build a congressional coalition under Hale Boggs's leadership.",
-    "cannotBeCheated" : true
-},
+    "The Majority Leader" : {
+        "image" : "placeholder.png",
+        "description" : "Build a congressional coalition under Hale Boggs's leadership.",
+        "cannotBeCheated" : true
+    },
 
-"The Civil Rights Coalition" : {
-    "image" : "placeholder.png",
-    "description" : "Win the trust of Roy Wilkins and the civil rights movement.",
-    "cannotBeCheated" : true
-},
+    "The Civil Rights Coalition" : {
+        "image" : "placeholder.png",
+        "description" : "Win the trust of Roy Wilkins and the civil rights movement.",
+        "cannotBeCheated" : true
+    },
 
-  "Deadlocked Democracy" : {
-      "image" : "placeholder.png",
-      "description" : "Finish the election with a 269-269 Electoral College tie.",
-      "cannotBeCheated" : true
-  },
+    "Miami Miracle" : {
+        "image" : "placeholder.png",
+        "description" : "Secure the Democratic nomination on the first ballot.",
+        "cannotBeCheated" : true
+    },
 
-  "Am I Dreaming?" : {
-      "image" : "placeholder.png",
-      "description" : "Win in a landslide.",
-      "cannotBeCheated" : true
-  },
+    "Hold the Line" : {
+        "image" : "placeholder.png",
+        "description" : "Stand with the party establishment during the rules debate.",
+        "cannotBeCheated" : true
+    },
 
-  "Get McGovern’d" : {
-      "image" : "placeholder.png",
-      "description" : "Lose in a landslide.",
-      "cannotBeCheated" : true
-  },
+    "Open the Doors" : {
+        "image" : "placeholder.png",
+        "description" : "Throw your support behind the reformers during the rules debate.",
+        "cannotBeCheated" : true
+    },
 
-  "Big Tent" : {
-      "image" : "placeholder.png",
-      "description" : "Finish the game with every faction score at 0 or above.",
-      "cannotBeCheated" : true
-  },
+    "Deadlocked Democracy" : {
+        "image" : "placeholder.png",
+        "description" : "Finish the election with a 269-269 Electoral College tie.",
+        "cannotBeCheated" : true
+    },
 
-  "Democrats in Disarray" : {
-      "image" : "placeholder.png",
-      "description" : "Reach the convention with every faction score below -10.",
-      "cannotBeCheated" : true
-  },
+    "Am I Dreaming?" : {
+        "image" : "placeholder.png",
+        "description" : "Win in a landslide.",
+        "cannotBeCheated" : true
+    },
 
-  "Rainbow Coalition" : {
-      "image" : "placeholder.png",
-      "description" : "Finish the game with Left, Labor, and Minorities all at +10 or higher.",
-      "cannotBeCheated" : true
-  },
+    "Get McGovern’d" : {
+        "image" : "placeholder.png",
+        "description" : "Lose in a landslide.",
+        "cannotBeCheated" : true
+    },
 
-  "Smoke-Filled Rooms" : {
-      "image" : "placeholder.png",
-      "description" : "Finish the game with Establishment or Labor at +10 or higher and Left at -10 or lower.",
-      "cannotBeCheated" : true
-  },
+    "Big Tent" : {
+        "image" : "placeholder.png",
+        "description" : "Keep every wing of the Democratic Party under the same tent.",
+        "cannotBeCheated" : true
+    },
 
-  "Glimpse of the Future" : {
-      "image" : "placeholder.png",
-      "description" : "Finish the game with Left or Minorities and South at +10 or higher.",
-      "cannotBeCheated" : true
-  },
+    "Democrats in Disarray" : {
+        "image" : "placeholder.png",
+        "description" : "Arrive in Miami with every faction of the party at odds.",
+        "cannotBeCheated" : true
+    },
 
-  "New Deal Coalition" : {
-      "image" : "placeholder.png",
-      "description" : "Finish the game with Labor or Establishment and South at +10 or higher.",
-      "cannotBeCheated" : true
-  },
+    "Rainbow Coalition" : {
+        "image" : "placeholder.png",
+        "description" : "Forge an alliance of reformers, labor, and minority communities.",
+        "cannotBeCheated" : true
+    },
 
-  "The Solid South" : {
-      "image" : "placeholder.png",
-      "description" : "Finish the game with the South at +15 or higher.",
-      "cannotBeCheated" : true
-  },
+    "Smoke-Filled Rooms" : {
+        "image" : "placeholder.png",
+        "description" : "Build your path to power through the party establishment.",
+        "cannotBeCheated" : true
+    },
 
-  "Brokered Convention" : {
-      "image" : "placeholder.png",
-      "description" : "Reach a second ballot at the Democratic National Convention.",
-      "cannotBeCheated" : true
-  },
+    "Glimpse of the Future" : {
+        "image" : "placeholder.png",
+        "description" : "Bridge the gap between the New Politics and the old South.",
+        "cannotBeCheated" : true
+    },
 
-  "A House United" : {
-      "image" : "placeholder.png",
-      "description" : "Win the Democratic nomination with Party Unity at +10 or higher.",
-      "cannotBeCheated" : true
-  },
+    "New Deal Coalition" : {
+        "image" : "placeholder.png",
+        "description" : "Reunite the coalition that carried Democrats through a generation.",
+        "cannotBeCheated" : true
+    },
 
-  "A House Divided" : {
-      "image" : "placeholder.png",
-      "description" : "Win the Democratic nomination with Party Unity at -10 or lower.",
-      "cannotBeCheated" : true
-  },
+    "The Solid South" : {
+        "image" : "placeholder.png",
+        "description" : "Ensure Southern Democrats remain a force to be reckoned with.",
+        "cannotBeCheated" : true
+    },
 
-  "Midnight at the Conrad Hilton" : {
-      "image" : "placeholder.png",
-      "description" : "Have George Wallace win the Democratic presidential nomination.",
-      "cannotBeCheated" : true
-  },
+    "A House United" : {
+        "image" : "placeholder.png",
+        "description" : "Leave Miami with a party united behind your nominee.",
+        "cannotBeCheated" : true
+    },
 
-  "For the History Books" : {
-      "image" : "placeholder.png",
-      "description" : "Have Shirley Chisholm win the Democratic presidential nomination.",
-      "cannotBeCheated" : true
-  },
+    "A House Divided" : {
+        "image" : "placeholder.png",
+        "description" : "Win the nomination despite a deeply fractured convention.",
+        "cannotBeCheated" : true
+    },
 
-  "A Second Chance" : {
-      "image" : "placeholder.png",
-      "description" : "Win the election after keeping Thomas Eagleton on the ticket.",
-      "cannotBeCheated" : true
-  },
+    "Brokered Convention" : {
+        "image" : "placeholder.png",
+        "description" : "Reach a second ballot at the Democratic National Convention.",
+        "cannotBeCheated" : true
+    },
 
-  "Coalition of the Ascendant" : {
-      "image" : "placeholder.png",
-      "description" : "Choose to appeal to moderate Republicans following John Connally's endorsement of Nixon.",
-      "cannotBeCheated" : true
-  },
+    "Midnight at the Conrad Hilton" : {
+        "image" : "placeholder.png",
+        "description" : "Have George Wallace win the Democratic presidential nomination.",
+        "cannotBeCheated" : true
+    },
+
+    "For the History Books" : {
+        "image" : "placeholder.png",
+        "description" : "Have Shirley Chisholm win the Democratic presidential nomination.",
+        "cannotBeCheated" : true
+    },
+
+    "A Second Chance" : {
+        "image" : "placeholder.png",
+        "description" : "Win the election after keeping Thomas Eagleton on the ticket.",
+        "cannotBeCheated" : true
+    },
+
+    "Coalition of the Ascendant" : {
+        "image" : "placeholder.png",
+        "description" : "Choose to appeal to moderate Republicans following John Connally's endorsement of Nixon.",
+        "cannotBeCheated" : true
+    },
 
 }
 
