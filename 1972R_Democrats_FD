@@ -21060,7 +21060,7 @@ if (
     campaignTrail_temp.player_answers.includes(2159) ||
     campaignTrail_temp.player_answers.includes(2160)
 ) {
-    ctsAchievement("Come Home, America");
+    ctsAchievement("Come Home, America!");
 }
 
 // Humphrey
@@ -21466,7 +21466,7 @@ window.renderAchievements = function() {
 
         const div = document.createElement("div");
 
-        div.style.marginBottom = "15px";
+        div.style.marginBottom = "25px";
         div.style.paddingBottom = "10px";
         div.style.textAlign = "center";
 
@@ -21476,36 +21476,56 @@ window.renderAchievements = function() {
                 min-height:70px;
             ">
 
-                <img
-                    src="${ach.image}"
+                <div
                     style="
                         position:absolute;
                         left:105px;
                         top:50%;
                         transform:translateY(-50%);
-                        width:92px;
-                        height:69px;
+                        width:120px;
+                        height:90px;
+                        display:flex;
+                        align-items:center;
+                        justify-content:center;
                     "
                 >
 
-                <div style="
-                    text-align:center;
-                    width:50%;
-                    margin-left:25%;
-                ">
+                    <img
+                        src="${ach.image}"
+                        style="
+                            max-width:120px;
+                            max-height:90px;
+                            width:auto;
+                            height:auto;
+                        "
+                    >
 
-                    <div style="
-                        font-weight:bold;
-                        font-size:1.15em;
-                        margin-bottom:2px;
-                    ">
+                </div>
+
+                <div
+                    style="
+                        text-align:center;
+                        width:50%;
+                        margin-left:25%;
+                    "
+                >
+
+                    <div
+                        style="
+                            font-weight:bold;
+                            font-size:1.15em;
+                            margin-bottom:2px;
+                        "
+                    >
                         ${key}
                     </div>
 
-                    <div style="
-                        font-size:13px;
-                        opacity:0.8;
-                    ">
+                    <div
+                        style="
+                            font-size:13px;
+                            opacity:0.8;
+                        "
+                    >
                         ${ach.description}
                     </div>
 
