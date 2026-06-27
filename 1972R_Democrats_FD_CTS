@@ -15170,27 +15170,18 @@ style.innerHTML = `
 div.inner_window_sign_display {
   height: 175px;
 }
-
-/*
 img#candidate_pic {
   height: 175px;
 }
 img#running_mate_pic {
   height: 175px;
 }
-#campaign_sign p {
-  font-size: 3.0em;
-  line-height: 0.45;
+button#pvswitcher {
+  margin-bottom: 2%;
 }
-div.container {
-    width: 87.5%;
+button#ev_est {
+  margin-bottom: 2%;
 }
-#map_container svg {
-  width: 800px;
-  height: 400px;
-  margin-left: 50px;
-}
-*/
  .inner_window_question h3 {
     background-color: #7f9a77;
     border-color: #b8c7b3;
@@ -15207,7 +15198,7 @@ div.container {
     border-style: solid;
     color: white;
 }
-div#visit_window.overlay_window
+div#visit_window.overlay_window {
     height: auto;
     overflow: auto;
 }
@@ -15217,6 +15208,23 @@ div#game_window {
 div#visit_content.overlay_window_content {
     height: auto;
     overflow-y: auto;
+}
+div#feedback_content.overlay_window_content {
+    height: auto;
+}
+div#feedback_window.overlay_window {
+    height: 55%;
+}
+div#running_mate_description_window.person_description_window {
+    min-height: 285px;
+}
+div#menu_container {
+    min-height: 425px;
+}
+div#map_footer {
+    clear: both;
+    padding-top: 1em;
+    margin-bottom: 1%;
 }
 #overall_result h3 {
     background-color: #7f9a77;
@@ -15289,8 +15297,8 @@ div#question_form {
 }
 button#ExportFileButton {
     position: absolute;
-    margin-top: 10px;
-    margin-left: -120px !important;
+    margin-top: 30px;
+    margin-left: -60px !important;
 }
 `;
 document.head.appendChild(style);
@@ -21544,8 +21552,8 @@ const addAchievementsButton = setInterval(() => {
         button.textContent = 'Achievements';
 
         button.style.position = 'absolute';
-        button.style.marginTop = '10px';
-        button.style.marginLeft = '20px';
+        button.style.marginTop = '35.5px';
+        button.style.marginLeft = '0px';
 
         target.appendChild(button);
 
@@ -21680,3 +21688,21 @@ document.addEventListener("click", function (e) {
     }
   });
 });
+
+function fixMap() {
+    requestAnimationFrame(() => {
+        const svg = document.querySelector("#map_container svg");
+        if (!svg) return;
+
+        const bbox = svg.getBBox();
+        if (!bbox.width || !bbox.height) return;
+
+        svg.setAttribute("viewBox", `0 0 ${bbox.width} ${bbox.height}`);
+        svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+
+        svg.style.width = "725px";
+        svg.style.height = "400px";
+    });
+}
+
+setInterval(fixMap, 1);
