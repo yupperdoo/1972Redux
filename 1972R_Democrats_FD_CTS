@@ -13733,12 +13733,13 @@ function calculateCandidateElectoralVotes(finalResults) {
         });
     });
 
-    return { NixonEV, DemEV, WallaceEV, FourthPartyEV };
-
     campaignTrail_temp.DemEV = DemEV;
     campaignTrail_temp.NixonEV = NixonEV;
     campaignTrail_temp.WallaceEV = WallaceEV;
     campaignTrail_temp.FourthPartyEV = FourthPartyEV;
+
+    return { NixonEV, DemEV, WallaceEV, FourthPartyEV };
+
 }
 
 const endingsMap = {
@@ -21123,124 +21124,221 @@ if (
     ctsAchievement("The Majority Leader");
 }
 
-const results = campaignTrail_temp.final_overall_results;
+// =========================
+// Candidates 
+// =========================
 
-if (!results) {
-    console.log("No final results yet");
-} else {
+// McGovern
+if (
+    (
+        campaignTrail_temp.player_answers.includes(2105) ||
+        campaignTrail_temp.player_answers.includes(2106) ||
+        campaignTrail_temp.player_answers.includes(2107) ||
+        campaignTrail_temp.player_answers.includes(2108) ||
+        campaignTrail_temp.player_answers.includes(2305) ||
+        campaignTrail_temp.player_answers.includes(2306) ||
+        campaignTrail_temp.player_answers.includes(2307)
+    ) && reachedEnding
+) {
+    ctsAchievement("Come Home, America!");
+}
 
-    // find top 4 candidates dynamically
-    const sorted = [...results].sort((a, b) => b.electoral_votes - a.electoral_votes);
 
-    const dem = sorted.find(c => c.candidate_name !== "Richard Nixon"); 
-    const nixon = sorted.find(c => c.candidate_name === "Richard Nixon");
+// Humphrey
+if (
+    (
+        campaignTrail_temp.player_answers.includes(21305) ||
+        campaignTrail_temp.player_answers.includes(21306) ||
+        campaignTrail_temp.player_answers.includes(21307) ||
+        campaignTrail_temp.player_answers.includes(21308) ||
+        campaignTrail_temp.player_answers.includes(21505) ||
+        campaignTrail_temp.player_answers.includes(21506) ||
+        campaignTrail_temp.player_answers.includes(21507) ||
+        campaignTrail_temp.player_answers.includes(21508) ||
+        campaignTrail_temp.player_answers.includes(21705) ||
+        campaignTrail_temp.player_answers.includes(21706) ||
+        campaignTrail_temp.player_answers.includes(21707) ||
+        campaignTrail_temp.player_answers.includes(21708)
+    ) && reachedEnding
+) {
+    ctsAchievement("The Happy Warrior");
+}
 
-    const demEV = dem?.electoral_votes || 0;
-    const nixonEV = nixon?.electoral_votes || 0;
 
-    // =========================
-    // Democratic victory trigger
-    // =========================
-    if (demEV >= 270) {
+// Muskie
+if (
+    (
+        campaignTrail_temp.player_answers.includes(22105) ||
+        campaignTrail_temp.player_answers.includes(22106) ||
+        campaignTrail_temp.player_answers.includes(22107) ||
+        campaignTrail_temp.player_answers.includes(22108) ||
+        campaignTrail_temp.player_answers.includes(22305) ||
+        campaignTrail_temp.player_answers.includes(22306) ||
+        campaignTrail_temp.player_answers.includes(22307) ||
+        campaignTrail_temp.player_answers.includes(22308) ||
+        campaignTrail_temp.player_answers.includes(22505) ||
+        campaignTrail_temp.player_answers.includes(22506) ||
+        campaignTrail_temp.player_answers.includes(22507) ||
+        campaignTrail_temp.player_answers.includes(22508)
+    ) && reachedEnding
+) {
+    ctsAchievement("What Canuck Letter?");
+}
 
-        const chosen = campaignTrail_temp.candidate_last_name;
 
-        // McGovern
-        if ([2157,2158,2159,2160].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("Come Home, America!");
-        }
+// Wallace
+if (
+    (
+        campaignTrail_temp.player_answers.includes(22905) ||
+        campaignTrail_temp.player_answers.includes(22906) ||
+        campaignTrail_temp.player_answers.includes(22907) ||
+        campaignTrail_temp.player_answers.includes(22908)
+    ) && reachedEnding
+) {
+    ctsAchievement("Stand Up for America");
+}
 
-        // Humphrey
-        if ([21357,21358,21359,21360].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("The Happy Warrior");
-        }
 
-        // Muskie
-        if ([22157,22158,22159,22160].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("What Canuck Letter?");
-        }
+// Chisholm
+if (
+    (
+        campaignTrail_temp.player_answers.includes(23105) ||
+        campaignTrail_temp.player_answers.includes(23106) ||
+        campaignTrail_temp.player_answers.includes(23107) ||
+        campaignTrail_temp.player_answers.includes(23108)
+    ) && reachedEnding
+) {
+    ctsAchievement("Unbought and Unbossed");
+}
 
-        // Wallace
-        if ([22957,22958,22959,22960].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("Stand Up for America");
-        }
 
-        // Chisholm
-        if ([23157,23158,23159,23160].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("Unbought and Unbossed");
-        }
+// Bayh
+if (
+    (
+        campaignTrail_temp.player_answers.includes(23305) ||
+        campaignTrail_temp.player_answers.includes(23306) ||
+        campaignTrail_temp.player_answers.includes(23307) ||
+        campaignTrail_temp.player_answers.includes(23308)
+    ) && reachedEnding
+) {
+    ctsAchievement("Constitutional Scholar");
+}
 
-        // Bayh
-        if ([23357,23358,23359,23360].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("Constitutional Scholar");
-        }
 
-        // Mondale
-        if ([23957,23958,23959,23960].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("The Minnesota Miracle");
-        }
+// Mondale
+if (
+    (
+        campaignTrail_temp.player_answers.includes(23905) ||
+        campaignTrail_temp.player_answers.includes(23906) ||
+        campaignTrail_temp.player_answers.includes(23907) ||
+        campaignTrail_temp.player_answers.includes(23908)
+    ) && reachedEnding
+) {
+    ctsAchievement("The Minnesota Miracle");
+}
 
-        // Church
-        if ([24557,24558,24559,24560].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("The Conscience of a Generation");
-        }
 
-        // Hughes
-        if ([25157,25158,25159,25160].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("Faith and Redemption");
-        }
+// Church
+if (
+    (
+        campaignTrail_temp.player_answers.includes(24505) ||
+        campaignTrail_temp.player_answers.includes(24506) ||
+        campaignTrail_temp.player_answers.includes(24507) ||
+        campaignTrail_temp.player_answers.includes(24508)
+    ) && reachedEnding
+) {
+    ctsAchievement("The Conscience of a Generation");
+}
 
-        // Harris
-        if ([25757,25758,25759,25760].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("The New Populism");
-        }
 
-        // Sanford
-        if ([26357,26358,26359,26360].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("The Education Governor");
-        }
+// Hughes
+if (
+    (
+        campaignTrail_temp.player_answers.includes(25105) ||
+        campaignTrail_temp.player_answers.includes(25106) ||
+        campaignTrail_temp.player_answers.includes(25107) ||
+        campaignTrail_temp.player_answers.includes(25108)
+    ) && reachedEnding
+) {
+    ctsAchievement("Faith and Redemption");
+}
 
-        // Jackson
-        if ([26957,26958,26959,26960].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("The Senator from Boeing");
-        }
 
-        // Mills
-        if ([27557,27558,27559,27560].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("The Chairman of the Board");
-        }
+// Harris
+if (
+    (
+        campaignTrail_temp.player_answers.includes(25705) ||
+        campaignTrail_temp.player_answers.includes(25706) ||
+        campaignTrail_temp.player_answers.includes(25707) ||
+        campaignTrail_temp.player_answers.includes(25708)
+    ) && reachedEnding
+) {
+    ctsAchievement("The New Populism");
+}
 
-        // Lindsay
-        if ([28157,28158,28159,28160].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("The New Politics");
-        }
 
-        // Kennedy
-        if ([28757,28758,28759,28760].some(id => campaignTrail_temp.player_answers.includes(id))) {
-            ctsAchievement("Things That Never Were");
-        }
-    }
+// Sanford
+if (
+    (
+        campaignTrail_temp.player_answers.includes(26305) ||
+        campaignTrail_temp.player_answers.includes(26306) ||
+        campaignTrail_temp.player_answers.includes(26307) ||
+        campaignTrail_temp.player_answers.includes(26308)
+    ) && reachedEnding
+) {
+    ctsAchievement("The Education Governor");
+}
 
-    // =========================
-    // Loss / landslide checks
-    // =========================
-    if (demEV <= 35) {
-        ctsAchievement("Get McGovern'd");
-    }
 
-    if (demEV >= 500) {
-        ctsAchievement("Am I Dreaming?");
-    }
+// Jackson
+if (
+    (
+        campaignTrail_temp.player_answers.includes(26905) ||
+        campaignTrail_temp.player_answers.includes(26906) ||
+        campaignTrail_temp.player_answers.includes(26907) ||
+        campaignTrail_temp.player_answers.includes(26908)
+    ) && reachedEnding
+) {
+    ctsAchievement("The Senator from Boeing");
+}
 
-    // =========================
-    // Deadlock (IMPORTANT FIX)
-    // =========================
-    const allUnder270 =
-        results.every(c => c.electoral_votes < 270);
 
-    if (allUnder270) {
-        ctsAchievement("Deadlocked Democracy");
-    }
+// Mills
+if (
+    (
+        campaignTrail_temp.player_answers.includes(27505) ||
+        campaignTrail_temp.player_answers.includes(27506) ||
+        campaignTrail_temp.player_answers.includes(27507) ||
+        campaignTrail_temp.player_answers.includes(27508)
+    ) && reachedEnding
+) {
+    ctsAchievement("The Chairman of the Board");
+}
+
+
+// Lindsay
+if (
+    (
+        campaignTrail_temp.player_answers.includes(28105) ||
+        campaignTrail_temp.player_answers.includes(28106) ||
+        campaignTrail_temp.player_answers.includes(28107) ||
+        campaignTrail_temp.player_answers.includes(28108)
+    ) && reachedEnding
+) {
+    ctsAchievement("The New Politics");
+}
+
+
+// Kennedy
+if (
+    (
+        campaignTrail_temp.player_answers.includes(28705) ||
+        campaignTrail_temp.player_answers.includes(28706) ||
+        campaignTrail_temp.player_answers.includes(28707) ||
+        campaignTrail_temp.player_answers.includes(28708)
+    ) && reachedEnding
+) {
+    ctsAchievement("Things That Never Were");
 }
 
 let f = window.campaignVars;
@@ -21457,7 +21555,6 @@ window.renderAchievements = function() {
                             max-height:120px;
                             width:auto;
                             height:auto;
-                            border:1px solid black;
                         "
                     >
 
