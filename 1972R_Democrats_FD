@@ -2,107 +2,109 @@ campaignTrail_temp.VisitText = "";
 campaignTrail_temp.VisitText2 = "";
 
 window.visitTextDB = {
-  1000: "is a Deep Southern state with a long Democratic machine tradition, though in federal elections it has been drifting right as many white rural and small-town voters react to civil rights changes. The Democratic Party still holds together fairly well at the state level because of local organization.",
-  
-  1001: "is a frontier resource state with a strong Democratic presence tied to mining and labor, even if federal elections tend to favor Republicans and more conservative politics dominate culturally.",
-  
-  1002: "is a solidly Republican-leaning Southwestern state where suburban and rural voters set the tone, and Democratic strength is mostly limited to a few urban pockets that don’t really change the overall balance.",
-  
-  1003: "is an ancestrally Democratic Southern state where working-class white voters are increasingly open to Republicans at the federal level, even though the Democratic machine still has a real foothold in state politics and local offices.",
-  
-  1004: "is a large Western coastal state where the cities are strongly Democratic, but the suburbs remain more traditionally Republican and still keep federal elections closer than you might expect from the urban vote alone.",
-  
-  1005: "is a mountainous Western state where Republicans generally have the edge in federal contests, but there are still Democratic pockets in the cities and among some older working-class and labor communities.",
-  
-  1006: "is part of the Northeastern liberal corridor where the cities and industrial towns are solidly Democratic, but the suburban areas are more conservative and help keep things from being completely one-sided.",
-  
-  1007: "is a small Mid-Atlantic state where suburban voters are really the deciding factor, with Republicans historically strong outside the urban Democratic centers.",
-  
-  1008: "is a major Southeastern state where federal voting has been trending Republican since the Eisenhower years, even though Democrats still rely on a fairly strong state-level organization.",
-  
-  1009: "is a deep Southern state where a lot of rural white voters are still sorting things out politically - some are holding onto old Democratic habits, while others are starting to drift toward Republicans in federal races.",
-  
-  1010: "is an island state that has moved steadily toward the Democrats over the decade, especially in federal elections, driven by strong urban and labor support.",
-  
-  1011: "is a mountainous Western state where Republican strength is built on rural conservatism and low population density, with only limited Democratic presence in a few urban areas.",
-  
-  1012: "is an industrial Midwestern state where the cities and some southern rural areas lean Democratic, but the suburban counties remain more reliably Republican and competitive.",
-  
-  1013: "is a Midwestern state where Republicans generally have a slight edge federally, though Democrats still hold real strength in the southern industrial regions and older union areas.",
-  
-  1014: "is a largely rural Midwestern state where Republicans tend to do better federally, with Democratic strength mostly showing up in small cities and farming communities with labor ties.",
-  
-  1015: "is a plains state where Republican strength is strong and consistent at the federal level, with Democrats mostly limited to a few urban areas.",
-  
-  1016: "is a border south state where conservative Democrats still matter at the state level, but Republicans are becoming more competitive in federal elections than they used to be.",
-  
-  1017: "is a deep southern state where older Democratic loyalties still exist in places, but federal elections are increasingly leaning Republican, especially in rural and suburban areas.",
-  
-  1018: "is a New England state that’s becoming more competitive, with a traditional Republican rural base and a growing Democratic organization that’s been building strength over time.",
-  
-  1019: "is a strongly Democratic-leaning Mid-Atlantic state with a mix of industrial cities and suburbs, though there are still pockets of more conservative voting in certain areas.",
-  
-  1020: "is a heavily Democratic Northeastern state where the cities and college towns dominate politically, and Republican strength is mostly limited to rural areas.",
-  
-  1021: "is an industrial Midwestern state where Democrats rely on urban voters and labor support, while Republicans remain strong in the suburbs.",
-  
-  1022: "is a Midwestern state that leans Democratic overall, but still stays competitive because of Republican strength in rural and suburban areas.",
-  
-  1023: "is a deep southern state where federal politics are shifting quickly, with Republican support growing in many white rural areas while Democratic organizations remain important at the state level.",
-  
-  1024: "is a border state where politics are split between Democratic urban centers and more Republican-leaning rural and suburban regions.",
-  
-  1025: "is a Western state where older Democratic organizational strength still shows up in some areas, even though federal voting tends to lean more Republican overall.",
-  
-  1026: "is a Plains state where there’s a clear split between a Democratic urban core and strongly Republican rural areas that tend to dominate statewide outcomes.",
-  
-  1027: "is a Southwestern Sun Belt state that’s still developing politically, where migration and growth are starting to reshape things, but Republicans currently have the advantage in federal races.",
-  
-  1028: "is a traditional Yankee Republican Northeastern state that is slowly becoming more competitive, as some suburban areas begin to drift toward Democrats.",
-  
-  1029: "is a Northeastern state where Republicans remain strong in many suburban areas, while Democrats dominate the urban centers and keep things competitive overall.",
-  
-  1030: "is a lightly populated Western state where Democratic strength is growing in a few urban areas, but Republican voting still dominates much of the rural landscape.",
-  
-  1031: "is a Northeastern state that is politically divided, where New York City and Albany are strongly Democratic, while the suburbs, Long Island, and much of upstate lean more Republican.",
-  
-  1032: "is a Southern state where suburban white voters are increasingly leaning Republican in federal races, while Black voters remain strongly Democratic and rural voters are more divided than they used to be.",
-  
-  1033: "is a rural Plains state where Republicans have a very strong advantage in federal elections, and Democratic organization is limited outside a few small areas.",
-  
-  1034: "is a classic Midwestern battleground where union households, urban voters, and suburban communities are all pulling in different directions, keeping the state closely divided.",
-  
-  1035: "is a Plains state with strong and consistent Republican dominance, where Democratic strength is mostly limited to a few small urban centers.",
-  
-  1036: "is a pacific Northwestern state where urban Democratic strength is growing, but rural and suburban areas still lean more Republican overall.",
-  
-  1037: "is an industrial Midwestern swing state where suburban voters are becoming increasingly important, sitting alongside strong Democratic urban bases and Republican-leaning outer areas.",
-  
-  1038: "is a small New England state where Democrats are strongest in the cities and towns, while Republicans still hold some influence in rural parts of the state.",
-  
-  1039: "is a deep southern state where Republican gains in suburban areas are starting to challenge older Democratic patterns, especially in federal elections.",
-  
-  1040: "is a rural Plains state where Republican dominance is overwhelming at the federal level, with very limited Democratic presence.",
-  
-  1041: "is a Southern state in transition, where Democratic strength in urban areas and among Black voters is balanced against growing Republican influence in suburbs and rural regions.",
-  
-  1042: "is a large Southwestern Sun Belt state where suburban growth is steadily increasing Republican strength, even though Democrats remain strong in the major cities.",
-  
-  1043: "is a strongly Republican mountainous Western state with a consistent conservative political identity across most of the population.",
-  
-  1044: "is a small New England state with a traditional Yankee Republican background, though there are early signs of Democratic gains in some areas.",
-  
-  1045: "is a conservative Southern state where the growing suburbs have driven Republican strength in federal elections, despite Democratic dominance at the state level.",
-  
-  1046: "is a pacific coastal state where Democratic strength in the major cities dominates most political outcomes.",
-  
-  1047: "is a heavily Democratic federal district where urban liberal voting patterns are overwhelming and consistent.",
-  
-  1048: "is an appalachian state where Democratic labor traditions remain important, even as Republican strength grows in more culturally conservative areas.",
-  
-  1049: "is a Midwestern swing state where Democratic urban areas and Republican suburbs are closely balanced against each other.",
-  
-  1050: "is a rural Plains state where Republican dominance is strong and consistent, with Democrats only maintaining small pockets of support."
+
+1000: "is a Deep Southern state where the Democratic machine still dominates state politics, though many white voters are beginning to drift toward Republicans in presidential elections as the national parties divide over civil rights and social issues.",
+
+1001: "is a frontier resource state where Democrats remain competitive thanks to organized labor and the mining industry, even though Republicans generally have the advantage in federal elections and statewide presidential politics.",
+
+1002: "is a fast-growing Southwestern state where Republicans generally dominate federal elections, though Democrats still maintain a respectable organization centered around Phoenix, mining communities, and local offices.",
+
+1003: "is an ancestrally Democratic Southern state where conservative Democrats continue to control much of state government, even as Republicans steadily gain ground in presidential elections among white voters.",
+
+1004: "is a large Pacific Coast state where Los Angeles, San Francisco, and other major cities provide Democrats with a strong urban base, but Orange County, the growing suburbs, and much of inland California remain reliably Republican, making the state one of the nation's premier battlegrounds.",
+
+1005: "is a mountainous Western state where Republicans generally hold the advantage, though Democrats remain competitive through organized labor, Denver, Pueblo, and a well-established state party organization.",
+
+1006: "is a New England state where Democrats draw strength from the industrial cities and organized labor, while affluent suburbs and many smaller towns continue to support a strong tradition of moderate Republican politics.",
+
+1007: "is a small Mid-Atlantic state where local politics matter more than party labels, with Democrats strongest around Wilmington while Republicans remain competitive throughout much of the rest of the state.",
+
+1008: "is a rapidly growing Southeastern state where Republicans have become increasingly competitive in presidential elections, though Democrats still maintain a powerful statewide organization rooted in longstanding Southern traditions.",
+
+1009: "is a Deep Southern state where most white voters still identify as Democrats in local politics, but an increasing number are supporting Republican presidential candidates as the national political landscape changes.",
+
+1010: "is an island state where organized labor, Honolulu, and a rapidly growing Democratic coalition have made the party increasingly dominant in federal elections.",
+
+1011: "is a sparsely populated Mountain West state where Republicans enjoy a consistent advantage, though Democrats remain competitive in a handful of urban communities and through their longstanding state organization.",
+
+1012: "is a major industrial Midwestern state where Chicago provides Democrats with a massive urban base, while the expanding suburbs and much of downstate generally favor Republicans, keeping statewide politics highly competitive.",
+
+1013: "is a traditionally Republican Midwestern state, though Democrats remain highly competitive thanks to industrial cities, organized labor, and conservative Democratic strength across parts of southern Indiana.",
+
+1014: "is a largely rural Midwestern state where Republicans usually hold the advantage in presidential elections, though Democrats remain competitive through organized labor, river cities, and a durable state party organization.",
+
+1015: "is a Plains state where Republicans generally dominate federal politics, though Democrats continue to maintain a competitive state party when it comes to local races.",
+
+1016: "is a Border South state where moderate Democrats remain influential in state government, even as Republicans steadily become more competitive in presidential and federal elections.",
+
+1017: "is a Deep Southern state where Democratic traditions still dominate state and local government, though Republicans are steadily gaining ground in presidential elections as conservative white voters begin to realign.",
+
+1018: "is a traditionally Yankee Republican New England state where Democrats are making rapid gains in the mill towns and northern woods, thanks to Ed Muskie's organizing efforts, though Republicans remain the dominant party statewide and in the affluent suburbs.",
+
+1019: "is a strongly Democratic Mid-Atlantic state where Baltimore and organized labor provide the party's foundation, though Republicans remain competitive in the growing suburbs and many rural counties.",
+
+1020: "is a New England state where Democrats dominate due to their strength in Boston and the industrial cities, but many liberal Republicans continue to compete successfully in the affluent suburbs and smaller communities.",
+
+1021: "is an industrial powerhouse where Democrats rely on Detroit, Flint, organized labor, and the auto industry, while Republicans remain strong throughout the suburbs and much of rural Michigan.",
+
+1022: "is a traditionally competitive Midwestern state where the Democratic-Farmer-Labor coalition draws strength from Minneapolis, St. Paul, and organized labor, while Republicans remain highly competitive in the suburbs and much of rural Minnesota.",
+
+1023: "is a Deep Southern state where Democrats continue to dominate state politics, though Republicans are making significant gains in presidential elections as the region undergoes political realignment.",
+
+1024: "is a Border South state where Democratic machines in St. Louis and Kansas City compete with increasingly Republican suburbs and conservative rural counties, making it one of the nation's classic political battlegrounds.",
+
+1025: "is a Mountain West state where Republicans usually hold the advantage, though Democrats remain competitive through organized labor, mining communities, and a well-established statewide organization.",
+
+1026: "is a Plains state where Omaha provides Democrats with an urban foothold, but Republicans dominate most rural counties and generally hold the advantage in statewide elections.",
+
+1027: "is a fast-growing Southwestern Sun Belt state where Republicans have benefited from rapid suburban growth, though Democrats remain competitive in local politics and the state's largest cities.",
+
+1028: "is a traditionally Republican New England state where Yankee conservatism still shapes politics, though Democrats are gradually improving their position in the mill cities and southern communities.",
+
+1029: "is a true Mid-Atlantic swing state where Democratic machines dominate Newark, Jersey City, and Camden, while the growing suburbs and many shore communities continue to provide Republicans with a strong base.",
+
+1030: "is a lightly populated Mountain West state where Republicans maintain a clear advantage, though Democrats remain competitive in Butte, Anaconda, and other historic mining communities supported by organized labor.",
+
+1031: "is a competitive Northeastern state where New York City provides Democrats with an enormous advantage, but Republicans remain highly competitive thanks to strength on Long Island, in the suburbs, and throughout much of upstate New York.",
+
+1032: "is a Southern state where Democrats still control most state offices through a coalition of Black voters, organized labor, and many white conservatives, though Republicans are steadily expanding their support in the suburbs and presidential elections.",
+
+1033: "is a rural Plains state where Republicans enjoy a commanding advantage in federal elections, though Democrats continue to field competitive candidates through longstanding local organizations and agricultural communities.",
+
+1034: "is one of the nation's premier political battlegrounds, where powerful industrial unions and major cities anchor Democratic strength while prosperous suburbs and much of rural Ohio continue to favor Republicans.",
+
+1035: "is a Plains state where Republicans generally dominate statewide elections, though Democrats remain competitive in a handful of urban centers and farming communities with longstanding party traditions.",
+
+1036: "is a Pacific Northwestern state where Democrats rely on Portland, organized labor, and the timber industry, while Republicans remain strong across much of the state outside the Willamette Valley, keeping elections highly competitive.",
+
+1037: "is a major industrial swing state where Philadelphia, Pittsburgh, and organized labor provide Democrats with a formidable base, while the suburbs and much of central Pennsylvania generally lean Republican.",
+
+1038: "is a small New England state where Democrats dominate Providence and the mill towns, though Republicans continue to compete effectively in many suburban and rural communities through the state's moderate political tradition.",
+
+1039: "is a Deep Southern state where Democrats still dominate state politics, but Republicans are making steady gains in presidential elections, particularly among white suburban and rural voters.",
+
+1040: "is a sparsely populated Plains state where Republicans hold an overwhelming advantage in federal elections, though Democrats continue to maintain a modest presence through local organizations and agricultural communities.",
+
+1041: "is a Southern state where Democrats continue to dominate state government through a coalition of Black voters, organized labor, and many traditional white Democrats, while Republicans are steadily expanding their influence in the suburbs and presidential politics.",
+
+1042: "is a rapidly growing Southwestern state where Republicans have benefited from booming suburban development, though Democrats remain competitive in the major cities, among organized labor, and through the state's entrenched Democratic tradition.",
+
+1043: "is a heavily Republican Mountain West state where conservative politics dominate statewide elections, though Democrats remain competitive in a handful of mining communities and local offices.",
+
+1044: "is a traditionally Republican New England state where moderate Yankee Republicans continue to dominate statewide politics, though Democrats have begun making gradual gains in several communities.",
+
+1045: "is a conservative Southern state where Democrats still control most state and local offices, but Republicans are rapidly gaining ground in presidential elections thanks to growing suburban support and the region's political realignment.",
+
+1046: "is a Pacific Coast state where Seattle and organized labor give Democrats a strong foundation, though Republicans remain highly competitive throughout the suburbs and much of the rest of the state.",
+
+1047: "is the nation's capital, where Democrats enjoy overwhelming support thanks to the city's large Black population, federal workforce, and liberal electorate, making it one of the party's strongest jurisdictions.",
+
+1048: "is an Appalachian state where coal miners, organized labor, and long Democratic traditions continue to dominate politics, though Republicans are beginning to make inroads among more culturally conservative voters.",
+
+1049: "is a competitive Midwestern state where Milwaukee, Madison, and organized labor anchor a solid base of Democratic support, while Republicans benefit from strong backing in the suburbs as well as the state's many farming communities.",
+
+1050: "is a sparsely populated Plains state where Republicans hold a commanding advantage in statewide elections, though Democrats continue to maintain a small but durable organization rooted in agriculture and local politics."
+
 };
 
 // Ensure you have the "current variables" object in scope
@@ -21537,7 +21539,6 @@ window.renderAchievements = function() {
                             max-height:120px;
                             width:auto;
                             height:auto;
-                            border:1px solid black;
                         "
                     >
 
