@@ -21424,21 +21424,6 @@ if (
     ctsAchievement("The Solid South");
 }
 
-if (
-    campaignTrail_temp.player_answers.includes(21701) ||
-    campaignTrail_temp.player_answers.includes(21901) ||
-    campaignTrail_temp.player_answers.includes(22101)
-) {
-    ctsAchievement("Midnight at the Conrad Hilton");
-}
-
-if (
-    campaignTrail_temp.player_answers.includes(22501) ||
-    campaignTrail_temp.player_answers.includes(22701)
-) {
-    ctsAchievement("For the History Books");
-}
-
 if (campaignTrail_temp.player_answers.includes(2021)) {
     ctsAchievement("Open the Doors");
 }
