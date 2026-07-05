@@ -957,7 +957,7 @@ campaignTrail_temp.achievements = {
     },
 
     "Stand Up for America" : {
-        "image" : "https://imgur.com/fXxa9Rz.png",
+        "image" : "https://imgur.com/Gk17Fgz.png",
         "description" : "Secure the Democratic nomination as George Wallace.",
         "cannotBeCheated" : true
     },
@@ -993,7 +993,7 @@ campaignTrail_temp.achievements = {
     },
 
     "The New Populism" : {
-        "image" : "https://imgur.com/GxK6YBc.png",
+        "image" : "https://imgur.com/O0Nm3kP.png",
         "description" : "Secure the Democratic nomination as Fred Harris.",
         "cannotBeCheated" : true
     },
@@ -1017,7 +1017,7 @@ campaignTrail_temp.achievements = {
     },
 
     "The New Politics" : {
-        "image" : "https://imgur.com/rU92MTS.png",
+        "image" : "https://imgur.com/oTbyoJT.png",
         "description" : "Secure the Democratic nomination as John Lindsay.",
         "cannotBeCheated" : true
     },
