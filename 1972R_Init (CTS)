@@ -350,7 +350,7 @@ const newSong35 = new Song(
     "Homeward Bound",
     "Simon & Garfunkel",
     "https://imgur.com/1EWWPWs.png",
-    "https://audio.jukehost.co.uk/019f293f-dd8b-72e0-8bec-56fc89e8057e"
+    "https://audio.jukehost.co.uk/019f34fb-af88-73e1-b3f0-15616bcfddb0"
 );
 
 const newSong36 = new Song(
@@ -1181,6 +1181,18 @@ campaignTrail_temp.achievements = {
     "Coalition of the Ascendant" : {
         "image" : "https://imgur.com/nqvwHfM.png",
         "description" : "Choose to appeal to moderate Republicans following John Connally's endorsement of Nixon.",
+        "cannotBeCheated" : true
+    },
+
+    "Clean up this Mess" : {
+        "image" : "https://imgur.com/KmkkuG0.png",
+        "description" : "Pass sweeping environmental cleanup legislation before another disaster forces Congress to act.",
+        "cannotBeCheated" : true
+    },
+
+    "Ahead of the Curve" : {
+        "image" : "https://imgur.com/wDyIxfQ.png",
+        "description" : "Embrace supply-side economics before anyone knows what to call it.",
         "cannotBeCheated" : true
     },
 
