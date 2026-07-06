@@ -21709,6 +21709,7 @@ if (campaignTrail_temp.player_answers.includes(2022)) {
     ctsAchievement("Hold the Line");
 }
 
+
 // Brokered Convention
 if (
     campaignTrail_temp.player_answers.includes(23101) ||
