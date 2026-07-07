@@ -21706,7 +21706,7 @@ if (campaignTrail_temp.player_answers.includes(2021)) {
 }
 
 if (campaignTrail_temp.player_answers.includes(2022)) {
-    ctsAchievement("Hold the Line");
+    ctsAchievement("Back the Regulars");
 }
 
 if (campaignTrail_temp.player_answers.includes(2032)) {
