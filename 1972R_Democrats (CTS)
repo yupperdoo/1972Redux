@@ -21709,7 +21709,15 @@ if (campaignTrail_temp.player_answers.includes(2021)) {
 }
 
 if (campaignTrail_temp.player_answers.includes(2022)) {
-    ctsAchievement("Hold the Line");
+    ctsAchievement("Back the Regulars");
+}
+
+if (campaignTrail_temp.player_answers.includes(2032)) {
+    ctsAchievement("Clean up this Mess");
+}
+
+if (campaignTrail_temp.player_answers.includes(2076)) {
+    ctsAchievement("Ahead of the Curve");
 }
 
 // Brokered Convention
