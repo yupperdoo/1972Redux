@@ -1006,6 +1006,7 @@ function goToNixonPart1() {
   document.getElementById("nixonPart1").style.display = "block";
   document.getElementById("nixonPart2").style.display = "none";
   document.getElementById("nixonPart3").style.display = "none";
+  document.getElementById("nixonPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/D2RAj90.png");
 }
 window.goToNixonPart1 = goToNixonPart1;
@@ -1014,6 +1015,7 @@ function goToNixonPart2() {
   document.getElementById("nixonPart1").style.display = "none";
   document.getElementById("nixonPart2").style.display = "block";
   document.getElementById("nixonPart3").style.display = "none";
+  document.getElementById("nixonPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/TPhOGv1.png");
 }
 window.goToNixonPart2 = goToNixonPart2;
@@ -1022,9 +1024,19 @@ function goToNixonPart3() {
   document.getElementById("nixonPart1").style.display = "none";
   document.getElementById("nixonPart2").style.display = "none";
   document.getElementById("nixonPart3").style.display = "block";
+  document.getElementById("nixonPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 window.goToNixonPart3 = goToNixonPart3;
+
+function goToNixonPart4() {
+  document.getElementById("nixonPart1").style.display = "none";
+  document.getElementById("nixonPart2").style.display = "none";
+  document.getElementById("nixonPart3").style.display = "none";
+  document.getElementById("nixonPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/2HLsnkG.png");
+}
+window.goToNixonPart4 = goToNixonPart4;
 
 const nixonWinsEnding = `
 <div id="nixonPart1" style="display:block;">
@@ -1250,7 +1262,6 @@ const nixonWinsEnding = `
   </div>
 </div>
 
-
 <div id="nixonPart3" style="display:none;">
 <h3><b>MEMO FROM THE NATIONAL AFFAIRS DESK</b><br>
 <b>DATE: MAY 1, 1994</b><br>
@@ -1330,6 +1341,66 @@ const nixonWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToNixonPart2();">Back</button>
+    <button onclick="goToNixonPart4();">Continue</button>
+  </div>
+</div>
+
+
+<div id="nixonPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToNixonPart3();">Back</button>
   </div>
 </div>
 `;
