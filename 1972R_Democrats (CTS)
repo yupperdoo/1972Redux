@@ -1006,6 +1006,7 @@ function goToNixonPart1() {
   document.getElementById("nixonPart1").style.display = "block";
   document.getElementById("nixonPart2").style.display = "none";
   document.getElementById("nixonPart3").style.display = "none";
+  document.getElementById("nixonPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/D2RAj90.png");
 }
 window.goToNixonPart1 = goToNixonPart1;
@@ -1014,6 +1015,7 @@ function goToNixonPart2() {
   document.getElementById("nixonPart1").style.display = "none";
   document.getElementById("nixonPart2").style.display = "block";
   document.getElementById("nixonPart3").style.display = "none";
+  document.getElementById("nixonPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/TPhOGv1.png");
 }
 window.goToNixonPart2 = goToNixonPart2;
@@ -1022,9 +1024,19 @@ function goToNixonPart3() {
   document.getElementById("nixonPart1").style.display = "none";
   document.getElementById("nixonPart2").style.display = "none";
   document.getElementById("nixonPart3").style.display = "block";
+  document.getElementById("nixonPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 window.goToNixonPart3 = goToNixonPart3;
+
+function goToNixonPart4() {
+  document.getElementById("nixonPart1").style.display = "none";
+  document.getElementById("nixonPart2").style.display = "none";
+  document.getElementById("nixonPart3").style.display = "none";
+  document.getElementById("nixonPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+}
+window.goToNixonPart4 = goToNixonPart4;
 
 const nixonWinsEnding = `
 <div id="nixonPart1" style="display:block;">
@@ -1250,7 +1262,6 @@ const nixonWinsEnding = `
   </div>
 </div>
 
-
 <div id="nixonPart3" style="display:none;">
 <h3><b>MEMO FROM THE NATIONAL AFFAIRS DESK</b><br>
 <b>DATE: MAY 1, 1994</b><br>
@@ -1330,6 +1341,66 @@ const nixonWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToNixonPart2();">Back</button>
+    <button onclick="goToNixonPart4();">Continue</button>
+  </div>
+</div>
+
+
+<div id="nixonPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToNixonPart3();">Back</button>
   </div>
 </div>
 `;
@@ -1345,6 +1416,7 @@ function goToDemPart1() {
 
   document.getElementById("demPart1").style.display = "block";
   document.getElementById("demPart2").style.display = "none";
+  document.getElementById("demPart4").style.display = "none";
 
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 
@@ -1370,6 +1442,7 @@ function goToDemPart2() {
 
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
 
   setCandidatePortrait("https://imgur.com/rv5c8aG.png");
 
@@ -1396,6 +1469,7 @@ function goToMcGovernPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("mcgovernPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/X7ZX33r.png");
 
 }
@@ -1406,6 +1480,7 @@ function goToHumphreyPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("humphreyPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/vGbiJ3D.png");
 
 }
@@ -1416,6 +1491,7 @@ function goToMuskiePart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("muskiePart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/cADUtKE.png");
 
 }
@@ -1426,6 +1502,7 @@ function goToWallacePart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("wallacePart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/9EUrd7g.png");
 
 }
@@ -1436,6 +1513,7 @@ function goToChisholmPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("chisholmPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/ZXM5mPQ.png");
 
 }
@@ -1446,6 +1524,7 @@ function goToBayhPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("bayhPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/ZANGqi9.png");
 
 }
@@ -1456,6 +1535,7 @@ function goToMondalePart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("mondalePart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/eYzgKS6.png");
 
 }
@@ -1466,6 +1546,7 @@ function goToChurchPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("churchPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/t7zkYm6.png");
 
 }
@@ -1476,6 +1557,7 @@ function goToHughesPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("hughesPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/LgkC5b0.png");
 
 }
@@ -1486,6 +1568,7 @@ function goToHarrisPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("harrisPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/KF4mCvp.png");
 
 }
@@ -1496,6 +1579,7 @@ function goToSanfordPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("sanfordPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/GP1ra4m.png");
 
 }
@@ -1506,6 +1590,7 @@ function goToJacksonPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("jacksonPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/fxPsAzi.png");
 
 }
@@ -1516,6 +1601,7 @@ function goToMillsPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("millsPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/BnRGFVi.png");
 
 }
@@ -1526,6 +1612,7 @@ function goToLindsayPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("lindsayPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/W9Swzz6.png");
 
 }
@@ -1536,10 +1623,176 @@ function goToKennedyPart3() {
   document.getElementById("demPart1").style.display = "none";
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("kennedyPart3").style.display = "block";
+  document.getElementById("demPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/utXpuNR.png");
 
 }
 window.goToKennedyPart3 = goToKennedyPart3;
+
+// McGovern
+function goToMcGovernPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("mcgovernPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToMcGovernPart4 = goToMcGovernPart4;
+
+// Humphrey
+function goToHumphreyPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("humphreyPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToHumphreyPart4 = goToHumphreyPart4;
+
+// Muskie
+function goToMuskiePart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("muskiePart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToMuskiePart4 = goToMuskiePart4;
+
+// Wallace
+function goToWallacePart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("wallacePart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToWallacePart4 = goToWallacePart4;
+
+// Chisholm
+function goToChisholmPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("chisholmPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToChisholmPart4 = goToChisholmPart4;
+
+// Bayh
+function goToBayhPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("bayhPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToBayhPart4 = goToBayhPart4;
+
+// Mondale
+function goToMondalePart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("mondalePart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToMondalePart4 = goToMondalePart4;
+
+// Church
+function goToChurchPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("churchPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToChurchPart4 = goToChurchPart4;
+
+// Hughes
+function goToHughesPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("hughesPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToHughesPart4 = goToHughesPart4;
+
+// Harris
+function goToHarrisPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("harrisPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToHarrisPart4 = goToHarrisPart4;
+
+// Sanford
+function goToSanfordPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("sanfordPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToSanfordPart4 = goToSanfordPart4;
+
+// Jackson
+function goToJacksonPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("jacksonPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToJacksonPart4 = goToJacksonPart4;
+
+// Mills
+function goToMillsPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("millsPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToMillsPart4 = goToMillsPart4;
+
+// Lindsay
+function goToLindsayPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("lindsayPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToLindsayPart4 = goToLindsayPart4;
+
+// Kennedy
+function goToKennedyPart4() {
+  document.getElementById("demPart1").style.display = "none";
+  document.getElementById("demPart2").style.display = "none";
+  document.getElementById("kennedyPart3").style.display = "none";
+  document.getElementById("demPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+
+}
+window.goToKennedyPart4 = goToKennedyPart4;
 
 const mcgovernWinsEnding = `
 <div id="demPart1" style="display:block;">
@@ -2005,8 +2258,67 @@ const mcgovernWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToMcGovernPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToMcGovernPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -2486,8 +2798,67 @@ const humphreyWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToHumphreyPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToHumphreyPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -3031,8 +3402,67 @@ const muskieWinsEnding = `
 <p><i>Are there any questions?</i></p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToMuskiePart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToMuskiePart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -3518,8 +3948,67 @@ const wallaceWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToWallacePart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToWallacePart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -4005,8 +4494,67 @@ const chisholmWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToChisholmPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToChisholmPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -4485,8 +5033,67 @@ const bayhWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToBayhPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToBayhPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -4964,8 +5571,67 @@ const mondaleWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToMondalePart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToMondalePart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -5453,8 +6119,67 @@ const churchWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToChurchPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToChurchPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -6003,8 +6728,67 @@ const hughesWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToHughesPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToHughesPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -6528,8 +7312,67 @@ const harrisWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToHarrisPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToHarrisPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -7049,8 +7892,67 @@ const sanfordWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToSanfordPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToSanfordPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -7566,8 +8468,67 @@ const jacksonWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToJacksonPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToJacksonPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -8070,8 +9031,67 @@ const millsWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToMillsPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToMillsPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -8553,8 +9573,67 @@ const lindsayWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToLindsayPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToLindsayPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -9045,8 +10124,67 @@ const kennedyWinsEnding = `
 
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToDemPart2()">Back</button>
+    <button onclick="goToKennedyPart4()">Continue</button>
   </div>
 
+</div>
+
+<div id="demPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToKennedyPart3();">Back</button>
+  </div>
 </div>
 `;
 
@@ -9057,6 +10195,7 @@ function goToMcGovernTiebreakerPart1() {
   document.getElementById("mcgovernTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9064,6 +10203,7 @@ function goToMcGovernTiebreakerPart2() {
   document.getElementById("mcgovernTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9071,19 +10211,29 @@ function goToMcGovernTiebreakerPart3() {
   document.getElementById("mcgovernTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToMcGovernTiebreakerPart4() {
+  document.getElementById("mcgovernTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToMcGovernTiebreakerPart1 = goToMcGovernTiebreakerPart1;
 window.goToMcGovernTiebreakerPart2 = goToMcGovernTiebreakerPart2;
 window.goToMcGovernTiebreakerPart3 = goToMcGovernTiebreakerPart3;
-
+window.goToMcGovernTiebreakerPart4 = goToMcGovernTiebreakerPart4;
 
 // Humphrey Tiebreaker
 function goToHumphreyTiebreakerPart1() {
   document.getElementById("humphreyTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9091,6 +10241,7 @@ function goToHumphreyTiebreakerPart2() {
   document.getElementById("humphreyTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9098,19 +10249,29 @@ function goToHumphreyTiebreakerPart3() {
   document.getElementById("humphreyTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToHumphreyTiebreakerPart4() {
+  document.getElementById("humphreyTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToHumphreyTiebreakerPart1 = goToHumphreyTiebreakerPart1;
 window.goToHumphreyTiebreakerPart2 = goToHumphreyTiebreakerPart2;
 window.goToHumphreyTiebreakerPart3 = goToHumphreyTiebreakerPart3;
-
+window.goToHumphreyTiebreakerPart4 = goToHumphreyTiebreakerPart4;
 
 // Muskie Tiebreaker
 function goToMuskieTiebreakerPart1() {
   document.getElementById("muskieTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9118,6 +10279,7 @@ function goToMuskieTiebreakerPart2() {
   document.getElementById("muskieTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9125,12 +10287,22 @@ function goToMuskieTiebreakerPart3() {
   document.getElementById("muskieTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToMuskieTiebreakerPart4() {
+  document.getElementById("muskieTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToMuskieTiebreakerPart1 = goToMuskieTiebreakerPart1;
 window.goToMuskieTiebreakerPart2 = goToMuskieTiebreakerPart2;
 window.goToMuskieTiebreakerPart3 = goToMuskieTiebreakerPart3;
+window.goToMuskieTiebreakerPart4 = goToMuskieTiebreakerPart4;
 
 
 // Wallace Tiebreaker
@@ -9138,6 +10310,7 @@ function goToWallaceTiebreakerPart1() {
   document.getElementById("wallaceTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9145,6 +10318,7 @@ function goToWallaceTiebreakerPart2() {
   document.getElementById("wallaceTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9152,19 +10326,29 @@ function goToWallaceTiebreakerPart3() {
   document.getElementById("wallaceTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToWallaceTiebreakerPart4() {
+  document.getElementById("wallaceTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToWallaceTiebreakerPart1 = goToWallaceTiebreakerPart1;
 window.goToWallaceTiebreakerPart2 = goToWallaceTiebreakerPart2;
 window.goToWallaceTiebreakerPart3 = goToWallaceTiebreakerPart3;
-
+window.goToWallaceTiebreakerPart4 = goToWallaceTiebreakerPart4;
 
 // Chisholm Tiebreaker
 function goToChisholmTiebreakerPart1() {
   document.getElementById("chisholmTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9172,6 +10356,7 @@ function goToChisholmTiebreakerPart2() {
   document.getElementById("chisholmTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9179,12 +10364,22 @@ function goToChisholmTiebreakerPart3() {
   document.getElementById("chisholmTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToChisholmTiebreakerPart4() {
+  document.getElementById("chisholmTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToChisholmTiebreakerPart1 = goToChisholmTiebreakerPart1;
 window.goToChisholmTiebreakerPart2 = goToChisholmTiebreakerPart2;
 window.goToChisholmTiebreakerPart3 = goToChisholmTiebreakerPart3;
+window.goToChisholmTiebreakerPart4 = goToChisholmTiebreakerPart4;
 
 
 // Bayh Tiebreaker
@@ -9192,6 +10387,7 @@ function goToBayhTiebreakerPart1() {
   document.getElementById("bayhTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9199,6 +10395,7 @@ function goToBayhTiebreakerPart2() {
   document.getElementById("bayhTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9206,19 +10403,29 @@ function goToBayhTiebreakerPart3() {
   document.getElementById("bayhTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToBayhTiebreakerPart4() {
+  document.getElementById("bayhTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToBayhTiebreakerPart1 = goToBayhTiebreakerPart1;
 window.goToBayhTiebreakerPart2 = goToBayhTiebreakerPart2;
 window.goToBayhTiebreakerPart3 = goToBayhTiebreakerPart3;
-
+window.goToBayhTiebreakerPart4 = goToBayhTiebreakerPart4;
 
 // Mondale Tiebreaker
 function goToMondaleTiebreakerPart1() {
   document.getElementById("mondaleTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9226,6 +10433,7 @@ function goToMondaleTiebreakerPart2() {
   document.getElementById("mondaleTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9233,12 +10441,22 @@ function goToMondaleTiebreakerPart3() {
   document.getElementById("mondaleTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToMondaleTiebreakerPart4() {
+  document.getElementById("mondaleTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToMondaleTiebreakerPart1 = goToMondaleTiebreakerPart1;
 window.goToMondaleTiebreakerPart2 = goToMondaleTiebreakerPart2;
 window.goToMondaleTiebreakerPart3 = goToMondaleTiebreakerPart3;
+window.goToMondaleTiebreakerPart4 = goToMondaleTiebreakerPart4;
 
 
 // Church Tiebreaker
@@ -9246,6 +10464,7 @@ function goToChurchTiebreakerPart1() {
   document.getElementById("churchTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9253,6 +10472,7 @@ function goToChurchTiebreakerPart2() {
   document.getElementById("churchTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9260,19 +10480,29 @@ function goToChurchTiebreakerPart3() {
   document.getElementById("churchTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToChurchTiebreakerPart4() {
+  document.getElementById("churchTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToChurchTiebreakerPart1 = goToChurchTiebreakerPart1;
 window.goToChurchTiebreakerPart2 = goToChurchTiebreakerPart2;
 window.goToChurchTiebreakerPart3 = goToChurchTiebreakerPart3;
-
+window.goToChurchTiebreakerPart4 = goToChurchTiebreakerPart4;
 
 // Hughes Tiebreaker
 function goToHughesTiebreakerPart1() {
   document.getElementById("hughesTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9280,6 +10510,7 @@ function goToHughesTiebreakerPart2() {
   document.getElementById("hughesTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9287,12 +10518,22 @@ function goToHughesTiebreakerPart3() {
   document.getElementById("hughesTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToHughesTiebreakerPart4() {
+  document.getElementById("hughesTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToHughesTiebreakerPart1 = goToHughesTiebreakerPart1;
 window.goToHughesTiebreakerPart2 = goToHughesTiebreakerPart2;
 window.goToHughesTiebreakerPart3 = goToHughesTiebreakerPart3;
+window.goToHughesTiebreakerPart4 = goToHughesTiebreakerPart4;
 
 
 // Harris Tiebreaker
@@ -9300,6 +10541,7 @@ function goToHarrisTiebreakerPart1() {
   document.getElementById("harrisTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9307,6 +10549,7 @@ function goToHarrisTiebreakerPart2() {
   document.getElementById("harrisTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9314,12 +10557,22 @@ function goToHarrisTiebreakerPart3() {
   document.getElementById("harrisTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToHarrisTiebreakerPart4() {
+  document.getElementById("harrisTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToHarrisTiebreakerPart1 = goToHarrisTiebreakerPart1;
 window.goToHarrisTiebreakerPart2 = goToHarrisTiebreakerPart2;
 window.goToHarrisTiebreakerPart3 = goToHarrisTiebreakerPart3;
+window.goToHarrisTiebreakerPart4 = goToHarrisTiebreakerPart4;
 
 
 // Sanford Tiebreaker
@@ -9327,6 +10580,7 @@ function goToSanfordTiebreakerPart1() {
   document.getElementById("sanfordTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9334,6 +10588,7 @@ function goToSanfordTiebreakerPart2() {
   document.getElementById("sanfordTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9341,12 +10596,22 @@ function goToSanfordTiebreakerPart3() {
   document.getElementById("sanfordTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToSanfordTiebreakerPart4() {
+  document.getElementById("sanfordTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToSanfordTiebreakerPart1 = goToSanfordTiebreakerPart1;
 window.goToSanfordTiebreakerPart2 = goToSanfordTiebreakerPart2;
 window.goToSanfordTiebreakerPart3 = goToSanfordTiebreakerPart3;
+window.goToSanfordTiebreakerPart4 = goToSanfordTiebreakerPart4;
 
 
 // Jackson Tiebreaker
@@ -9354,6 +10619,7 @@ function goToJacksonTiebreakerPart1() {
   document.getElementById("jacksonTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9361,6 +10627,7 @@ function goToJacksonTiebreakerPart2() {
   document.getElementById("jacksonTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9368,19 +10635,29 @@ function goToJacksonTiebreakerPart3() {
   document.getElementById("jacksonTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToJacksonTiebreakerPart4() {
+  document.getElementById("jacksonTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToJacksonTiebreakerPart1 = goToJacksonTiebreakerPart1;
 window.goToJacksonTiebreakerPart2 = goToJacksonTiebreakerPart2;
 window.goToJacksonTiebreakerPart3 = goToJacksonTiebreakerPart3;
-
+window.goToJacksonTiebreakerPart4 = goToJacksonTiebreakerPart4;
 
 // Mills Tiebreaker
 function goToMillsTiebreakerPart1() {
   document.getElementById("millsTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9388,6 +10665,7 @@ function goToMillsTiebreakerPart2() {
   document.getElementById("millsTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9395,12 +10673,22 @@ function goToMillsTiebreakerPart3() {
   document.getElementById("millsTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToMillsTiebreakerPart4() {
+  document.getElementById("millsTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToMillsTiebreakerPart1 = goToMillsTiebreakerPart1;
 window.goToMillsTiebreakerPart2 = goToMillsTiebreakerPart2;
 window.goToMillsTiebreakerPart3 = goToMillsTiebreakerPart3;
+window.goToMillsTiebreakerPart4 = goToMillsTiebreakerPart4;
 
 
 // Lindsay Tiebreaker
@@ -9408,6 +10696,7 @@ function goToLindsayTiebreakerPart1() {
   document.getElementById("lindsayTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9415,6 +10704,7 @@ function goToLindsayTiebreakerPart2() {
   document.getElementById("lindsayTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9422,12 +10712,22 @@ function goToLindsayTiebreakerPart3() {
   document.getElementById("lindsayTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToLindsayTiebreakerPart4() {
+  document.getElementById("lindsayTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToLindsayTiebreakerPart1 = goToLindsayTiebreakerPart1;
 window.goToLindsayTiebreakerPart2 = goToLindsayTiebreakerPart2;
 window.goToLindsayTiebreakerPart3 = goToLindsayTiebreakerPart3;
+window.goToLindsayTiebreakerPart4 = goToLindsayTiebreakerPart4;
 
 
 // Kennedy Tiebreaker
@@ -9435,6 +10735,7 @@ function goToKennedyTiebreakerPart1() {
   document.getElementById("kennedyTiebreakerPart1").style.display = "block";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/XDltyAL.png");
 }
 
@@ -9442,6 +10743,7 @@ function goToKennedyTiebreakerPart2() {
   document.getElementById("kennedyTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "block";
   document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/L8Rthbm.png");
 }
 
@@ -9449,12 +10751,22 @@ function goToKennedyTiebreakerPart3() {
   document.getElementById("kennedyTiebreakerPart1").style.display = "none";
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "block";
+  document.getElementById("tiebreakerPart4").style.display = "none";
   setCandidatePortrait("https://imgur.com/AuYwAPd.png");
+}
+
+function goToKennedyTiebreakerPart4() {
+  document.getElementById("kennedyTiebreakerPart1").style.display = "none";
+  document.getElementById("tiebreakerPart2").style.display = "none";
+  document.getElementById("tiebreakerPart3").style.display = "none";
+  document.getElementById("tiebreakerPart4").style.display = "block";
+  setCandidatePortrait("https://imgur.com/32E2e1L.png");
 }
 
 window.goToKennedyTiebreakerPart1 = goToKennedyTiebreakerPart1;
 window.goToKennedyTiebreakerPart2 = goToKennedyTiebreakerPart2;
 window.goToKennedyTiebreakerPart3 = goToKennedyTiebreakerPart3;
+window.goToKennedyTiebreakerPart4 = goToKennedyTiebreakerPart4;
 
 const mcgovernTiebreakerEnding = `
 
@@ -9722,6 +11034,65 @@ const mcgovernTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToMcGovernTiebreakerPart2()">Back</button>
+    <button onclick="goToMcGovernTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToMcGovernTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -9991,6 +11362,65 @@ const humphreyTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToHumphreyTiebreakerPart2()">Back</button>
+    <button onclick="goToHumphreyTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToHumphreyTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -10260,6 +11690,65 @@ const muskieTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToMuskieTiebreakerPart2()">Back</button>
+    <button onclick="goToMuskieTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToMuskieTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -10549,6 +12038,65 @@ const wallaceTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToWallaceTiebreakerPart2()">Back</button>
+    <button onclick="goToWallaceTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToWallaceTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -10820,6 +12368,65 @@ const chisholmTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToChisholmTiebreakerPart2()">Back</button>
+    <button onclick="goToChisholmTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToChisholmTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -11101,6 +12708,65 @@ const bayhTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToBayhTiebreakerPart2()">Back</button>
+    <button onclick="goToBayhTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToBayhTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -11382,6 +13048,65 @@ const mondaleTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToMondaleTiebreakerPart2()">Back</button>
+    <button onclick="goToMondaleTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToMondaleTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -11667,6 +13392,65 @@ const churchTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToChurchTiebreakerPart2()">Back</button>
+    <button onclick="goToChurchTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToChurchTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -11954,6 +13738,65 @@ const hughesTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToHughesTiebreakerPart2()">Back</button>
+    <button onclick="goToHughesTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToHughesTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -12239,6 +14082,65 @@ const harrisTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToHarrisTiebreakerPart2()">Back</button>
+    <button onclick="goToHarrisTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToHarrisTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -12524,6 +14426,65 @@ const sanfordTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToSanfordTiebreakerPart2()">Back</button>
+    <button onclick="goToSanfordTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToSanfordTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -12811,6 +14772,65 @@ const jacksonTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToJacksonTiebreakerPart2()">Back</button>
+    <button onclick="goToJacksonTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToJacksonTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -13102,6 +15122,65 @@ const millsTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToMillsTiebreakerPart2()">Back</button>
+    <button onclick="goToMillsTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToMillsTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -13387,6 +15466,65 @@ const lindsayTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToLindsayTiebreakerPart2()">Back</button>
+    <button onclick="goToLindsayTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToLindsayTieBreakerPart3();">Back</button>
   </div>
 </div>
 
@@ -13694,6 +15832,65 @@ const kennedyTiebreakerEnding = `
 <p>In a system that has been defined for decades by national accumulation rather than regional advantage, that uncertainty has become the constant feature of presidential politics.</p>
   <div style="margin-top:20px;text-align:center;">
     <button onclick="goToKennedyTiebreakerPart2()">Back</button>
+    <button onclick="goToKennedyTiebreakerPart4()">Continue</button>
+  </div>
+</div>
+
+<div id="tiebreakerPart4" style="display:none; text-align:center;">
+<h3 style="margin-bottom:18px; text-align:center;"><b>Epilogue</b></h3>
+
+<p style="text-align:center;">By autumn the posters had faded in the shop windows,<br>
+the corners curling up from the rain,<br>
+and nobody really bothered replacing them anymore.</p>
+
+<p style="text-align:center;">The streets looked a little different by then.<br>
+The same old buildings, the same old sidewalks,<br>
+but the voices coming out of the coffee shops had changed.<br>
+People were still arguing about everything,<br>
+still believing there was something just around the corner,<br>
+but there were fewer cars heading downtown,<br>
+fewer names written on signs,<br>
+fewer reasons to stay out until midnight.</p>
+
+<p style="text-align:center;">Somebody found a job.<br>
+Somebody moved back home.<br>
+Somebody traded the apartment with the record player on the floor<br>
+for a house somewhere outside the city.<br>
+Nobody really noticed it happening.<br>
+There was no morning when everyone woke up and realized<br>
+the world had moved on.</p>
+
+<p style="text-align:center;"><i>The records kept spinning.</i></p>
+
+<p style="text-align:center;">The songs stayed the same,<br>
+even when the rooms changed,<br>
+even when the people standing beside you weren't the same people anymore.<br>
+A song could come through the radio on a summer night<br>
+and for a few minutes you were back there again -<br>
+windows down, headlights on,<br>
+driving nowhere in particular because you knew you still had time.</p>
+
+<p style="text-align:center;">The old posters eventually came down.<br>
+The old cars disappeared too.<br>
+The places where everyone used to meet<br>
+became offices and parking lots and department stores and shopping malls.</p>
+
+<p style="text-align:center;">But somewhere there was still a record turning slowly,<br>
+still a voice coming through a speaker,<br>
+still somebody humming along without thinking about it.</p>
+
+<p style="text-align:center;">Maybe that's what happens to all those years.<br>
+They settle into old songs collecting dust in your parents' basement,<br>
+and the smell of rain on that old wooded road you used to take before the highway was built,<br>
+into the sound of a friend's laugh you haven't heard for 23 years.</p>
+
+<p style="text-align:center;">And every once in a while, when the evening is just right,<br>
+you find yourself back there again.</p>
+
+<p style="text-align:center; margin-top:18px;"><i>The records keep spinning.</i></p>
+
+  <div style="margin-top:20px;text-align:center;">
+    <button onclick="goToKennedyTieBreakerPart3();">Back</button>
   </div>
 </div>
 `;
