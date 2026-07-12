@@ -1034,7 +1034,7 @@ function goToNixonPart4() {
   document.getElementById("nixonPart2").style.display = "none";
   document.getElementById("nixonPart3").style.display = "none";
   document.getElementById("nixonPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 window.goToNixonPart4 = goToNixonPart4;
 
@@ -1654,7 +1654,7 @@ function goToMcGovernPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("mcgovernPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToMcGovernPart4 = goToMcGovernPart4;
@@ -1665,7 +1665,7 @@ function goToHumphreyPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("humphreyPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToHumphreyPart4 = goToHumphreyPart4;
@@ -1676,7 +1676,7 @@ function goToMuskiePart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("muskiePart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToMuskiePart4 = goToMuskiePart4;
@@ -1687,7 +1687,7 @@ function goToWallacePart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("wallacePart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToWallacePart4 = goToWallacePart4;
@@ -1698,7 +1698,7 @@ function goToChisholmPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("chisholmPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToChisholmPart4 = goToChisholmPart4;
@@ -1709,7 +1709,7 @@ function goToBayhPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("bayhPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToBayhPart4 = goToBayhPart4;
@@ -1720,7 +1720,7 @@ function goToMondalePart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("mondalePart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToMondalePart4 = goToMondalePart4;
@@ -1731,7 +1731,7 @@ function goToChurchPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("churchPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToChurchPart4 = goToChurchPart4;
@@ -1742,7 +1742,7 @@ function goToHughesPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("hughesPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToHughesPart4 = goToHughesPart4;
@@ -1753,7 +1753,7 @@ function goToHarrisPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("harrisPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToHarrisPart4 = goToHarrisPart4;
@@ -1764,7 +1764,7 @@ function goToSanfordPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("sanfordPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToSanfordPart4 = goToSanfordPart4;
@@ -1775,7 +1775,7 @@ function goToJacksonPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("jacksonPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToJacksonPart4 = goToJacksonPart4;
@@ -1786,7 +1786,7 @@ function goToMillsPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("millsPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToMillsPart4 = goToMillsPart4;
@@ -1797,7 +1797,7 @@ function goToLindsayPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("lindsayPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToLindsayPart4 = goToLindsayPart4;
@@ -1808,7 +1808,7 @@ function goToKennedyPart4() {
   document.getElementById("demPart2").style.display = "none";
   document.getElementById("kennedyPart3").style.display = "none";
   document.getElementById("demPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 
 }
 window.goToKennedyPart4 = goToKennedyPart4;
@@ -10523,7 +10523,7 @@ function goToMcGovernTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToMcGovernTiebreakerPart1 = goToMcGovernTiebreakerPart1;
@@ -10561,7 +10561,7 @@ function goToHumphreyTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToHumphreyTiebreakerPart1 = goToHumphreyTiebreakerPart1;
@@ -10599,7 +10599,7 @@ function goToMuskieTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToMuskieTiebreakerPart1 = goToMuskieTiebreakerPart1;
@@ -10638,7 +10638,7 @@ function goToWallaceTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToWallaceTiebreakerPart1 = goToWallaceTiebreakerPart1;
@@ -10676,7 +10676,7 @@ function goToChisholmTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToChisholmTiebreakerPart1 = goToChisholmTiebreakerPart1;
@@ -10715,7 +10715,7 @@ function goToBayhTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToBayhTiebreakerPart1 = goToBayhTiebreakerPart1;
@@ -10753,7 +10753,7 @@ function goToMondaleTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToMondaleTiebreakerPart1 = goToMondaleTiebreakerPart1;
@@ -10792,7 +10792,7 @@ function goToChurchTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToChurchTiebreakerPart1 = goToChurchTiebreakerPart1;
@@ -10830,7 +10830,7 @@ function goToHughesTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToHughesTiebreakerPart1 = goToHughesTiebreakerPart1;
@@ -10869,7 +10869,7 @@ function goToHarrisTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToHarrisTiebreakerPart1 = goToHarrisTiebreakerPart1;
@@ -10908,7 +10908,7 @@ function goToSanfordTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToSanfordTiebreakerPart1 = goToSanfordTiebreakerPart1;
@@ -10947,7 +10947,7 @@ function goToJacksonTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToJacksonTiebreakerPart1 = goToJacksonTiebreakerPart1;
@@ -10985,7 +10985,7 @@ function goToMillsTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToMillsTiebreakerPart1 = goToMillsTiebreakerPart1;
@@ -11024,7 +11024,7 @@ function goToLindsayTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToLindsayTiebreakerPart1 = goToLindsayTiebreakerPart1;
@@ -11063,7 +11063,7 @@ function goToKennedyTiebreakerPart4() {
   document.getElementById("tiebreakerPart2").style.display = "none";
   document.getElementById("tiebreakerPart3").style.display = "none";
   document.getElementById("tiebreakerPart4").style.display = "block";
-  setCandidatePortrait("https://imgur.com/32E2e1L.png");
+  setCandidatePortrait("https://imgur.com/HjeYPre.png");
 }
 
 window.goToKennedyTiebreakerPart1 = goToKennedyTiebreakerPart1;
