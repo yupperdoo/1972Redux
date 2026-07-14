@@ -2800,14 +2800,14 @@ const humphreyWinsEnding = `
 <h3><b>2002 PBS Documentary</b></h3>
 <p><b style="font-size: 15px;">"The Happy Warrior: Hubert Humphrey and the Election of 1972"</b></p>
 
-<p style="font-size: 15px;"><b>NARRATOR:</b></p>
+<b>NARRATOR:</b></p>
 <p>By 1972, Hubert Humphrey had spent most of his adult life in public service. He had risen from mayor of Minneapolis to United States senator, then to vice president, and finally to Democratic nominee in 1968. After his narrow loss to Richard Nixon that year, many assumed Humphrey’s presidential ambitions were over.</p>
 
 <p>But Humphrey never framed his career around wins and losses. For him, politics was always about progress, even when it came slowly.</p>
 
 <p><i>"I’ve always believed that government can be a force for good. Not overnight. Not all at once. But step by step."</i></p>
 
-<p style="font-size: 15px;"><b>NARRATOR:</b></p>
+<b>NARRATOR:</b></p>
 <p>Humphrey’s 1972 campaign reflected that philosophy. Rather than offering sweeping ideological change, he emphasized experience, continuity, and legislative accomplishment. His speeches focused on expanding educational opportunity, strengthening labor protections, and addressing poverty through incremental reforms.</p>
 
 <p>Campaign stops often felt less like rallies and more like conversations. Humphrey spoke comfortably about congressional procedure, committee negotiations, and the practical challenges of passing legislation. While critics sometimes described this approach as old-fashioned, supporters found it reassuring during a period of political turbulence.</p>
@@ -2818,7 +2818,7 @@ const humphreyWinsEnding = `
 
 <p>For many Democrats, the moment felt like a restoration. After years of internal conflict, Humphrey’s victory suggested that the party’s traditional coalition still had national appeal.</p>
 
-<p style="font-size: 15px;"><b>NARRATOR:</b></p>
+<b>NARRATOR:</b></p>
 <p>Humphrey entered office with a clear set of priorities. Chief among them was healthcare reform, an issue he had championed throughout his Senate career. While proposals for national health insurance had circulated for decades, previous efforts had stalled due to political opposition and institutional resistance.</p>
 
 <p>Humphrey approached the issue pragmatically. Rather than pushing for a sweeping overhaul, his administration worked with congressional leaders to craft a compromise proposal that expanded coverage while preserving existing private insurance structures.</p>
