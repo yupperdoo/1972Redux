@@ -838,7 +838,6 @@ RecReading = true;
     color: black;
 }
 #game_window {
-    height: auto;
     min-height: 20em;
 }
 .inner_window_w_desc p {
