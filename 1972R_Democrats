@@ -18084,19 +18084,35 @@ div#visit_content.overlay_window_content {
     color: #3e2c22;
 }
 div#final_results_description {
+    height: 40em;
     overflow-y: auto;
-    height: 24em;}
+    width: auto;
+    margin: 1em;
+}
 #final_results_description p {
     color: #3e2c22;
 }
 #main_content_area {
     color: #3e2c22;
 }
+#main_content_area table {
+    margin-bottom: 4.2em;
+}
 #main_content_area_reading h3.results_tab_header {
     color: #3e2c22;
 }
 #main_content_area_reading p {
     color: #3e2c22;
+}
+#map_footer {
+  clear: both;
+  padding-top: .2em;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-bottom: 0.75em;
 }
 #menu_container {
     background-color: #f2e6c6;
