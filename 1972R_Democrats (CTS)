@@ -3443,6 +3443,8 @@ const muskieWinsEnding = `
 
 <p><i>By the mid-1980s, the United States had largely transitioned away from heavy reliance on fossil fuels. Emissions levels stabilized, air quality improved, and energy prices came down.</i></p>
 
+<p><i>Other countries soon followed. It was because of President Nixon's visit to China, for instance, that Deng Xiaoping was able to build up his country's energy sector so rapidly.</i></p>
+
 <p><i>And the early climate hypothesis quietly faded away.</i></p>
 
 <p><i>Without a strong warming signal, research funding shifted elsewhere. Climate modeling has remained a niche academic field. The idea that industrial emissions might influence global temperature never developed into a major scientific or political issue.</i></p>
@@ -18000,11 +18002,21 @@ img#candidate_pic {
 img#running_mate_pic {
   height: 175px;
 }
+#game_window g {
+  padding-bottom: 10%;
+}
 button#pvswitcher {
   margin-bottom: 2%;
 }
 button#ev_est {
   margin-bottom: 2%;
+}
+div#game_window {
+  min-height: 45em;
+  height: auto;
+}
+div.inner_window_question {
+  height: 72%;
 }
  .inner_window_question h3 {
     background-color: #7f9a77;
@@ -18025,9 +18037,6 @@ button#ev_est {
 div#visit_window.overlay_window {
     height: auto;
     overflow: auto;
-}
-div#game_window {
-    height: auto;
 }
 div#visit_content.overlay_window_content {
     height: auto;
@@ -18137,8 +18146,8 @@ div#question_form {
 }
 button#ExportFileButton {
     position: absolute;
-    margin-top: 30px !important;
-    margin-left: -60px !important;
+    margin-top: -30px !important;
+    margin-left: -50px !important;
 }
 `;
 document.head.appendChild(style);
@@ -24844,8 +24853,8 @@ const addAchievementsButton = setInterval(() => {
         button.textContent = 'Achievements';
 
         button.style.position = 'absolute';
-        button.style.marginTop = '35.5px';
-        button.style.marginLeft = '0px';
+        button.style.marginTop = '-30px';
+        button.style.marginLeft = '10px';
 
         target.appendChild(button);
 
@@ -24853,7 +24862,7 @@ const addAchievementsButton = setInterval(() => {
         achievementsScreen.id = 'achievements-screen';
         achievementsScreen.style.display = 'none';
 
-        achievementsScreen.style.height = "475px";
+        achievementsScreen.style.height = "425px";
         achievementsScreen.style.overflowY = "auto";
 
         achievementsScreen.innerHTML = `
