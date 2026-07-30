@@ -18151,8 +18151,11 @@ div#question_form {
 }
 button#ExportFileButton {
     position: absolute;
+    margin-top: -10px !important;
+    margin-left: -64px !important;
+}
+#overall_election_results p b a {
     margin-top: 10px;
-    margin-left: -120px !important;
 }
 `;
 document.head.appendChild(style);
@@ -24859,8 +24862,8 @@ const addAchievementsButton = setInterval(() => {
         button.textContent = 'Achievements';
 
         button.style.position = 'absolute';
-        button.style.marginTop = '10px';
-        button.style.marginLeft = '20px';
+        button.style.marginTop = '-50px';
+        button.style.marginLeft = '-46px';
 
         target.appendChild(button);
 
